@@ -21,7 +21,8 @@
 title: QRT laser lab
 email: jieseok.kim@qrtkr.com
 description: >- # this means to ignore newlines until "baseurl:"
-  QRT laser lab
+
+# QRT laser lab
 # baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "http://ejjoo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: QRT-Laser
