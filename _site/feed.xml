@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-31T11:48:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">QRT laser lab</title><subtitle></subtitle><entry><title type="html">post-sample</title><link href="http://localhost:4000/sample/2020/01/02/post1.html" rel="alternate" type="text/html" title="post-sample" /><published>2020-01-02T19:20:23+09:00</published><updated>2020-01-02T19:20:23+09:00</updated><id>http://localhost:4000/sample/2020/01/02/post1</id><content type="html" xml:base="http://localhost:4000/sample/2020/01/02/post1.html"><![CDATA[<h1 id="post-sample">post-sample</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-31T13:20:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">QRT laser lab</title><subtitle></subtitle><entry><title type="html">post-sample</title><link href="http://localhost:4000/sample/2020/01/02/post1.html" rel="alternate" type="text/html" title="post-sample" /><published>2020-01-02T19:20:23+09:00</published><updated>2020-01-02T19:20:23+09:00</updated><id>http://localhost:4000/sample/2020/01/02/post1</id><content type="html" xml:base="http://localhost:4000/sample/2020/01/02/post1.html"><![CDATA[<h1 id="post-sample">post-sample</h1>
 <blockquote>
   <p>Hello!</p>
 </blockquote>
@@ -47,11 +47,7 @@
 
 <center>
 
-![fig_1](https://github.com/QRT-Laser/QRT-Laser.github.io/blob/main/_images/Chapter-1/fig_1_heavy-ion_vs_pulsed_laser.png?raw=true)
-
-</center>
-
-<center>
+![fig_1](/assets/Chapter-1/fig_1_heavy-ion_vs_pulsed_laser.png)
 
 Figure 1. 중이온과 Femtosecond pulsed Laser (이하 Pulsed Laser)
 
