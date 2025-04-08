@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuals</title>
+</head>
+<body>
+    <article class="post">
+        <header class="post-header home">
+            <div class="post-title">
+                <span id="category-name">Manuals</span>
+            </div>
+        </header>
+
+        <div class="post-content">
+            {%- if site.manuals.size > 0 -%}
+            <ul class="post-list">
+                {%- assign sorted_manuals = site.manuals | sort: "order" -%} <!-- order 기준 정렬 -->
+                {%- for manual in sorted_manuals -%}
+                <li class="post-list-item post-category-{{ manual.categories }}">
+                    <a class="post-link" href="{{ manual.url | relative_url }}">
+                        {{ manual.title | escape }}
+                    </a>
+                </li>
+
+                {%- if manual.order and manual.order != 0 and manual.order % 100 == 0 -%}
+                    <hr> <!-- order가 100의 배수일 때 줄 바꿈 -->
+                {%- endif -%}
+
+                {%- endfor -%}
+            </ul>
+            {%- else -%}
+            <p>No manuals found.</p>
+            {%- endif -%}
+        </div>
+    </article>
+</body>
+</html>

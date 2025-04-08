@@ -15,10 +15,6 @@
 				{%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
 			</li>
 	
-			{%- if post.order and post.order != 0 and post.order % 100 == 0 -%}
-				<hr>  <!-- order가 100의 배수일 때 줄 바꿈 -->
-			{%- endif -%}
-	
 			{%- endfor -%}
 		</ul>
 		{%- endif -%}
