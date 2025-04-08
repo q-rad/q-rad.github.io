@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,13 +10,13 @@
     <article class="post">
         <header class="post-header home">
             <div class="post-title">
-                <span id="category-name">Manuals</span>
+                <span id="category-name"></span>
             </div>
         </header>
 
         <div class="post-content">
             {%- if site.manuals.size > 0 -%}
-            <ul class="post-list">
+            <ul class="post-list" id="manual-list">
                 {%- assign sorted_manuals = site.manuals | sort: "order" -%} <!-- order 기준 정렬 -->
                 {%- for manual in sorted_manuals -%}
                 <li class="post-list-item post-category-{{ manual.categories }}">
@@ -25,9 +26,8 @@
                 </li>
 
                 {%- if manual.order and manual.order != 0 and manual.order % 100 == 0 -%}
-                    <hr> <!-- order가 100의 배수일 때 줄 바꿈 -->
-                {%- endif -%}
-
+                <hr> <!-- order가 100의 배수일 때 줄 바꿈 -->
+                {%- endif -%}   
                 {%- endfor -%}
             </ul>
             {%- else -%}
@@ -35,5 +35,30 @@
             {%- endif -%}
         </div>
     </article>
+
+    <script>
+        // URL의 해시값을 가져와 제목과 필터링에 사용
+        document.addEventListener("DOMContentLoaded", function () {
+            const hash = window.location.hash.substring(1); // 해시값 가져오기 (lite_kor)
+            const categoryNameElement = document.getElementById("category-name");
+            const manualListItems = document.querySelectorAll(".post-list-item");
+
+            if (hash) {
+                // 제목을 해시값에 따라 변경
+                if (hash === "lite_kor") {
+                    categoryNameElement.textContent = "QRT-LITE (KOR)";
+                } else {
+                    categoryNameElement.textContent = hash;
+                }
+
+                // 매뉴얼 리스트 필터링
+                manualListItems.forEach(item => {
+                    if (!item.classList.contains(`post-category-${hash}`)) {
+                        item.style.display = "none"; // 해당 카테고리가 아닌 항목 숨기기
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>

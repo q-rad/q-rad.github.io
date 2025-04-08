@@ -14,10 +14,14 @@ SEE</title>
   	<div class="container"> 
 		<div class="sidebar">
 			<div class="sidebar-item sidebar-header">
-	<div class='sidebar-brand'>
-		<a href="/about/">LASER
-SEE</a>
-	</div>
+	<div class="sidebar-brand">
+        <!-- 로고와 제목을 포함한 링크 -->
+        <a href="/" class="sidebar-logo">
+            <img src="/assets/logo.png" alt="Logo" style="height: 50px; vertical-align: middle;">
+            <span>LASER
+SEE</span>
+        </a>
+    </div>
 	<p class="lead"></p></div>
 
 <div class="sidebar-item sidebar-nav">
@@ -61,7 +65,7 @@ SEE</a>
         <li class="nav-title">QRT - LITE Manual</li>
         <li>
 			<!-- _includes/manual.html-->
-			<a class="nav-item" href="/manuals/">	
+			<a class="nav-item" href="/manuals/#lite_kor">	
 				<span class="name">KOR</span>
 				<!--span class="badge">3</span-->
 			</a>
@@ -87,9 +91,19 @@ SEE</a>
 <!--div class="sidebar-item sidebar-footer">
 	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
 </div-->
+
+<div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
+    <p>
+        everything about LASER SEE test by 
+        <a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/logo.png" alt="QRT Logo" style="height: 20px; vertical-align: middle;">
+        </a>
+    </p>
+</div>
 		</div>
 		<div class="content">
-			<!DOCTYPE html>
+			
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -100,24 +114,49 @@ SEE</a>
     <article class="post">
         <header class="post-header home">
             <div class="post-title">
-                <span id="category-name">Manuals</span>
+                <span id="category-name"></span>
             </div>
         </header>
 
-        <div class="post-content"><ul class="post-list"><!-- order 기준 정렬 --><li class="post-list-item post-category-(KOR)">
+        <div class="post-content"><ul class="post-list" id="manual-list"><!-- order 기준 정렬 --><li class="post-list-item post-category-lite_kor">
                     <a class="post-link" href="/manuals/manuals_lite_kor/2020-02-01-1111/">
                         intro
                     </a>
-                </li><hr> <!-- order가 100의 배수일 때 줄 바꿈 --><li class="post-list-item post-category-(KOR)">
+                </li><hr> <!-- order가 100의 배수일 때 줄 바꿈 --><li class="post-list-item post-category-lite_kor">
                     <a class="post-link" href="/manuals/manuals_lite_kor/2025-03-31-Chaper%200/">
                         About QRT-LITE
                     </a>
-                </li><hr> <!-- order가 100의 배수일 때 줄 바꿈 --><li class="post-list-item post-category-(KOR)">
+                </li><hr> <!-- order가 100의 배수일 때 줄 바꿈 --><li class="post-list-item post-category-lite_kor">
                     <a class="post-link" href="/manuals/manuals_lite_kor/2025-03-31-Chapter%201-1/">
                         1.1 레이저 평가 방법
                     </a>
                 </li><hr> <!-- order가 100의 배수일 때 줄 바꿈 --></ul></div>
     </article>
+
+    <script>
+        // URL의 해시값을 가져와 제목과 필터링에 사용
+        document.addEventListener("DOMContentLoaded", function () {
+            const hash = window.location.hash.substring(1); // 해시값 가져오기 (lite_kor)
+            const categoryNameElement = document.getElementById("category-name");
+            const manualListItems = document.querySelectorAll(".post-list-item");
+
+            if (hash) {
+                // 제목을 해시값에 따라 변경
+                if (hash === "lite_kor") {
+                    categoryNameElement.textContent = "QRT-LITE (KOR)";
+                } else {
+                    categoryNameElement.textContent = hash;
+                }
+
+                // 매뉴얼 리스트 필터링
+                manualListItems.forEach(item => {
+                    if (!item.classList.contains(`post-category-${hash}`)) {
+                        item.style.display = "none"; // 해당 카테고리가 아닌 항목 숨기기
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 </html>
 		</div>
