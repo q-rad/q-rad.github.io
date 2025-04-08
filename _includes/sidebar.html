@@ -23,7 +23,8 @@
 	  </li>
 	  {% assign pages_list = site.pages %}
 	  {% for node in pages_list %}
-	    {% if node.title != null %}
+	    {% if node.title != "pygments-css" %}
+		{% if node.title != null %}
 	      {% if node.layout == "page" %}
 	        <li>
 	        	<a class="nav-item" href="{{ node.url }}">
@@ -31,6 +32,7 @@
 	            </a>
 	        </li>
 	      {% endif %}
+		  {% endif %}
 	    {% endif %}
 	  {% endfor %}
 	</ul>
