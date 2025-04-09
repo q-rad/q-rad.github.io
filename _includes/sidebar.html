@@ -2,8 +2,8 @@
 	<div class="sidebar-brand">
         <!-- 로고와 제목을 포함한 링크 -->
         <a href="/" class="sidebar-logo">
-            <img src="{{ '/assets/logo.png' | relative_url }}" alt="Logo" style="height: 50px; vertical-align: middle;">
-            <span>{{ site.title }}</span>
+            <img src="{{ '/assets/logo.png' | relative_url }}" alt="Logo" style="height: 75px; vertical-align: middle;">
+            <!--span>{{ site.title }}</span-->
         </a>
     </div>
 	<p class="lead">{{ site.description }}</p>
@@ -18,12 +18,11 @@
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
       <li class="nav-title">About</li>
-	  <li>
-	  	<a class="nav-item" href="/">Articles</a>
-	  </li>
+	  
 	  {% assign pages_list = site.pages %}
 	  {% for node in pages_list %}
 	    {% if node.title != "pygments-css" %}
+		{% if node.title != "README" %}
 		{% if node.title != null %}
 	      {% if node.layout == "page" %}
 	        <li>
@@ -34,7 +33,15 @@
 	      {% endif %}
 		  {% endif %}
 	    {% endif %}
+		{% endif %}
 	  {% endfor %}
+	  <li>
+		<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
+
+	</li>
+	<li>
+		<a class="nav-item" href="/">Articles</a>
+	</li>
 	</ul>
 </div>
 
@@ -73,7 +80,7 @@
 
 <div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
     <p>
-        everything about LASER SEE test by 
+        Everything about LASER SEE test at&nbsp&nbsp
         <a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
             <img src="{{ '/assets/logo.png' | relative_url }}" alt="QRT Logo" style="height: 20px; vertical-align: middle;">
         </a>
