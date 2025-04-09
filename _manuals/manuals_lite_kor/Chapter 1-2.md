@@ -33,14 +33,14 @@ QRT는 현재 REDTEST의 SEREEL2 장비를 기반으로 최고 수준의 SEE 평
 <!-- 이전/다음 페이지 버튼 -->
 <br/>
 <br/>
-<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10;">
   <!-- 이전 페이지 버튼 -->
-  <a href="/manuals/manuals_lite_kor/Chapter 1-1/" class="btn btn-primary" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="/manuals/manuals_lite_kor/Chapter 1-1/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
     ← Previous
   </a>
 
   <!-- 다음 페이지 버튼 -->
-  <a href="/manuals/manuals_lite_kor/Chapter 1-3/" class="btn btn-primary" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="/manuals/manuals_lite_kor/Chapter 1-3/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
     Next →
   </a>
 </div>
