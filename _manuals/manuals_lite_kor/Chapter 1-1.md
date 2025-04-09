@@ -4,10 +4,8 @@ title: 1.1 레이저 평가 방법
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"
 lang: ko
-order: 101
+order: 110
 ---
-
-# QRT-LITE
 
 # 1.1 레이저 평가 방법
 
@@ -34,3 +32,18 @@ SEE(Single Event Effect)란 방사선 입자(중이온, 양성자, 중성자, �
 이는 기존 방사선 시험보다 더욱 정밀하게 취약점 분석이 가능하고, 소자를 손상시키지 않고 내부를 분석할 수 있는 기술입니다. 또한, 선원에 가지 않고 실험실 안에서 평가가 가능한 만큼 공간의 제약이 따르지 않습니다.
 
 Pulsed Laser Test는 크게 Single Photon Absorption(SPA)와 Two Photon Absorption (TPA) 두 원리를 사용해서 진행 합니다.  SPA는 조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 현상이고 선형 흡수가 특징입니다. TPA는 빠른 시간 간격 (~100 fs)으로 두 번 조사된 레이저에 의해 반도체에서 하나의 전자를 흡수되면서 전자-전공 쌍을 만드는 현상이고 비선형 흡수와 다양한 소재(물질)에 적용할 수 있습니다. 
+
+<!-- 이전/다음 페이지 버튼 -->
+<br/>
+<br/>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+  <!-- 이전 페이지 버튼 -->
+  <a href="/manuals/manuals_lite_kor/Chapter 0/" class="btn btn-primary" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+    ← Previous
+  </a>
+
+  <!-- 다음 페이지 버튼 -->
+  <a href="/manuals/manuals_lite_kor/Chapter 1-2/" class="btn btn-primary" style="display: inline-block; padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+    Next →
+  </a>
+</div>
