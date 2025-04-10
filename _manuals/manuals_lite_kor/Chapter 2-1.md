@@ -4,7 +4,7 @@ title: 2.1.	레이저 조사 준비하기
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"
 lang: ko
-order: 210
+order: 2100
 ---
 
 # 2.1.	레이저 조사 준비하기
@@ -33,7 +33,7 @@ order: 210
   </a>
 
   <!-- 다음 페이지 버튼 -->
-  <a href="/manuals/manuals_lite_kor/Chapter 2-2/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="/manuals/manuals_lite_kor/Chapter 2-1-1/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
     Next →
   </a>
 </div>

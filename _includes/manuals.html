@@ -20,7 +20,7 @@
                 {%- assign sorted_manuals = site.manuals | sort: "order" -%} <!-- order 기준 정렬 -->
                 {%- assign previous_hundreds = 0 -%} <!-- 이전 백의 자리 값을 저장할 변수 -->
                 {%- for manual in sorted_manuals -%}
-                    {%- assign current_hundreds = manual.order | divided_by: 100 | floor -%} <!-- 현재 백의 자리 계산 -->
+                    {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%} <!-- 현재 백의 자리 계산 -->
                     {%- if previous_hundreds != current_hundreds -%}
                         <hr> <!-- 백의 자리가 바뀔 때 줄 바꿈 -->
                     {%- endif -%}

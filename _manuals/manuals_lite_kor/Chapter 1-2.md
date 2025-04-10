@@ -4,7 +4,7 @@ title: 1.2 QRT Femtosecond laser test setup
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"
 lang: ko
-order: 120
+order: 1200
 ---
 
 # 1.2.	QRT Femtosecond laser test setup

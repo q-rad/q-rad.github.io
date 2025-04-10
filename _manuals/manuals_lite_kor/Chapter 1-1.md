@@ -4,7 +4,7 @@ title: 1.1 레이저 평가 방법
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"
 lang: ko
-order: 110
+order: 1100
 ---
 
 # 1.1 레이저 평가 방법

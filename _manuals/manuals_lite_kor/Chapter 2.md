@@ -4,7 +4,7 @@ title: 2. Test Guide
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"
 lang: ko
-order: 200
+order: 2000
 ---
 
 # 2. Test Guide
