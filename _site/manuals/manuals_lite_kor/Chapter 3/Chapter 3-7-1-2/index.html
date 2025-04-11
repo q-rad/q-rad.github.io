@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="LASER2COTS QRT" /></head>
+<style>@import url(/public/css/syntax/monokai.css);</style>
+  <title>LASER2COTS QRT</title>
+  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="/public/css/style.css" rel="stylesheet">
+  <body>
+  	<div class="container"> 
+		<div class="sidebar">
+			<div class="sidebar-item sidebar-header">
+	<div class="sidebar-brand">
+        <!-- 로고와 제목을 포함한 링크 -->
+        <a href="/" class="sidebar-logo">
+            <img src="/assets/logo.png" alt="Logo" style="height: 75px; vertical-align: middle;">
+            <!--span>LASER2COTS QRT</span-->
+        </a>
+    </div>
+	<p class="lead"></p></div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">About</li>
+	  
+	  
+	  
+	    
+		
+		
+	    
+		
+	  
+	    
+		
+		
+	      
+	        <li>
+	        	<a class="nav-item" href="/about/">
+	            	About LASER2COTS
+	            </a>
+	        </li>
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	  
+	    
+		
+		
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	    
+		
+	  
+	    
+		
+		
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	    
+		
+	  
+	  <li>
+		<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
+
+	</li>
+	<li>
+		<a class="nav-item" href="/">Articles</a>
+	</li>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+    <ul class="nav">
+        <li class="nav-title">QRT - LITE Manual</li>
+        <li>
+			<!-- _includes/manual.html-->
+			<a class="nav-item" href="/manuals/#lite_kor">	
+				<span class="name">KOR</span>
+				<!--span class="badge">71</span-->
+			</a>
+		</li>
+
+    </ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+    <ul class="nav">
+        <li class="nav-title">Post</li>
+        
+        <li>
+            <a class="nav-item" href="/category/#sample">
+                <span class="name">sample</span>
+                <span class="badge">2</span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+<!--div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div-->
+
+<div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
+    <p>
+        Everything about LASER SEE test at&nbsp&nbsp
+        <a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/logo.png" alt="QRT Logo" style="height: 20px; vertical-align: middle;">
+        </a>
+    </p>
+</div>
+
+<div class="sidebar-footer" style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #888;">
+    <p>&copy; 2025 QRT Inc. All rights reserved.</p>
+</div>
+		</div>
+		<div class="content">
+			<article class="post">
+	<header class="post-header">
+		<div class="post-title"> 
+			3.7.1.2.	오실로스코프(MSO)를 이용한 민감 영역 분석(Sensitive Area) 이미지 생성
+		</div>
+		<!--time class="post-date dt-published" datetime="2025-03-31T13:20:23+09:00" itemprop="datePublished">2025/03/31
+		</time-->		
+	</header>
+
+	<div class="post-content">
+		<h1 id="3712-오실로스코프mso를-이용한-민감-영역-분석sensitive-area-이미지-생성">3.7.1.2. 오실로스코프(MSO)를 이용한 민감 영역 분석(Sensitive Area) 이미지 생성</h1>
+
+<p><br /> <!-- 한줄 띄기 --></p>
+
+<!-- 2x2 이미지 테이블 -->
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="/assets/Chapter-3/S-Map Generator.png" alt="S-Map Generator" />
+      <div>Figure 55. S-Map Generator 탭</div>
+    </td>
+    <td align="center">
+      <img src="/assets/Chapter-3/S-Map EX.png" alt="S-Map EX" />
+      <div>Figure 56. S-Map Example</div>
+    </td>
+  </tr>
+</table>
+
+<p>Chip의 Sensitive Area를 분석한 이미지를 생성하는 탭입니다.</p>
+<ul>
+  <li>Image: Chip Image file</li>
+  <li>Image QTPA file: Image file폴더에 있는 QTPA파일</li>
+  <li>MSO folder: MSO trigger log folder</li>
+  <li>Scan log: Scan log folder</li>
+  <li>Base Color: 단일 색으로 표현 시 사용할 색 설정</li>
+  <li>Shift: 실제 좌표와 S-Map의 좌표 쉬프트가 생겼을 시 사용</li>
+  <li>Pixel size of an error: 에러 하나당 표시할 픽셀 수</li>
+  <li>Convert base to Gray Image: Chip Image 흑백모드</li>
+  <li>Gradient Enable: 체크 시 2개의 색으로 S-Map 생성</li>
+  <li>Top / Bottom Color: 상위 색과 하위 색 설정(2 / 3개의 색으로 표현 시)</li>
+  <li>Top / Bottom Voltage: Voltage Range</li>
+  <li>Add Color Bar: 좌측 상단의 컬러 바 on / off</li>
+  <li>3 Color Mode: 활성화 시 Top, Base, Bottom 3가지 색으로 S-Map 생성</li>
+  <li>Use Max Peak: SET발생 전압이 양수일 시 체크</li>
+</ul>
+
+<!-- 이전/다음 페이지 버튼 -->
+<p><br />
+<br /></p>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10;">
+  <p><!-- 이전 페이지 버튼 -->
+  <a href="/manuals/manuals_lite_kor/Chapter 3/Chapter 3-7-1-1/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+    ← Previous
+  </a></p>
+
+  <p><!-- 다음 페이지 버튼 -->
+  <a href="/manuals/manuals_lite_kor/Chapter 4/Chapter 4/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+    Next →
+  </a></p>
+</div>
+
+	</div>
+</article>
+		</div>
+	</div>
+  </body>
+</html>

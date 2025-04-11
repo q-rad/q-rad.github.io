@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="LASER2COTS QRT" /></head>
+<style>@import url(/public/css/syntax/monokai.css);</style>
+  <title>LASER2COTS QRT</title>
+  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="/public/css/style.css" rel="stylesheet">
+  <body>
+  	<div class="container"> 
+		<div class="sidebar">
+			<div class="sidebar-item sidebar-header">
+	<div class="sidebar-brand">
+        <!-- 로고와 제목을 포함한 링크 -->
+        <a href="/" class="sidebar-logo">
+            <img src="/assets/logo.png" alt="Logo" style="height: 75px; vertical-align: middle;">
+            <!--span>LASER2COTS QRT</span-->
+        </a>
+    </div>
+	<p class="lead"></p></div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">About</li>
+	  
+	  
+	  
+	    
+		
+		
+	    
+		
+	  
+	    
+		
+		
+	      
+	        <li>
+	        	<a class="nav-item" href="/about/">
+	            	About LASER2COTS
+	            </a>
+	        </li>
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	  
+	    
+		
+		
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	    
+		
+	  
+	    
+		
+		
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	    
+		
+	  
+	  <li>
+		<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
+
+	</li>
+	<li>
+		<a class="nav-item" href="/">Articles</a>
+	</li>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+    <ul class="nav">
+        <li class="nav-title">QRT - LITE Manual</li>
+        <li>
+			<!-- _includes/manual.html-->
+			<a class="nav-item" href="/manuals/#lite_kor">	
+				<span class="name">KOR</span>
+				<!--span class="badge">71</span-->
+			</a>
+		</li>
+
+    </ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+    <ul class="nav">
+        <li class="nav-title">Post</li>
+        
+        <li>
+            <a class="nav-item" href="/category/#sample">
+                <span class="name">sample</span>
+                <span class="badge">2</span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+<!--div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div-->
+
+<div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
+    <p>
+        Everything about LASER SEE test at&nbsp&nbsp
+        <a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/logo.png" alt="QRT Logo" style="height: 20px; vertical-align: middle;">
+        </a>
+    </p>
+</div>
+
+<div class="sidebar-footer" style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #888;">
+    <p>&copy; 2025 QRT Inc. All rights reserved.</p>
+</div>
+		</div>
+		<div class="content">
+			<article class="post">
+	<header class="post-header">
+		<div class="post-title"> 
+			3.5.	Point 패널
+		</div>
+		<!--time class="post-date dt-published" datetime="2025-03-31T13:20:23+09:00" itemprop="datePublished">2025/03/31
+		</time-->		
+	</header>
+
+	<div class="post-content">
+		<h1 id="35-point-패널">3.5. Point 패널</h1>
+
+<p><br /> <!-- 한줄 띄기 --></p>
+
+<!-- 중앙 정렬 이미지 -->
+<p align="center"> 
+  <img src="/assets/Chapter-3/Point 패널.png" />
+</p>
+
+<!-- 이미지 설명 -->
+<div align="center">
+  <h5>Figure 48. Point 패널</h5>
+</div>
+
+<p>원하는 곳에 임의로 Point를 설정할 수 있는 기능입니다.
+Scan 패널은 설정한 영역 전체를 평가한다면 Point패널에서는 원하는 Point에 레이저를 조사하며 평가할 수 있습니다.</p>
+
+<h2 id="1-point-설정">1. Point 설정</h2>
+<ul>
+  <li>Add Current Point: 현재 상태를 리스트에 추가</li>
+  <li>Save to csv: 리스트를 csv로 저장</li>
+  <li>Load from csv: csv를 불러와서 리스트에 추가</li>
+  <li>Up, Down, Delete: 항목 이동 및 삭제</li>
+</ul>
+
+<h2 id="2-point-항목">2. Point 항목</h2>
+<ul>
+  <li>Tag: 사용자가 편의를 위해서 임의로 기입하는 항목</li>
+  <li>X, Y, Z: XYZ 스테이지의 위치 값</li>
+  <li>Lens: Objective stage의 위치 값</li>
+  <li>X, Y tilt: X, Y 기울기 값</li>
+</ul>
+
+<h1 id="3-point를-이용한-이동">3. Point를 이용한 이동</h1>
+<p>리스트에서 하나를 클릭하여 값을 불러 올 수 있습니다.  <br />
+XY, Z, Objective, Tilt중 항목을 체크해서 해당 스테이지에 대한 이동을 수행합니다.</p>
+
+<ul>
+  <li>Z축 이동 시 렌즈가 다른 물체에 닿지 않도록 유의해서 사용</li>
+</ul>
+
+<!-- 이전/다음 페이지 버튼 -->
+<p><br />
+<br /></p>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10;">
+  <p><!-- 이전 페이지 버튼 -->
+  <a href="/manuals/manuals_lite_kor/Chapter 3/Chapter 3-4-3/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+    ← Previous
+  </a></p>
+
+  <p><!-- 다음 페이지 버튼 -->
+  <a href="/manuals/manuals_lite_kor/Chapter 3/Chapter 3-6/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+    Next →
+  </a></p>
+</div>
+
+	</div>
+</article>
+		</div>
+	</div>
+  </body>
+</html>
