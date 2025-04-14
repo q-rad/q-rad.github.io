@@ -1,15 +1,35 @@
+
+
 <article class="post">
 
-  <div class="welcome-section" style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px;
-    background-image: url('{{ "/assets/space-background.png" | relative_url }}');
+  {% assign background_image = "/assets/space-background.png" %}
+  <style>
+    article {
+      padding: 0 0% 0;
+      font-size: 17px;
+      margin-bottom: 100px;
+      line-height: 1.9;
+    }
+    .content {
+      /*margin-left: 180px;*/
+      flex: 1 1 auto;
+      padding: 0px 0px;
+    }
+
+  </style>
+  
+  <div class="welcome-section" style="display: flex; align-items: center; 
+    justify-content: center; 
+    margin-bottom: 20px;
     background-size: cover;
     background-position: center;
     padding: 40px 20px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
-    border-radius: 10px;">
+    border-radius: 0px;
+    background-image: url('{{ background_image| relative_url }}');"
+    >
 
-    
 
     <!-- 첫 번째 로고 -->
     <img src="{{ '/assets/logo.png' | relative_url }}" alt="Logo" style="height: 60px; margin-right: 20px;">
@@ -24,29 +44,33 @@
     
   </div>
 
-  <header class="post-header home">
-    <div class="post-title">Articles</div>
-  </header>
+  <div class="content" style="margin: 0 20px; padding: 0 5% 0;">
+    <header class="post-header home">
+      <div class="post-title">Articles</div>
+    </header>
 
-  <div class="post-content">
-      {%- if site.posts.size > 0 -%}
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li class="post-list-item">
-        <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
-        {%- assign date_format = "%Y/%m/%d" -%}
-        <span class="post-date">{{ post.date | date: date_format }}</span>
-      	<a class="post-link" href="{{ post.url | relative_url }}">
-    	    {{ post.title | escape }}
-		</a>
-        {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-  {%- endif -%}
+    <div class="post-content">
+        {%- if site.posts.size > 0 -%}
+      <ul class="post-list">
+        {%- for post in site.posts -%}
+        <li class="post-list-item">
+          <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
+          {%- assign date_format = "%Y/%m/%d" -%}
+          <span class="post-date">{{ post.date | date: date_format }}</span>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+      </a>
+          {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+        </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+    </div>
+  
   </div>
 </article>
 
 
 
-</div>
+
+
