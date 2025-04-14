@@ -24,12 +24,23 @@
                     {%- if previous_hundreds != current_hundreds -%}
                         <hr> <!-- 백의 자리가 바뀔 때 줄 바꿈 -->
                     {%- endif -%}
+                    {%- assign modulo_hundreds = manual.order | modulo: 100 | floor -%}
+                    {%- if modulo_hundreds == 0 -%}
+                        <li class="post-list-item post-category-{{ manual.categories }}", style="font-size: 1.8em; font-weight: bold;">
+                            <a class="post-link" href="{{ manual.url | relative_url }}">
+                                {{ manual.title | escape }}
+                            </a>
+                        </li>
+                    {%- else -%}
+                        <li class="post-list-item post-category-{{ manual.categories }}">
+                            <a class="post-link" href="{{ manual.url | relative_url }}">
+                                {{ manual.title | escape }}
+                            </a>
+                        </li>
+                    {%- endif -%}
+
                     {%- assign previous_hundreds = current_hundreds -%} <!-- 현재 백의 자리를 이전 값으로 저장 -->
-                    <li class="post-list-item post-category-{{ manual.categories }}">
-                        <a class="post-link" href="{{ manual.url | relative_url }}">
-                            {{ manual.title | escape }}
-                        </a>
-                    </li>
+                    
                 {%- endfor -%}
             </ul>
             {%- else -%}
