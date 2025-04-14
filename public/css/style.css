@@ -325,6 +325,22 @@ table td {
 	border-bottom: 1px solid #ccc;
 }
 
+/* fade-in 애니메이션 정의 */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* 페이지 전체에 적용할 클래스 */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out; /* 1초 동안 fade-in 효과 */
+    opacity: 1; /* 애니메이션 완료 후 유지 */
+}
+
 @media (max-width: 576px) {
 	article {
 		font-size: 0.9em;

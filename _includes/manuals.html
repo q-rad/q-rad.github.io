@@ -13,40 +13,41 @@
                 <span id="category-name"></span>
             </div>
         </header>
+        <div class="fade-in">
+            <div class="post-content">
+                {%- if site.manuals.size > 0 -%}
+                <ul class="post-list" id="manual-list">
+                    {%- assign sorted_manuals = site.manuals | sort: "order" -%} <!-- order 기준 정렬 -->
+                    {%- assign previous_hundreds = 0 -%} <!-- 이전 백의 자리 값을 저장할 변수 -->
+                    {%- for manual in sorted_manuals -%}
+                        {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%} <!-- 현재 백의 자리 계산 -->
+                        {%- if previous_hundreds != current_hundreds -%}
+                            <hr> <!-- 백의 자리가 바뀔 때 줄 바꿈 -->
+                        {%- endif -%}
+                        {%- assign modulo_hundreds = manual.order | modulo: 100 | floor -%}
+                        {%- if modulo_hundreds == 0 -%}
+                            <li class="post-list-item post-category-{{ manual.categories }}", style="font-size: 1.8em; font-weight: bold;">
+                                <a class="post-link" href="{{ manual.url | relative_url }}">
+                                    {{ manual.title | escape }}
+                                </a>
+                            </li>
+                        {%- else -%}
+                            <li class="post-list-item post-category-{{ manual.categories }}">
+                                <a class="post-link" href="{{ manual.url | relative_url }}">
+                                    {{ manual.title | escape }}
+                                </a>
+                            </li>
+                        {%- endif -%}
 
-        <div class="post-content">
-            {%- if site.manuals.size > 0 -%}
-            <ul class="post-list" id="manual-list">
-                {%- assign sorted_manuals = site.manuals | sort: "order" -%} <!-- order 기준 정렬 -->
-                {%- assign previous_hundreds = 0 -%} <!-- 이전 백의 자리 값을 저장할 변수 -->
-                {%- for manual in sorted_manuals -%}
-                    {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%} <!-- 현재 백의 자리 계산 -->
-                    {%- if previous_hundreds != current_hundreds -%}
-                        <hr> <!-- 백의 자리가 바뀔 때 줄 바꿈 -->
-                    {%- endif -%}
-                    {%- assign modulo_hundreds = manual.order | modulo: 100 | floor -%}
-                    {%- if modulo_hundreds == 0 -%}
-                        <li class="post-list-item post-category-{{ manual.categories }}", style="font-size: 1.8em; font-weight: bold;">
-                            <a class="post-link" href="{{ manual.url | relative_url }}">
-                                {{ manual.title | escape }}
-                            </a>
-                        </li>
-                    {%- else -%}
-                        <li class="post-list-item post-category-{{ manual.categories }}">
-                            <a class="post-link" href="{{ manual.url | relative_url }}">
-                                {{ manual.title | escape }}
-                            </a>
-                        </li>
-                    {%- endif -%}
-
-                    {%- assign previous_hundreds = current_hundreds -%} <!-- 현재 백의 자리를 이전 값으로 저장 -->
-                    
-                {%- endfor -%}
-            </ul>
-            {%- else -%}
-            <p>No manuals found.</p>
-            {%- endif -%}
-        </div>
+                        {%- assign previous_hundreds = current_hundreds -%} <!-- 현재 백의 자리를 이전 값으로 저장 -->
+                        
+                    {%- endfor -%}
+                </ul>
+                {%- else -%}
+                <p>No manuals found.</p>
+                {%- endif -%}
+                </div>
+            </div>
     </article>
 
     <script>
