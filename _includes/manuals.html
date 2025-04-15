@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,37 +16,45 @@
             <div class="post-content">
                 {%- if site.manuals.size > 0 -%}
                 <ul class="post-list" id="manual-list">
-                    {%- assign sorted_manuals = site.manuals | sort: "order" -%} <!-- order 기준 정렬 -->
-                    {%- assign previous_hundreds = 0 -%} <!-- 이전 백의 자리 값을 저장할 변수 -->
+                    {%- assign sorted_manuals = site.manuals | sort: "order" -%}
+                    {%- assign previous_hundreds = 0 -%}
                     {%- for manual in sorted_manuals -%}
-                        {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%} <!-- 현재 백의 자리 계산 -->
+                        {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%}
                         {%- if previous_hundreds != current_hundreds -%}
-                            <hr> <!-- 백의 자리가 바뀔 때 줄 바꿈 -->
-                        {%- endif -%}
-                        {%- assign modulo_hundreds = manual.order | modulo: 100 | floor -%}
-                        {%- if modulo_hundreds == 0 -%}
-                            <li class="post-list-item post-category-{{ manual.categories }}", style="font-size: 1.8em; font-weight: bold;">
-                                <a class="post-link" href="{{ manual.url | relative_url }}">
-                                    {{ manual.title | escape }}
-                                </a>
-                            </li>
-                        {%- else -%}
-                            <li class="post-list-item post-category-{{ manual.categories }}">
-                                <a class="post-link" href="{{ manual.url | relative_url }}">
-                                    {{ manual.title | escape }}
-                                </a>
-                            </li>
+                            <hr>
                         {%- endif -%}
 
-                        {%- assign previous_hundreds = current_hundreds -%} <!-- 현재 백의 자리를 이전 값으로 저장 -->
-                        
+                        {%- assign thousands = manual.order | modulo: 10000 | divided_by: 1000 | floor -%}
+                        {%- assign hundreds = manual.order | modulo: 1000 | divided_by: 100 | floor -%}
+                        {%- assign tens = manual.order | modulo: 100 | divided_by: 10 | floor -%}
+                        {%- assign ones = manual.order | modulo: 10 -%}
+
+                        {%- if hundreds == 0 and tens == 0 and ones == 0 -%}
+                            <!-- 1000, 2000 등 -->
+                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.8em; font-weight: bold;">
+                        {%- elsif tens == 0 and ones == 0 -%}
+                            <!-- 1100, 1200 등 -->
+                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.5em; font-weight: 600;">
+                        {%- elsif ones == 0 -%}
+                            <!-- 1110, 1210 등 -->
+                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.2em; font-weight: 500;">
+                        {%- else -%}
+                            <!-- 기본 -->
+                            <li class="post-list-item post-category-{{ manual.categories }}">
+                        {%- endif -%}
+                            <a class="post-link" href="{{ manual.url | relative_url }}">
+                                {{ manual.title | escape }}
+                            </a>
+                        </li>
+
+                        {%- assign previous_hundreds = current_hundreds -%}
                     {%- endfor -%}
                 </ul>
                 {%- else -%}
                 <p>No manuals found.</p>
                 {%- endif -%}
-                </div>
             </div>
+        </div>
     </article>
 
     <script>
@@ -68,7 +75,7 @@
                 // 매뉴얼 리스트 필터링
                 manualListItems.forEach(item => {
                     if (!item.classList.contains(`post-category-${hash}`)) {
-                        item.style.display = "none"; // 해당 카테고리가 아닌 항목 숨기기
+                        item.style.display = "none";
                     }
                 });
             }
