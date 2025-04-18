@@ -19,7 +19,7 @@ order: 3712
       <div>Figure 55. S-Map Generator 탭</div>
     </td>
     <td align="center" style="border: none;">
-      <img src="/assets/Chapter-3/S-Map EX.png" alt="S-Map example">
+      <img src="/assets/Chapter-3/S-Map.png" alt="S-Map">
       <div>Figure 56. S-Map Example</div>
     </td>
   </tr>
