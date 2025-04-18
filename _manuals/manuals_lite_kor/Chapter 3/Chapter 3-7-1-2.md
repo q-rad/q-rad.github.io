@@ -12,14 +12,14 @@ order: 3712
 <br/> <!-- 한줄 띄기 -->
 
 <!-- 2x2 이미지 테이블 -->
-<table align="center">
+<table align="center" style="border-collapse: collapse; border: none;">
   <tr>
-    <td align="center">
+    <td align="center" style="border: none;">
       <img src="/assets/Chapter-3/S-Map Generator.png" alt="S-Map Generator">
       <div>Figure 55. S-Map Generator 탭</div>
     </td>
-    <td align="center">
-      <img src="/assets/Chapter-3/S-Map EX.png" alt="S-Map EX">
+    <td align="center" style="border: none;">
+      <img src="/assets/Chapter-3/S-Map EX.png" alt="S-Map example">
       <div>Figure 56. S-Map Example</div>
     </td>
   </tr>
