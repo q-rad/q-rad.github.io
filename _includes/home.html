@@ -32,7 +32,7 @@
 
 
     <!-- 첫 번째 로고 -->
-    <img src="{{ '/assets/logo.png' | relative_url }}" alt="Logo" style="height: 60px; margin-right: 20px;">
+    <img src="{{ '/assets/logo2.png' | relative_url }}" alt="Logo" style="height: 60px; margin-right: 20px;">
     
   
     <div style="text-align: center; margin: 0 20px;">
@@ -41,7 +41,7 @@
     </div>
 
     <!-- 두 번째 로고 -->
-    <img src="{{ '/assets/favicon.png' | relative_url }}" alt="Laser2COTS Logo" style="height: 100px; margin-left: 20px;">
+    <img src="{{ '/assets/favicon.png' | relative_url }}" alt="Laser2COTS Logo" style="height: 80px; margin-left: 20px;">
     
   </div>
 
@@ -56,8 +56,10 @@
         {%- for post in site.posts -%}
         <li class="post-list-item">
           <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
+           <!--
           {%- assign date_format = "%Y/%m/%d" -%}
           <span class="post-date">{{ post.date | date: date_format }}</span>
+          -->
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
       </a>

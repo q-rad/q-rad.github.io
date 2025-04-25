@@ -1,0 +1,9 @@
+---
+layout: post
+title: COTS(Commercial off-the-shelf)
+date: 2025-03-26 00:00:00 +0900
+category: article
+---
+# COTS란?
+
+상용 기성품(Commercial off-the-shelf)이란 뜻으로 우주 분야에서는 비용 절감, 개발 시간 단축, 최신 기술 적용 면에서 매력적인 반면, 동시에 **신뢰성(Reliability), 품질(Quality), 환경 내성(Environmental Tolerance)**이 중요한 핵심 과제로 대두됩니다.
