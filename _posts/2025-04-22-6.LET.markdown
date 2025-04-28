@@ -1,0 +1,21 @@
+---
+layout: post
+title: LET(Liner Energy Transfer)란?
+date: 2025-03-25 00:00:00 +0900
+category: article
+---
+# LET(Liner Energy Transfer) - 선형 에너지 전이
+
+LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에너지 손실을 말합니다. LET의 단위는 MeV cm<sup>2</sup>/mg이고 경로의 단위 길이당 에너지 손실(MeV/cm)은 표적 물질의 밀도(mg/cm<sup>3</sup>)로 정규화되어 LET는 표적과 독립적으로 인용될 수 있습니다.
+
+이온화 손실(ionization Loss)은 반도체 소자에서 아주 중요한 과정인데 이온화 과정에서 표적 물질을 관통하는 입자에 의해 단위 길이당 축적되는 에너지인 LET로 그 특성을 나타낼 수 있습니다. 여기에서 에너지 손실은 입자의 에너지가 LET로 손실되어 표적 물질에 축적되는 것을 의미합니다. LET는 MeV/cm<sup>-1</sup>, eV/nm<sup>-1</sup>, keV/nm<sup>-1</sup>와 같이 에너지를 거리로 나눈 값으로 정의합니다. 그러나 손실된 에너지는 관통하는 재료의 밀도에 정비례하므로 선형 에너지 전이값을 재료의 밀도로 나누는 것이 더 유용합니다. 여러 JEDEC표준에서는 통상적으로 LET단위를 [MeV cm<sup>2</sup>mg<sup>-1</sup>]로 표시하는데 이는 MeV cm<sup>-1</sup>을 밀도인 mg/cm<sup>3</sup>로 나눈 값을 의미하고 그래서 대상 물질의 밀도로 정규화된 LET는 [MeV cm<sup>2</sup>mg<sup>-1</sup>]단위로 표기합니다.
+
+<!-- 중앙 정렬 이미지 -->
+<p align="center"> 
+  <img src="/assets/Articles/하전 입자의 간단한 LET형상.png">
+</p>
+
+<!-- 이미지 설명 -->
+<div align="center"> 
+<h5>하전 입자의 간단한 선형 에너지 전달 형상</h5>
+</div>
