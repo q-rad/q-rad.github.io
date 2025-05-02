@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 1.1 레이저 평가 방법
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

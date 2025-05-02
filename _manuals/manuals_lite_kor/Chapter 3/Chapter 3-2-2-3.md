@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 3.2.2.3.	Goniometer(각도 제어 장치)
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

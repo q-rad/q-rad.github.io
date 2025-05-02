@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 3.4.3.	Scan 시작
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

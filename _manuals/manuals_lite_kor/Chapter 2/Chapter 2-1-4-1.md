@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 2.1.4.1.	스크린 샷을 이용한 촬영
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

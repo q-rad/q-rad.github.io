@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 3.2.2.1.	XYZ
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

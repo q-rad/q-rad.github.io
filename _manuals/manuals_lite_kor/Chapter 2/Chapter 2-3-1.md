@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 2.3.1. Intelligent SEU Manager(ISM) 설정하기
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

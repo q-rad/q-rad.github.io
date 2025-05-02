@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 2.2.1.	스캔 영역을 지정하여 테스트하기
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

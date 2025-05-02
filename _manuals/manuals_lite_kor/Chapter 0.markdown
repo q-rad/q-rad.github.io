@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: About QRT-LITE
 date: 2025-03-31 12:20:23 +0900
 category: "lite_kor"

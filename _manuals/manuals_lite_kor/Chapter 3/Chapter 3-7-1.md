@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 3.7.1.	오실로스코프(MSO)를 이용한 트리거 측정
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

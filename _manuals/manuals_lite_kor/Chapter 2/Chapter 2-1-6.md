@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_manual
 title: 2.1.6. 초점(Focus) 잡기
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"
