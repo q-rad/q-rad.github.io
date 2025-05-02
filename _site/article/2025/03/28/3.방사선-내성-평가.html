@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-866KXKSPRQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-866KXKSPRQ');
+</script><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="LASER2COTS QRT" /><link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+</head><style>
+	@import url("/public/css/syntax/monokai.css");
+  </style>
+  <title>LASER2COTS QRT</title>
+  <!-- <link href="/public/css/bootstrap.min.css" rel="stylesheet"> -->
+
+  <link href="/public/css/style.css" rel="stylesheet">
+  <body>
+  	<div class="container"> 
+		<div class="sidebar">
+			<div class="sidebar-item sidebar-header">
+	<div class="sidebar-brand">
+        <!-- 로고와 제목을 포함한 링크 -->
+        <a href="/" class="sidebar-logo">
+            <img src="/assets/logo2.png" alt="Logo" style="height: 100px; vertical-align: middle;">
+            <!--span>LASER2COTS QRT</span-->
+        </a>
+    </div>
+	<p class="lead"></p></div>
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+      <li class="nav-title">About</li>
+	  
+	  
+	  
+	    
+		
+		
+	    
+		
+	  
+	    
+		
+		
+	      
+	        <li>
+	        	<a class="nav-item" href="/about/">
+	            	About LASER2COTS
+	            </a>
+	        </li>
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	  
+	    
+		
+		
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	    
+		
+	  
+	    
+		
+		
+	      
+		  
+	    
+		
+	  
+	    
+		
+		
+	    
+		
+	  
+	  <li>
+		<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
+
+	</li>
+	<li>
+		<a class="nav-item" href="/">Home</a>
+	</li>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+    <ul class="nav">
+        <li class="nav-title">QRT - LITE Manual</li>
+        <li>
+			<!-- _includes/manual.html-->
+			<a class="nav-item" href="/manuals/#lite_kor">	
+				<span class="name">KOR</span>
+				<!--span class="badge">71</span-->
+			</a>
+		</li>
+
+    </ul>
+</div>
+
+<div class="sidebar-item sidebar-nav">
+    <ul class="nav">
+        <li class="nav-title">categories</li>
+        
+        <li>
+            <a class="nav-item" href="/category/#article">
+                <span class="name">article</span>
+                <span class="badge">8</span>
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+<!--div class="sidebar-item sidebar-footer">
+	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
+</div-->
+
+<div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
+    <p>
+        Everything about LASER SEE test at&nbsp&nbsp
+        <a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/logo.png" alt="QRT Logo" style="height: 20px; vertical-align: middle;">
+        </a>
+    </p>
+</div>
+
+<div class="sidebar-footer" style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #888;">
+    <p>&copy; 2025 QRT Inc. All rights reserved.</p>
+</div>
+		</div>
+		<div class="content">
+			<article class="post">
+	
+	<header class="post-header">
+		<div class="post-title"> 
+			방사선 내성 평가(Radiation Hardness Test)
+		</div>
+		<!--time class="post-date dt-published" datetime="2025-03-28T00:00:00+09:00" itemprop="datePublished">2025/03/28
+		</time-->		
+	</header>
+
+	<div class="post-content">
+		<div class="fade-in">
+		<h1 id="방사선-내성-평가radiation-hardness-test">방사선 내성 평가(Radiation Hardness Test)</h1>
+
+<p>고방사선 환경에서 운용되는 우주, 항공, 군사, 원자력 분야의 전자장비 신뢰성을 확보하기 위해 수행합니다.</p>
+
+<p><br /> <!-- 한줄 띄기 -->
+<strong>1. 방사선이 반도체에 미치는 영향</strong></p>
+
+<p>우주나 고고도 환경에는 지구 대기권이 차단하지 못하는 <em>고에너지 입자(양성자, 전자, 중성자, 감마선 등)</em> 가 존재합니다. 이러한 입자들이 반도체 칩과 충돌하면 다음과 같은 심각한 문제들이 발생할 수 있습니다:</p>
+
+<ul>
+  <li>
+    <p>SEU (Single Event Upset): 메모리 셀이나 레지스터의 비트가 일시적으로 반전되는 현상 (예: 0에서 1로 변경)</p>
+  </li>
+  <li>
+    <p>SEL (Single Event Latch-up): 회로 내 과도한 전류 흐름으로 인해 전체 회로 시스템이 손상되는 현상</p>
+  </li>
+  <li>
+    <p>TID (Total Ionizing Dose): 방사선 노출이 누적됨에 따라 회로의 전기적 특성과 성능이 점진적으로 저하되는 현상</p>
+  </li>
+  <li>
+    <p>DD (Displacement Damage): 방사선 입자로 인해 반도체 원자 구조가 물리적으로 손상되어 전반적인 성능이 감소하는 현상</p>
+  </li>
+</ul>
+
+<p><br /> <!-- 한줄 띄기 -->
+<strong>2. 어떤 분야에서 필요한가요?</strong></p>
+
+<ul>
+  <li>우주산업
+    <ul>
+      <li>우주 환경에서 인공위성, 우주탐사선, 통신위성 등의 전자 시스템은 극도로 강한 방사선에 지속적으로 노출됩니다.</li>
+      <li>우주에서 발생하는 단일사건 현상(SEU)은 심각한 데이터 오류나 시스템 중단을 초래할 수 있어, 엄격하게 검증된 반도체만을 사용해야 합니다.</li>
+    </ul>
+  </li>
+  <li>항공 및 군사용 장비
+    <ul>
+      <li>고고도 비행기와 군용 장비는 핵폭발이나 전자기 펄스(EMP)와 같은 극한 환경에 노출될 수 있으므로, 뛰어난 방사선 내성이 매우 중요합니다.</li>
+    </ul>
+  </li>
+  <li>의료 기기 및 원자력 발전소
+    <ul>
+      <li>방사선 치료기기와 원자로 인근의 제어 시스템은 방사선이 가득한 환경에서 작동해야 하므로, 강력한 방사선 내성이 절대적으로 필요합니다.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /> <!-- 한줄 띄기 -->
+<strong>3. 방사선 내성 테스트를 수행하는 목적</strong></p>
+
+<ul>
+  <li>
+    <p>제품의 안정성과 신뢰성을 철저히 검증하기 위해</p>
+  </li>
+  <li>
+    <p>우주 임무 중 발생할 수 있는 방사선 환경에서의 잠재적 오류를 사전에 차단하기 위해</p>
+  </li>
+  <li>
+    <p>NASA, ESA, MIL-STD-883과 같은 국제 인증 취득을 위해</p>
+  </li>
+  <li>
+    <p>시스템 설계 초기 단계에서 위험 요소를 사전에 식별하고 제거하기 위해</p>
+  </li>
+</ul>
+
+		</div>
+	</div>
+
+</article>
+		</div>
+	</div>
+  </body>
+</html>
