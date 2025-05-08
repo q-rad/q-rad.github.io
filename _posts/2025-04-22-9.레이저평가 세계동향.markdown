@@ -1,0 +1,46 @@
+---
+layout: post
+title: 레이저평가의 세계동향
+date: 2025-03-22 00:00:00 +0900
+category: article
+---
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <div style="overflow: hidden;">
+  <!-- 이미지 -->
+  <img src="/assets/Articles/COTS NSSC.png" style="float: left; margin: 0 20px 20px 0; width: 300px; max-width: 100%;">
+
+  <!-- 텍스트 -->
+  <p>
+<br/> <!-- 한줄 띄기 -->
+    이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다.
+    COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추세를 보였으며, 특히 2021년에서 2022년 사이에 눈에 띄는 상승폭을  기록했습니다. 이러한 추세는 레이저 기반 시험의 수요와 중요성이 크게 증대되고 있음을 명확하게 시사합니다.
+  </p>
+</div>
+  </tr>
+</table>
+<br/> <!-- 한줄 띄기 -->
+
+<!-- 2x2 이미지 테이블 -->
+<!-- 2x2 이미지 테이블 -->
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="/assets/Articles/NRNU MEPhI SPELS.png">
+      <div style="margin-top: 10px;">Common sturcture of SEE tests</div>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="/assets/Articles/NRNU MEPhI SPELS 2.png">
+      <div style="margin-top: 10px;">Laser tests fraction during last three years</div>
+    </td>
+  </tr>
+</table>
+
+러시아 기관에서는 중이온 시험이 여전히 중심이지만, Laser + Heavy Ion 방식과 Laser 단독 방식도 점차 중요해지고 있습니다. 이는 다양한 전자기기의 SEE 내성 평가를 보다 유연하고 경제적으로 수행하기 위한 전략입니다.
+
+SEE 시험 전체 수가 꾸준히 늘어나는 가운데, 레이저를 활용한 시험의 비율도 함께 증가하고 있습니다.
+이는 러시아 기관이 레이저 기술을 더욱 적극적으로 적용하고 있다는 증거로, 장비 효율성과 평가 속도를 고려한 전략적 접근이라 볼 수 있습니다.
+
+러시아 기관은 SEE 시험에서 중이온을 이용한 방식뿐만 아니라, 레이저를 활용한 시험도 점점 더 많이 도입하고 있습니다.
+특히 Laser + Heavy Ion의 비율이 크다는 것은, 실험의 정확성과 경제성을 동시에 추구하고 있음을 보여줍니다.
