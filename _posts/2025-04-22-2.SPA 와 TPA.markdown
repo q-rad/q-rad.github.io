@@ -3,7 +3,6 @@ layout: post
 title: SPA vs TPA
 date: 2025-03-29 00:00:00 +0900
 category: article
-order: 0003
 ---
 # SPA(Single Photon Absorption)
 조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 선형 흡수입니다. 광자가 물질에 도달하고

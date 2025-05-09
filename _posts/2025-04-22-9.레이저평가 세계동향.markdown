@@ -3,7 +3,6 @@ layout: post
 title: 레이저평가의 글로벌 동향
 date: 2025-03-22 00:00:00 +0900
 category: article
-order: 0010
 ---
 <p align="center"> 
   <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 300px;">

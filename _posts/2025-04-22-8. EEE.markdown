@@ -3,7 +3,6 @@ layout: post
 title: Space Product Assurance(우주 제품 보증)란?
 date: 2025-03-23 00:00:00 +0900
 category: article
-order: 0006
 ---
 # Space Product Assurance - EEE(Electrical, Electronic and Electromechanical) components
 

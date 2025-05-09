@@ -3,7 +3,6 @@ layout: post
 title: TID(Total Ionizing Dose effect)란?
 date: 2025-03-24 00:01:00 +0900
 category: article
-order: 0008
 ---
 # TID(Total Ionizing Dose effect) - 총 이온화 선량 효과
 <div style="overflow: hidden;">

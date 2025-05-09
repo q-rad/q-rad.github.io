@@ -3,7 +3,6 @@ layout: post
 title: Laser vs Heavy Ion
 date: 2025-03-20 00:00:00 +0900
 category: article
-order: 0011
 ---
 <br/> <!-- 한줄 띄기 -->
 
