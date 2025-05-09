@@ -121,7 +121,7 @@
         <li>
             <a class="nav-item" href="/category/#article">
                 <span class="name">article</span>
-                <span class="badge">8</span>
+                <span class="badge">12</span>
             </a>
         </li>
         
@@ -147,9 +147,17 @@
 		</div>
 		<div class="content">
 			<article class="post">
+
+
+	<header class="post-header" style="display: flex; align-items: center; justify-content: space-between;">
+		<span id='category-name'></span>
+		<!-- 원래 카테고리로 돌아가는 버튼 -->
+		<div style="margin-top: 20px; text-align: center;"><a href="/category/#article" class="btn btn-primary" style="padding: 5px 10px; background-color: #888888; color: white; text-decoration: none; border-radius: 5px; margin-right: auto;">
+				← List
+			</a>
+		</div>
 	
-	<header class="post-header">
-		<div class="post-title"> 
+		<div class="post-title" style="margin-left: auto; margin-right: auto; padding-right: 10%;">
 			SEE (Single Event Effect)란?
 		</div>
 		<!--time class="post-date dt-published" datetime="2025-03-30T00:00:00+09:00" itemprop="datePublished">2025/03/30
@@ -248,10 +256,8 @@ MCU(Multi Cell Upset) - 다중 셀 업셋
 SED(Single Event Disturb) - 단일 이벤트 교란
 </h4>
   </summary>
-  <ul>
-    <li>SRAM 셀의 일시적인 불안정 상태로 인한 것으로 설명할 수 있습니다. 이 불안정한 SRAM 상태는 결국 안정적인 상태에 되돌아 가게 되고 특성은 SEU에 해당합니다. 셀의 불안정한 상태는 읽기 명령을 수행할 수 있을 만큼 충분히 긴 시간일 수 있어서 소프트 오류가 발생할 수 있기 때문에 SED는 별도로 식별이 가능합니다. SED는 원래 반도체 접합부를 통과하거나 근처를 통과하는 이온에 의해 생성된 전하의 전기장 분리에 의해 형성된 집적 회로의 노드에서의 순간적인 전압 변동(전압 스파이크)입니다. SED는 SET와 유사하지만 미세 논리회로 소자에서 이러한 이벤트의 결과를 이를 때 사용합니다. 조합 논리 회로나 논리 소자의 저장 매체인 래치나 플립플롭에 저장된 정보가 SET에 의해서 일시적으로 손상된 것을 의미한고 이 값은 교란된 상태이나 오류가 아닌 것을 의미합니다.
-<br /> <!-- 한줄 띄기 --></li>
-  </ul>
+  <p>SRAM 셀의 일시적인 불안정 상태로 인한 것으로 설명할 수 있습니다. 이 불안정한 SRAM 상태는 결국 안정적인 상태에 되돌아 가게 되고 특성은 SEU에 해당합니다. 셀의 불안정한 상태는 읽기 명령을 수행할 수 있을 만큼 충분히 긴 시간일 수 있어서 소프트 오류가 발생할 수 있기 때문에 SED는 별도로 식별이 가능합니다. SED는 원래 반도체 접합부를 통과하거나 근처를 통과하는 이온에 의해 생성된 전하의 전기장 분리에 의해 형성된 집적 회로의 노드에서의 순간적인 전압 변동(전압 스파이크)입니다. SED는 SET와 유사하지만 미세 논리회로 소자에서 이러한 이벤트의 결과를 이를 때 사용합니다. 조합 논리 회로나 논리 소자의 저장 매체인 래치나 플립플롭에 저장된 정보가 SET에 의해서 일시적으로 손상된 것을 의미한고 이 값은 교란된 상태이나 오류가 아닌 것을 의미합니다.
+<br /> <!-- 한줄 띄기 --></p>
 
 </details>
 
@@ -262,9 +268,7 @@ SED(Single Event Disturb) - 단일 이벤트 교란
 SEFI(Single Event Functional Interrupt) - 단일 이벤트 기능 차단
 </h4>
   </summary>
-  <ul>
-    <li>구성 요소를 재설정, 잠금 또는 감지 가능한 방식으로 오작동하게 하는 단일 이벤트 효과(SEE)이지만 영구적인 손상(예: 하드 오류)을 초래하지 않습니다. SEFI는 종종 제어 비트 또는 레지스터의 SBU/MBU와 연관되는 반면 SEL은 기생 사이리스터의 켜짐으로 인해 발생합니다. 많은 SEFI 이벤트는 구성 요소 재설정 작업으로 지울 수 있습니다 (기능 재설정으로 정상 복귀가 가능한 소프트 오류). 일부 구성 레지스터를 재설정하려면 장치의 완전한 전원 재인가가 필요한 경우 SEFI와 SEL을 구별하기 어려울 수 있습니다. SEFI 이벤트가 반드시 고전류 SEL과 같이 작동 전류의 확장된 증가를 초래하는 것은 아닙니다. 제어 레지스터 또는 클럭의 교란으로 인한 복잡한 집적 회로의 기능 손실(또는 정상 작동 중단)을 단일 이벤트 기능 인터럽트(SEFI)라고 합니다. SEFI는 오류 버스트 또는 장기간 기능 손실(예: 잠금)을 생성할 수 있습니다. 일반적으로 SEFI에는 단일 이벤트 래치업(SEL) 또는 단일 이벤트 스냅백(SESB)과 관련된 고전류 상태가 수반되지 않습니다. 기능은 전원을 재인가 하거나 구성 레지스터를 재설정하여 복구할 수 있습니다.</li>
-  </ul>
+  <p>구성 요소를 재설정, 잠금 또는 감지 가능한 방식으로 오작동하게 하는 단일 이벤트 효과(SEE)이지만 영구적인 손상(예: 하드 오류)을 초래하지 않습니다. SEFI는 종종 제어 비트 또는 레지스터의 SBU/MBU와 연관되는 반면 SEL은 기생 사이리스터의 켜짐으로 인해 발생합니다. 많은 SEFI 이벤트는 구성 요소 재설정 작업으로 지울 수 있습니다 (기능 재설정으로 정상 복귀가 가능한 소프트 오류). 일부 구성 레지스터를 재설정하려면 장치의 완전한 전원 재인가가 필요한 경우 SEFI와 SEL을 구별하기 어려울 수 있습니다. SEFI 이벤트가 반드시 고전류 SEL과 같이 작동 전류의 확장된 증가를 초래하는 것은 아닙니다. 제어 레지스터 또는 클럭의 교란으로 인한 복잡한 집적 회로의 기능 손실(또는 정상 작동 중단)을 단일 이벤트 기능 인터럽트(SEFI)라고 합니다. SEFI는 오류 버스트 또는 장기간 기능 손실(예: 잠금)을 생성할 수 있습니다. 일반적으로 SEFI에는 단일 이벤트 래치업(SEL) 또는 단일 이벤트 스냅백(SESB)과 관련된 고전류 상태가 수반되지 않습니다. 기능은 전원을 재인가 하거나 구성 레지스터를 재설정하여 복구할 수 있습니다.</p>
 
   <p><br /> <!-- 한줄 띄기 --></p>
 
@@ -350,6 +354,15 @@ SESB(Single Event Snap-Back) - 단일 이벤트 스냅백
   <p>SEL의 하위 유형이며 SEL과 마찬가지로 영향을 받는 장치에서 높은 전류 소비 조건을 나타냅니다. 에너지가 공급된 입자가 배수구 근처에 닿으면 전하 운반체의 눈사태 증식이 생성됩니다. 트랜지스터는 열려 있고 전원을 재설정할 때까지 (장치가 다시 스냅될때까지) 열려 있습니다(래치업 조건 참조).</p>
 </details>
 
+<hr />
+<p><br /> <!-- 한줄 띄기 --></p>
+
+<p><strong>관련 글</strong></p>
+<ul>
+  <li><a href="/article/2025/03/28/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
+  <li><a href="/article/2025/03/27/4.레이저평가.html">레이저 평가</a></li>
+  <li><a href="/article/2025/03/25/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
+</ul>
 
 		</div>
 	</div>
