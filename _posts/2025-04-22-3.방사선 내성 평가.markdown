@@ -52,7 +52,7 @@ order: 0001
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [SEE (Single Event Effect)란?](/article/2025/03/29/1.-SEE.html)
-- [TID(Total Ionizing Dose effect)란?](//article/2025/03/23/7.TID.html)
-- [LET(Liner Energy Transfer)란?](/article/2025/03/24/6.LET.html)
-- [/article/2025/03/26/4.레이저평가.html](/article/2025/03/26/4.레이저평가.html)
+- [SEE (Single Event Effect)란?](/article/2025/03/30/1.-SEE.html)
+- [TID(Total Ionizing Dose effect)란?](//article/2025/03/24/7.TID.html)
+- [LET(Liner Energy Transfer)란?](/article/2025/03/25/6.LET.html)
+- [레이저평가](/article/2025/03/27/4.레이저평가.html)

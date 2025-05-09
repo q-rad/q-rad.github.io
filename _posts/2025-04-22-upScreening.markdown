@@ -86,5 +86,6 @@ ESA 우주 임무 등급은 보증 수준과 위험 간의 상이한 균형(trad
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [Space Product Assurance(우주 제품 보증)란?](/article/2025/03/22/8.-EEE.html)
-- [COTS(Commercial off-the-shelf)](/article/2025/03/25/5.COTS.html)
+- [Space Product Assurance(우주 제품 보증)란?](/article/2025/03/23/8.-EEE.html)
+- [COTS(Commercial off-the-shelf)](/article/2025/03/26/5.COTS.html)
+- [Laser vs Heavy Ion](/article/2025/03/20/레이저vs중이온.html)

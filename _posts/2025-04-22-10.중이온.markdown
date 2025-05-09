@@ -25,6 +25,6 @@ order: 0009
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/27/3.방사선-내성-평가.html)
-- [LET(Liner Energy Transfer)란?](/article/2025/03/24/6.LET.html)
-- [SEE (Single Event Effect)란?](/article/2025/03/29/1.-SEE.html)
+- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/28/3.방사선-내성-평가.html)
+- [LET(Liner Energy Transfer)란?](/article/2025/03/25/6.LET.html)
+- [SEE (Single Event Effect)란?](/article/2025/03/30/1.-SEE.html)

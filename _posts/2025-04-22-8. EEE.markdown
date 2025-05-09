@@ -41,4 +41,4 @@ Space Product Assurance는 이러한 EEE 부품들이 우주 임무를 성공적
 
 **관련 글**
 - [Up-Screening](/article/2025/03/19/upScreening.html)
-- [COTS(Commercial off-the-shelf)](/article/2025/03/25/5.COTS.html)
+- [COTS(Commercial off-the-shelf)](/article/2025/03/26/5.COTS.html)

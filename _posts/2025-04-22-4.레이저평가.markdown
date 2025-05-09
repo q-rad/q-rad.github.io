@@ -21,6 +21,6 @@ order: 0002
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [SPA vs TPA](/article/2025/03/28/2.SPA-와-TPA.html)
-- [레이저평가의 세계동향](/article/2025/03/21/9.레이저평가-세계동향.html)
-- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/27/3.방사선-내성-평가.html)
+- [SPA vs TPA](/article/2025/03/29/2.SPA-와-TPA.html)
+- [레이저평가의 세계동향](/article/2025/03/22/9.레이저평가-세계동향.html)
+- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/28/3.방사선-내성-평가.html)
