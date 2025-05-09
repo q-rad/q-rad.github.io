@@ -69,8 +69,10 @@ Level 3 프로그램의 일반적인 임무 기간은 1년 미만에서 2년 사
 
 -------------------------------
 
-ESA는 Class 1~3으로 등급을 나누며, AEC-Q 부품을 활용할 때 Up-screening 시험을 어떻게 보완해야 할지 가이드를 제공합니다.
-
+ESA는 Class 1~3으로 등급을 나누며, *AEC-Q 부품을 활용할 때 Up-screening 시험을 어떻게 보완해야 할지 가이드를 제공합니다.
+<div style="font-size: 11px; color: gray; text-align: left;">
+  *자동차 산업에서 사용되는 전자 부품의 신뢰성과 품질을 보증하기 위한 시험 및 평가 표준
+</div>
 <p align="center"> 
   <img src="/assets/Articles/ECSS.png" style="width: 80%; max-width: 500px;">
 </p>
