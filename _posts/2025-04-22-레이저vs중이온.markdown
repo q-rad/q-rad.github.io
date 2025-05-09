@@ -1,0 +1,27 @@
+---
+layout: post
+title: Laser vs Heavy Ion
+date: 2025-03-20 00:00:00 +0900
+category: article
+order: 0011
+---
+<br/> <!-- 한줄 띄기 -->
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="/assets/Articles/cost.png" style="width: 80%; max-width: 1000px;">
+    </td>
+     <td align="center" style="border: none;">
+      <img src="/assets/Articles/costComparison.png" style="width: 80%; max-width: 1000px;">
+    </td>
+  </tr>
+   
+</table>
+우주 환경에 사용되는 전자부품은 높은 신뢰성과 방사선 내성이 요구되기 때문에, 여러 가지 형태의 테스트를 거쳐야 합니다. 대표적인 시험 항목으로는 TID(Total Ionizing Dose), DPA(Displacement Damage), CA(Construction Analysis), 그리고 SEE(Single Event Effect)가 있습니다.
+
+첫 번째 원형 차트에서는 이러한 다양한 시험 중 SEE 평가(특히 중이온 빔 기반)가 전체 비용의 절반 이상을 차지하고 있습니다. 중이온을 통한 평가는 매우 정밀하지만, 해외 가속기 시설 이용료, 장비 운송, 실험 슬롯 확보 등으로 인해 단가가 매우 높고 접근성도 떨어지는 단점이 있습니다.
+
+이에 비해 두 번째 막대그래프는 동일한 SEE 특성을 평가할 수 있는 **레이저 평가(Pulsed Laser SEE Test)**의 시험 비용이 중이온 시험 대비 약 1/4 이하 수준임을 보여줍니다. 레이저 시험은 실험실 내에서 수행할 수 있어 장소 제약이 없고, 반복 실험이 가능하며, 고해상도 타격 정확도를 활용해 칩 내 특정 위치를 정밀하게 조사할 수 있는 장점이 있습니다.
+
+따라서 중이온 시험을 레이저 시험으로 대체할 경우, SEE 시험 항목에서 발생하는 고비용 요소를 대폭 절감할 수 있으며, 결과적으로 전체 Up-Screening 비용을 크게 낮출 수 있는 실질적인 대안입니다. 특히 설계 초기 단계에서 레이저를 활용한 반복 시험을 통해 취약 영역을 조기에 식별하고 보완할 수 있기 때문에, 제품의 방사선 내성과 개발 효율성 모두를 개선 가능합니다.

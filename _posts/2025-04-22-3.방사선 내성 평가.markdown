@@ -3,6 +3,7 @@ layout: post
 title: 방사선 내성 평가(Radiation Hardness Test)
 date: 2025-03-28 00:00:00 +0900
 category: article
+order: 0001
 ---
 # 방사선 내성 평가(Radiation Hardness Test)
 
@@ -45,3 +46,13 @@ category: article
 또한 이와 같은 테스트는 국제 인증 취득과도 밀접한 관련이 있습니다. NASA, ESA(유럽우주국), MIL-STD-883(미국 군사표준) 등에서는 특정 수준 이상의 방사선 내성을 요구하며, 이 기준을 만족하지 못하면 해당 반도체는 사용이 불가능합니다. 결국, 방사선 내성 테스트는 단지 품질을 평가하는 것을 넘어, 설계 초기 단계에서부터 위험 요소를 식별하고 제거함으로써, 궁극적으로 사람의 안전과 시스템의 성공률을 높이는 데 목적이 있습니다.
 
 이 모든 이유가, 우리가 반도체의 방사선 내성을 중요하게 여기는 배경입니다. 단순한 기술적 특성을 넘어, 이것은 안전과 신뢰, 그리고 미션의 성공과 직결되는 요소입니다.
+
+
+-------------------------------------
+<br/> <!-- 한줄 띄기 -->
+
+**관련 글**
+- [SEE (Single Event Effect)란?](/article/2025/03/29/1.-SEE.html)
+- [TID(Total Ionizing Dose effect)란?](//article/2025/03/23/7.TID.html)
+- [LET(Liner Energy Transfer)란?](/article/2025/03/24/6.LET.html)
+- [/article/2025/03/26/4.레이저평가.html](/article/2025/03/26/4.레이저평가.html)

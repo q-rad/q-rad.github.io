@@ -3,32 +3,22 @@ layout: post
 title: 레이저평가의 세계동향
 date: 2025-03-22 00:00:00 +0900
 category: article
+order: 0010
 ---
-
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr>
-    <div style="overflow: hidden;">
-  <!-- 이미지 -->
-  <img src="/assets/Articles/COTS NSSC.png" style="float: left; margin: 0 20px 20px 0; width: 300px; max-width: 100%;">
-
-  <!-- 텍스트 -->
-  <p>
-<br/> <!-- 한줄 띄기 -->
-    이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다.
-    COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추세를 보였으며, 특히 2021년에서 2022년 사이에 눈에 띄는 상승폭을  기록했습니다. 레이저는 이미 세계적으로 COTS를 평가하기 위해 대체 선원으로 사용되고 있습니다. 이는 레이저 평가가 저렴한 비용으로 가능하기 때문일 것입니다.
-  </p>
-</div>
-  </tr>
-</table>
-<br/> <!-- 한줄 띄기 -->
-
+<p align="center"> 
+  <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 300px;">
+</p>
+이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다.
+COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추세를 보였으며, 특히 2021년에서 2022년 사이에 눈에 띄는 상승폭을  기록했습니다. 레이저는 이미 세계적으로 COTS를 평가하기 위해 대체 선원으로 사용되고 있습니다. 이는 레이저 평가가 저렴한 비용으로 가능하기 때문일 것입니다.
+<br/> <!-- 한줄 띄기 --><br/> <!-- 한줄 띄기 -->
 <!-- 2x2 이미지 테이블 -->
 <!-- 2x2 이미지 테이블 -->
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="/assets/Articles/NRNU MEPhI SPELS.png">
-      <div style="margin-top: 10px;">Common sturcture of SEE tests</div>
+      <img src="/assets/Articles/NRNU MEPhI SPELS.png" style="margin-top: 50px;">
+      <div style="margin-top: 10px;">Actual rate of conducted test in NRNU(2015)
+      </div>
     </td>
     <td align="center" style="border: none;">
       <img src="/assets/Articles/NRNU MEPhI SPELS 2.png">

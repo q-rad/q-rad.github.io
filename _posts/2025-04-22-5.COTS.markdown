@@ -3,6 +3,7 @@ layout: post
 title: COTS(Commercial off-the-shelf)
 date: 2025-03-26 00:00:00 +0900
 category: article
+order: 0004
 ---
 # COTS란?
 
@@ -32,4 +33,8 @@ category: article
   </tr>
 </table>
 
+-------------------------------------
+<br/> <!-- 한줄 띄기 -->
 
+**관련 글**
+- []

@@ -1,0 +1,90 @@
+---
+layout: post
+title: Up-Screening
+date: 2025-03-19 00:00:00 +0900
+category: article
+order: 0012
+---
+우주, 항공, 방위 산업 등 고신뢰성이 요구되는 분야에서는 부품 하나하나의 품질과 신뢰성이 전체 시스템의 성능과 안정성에 중대한 영향을 미칩니다. 그러나 모든 부품을 우주 인증 부품(Space-Grade Parts)으로만 구성하는 것은 비용, 공급 이슈, 기술적 제약 등의 현실적인 한계로 인해 어려운 경우가 많습니다.
+이러한 이유로, 상용 부품(COTS, Commercial-Off-The-Shelf)의 사용이 불가피한 상황이 발생하게 됩니다.
+
+이 경우, 우주 환경에 적합한 신뢰성을 확보하기 위한 방법으로 **Up-screening**이 적용됩니다.
+
+# Up-screening이란?
+Up-screening은 본래 우주 등급(Space-grade)으로 분류되지 않은 부품(COTS, Automotive Grade 등)에 대해, 고신뢰성 환경에서의 사용 가능성을 확보하기 위해 추가적인 시험과 평가를 수행하는 절차를 의미합니다.
+
+이는 단순한 기능 확인 수준을 넘어, 우주 환경에서 요구되는 품질 기준에 부합하도록 온도 특성, 전기적 성능, 수명, 고장률 등 다양한 신뢰성 요소를 체계적으로 검증하는 정밀한 과정입니다.
+
+------------------------
+
+아래 표는 NASA의 문서를 기반으로 정리한 EEE 부품 시험 테이블 일부입니다.
+시험 항목은 우주 임무 등급(Level 1~3)에 따라 적용 여부와 기준이 다릅니다.
+<p align="center"> 
+  <img src="/assets/Articles/EEE-inst-002.png" style="width: 80%; max-width: 500px;">
+</p>
+
+NASA의 우주 임무 등급은 다음과 같습니다.
+<details >
+
+<summary >
+<h4  style="display:inline-block">
+Level 1
+</h4>
+</summary>
+
+이 레벨은 최고 수준의 신뢰성과 최소한의 리스크가 요구되는 임무를 위해 부품이 선택되고 가공되어야 합니다.
+Level 1의 능동 소자는 반드시 **Radiation Hardness**가 검토되어야 하며, 관련 정보가 없을 경우 **Radiation Testing**이 요구됩니다.
+Level 1 등급의 임무는 일반적으로 5년 이상의 기간을 가집니다.
+<br/> <!-- 한줄 띄기 -->
+</details>
+
+<details >
+
+<summary >
+<h4  style="display:inline-block">
+Level 2
+</h4>
+</summary>
+
+이 레벨은 낮은 수준에서 중간 수준의 리스크를 갖는 임무를 대상으로 하며, 비용 제약과 임무 목표 사이의 균형을 고려하여 부품이 선택되고 가공됩니다.
+Level 2의 능동 소자 역시 복사 내성이 검토되어야 하며, 관련 정보가 없을 경우 복사 시험이 요구됩니다.
+Level 2 프로그램의 일반적인 임무 기간은 1년에서 5년 사이입니다.
+<br/> <!-- 한줄 띄기 -->
+</details>
+
+<details >
+
+<summary >
+<h4  style="display:inline-block">
+Level 3
+</h4>
+</summary>
+
+Level 3 부품은 공식적인 신뢰성 평가, 스크리닝, 적격성 평가가 부족하여 본질적으로 높은 리스크 또는 미확인된 리스크를 갖는 부품입니다.
+또한, 신뢰할 수 있는 데이터나 비행 이력이 거의 없으며, 설계·재료·제조 공정의 지속적인 변경으로 인해 한 LDC(Lot Design Code)의 데이터가 다른 LDC에 적용되지 않을 수 있습니다.
+Level 3 부품은 고위험 부품의 사용이 허용되는 임무를 대상으로 하며,
+해당 부품 역시 복사 내성 검토가 요구되며, 정보가 없을 경우 복사 시험이 필요합니다.
+Level 3 프로그램의 일반적인 임무 기간은 1년 미만에서 2년 사이입니다.
+<br/> <!-- 한줄 띄기 -->
+</details>
+
+-------------------------------
+
+ESA는 Class 1~3으로 등급을 나누며, AEC-Q 부품을 활용할 때 Up-screening 시험을 어떻게 보완해야 할지 가이드를 제공합니다.
+
+<p align="center"> 
+  <img src="/assets/Articles/ECSS.png" style="width: 80%; max-width: 500px;">
+</p>
+
+ESA 우주 임무 등급은 보증 수준과 위험 간의 상이한 균형(trade-off)을 제공합니다.
+가장 높은 보증 수준과 가장 낮은 위험은 Class 1에서 제공되며, 가장 낮은 보증 수준과 가장 높은 위험은 Class 3에 해당합니다.
+조달 비용은 일반적으로 Class 1이 가장 높고, Class 3이 가장 낮습니다.
+그러나 완화 대책(mitigation) 및 기타 공학적 조치를 통해 세 등급 간의 총 소유 비용(TCO) 차이를 줄일 수 있습니다.
+어떤 등급의 부품이 시스템 또는 서브시스템 내에서 적절한지를 결정하는 요소는 프로젝트의 목표, 정의, 제약 조건입니다.
+
+-------------------------------------
+<br/> <!-- 한줄 띄기 -->
+
+**관련 글**
+- [Space Product Assurance(우주 제품 보증)란?](/article/2025/03/22/8.-EEE.html)
+- [COTS(Commercial off-the-shelf)](/article/2025/03/25/5.COTS.html)
