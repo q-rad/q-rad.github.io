@@ -19,3 +19,11 @@ order: 0008
 <div style="font-size: 10px; color: gray; text-align: right;">
   _그림출처 : F. B. McLean and T. R. Oldham, HDL-TR-2129, via Sandia National Laboratories SAND2013-4379C_
 </div>
+
+
+-------------------------------------
+<br/> <!-- 한줄 띄기 -->
+
+**관련 글**
+- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/27/3.방사선-내성-평가.html)
+- [중이온 빔이란?](/article/2025/03/20/10.중이온.html)

@@ -37,4 +37,5 @@ order: 0004
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- []
+- [Up-Screening](/article/2025/03/19/upScreening.html)
+- [Space Product Assurance(우주 제품 보증)란?](/article/2025/03/22/8.-EEE.html)
