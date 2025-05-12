@@ -8,7 +8,7 @@ permalink: ko/article/:title.html
 
 <div style="overflow: hidden;">
   <!-- 이미지 -->
-  <img src="/assets/Articles/newSpace.png" style="float: right; margin: 0 0 20px 20px; width: 400px; max-width: 20%;">
+  <img src="/assets/Articles/newSpace.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;">
   
   <!-- 텍스트 -->
   <p>
@@ -26,12 +26,8 @@ permalink: ko/article/:title.html
   </p>
 </div>
 
-
-
-
-
-
 <br/> <!-- 한줄 띄기 -->
+<div align="center">
 
 |     | Old Space            | New Space                             |
 | ----- | -------------------- | ------------------------------------- |
@@ -42,6 +38,7 @@ permalink: ko/article/:title.html
 | 기술 전략 | 우주 인증 부품 위주          | COTS, 민간기술 전환 활용                      |
 | 발사 전략 | 1회용 발사체              | 재사용, 소형 다수 발사                         |
 
+</div>
 <br/> <!-- 한줄 띄기 -->
 
 -------------------------------------
@@ -49,6 +46,6 @@ permalink: ko/article/:title.html
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [Space Product Assurance(우주 제품 보증)란?](/article/8.-EEE.html)
-- [COTS(Commercial off-the-shelf)](/article/5.COTS.html)
-- [Up-Screening](/article/upScreening.html)
+- [Space Product Assurance(우주 제품 보증)란?](/ko/article/8.-EEE.html)
+- [COTS(Commercial off-the-shelf)](/ko/article/5.COTS.html)
+- [Up-Screening](/ko/article/upScreening.html)

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-09T13:39:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS QRT</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/article/2025/03/30/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/30/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/article/2025/03/30/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-12T16:03:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS QRT</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/ko/article/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/ko/article/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
 <p>SEE(Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.</p>
 
 <h2 id="see의-효과와-종류">SEE의 효과와 종류</h2>
@@ -191,10 +191,10 @@ SESB(Single Event Snap-Back) - 단일 이벤트 스냅백
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/28/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
-  <li><a href="/article/2025/03/27/4.레이저평가.html">레이저 평가</a></li>
-  <li><a href="/article/2025/03/25/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SEE (Single Event Effect) - 단일 이벤트 효과 SEE(Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.]]></summary></entry><entry><title type="html">SPA vs TPA</title><link href="http://localhost:4000/article/2025/03/29/2.SPA-%EC%99%80-TPA.html" rel="alternate" type="text/html" title="SPA vs TPA" /><published>2025-03-29T00:00:00+09:00</published><updated>2025-03-29T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/29/2.SPA%20%EC%99%80%20TPA</id><content type="html" xml:base="http://localhost:4000/article/2025/03/29/2.SPA-%EC%99%80-TPA.html"><![CDATA[<h1 id="spasingle-photon-absorption">SPA(Single Photon Absorption)</h1>
+  <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
+  <li><a href="/ko/article/4.레이저평가.html">레이저 평가</a></li>
+  <li><a href="/ko/article/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SEE (Single Event Effect) - 단일 이벤트 효과 SEE(Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.]]></summary></entry><entry><title type="html">SPA vs TPA</title><link href="http://localhost:4000/ko/article/2.SPA-%EC%99%80-TPA.html" rel="alternate" type="text/html" title="SPA vs TPA" /><published>2025-03-29T00:00:00+09:00</published><updated>2025-03-29T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/2.SPA%20%EC%99%80%20TPA</id><content type="html" xml:base="http://localhost:4000/ko/article/2.SPA-%EC%99%80-TPA.html"><![CDATA[<h1 id="spasingle-photon-absorption">SPA(Single Photon Absorption)</h1>
 <p>조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 선형 흡수입니다. 광자가 물질에 도달하고
 광자의 에너지가 물질의 밴드갭보다 크거나 같으면 물질에 있던 전자가 밸런스 밴드에서 전도 밴드로 ‘점프’하고 이로 인해해 전자-전공 쌍이 생성됩니다.</p>
 
@@ -211,7 +211,7 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Chapter-1/fig_1_heavy-ion_vs_pulsed_laser.png" />
+  <img src="/assets/Chapter-1/fig_1_heavy-ion_vs_pulsed_laser.png" style="max-width: 80%;" />
 </p>
 
 <!-- 이미지 설명 -->
@@ -221,47 +221,51 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <p><br /></p>
 
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th>Single Photon Absorption (SPA)</th>
-      <th>Two Photon Absorption (TPA)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>정의</strong></td>
-      <td>하나의 광자가 전자에게 흡수되어 여기되는 과정</td>
-      <td>두 개의 광자가 동시에 흡수되어 전자가 여기되는 비선형 과정</td>
-    </tr>
-    <tr>
-      <td><strong>광자 수</strong></td>
-      <td>1개</td>
-      <td>2개 (동시성 필요)</td>
-    </tr>
-    <tr>
-      <td><strong>요구 광세기</strong></td>
-      <td>낮음 (자연광, 일반 LED/레이저 가능)</td>
-      <td>매우 높음 (펨토초 레이저 등 고출력 필요)</td>
-    </tr>
-    <tr>
-      <td><strong>선형/비선형</strong></td>
-      <td>선형 광학 현상 (광 세기 ∝ 흡수율)</td>
-      <td>비선형 광학 현상 (광 세기² ∝ 흡수율)</td>
-    </tr>
-    <tr>
-      <td><strong>파장 조건</strong></td>
-      <td>정확히 전이 에너지에 해당하는 파장의 광자 1개</td>
-      <td>전이 에너지의 절반에 해당하는 파장의 광자 2개 필요</td>
-    </tr>
-    <tr>
-      <td><strong>파장</strong>*</td>
-      <td>1064nm</td>
-      <td>1260nm</td>
-    </tr>
-  </tbody>
-</table>
+<div align="center">
+
+  <table>
+    <thead>
+      <tr>
+        <th> </th>
+        <th>Single Photon Absorption (SPA)</th>
+        <th>Two Photon Absorption (TPA)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>정의</strong></td>
+        <td>하나의 광자가 전자에게 흡수되어 여기되는 과정</td>
+        <td>두 개의 광자가 동시에 흡수되어 전자가 여기되는 비선형 과정</td>
+      </tr>
+      <tr>
+        <td><strong>광자 수</strong></td>
+        <td>1개</td>
+        <td>2개 (동시성 필요)</td>
+      </tr>
+      <tr>
+        <td><strong>요구 광세기</strong></td>
+        <td>낮음 (자연광, 일반 LED/레이저 가능)</td>
+        <td>매우 높음 (펨토초 레이저 등 고출력 필요)</td>
+      </tr>
+      <tr>
+        <td><strong>선형/비선형</strong></td>
+        <td>선형 광학 현상 (광 세기 ∝ 흡수율)</td>
+        <td>비선형 광학 현상 (광 세기² ∝ 흡수율)</td>
+      </tr>
+      <tr>
+        <td><strong>파장 조건</strong></td>
+        <td>정확히 전이 에너지에 해당하는 파장의 광자 1개</td>
+        <td>전이 에너지의 절반에 해당하는 파장의 광자 2개 필요</td>
+      </tr>
+      <tr>
+        <td><strong>파장</strong>*</td>
+        <td>1064nm</td>
+        <td>1260nm</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
 
 <p>*: QRT Femto second Laser 기준</p>
 
@@ -270,18 +274,18 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/27/4.레이저평가.html">레이저 평가</a></li>
-  <li><a href="/article/2025/03/30/1.-SEE.html">SEE (Single Event Effect)란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SPA(Single Photon Absorption) 조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 선형 흡수입니다. 광자가 물질에 도달하고 광자의 에너지가 물질의 밴드갭보다 크거나 같으면 물질에 있던 전자가 밸런스 밴드에서 전도 밴드로 ‘점프’하고 이로 인해해 전자-전공 쌍이 생성됩니다.]]></summary></entry><entry><title type="html">방사선 내성 평가(Radiation Hardness Test)</title><link href="http://localhost:4000/article/2025/03/28/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html" rel="alternate" type="text/html" title="방사선 내성 평가(Radiation Hardness Test)" /><published>2025-03-28T00:00:00+09:00</published><updated>2025-03-28T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/28/3.%EB%B0%A9%EC%82%AC%EC%84%A0%20%EB%82%B4%EC%84%B1%20%ED%8F%89%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/article/2025/03/28/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html"><![CDATA[<h1 id="방사선-내성-평가radiation-hardness-test">방사선 내성 평가(Radiation Hardness Test)</h1>
+  <li><a href="/ko/article/4.레이저평가.html">레이저 평가</a></li>
+  <li><a href="/ko/article/1.-SEE.html">SEE (Single Event Effect)란?</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SPA(Single Photon Absorption) 조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 선형 흡수입니다. 광자가 물질에 도달하고 광자의 에너지가 물질의 밴드갭보다 크거나 같으면 물질에 있던 전자가 밸런스 밴드에서 전도 밴드로 ‘점프’하고 이로 인해해 전자-전공 쌍이 생성됩니다.]]></summary></entry><entry><title type="html">방사선 내성 평가(Radiation Hardness Test)</title><link href="http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html" rel="alternate" type="text/html" title="방사선 내성 평가(Radiation Hardness Test)" /><published>2025-03-28T00:00:00+09:00</published><updated>2025-03-28T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0%20%EB%82%B4%EC%84%B1%20%ED%8F%89%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html"><![CDATA[<h1 id="방사선-내성-평가radiation-hardness-test">방사선 내성 평가(Radiation Hardness Test)</h1>
 
 <div style="overflow: hidden;">
   <p><!-- 이미지 -->
-  <img src="/assets/Articles/space2.png" style="float: right; margin: 0 0 20px 20px; width: 300px; max-width: 100%;" /></p>
+  <img src="/assets/Articles/space2.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;" /></p>
 
   <p><!-- 텍스트 --></p>
   <p>
-    일반적으로 방사선 내성 평가는 빔 가속 시설에서 이뤄집니다.
-    고방사선 환경에서 운용되는 우주, 항공, 군사, 원자력 분야의 전자장비 신뢰성을 확보하기 위해 수행합니다.
+  일반적으로 방사선 내성 평가는 빔 가속 시설에서 이뤄집니다.
+  고방사선 환경에서 운용되는 우주, 항공, 군사, 원자력 분야의 전자장비 신뢰성을 확보하기 위해 수행합니다.
   </p>
 </div>
 
@@ -326,43 +330,38 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/30/1.-SEE.html">SEE (Single Event Effect)란?</a></li>
-  <li><a href="//article/2025/03/24/7.TID.html">TID(Total Ionizing Dose effect)란?</a></li>
-  <li><a href="/article/2025/03/25/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
-  <li><a href="/article/2025/03/27/4.레이저평가.html">레이저평가</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[방사선 내성 평가(Radiation Hardness Test)]]></summary></entry><entry><title type="html">레이저 평가</title><link href="http://localhost:4000/article/2025/03/27/4.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80.html" rel="alternate" type="text/html" title="레이저 평가" /><published>2025-03-27T00:00:00+09:00</published><updated>2025-03-27T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/27/4.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/article/2025/03/27/4.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80.html"><![CDATA[<h1 id="레이저-평가">레이저 평가</h1>
+  <li><a href="/ko/article/1.-SEE.html">SEE (Single Event Effect)란?</a></li>
+  <li><a href="/ko/article/7.TID.html">TID(Total Ionizing Dose effect)란?</a></li>
+  <li><a href="/ko/article/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
+  <li><a href="/ko/article/4.레이저평가.html">레이저평가</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[방사선 내성 평가(Radiation Hardness Test)]]></summary></entry><entry><title type="html">레이저 평가</title><link href="http://localhost:4000/ko/article/4.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80.html" rel="alternate" type="text/html" title="레이저 평가" /><published>2025-03-27T00:00:00+09:00</published><updated>2025-03-27T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/4.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/ko/article/4.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80.html"><![CDATA[<h1 id="레이저-평가">레이저 평가</h1>
 <div style="overflow: hidden;">
   <p><!-- 이미지 -->
-  <img src="/assets/Articles/laser.png" style="float: right; margin: 0 0 20px 20px; width: 300px; max-width: 100%;" /></p>
+  <img src="/assets/Articles/laser.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;" /></p>
 
   <p><!-- 텍스트 --></p>
   <p>
-    펨토 초 펄스레이저를 이용한 레이저 평가인 Pulsed Laser SEE Test (PLSEE)는 Pulsed Laser를 통해 우주 방사선이 반도체 소자에 미치는 영향을 모사하여 기존 방사선 시험을 대체하여 평가를 수행하는 방법입니다.
-레이저는 짧은 시간 동안 매우 높은 에너지를 국소적으로 부여할 수 있기 때문에, 실제 입자 충돌에 준하는 전자기적 반응을 유도할 수 있습니다. 일반적으로 SEE의 평가는 <a href="/article/2025/03/21/10.중이온.html">중이온 빔</a> 가속 시설에서 이뤄집니다. 하지만 이는 고가의 시설 대여료, 공간의 제약, 정밀한 취약점 분석 불가 등의 단점이 존재합니다. 레이저 테스트의 가장 큰 장점은 실험 비용과 시간의 절감입니다. 입자 가속기를 활용하는 기존의 방사선 테스트는 장비 이용이 제한적이고 비용이 매우 높아 테스트 기회를 확보하는 데 어려움이 따릅니다. 반면, 레이저 기반 장비는 상대적으로 저렴하고, 실험실 내 설치 및 운용이 가능하여 빠른 반복 실험이 가능합니다. 또한 레이저는 매우 높은 위치 정확도를 제공하여, 전자 소자 내부의 특정 영역을 정밀하게 타격하고, 취약 부위를 분석할 수 있습니다. 이를 통해 디자인 초기 단계부터 방사선 취약성을 식별하고 보완할 수 있는 장점이 있습니다.
-  </p>
-</div>
+  펨토 초 펄스레이저를 이용한 레이저 평가인 Pulsed Laser SEE Test (PLSEE)는 Pulsed Laser를 통해 우주 방사선이 반도체 소자에 미치는 영향을 모사하여 기존 방사선 시험을 대체하여 평가를 수행하는 방법입니다.
+  레이저는 짧은 시간 동안 매우 높은 에너지를 국소적으로 부여할 수 있기 때문에, 실제 입자 충돌에 준하는 전자기적 반응을 유도할 수 있습니다. 일반적으로 SEE의 평가는 <a href="/article/2025/03/21/10.중이온.html">중이온 빔</a> 가속 시설에서 이뤄집니다. 하지만 이는 고가의 시설 대여료, 공간의 제약, 정밀한 취약점 분석 불가 등의 단점이 존재합니다. 레이저 테스트의 가장 큰 장점은 실험 비용과 시간의 절감입니다. 입자 가속기를 활용하는 기존의 방사선 테스트는 장비 이용이 제한적이고 비용이 매우 높아 테스트 기회를 확보하는 데 어려움이 따릅니다. 반면, 레이저 기반 장비는 상대적으로 저렴하고, 실험실 내 설치 및 운용이 가능하여 빠른 반복 실험이 가능합니다. 또한 레이저는 매우 높은 위치 정확도를 제공하여, 전자 소자 내부의 특정 영역을 정밀하게 타격하고, 취약 부위를 분석할 수 있습니다. 이를 통해 디자인 초기 단계부터 방사선 취약성을 식별하고 보완할 수 있는 장점이 있습니다.
+&lt;/div&gt;
+————————————-
+<br /> <!-- 한줄 띄기 -->
 
-<hr />
-<p><br /> <!-- 한줄 띄기 --></p>
+<strong>관련 글</strong>
+- <a href="/ko/article/2.SPA-와-TPA.html">SPA vs TPA</a>
+- <a href="/ko/article/11.레이저-평가가-필요한-이유-(비용적-측면).html">레이저 평가가 필요한 이유 (비용적 측면)</a>
+- <a href="/ko/article/9.레이저평가-세계동향.html">레이저평가의 세계동향</a>
+- <a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a>
+</p>
+</div>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[레이저 평가]]></summary></entry><entry><title type="html">COTS(Commercial off-the-shelf)</title><link href="http://localhost:4000/ko/article/5.COTS.html" rel="alternate" type="text/html" title="COTS(Commercial off-the-shelf)" /><published>2025-03-26T00:00:00+09:00</published><updated>2025-03-26T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/5.COTS</id><content type="html" xml:base="http://localhost:4000/ko/article/5.COTS.html"><![CDATA[<h1 id="cots란">COTS란?</h1>
 
-<p><strong>관련 글</strong></p>
-<ul>
-  <li><a href="/article/2025/03/29/2.SPA-와-TPA.html">SPA vs TPA</a></li>
-  <li><a href="/article/2025/03/22/9.레이저평가-세계동향.html">레이저평가의 세계동향</a></li>
-  <li><a href="/article/2025/03/28/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[레이저 평가]]></summary></entry><entry><title type="html">COTS(Commercial off-the-shelf)</title><link href="http://localhost:4000/article/2025/03/26/5.COTS.html" rel="alternate" type="text/html" title="COTS(Commercial off-the-shelf)" /><published>2025-03-26T00:00:00+09:00</published><updated>2025-03-26T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/26/5.COTS</id><content type="html" xml:base="http://localhost:4000/article/2025/03/26/5.COTS.html"><![CDATA[<h1 id="cots란">COTS란?</h1>
+<div style="overflow: hidden;">
+  <p><!-- 이미지 -->
+  <img src="/assets/Articles/COTS2.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;" /></p>
 
-<p><br /> <!-- 한줄 띄기 --></p>
-
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr>
-    <div style="overflow: hidden;">
-  <!-- 이미지 -->
-  <img src="/assets/Articles/COTS2.png" style="float: left; margin: 0 20px 20px 0; width: 300px; max-width: 100%;" />
-
-  <!-- 텍스트 -->
+  <p><!-- 텍스트 --></p>
   <p>
-    우주 산업의 민간 참여가 활발해지며, 상용 기성품(COTS, Commercial Off-The-Shelf)의 활용이 우주 시스템 개발의 대안으로 주목받고 있습니다. COTS 부품은 기존의 고비용·장기개발 중심의 우주 전용 부품과 달리, 상업 시장에서 대량 생산되는 제품을 활용함으로써 비용 절감, 개발 시간 단축, 최신 기술의 빠른 수용 등 다양한 이점을 제공합니다. 이러한 특성은 특히 스타트업이나 소규모 연구기관에게 매력적인 선택지를 제공합니다.
+  우주 산업의 민간 참여가 활발해지며, 상용 기성품(COTS, Commercial Off-The-Shelf)의 활용이 우주 시스템 개발의 대안으로 주목받고 있습니다. COTS 부품은 기존의 고비용·장기개발 중심의 우주 전용 부품과 달리, 상업 시장에서 대량 생산되는 제품을 활용함으로써 비용 절감, 개발 시간 단축, 최신 기술의 빠른 수용 등 다양한 이점을 제공합니다. 이러한 특성은 특히 스타트업이나 소규모 연구기관에게 매력적인 선택지를 제공합니다.
   </p>
   <p>
     비용 측면에서 COTS는 대량 생산으로 인한 낮은 단가 덕분에 전체 시스템 비용을 절감할 수 있으며, 개발 기간 단축 측면에서는 이미 검증된 제품을 사용함으로써 설계·제작·시험에 소요되는 시간을 크게 줄일 수 있습니다. 또한 상업 시장에서 빠르게 발전하는 고성능 기술을 우주 시스템에 신속히 적용할 수 있다는 점도 큰 장점입니다. 하지만 이러한 이점들에도 불구하고 COTS 부품의 활용에는 신뢰성, 품질, 환경 내성 확보라는 중요한 과제가 뒤따릅니다. 
@@ -373,18 +372,16 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 <br /> <!-- 한줄 띄기 -->
     결론적으로, COTS 부품은 우주 개발의 속도와 경제성을 높이는 데 핵심적인 역할을 할 수 있지만, 그 활용은 체계적인 검증과 보완 전략 없이는 성공적인 우주 임무로 이어지기 어렵습니다. 따라서 기회와 위험을 균형 있게 고려한 신중한 접근이 필요합니다.
   </p>
-</div>
-  </tr>
-</table>
 
-<hr />
-<p><br /> <!-- 한줄 띄기 --></p>
+  <hr />
+  <p><br /> <!-- 한줄 띄기 --></p>
 
-<p><strong>관련 글</strong></p>
-<ul>
-  <li><a href="/article/2025/03/19/upScreening.html">Up-Screening</a></li>
-  <li><a href="/article/2025/03/23/8.-EEE.html">Space Product Assurance(우주 제품 보증)란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[COTS란?]]></summary></entry><entry><title type="html">LET(Liner Energy Transfer)란?</title><link href="http://localhost:4000/article/2025/03/25/6.LET.html" rel="alternate" type="text/html" title="LET(Liner Energy Transfer)란?" /><published>2025-03-25T00:00:00+09:00</published><updated>2025-03-25T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/25/6.LET</id><content type="html" xml:base="http://localhost:4000/article/2025/03/25/6.LET.html"><![CDATA[<h1 id="letliner-energy-transfer---선형-에너지-전이">LET(Liner Energy Transfer) - 선형 에너지 전이</h1>
+  <p><strong>관련 글</strong></p>
+  <ul>
+    <li><a href="/ko/article/12.upScreening.html">Up-Screening</a></li>
+    <li><a href="/ko/article/8.-EEE.html">Space Product Assurance(우주 제품 보증)란?</a></li>
+  </ul>
+</div>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[COTS란?]]></summary></entry><entry><title type="html">LET(Liner Energy Transfer)란?</title><link href="http://localhost:4000/ko/article/6.LET.html" rel="alternate" type="text/html" title="LET(Liner Energy Transfer)란?" /><published>2025-03-25T00:00:00+09:00</published><updated>2025-03-25T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/6.LET</id><content type="html" xml:base="http://localhost:4000/ko/article/6.LET.html"><![CDATA[<h1 id="letliner-energy-transfer---선형-에너지-전이">LET(Liner Energy Transfer) - 선형 에너지 전이</h1>
 
 <p>LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에너지 손실을 말합니다. LET의 단위는 MeV cm<sup>2</sup>/mg이고 경로의 단위 길이당 에너지 손실(MeV/cm)은 표적 물질의 밀도(mg/cm<sup>3</sup>)로 정규화되어 LET는 표적과 독립적으로 인용될 수 있습니다.</p>
 
@@ -405,12 +402,12 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/28/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
-  <li><a href="/article/2025/03/21/10.중이온.html">중이온 빔이란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[LET(Liner Energy Transfer) - 선형 에너지 전이]]></summary></entry><entry><title type="html">TID(Total Ionizing Dose effect)란?</title><link href="http://localhost:4000/article/2025/03/24/7.TID.html" rel="alternate" type="text/html" title="TID(Total Ionizing Dose effect)란?" /><published>2025-03-24T00:01:00+09:00</published><updated>2025-03-24T00:01:00+09:00</updated><id>http://localhost:4000/article/2025/03/24/7.TID</id><content type="html" xml:base="http://localhost:4000/article/2025/03/24/7.TID.html"><![CDATA[<h1 id="tidtotal-ionizing-dose-effect---총-이온화-선량-효과">TID(Total Ionizing Dose effect) - 총 이온화 선량 효과</h1>
+  <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
+  <li><a href="/ko/article/10.중이온.html">중이온 빔이란?</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[LET(Liner Energy Transfer) - 선형 에너지 전이]]></summary></entry><entry><title type="html">TID(Total Ionizing Dose effect)란?</title><link href="http://localhost:4000/ko/article/7.TID.html" rel="alternate" type="text/html" title="TID(Total Ionizing Dose effect)란?" /><published>2025-03-24T00:01:00+09:00</published><updated>2025-03-24T00:01:00+09:00</updated><id>http://localhost:4000/ko/article/7.TID</id><content type="html" xml:base="http://localhost:4000/ko/article/7.TID.html"><![CDATA[<h1 id="tidtotal-ionizing-dose-effect---총-이온화-선량-효과">TID(Total Ionizing Dose effect) - 총 이온화 선량 효과</h1>
 <div style="overflow: hidden;">
   <p><!-- 이미지 -->
-  <img src="/assets/Articles/TID2.png" style="float: right; margin: 0 0 20px 20px; width: 400px; max-width: 100%;" /></p>
+  <img src="/assets/Articles/TID2.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;" /></p>
 
   <p><!-- 텍스트 --></p>
   <p>
@@ -427,9 +424,9 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/28/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
-  <li><a href="/article/2025/03/21/10.중이온.html">중이온 빔이란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[TID(Total Ionizing Dose effect) - 총 이온화 선량 효과 감마선과 같은 방사선에 의해서 점진적으로 반도체의 특성에 변화를 가져오는 효과가 TID인데, CMOS소자의 경우는 절연층에 이온화 선량의 의해서 생성된 전하가 트래핑(Charge Trapping)되거나 결정 구조에 결함을 만들 수 있습니다. 게이트 산화물의 두께가 얇아짐에 따라 게이트 스택의 방사선 효과가 훨씬 더 낮아지지만 그럼에도 불구하고 전도성 채널을 둘러싸고 있는 두꺼운 절연 산화물에서 여전히 손상과 이온 트래핑이 발생할 수 있습니다. 일반적으로 중성자 가속 평가나 해면 고도에서 중성자에 의한 총 이온화 선량 효과는 무시할 수 있으나, 극저온 중성자와 열 중성자는 점진적으로 반도체 특성 변화를 유발하는 것으로 잘 알려져 있습니다. 또한, LET에 단일 에너지 빔의 입자 선량을 곱하면 이온화를 통해 질량 단위당 증착된 총 에너지 양을 얻을 수 있는데 이를 TID라고 합니다. 그림출처 : F. B. McLean and T. R. Oldham, HDL-TR-2129, via Sandia National Laboratories SAND2013-4379C]]></summary></entry><entry><title type="html">Space Product Assurance(우주 제품 보증)란?</title><link href="http://localhost:4000/article/2025/03/23/8.-EEE.html" rel="alternate" type="text/html" title="Space Product Assurance(우주 제품 보증)란?" /><published>2025-03-23T00:00:00+09:00</published><updated>2025-03-23T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/23/8.%20EEE</id><content type="html" xml:base="http://localhost:4000/article/2025/03/23/8.-EEE.html"><![CDATA[<h1 id="space-product-assurance---eeeelectrical-electronic-and-electromechanical-components">Space Product Assurance - EEE(Electrical, Electronic and Electromechanical) components</h1>
+  <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
+  <li><a href="/ko/article/10.중이온.html">중이온 빔이란?</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[TID(Total Ionizing Dose effect) - 총 이온화 선량 효과 감마선과 같은 방사선에 의해서 점진적으로 반도체의 특성에 변화를 가져오는 효과가 TID인데, CMOS소자의 경우는 절연층에 이온화 선량의 의해서 생성된 전하가 트래핑(Charge Trapping)되거나 결정 구조에 결함을 만들 수 있습니다. 게이트 산화물의 두께가 얇아짐에 따라 게이트 스택의 방사선 효과가 훨씬 더 낮아지지만 그럼에도 불구하고 전도성 채널을 둘러싸고 있는 두꺼운 절연 산화물에서 여전히 손상과 이온 트래핑이 발생할 수 있습니다. 일반적으로 중성자 가속 평가나 해면 고도에서 중성자에 의한 총 이온화 선량 효과는 무시할 수 있으나, 극저온 중성자와 열 중성자는 점진적으로 반도체 특성 변화를 유발하는 것으로 잘 알려져 있습니다. 또한, LET에 단일 에너지 빔의 입자 선량을 곱하면 이온화를 통해 질량 단위당 증착된 총 에너지 양을 얻을 수 있는데 이를 TID라고 합니다. 그림출처 : F. B. McLean and T. R. Oldham, HDL-TR-2129, via Sandia National Laboratories SAND2013-4379C]]></summary></entry><entry><title type="html">Space Product Assurance(우주 제품 보증)란?</title><link href="http://localhost:4000/ko/article/8.-EEE.html" rel="alternate" type="text/html" title="Space Product Assurance(우주 제품 보증)란?" /><published>2025-03-23T00:00:00+09:00</published><updated>2025-03-23T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/8.%20EEE</id><content type="html" xml:base="http://localhost:4000/ko/article/8.-EEE.html"><![CDATA[<h1 id="space-product-assurance---eeeelectrical-electronic-and-electromechanical-components">Space Product Assurance - EEE(Electrical, Electronic and Electromechanical) components</h1>
 
 <p>EEE Components는 Electrical(전기), Electronic(전자), Electromechanical(전자기계) 부품을 아우르는 포괄적인 용어로, 우주 산업에서 필수적으로 사용되는 모든 핵심 부품을 지칭합니다.</p>
 
@@ -465,9 +462,9 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/19/upScreening.html">Up-Screening</a></li>
-  <li><a href="/article/2025/03/26/5.COTS.html">COTS(Commercial off-the-shelf)</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[Space Product Assurance - EEE(Electrical, Electronic and Electromechanical) components]]></summary></entry><entry><title type="html">레이저평가의 글로벌 동향</title><link href="http://localhost:4000/article/2025/03/22/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html" rel="alternate" type="text/html" title="레이저평가의 글로벌 동향" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/22/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80%20%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5</id><content type="html" xml:base="http://localhost:4000/article/2025/03/22/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html"><![CDATA[<p align="center"> 
+  <li><a href="/ko/article/12.upScreening.html">Up-Screening</a></li>
+  <li><a href="/ko/article/5.COTS.html">COTS(Commercial off-the-shelf)</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[Space Product Assurance - EEE(Electrical, Electronic and Electromechanical) components]]></summary></entry><entry><title type="html">레이저평가의 글로벌 동향</title><link href="http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html" rel="alternate" type="text/html" title="레이저평가의 글로벌 동향" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80%20%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5</id><content type="html" xml:base="http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html"><![CDATA[<p align="center"> 
   <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 300px;" />
 </p>
 <p>이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다.
@@ -502,10 +499,10 @@ COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추�
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/27/4.레이저평가.html">레이저 평가</a></li>
-  <li><a href="/article/2025/03/28/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
-  <li><a href="/article/2025/03/23/8.-EEE.html">Space Product Assurance(우주 제품 보증)란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다. COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추세를 보였으며, 특히 2021년에서 2022년 사이에 눈에 띄는 상승폭을 기록했습니다. 레이저는 이미 세계적으로 COTS를 평가하기 위해 대체 선원으로 사용되고 있습니다. 이는 레이저 평가가 저렴한 비용으로 가능하기 때문일 것입니다. Actual rate of conducted test in NRNU(2015) Laser tests fraction during last three years]]></summary></entry><entry><title type="html">중이온 빔이란?</title><link href="http://localhost:4000/article/2025/03/21/10.%EC%A4%91%EC%9D%B4%EC%98%A8.html" rel="alternate" type="text/html" title="중이온 빔이란?" /><published>2025-03-21T00:00:00+09:00</published><updated>2025-03-21T00:00:00+09:00</updated><id>http://localhost:4000/article/2025/03/21/10.%EC%A4%91%EC%9D%B4%EC%98%A8</id><content type="html" xml:base="http://localhost:4000/article/2025/03/21/10.%EC%A4%91%EC%9D%B4%EC%98%A8.html"><![CDATA[<p><br /> <!-- 한줄 띄기 --></p>
+  <li><a href="/ko/article/4.레이저평가.html">레이저 평가</a></li>
+  <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
+  <li><a href="/ko/article/8.-EEE.html">Space Product Assurance(우주 제품 보증)란?</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다. COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추세를 보였으며, 특히 2021년에서 2022년 사이에 눈에 띄는 상승폭을 기록했습니다. 레이저는 이미 세계적으로 COTS를 평가하기 위해 대체 선원으로 사용되고 있습니다. 이는 레이저 평가가 저렴한 비용으로 가능하기 때문일 것입니다. Actual rate of conducted test in NRNU(2015) Laser tests fraction during last three years]]></summary></entry><entry><title type="html">중이온 빔이란?</title><link href="http://localhost:4000/ko/article/10.%EC%A4%91%EC%9D%B4%EC%98%A8.html" rel="alternate" type="text/html" title="중이온 빔이란?" /><published>2025-03-21T00:00:00+09:00</published><updated>2025-03-21T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/10.%EC%A4%91%EC%9D%B4%EC%98%A8</id><content type="html" xml:base="http://localhost:4000/ko/article/10.%EC%A4%91%EC%9D%B4%EC%98%A8.html"><![CDATA[<p><br /> <!-- 한줄 띄기 --></p>
 
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
@@ -525,7 +522,7 @@ COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추�
 
 <p><strong>관련 글</strong></p>
 <ul>
-  <li><a href="/article/2025/03/28/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
-  <li><a href="/article/2025/03/25/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
-  <li><a href="/article/2025/03/30/1.-SEE.html">SEE (Single Event Effect)란?</a></li>
+  <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
+  <li><a href="/ko/article/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
+  <li><a href="/ko/article/1.-SEE.html">SEE (Single Event Effect)란?</a></li>
 </ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[]]></summary></entry></feed>

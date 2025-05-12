@@ -56,5 +56,5 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [레이저 평가](/article/4.레이저평가.html)
-- [SEE (Single Event Effect)란?](/article/1.-SEE.html)
+- [레이저 평가](/ko/article/4.레이저평가.html)
+- [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)

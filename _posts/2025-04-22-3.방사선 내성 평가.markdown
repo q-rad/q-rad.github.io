@@ -53,7 +53,7 @@ permalink: ko/article/:title.html
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [SEE (Single Event Effect)란?](/article/1.-SEE.html)
-- [TID(Total Ionizing Dose effect)란?](/article/7.TID.html)
-- [LET(Liner Energy Transfer)란?](/article/6.LET.html)
-- [레이저평가](/article/4.레이저평가.html)
+- [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
+- [TID(Total Ionizing Dose effect)란?](/ko/article/7.TID.html)
+- [LET(Liner Energy Transfer)란?](/ko/article/6.LET.html)
+- [레이저평가](/ko/article/4.레이저평가.html)
