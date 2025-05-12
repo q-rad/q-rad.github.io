@@ -20,7 +20,7 @@ Up-screening은 본래 우주 등급(Space-grade)으로 분류되지 않은 부�
 아래 표는 NASA의 문서를 기반으로 정리한 EEE 부품 시험 테이블 일부입니다.
 시험 항목은 우주 임무 등급(Level 1~3)에 따라 적용 여부와 기준이 다릅니다.
 <p align="center"> 
-  <img src="/assets/Articles/EEE-inst-002.png" style="width: 100%; max-width: 700px;">
+  <img src="/assets/Articles/EEE-inst-002-2.png" style="width: 100%; max-width: 700px;">
 </p>
 
 NASA의 우주 임무 등급은 다음과 같습니다.
@@ -75,7 +75,7 @@ ESA는 Class 1~3으로 등급을 나누며, *AEC-Q 부품을 활용할 때 Up-sc
   *자동차 산업에서 사용되는 전자 부품의 신뢰성과 품질을 보증하기 위한 시험 및 평가 표준
 </div>
 <p align="center"> 
-  <img src="/assets/Articles/ECSS.png" style="width: 100%; max-width: 750px;">
+  <img src="/assets/Articles/ECSS2.png" style="width: 100%; max-width: 750px;">
 </p>
 
 ESA 우주 임무 등급은 보증 수준과 위험 간의 상이한 균형(trade-off)을 제공합니다.
