@@ -3,6 +3,7 @@ layout: post
 title: Up-Screening
 date: 2025-03-19 00:00:00 +0900
 category: article
+permalink: ko/article/:title.html
 ---
 우주, 항공, 방위 산업 등 고신뢰성이 요구되는 분야에서는 부품 하나하나의 품질과 신뢰성이 전체 시스템의 성능과 안정성에 중대한 영향을 미칩니다. 그러나 모든 부품을 우주 인증 부품(Space-Grade Parts)으로만 구성하는 것은 비용, 공급 이슈, 기술적 제약 등의 현실적인 한계로 인해 어려운 경우가 많습니다.
 이러한 이유로, 상용 부품(COTS, Commercial-Off-The-Shelf)의 사용이 불가피한 상황이 발생하게 됩니다.

@@ -3,6 +3,7 @@ layout: post
 title: COTS(Commercial off-the-shelf)
 date: 2025-03-26 00:00:00 +0900
 category: article
+permalink: ko/article/:title.html
 ---
 # COTS란?
 

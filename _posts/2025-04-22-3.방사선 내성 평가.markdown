@@ -3,6 +3,7 @@ layout: post
 title: 방사선 내성 평가(Radiation Hardness Test)
 date: 2025-03-28 00:00:00 +0900
 category: article
+permalink: ko/article/:title.html
 ---
 # 방사선 내성 평가(Radiation Hardness Test)
 
