@@ -49,6 +49,6 @@ permalink: ko/article/:title.html
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [Space Product Assurance(우주 제품 보증)란?](/article/2025/03/23/8.-EEE.html)
-- [COTS(Commercial off-the-shelf)](/article/2025/03/26/5.COTS.html)
-- [Up-Screening](/article/2025/03/19/upScreening.html)
+- [Space Product Assurance(우주 제품 보증)란?](/article/8.-EEE.html)
+- [COTS(Commercial off-the-shelf)](/article/5.COTS.html)
+- [Up-Screening](/article/upScreening.html)

@@ -27,7 +27,7 @@ COTS 부품을 우주 시스템에 적용하기 위해 수행되는 Up-screening
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [레이저 평가](/article/2025/03/27/4.레이저평가.html)
-- [중이온 빔이란?](/article/2025/03/21/10.중이온.html)
-- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/28/3.방사선-내성-평가.html)
-- [Up-Screening](/article/2025/03/19/upScreening.html)
+- [레이저 평가](/article/4.레이저평가.html)
+- [중이온 빔이란?](/article/10.중이온.html)
+- [방사선 내성 평가(Radiation Hardness Test)](/article/3.방사선-내성-평가.html)
+- [Up-Screening](/article/upScreening.html)

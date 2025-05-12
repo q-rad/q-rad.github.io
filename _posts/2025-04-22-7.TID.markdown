@@ -25,5 +25,5 @@ permalink: ko/article/:title.html
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/28/3.방사선-내성-평가.html)
-- [중이온 빔이란?](/article/2025/03/21/10.중이온.html)
+- [방사선 내성 평가(Radiation Hardness Test)](/article/3.방사선-내성-평가.html)
+- [중이온 빔이란?](/article/10.중이온.html)

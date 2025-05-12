@@ -220,6 +220,6 @@ SEL의 하위 유형이며 SEL과 마찬가지로 영향을 받는 장치에서 
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/28/3.방사선-내성-평가.html)
-- [레이저 평가](/article/2025/03/27/4.레이저평가.html)
-- [LET(Liner Energy Transfer)란?](/article/2025/03/25/6.LET.html)
+- [방사선 내성 평가(Radiation Hardness Test)](/article/3.방사선-내성-평가.html)
+- [레이저 평가](/article/4.레이저평가.html)
+- [LET(Liner Energy Transfer)란?](/article/6.LET.html)

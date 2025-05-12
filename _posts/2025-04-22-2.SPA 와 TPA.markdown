@@ -26,7 +26,7 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Chapter-1/fig_1_heavy-ion_vs_pulsed_laser.png">
+  <img src="/assets/Chapter-1/fig_1_heavy-ion_vs_pulsed_laser.png" style="max-width: 80%;">
 </p>
 
 <!-- 이미지 설명 -->
@@ -36,7 +36,9 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <br/>
 
-|                  | Single Photon Absorption (SPA)                      | Two Photon Absorption (TPA)                                      |
+<div align="center">
+
+|                | Single Photon Absorption (SPA)                      | Two Photon Absorption (TPA)                                      |
 |------------------|-----------------------------------------------------|-------------------------------------------------------------------|
 | **정의**         | 하나의 광자가 전자에게 흡수되어 여기되는 과정       | 두 개의 광자가 동시에 흡수되어 전자가 여기되는 비선형 과정         |
 | **광자 수**      | 1개                                                 | 2개 (동시성 필요)                                                 |
@@ -45,6 +47,8 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 | **파장 조건**    | 정확히 전이 에너지에 해당하는 파장의 광자 1개       | 전이 에너지의 절반에 해당하는 파장의 광자 2개 필요                 |
 | **파장***         | 1064nm                                            | 1260nm                                                           |
 
+</div>
+
 
 *: QRT Femto second Laser 기준
 
@@ -52,5 +56,5 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [레이저 평가](/article/2025/03/27/4.레이저평가.html)
-- [SEE (Single Event Effect)란?](/article/2025/03/30/1.-SEE.html)
+- [레이저 평가](/article/4.레이저평가.html)
+- [SEE (Single Event Effect)란?](/article/1.-SEE.html)

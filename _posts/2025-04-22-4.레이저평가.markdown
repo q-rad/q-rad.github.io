@@ -8,7 +8,7 @@ permalink: ko/article/:title.html
 # 레이저 평가
 <div style="overflow: hidden;">
   <!-- 이미지 -->
-  <img src="/assets/Articles/laser.png" style="float: right; margin: 0 0 20px 20px; width: 300px; max-width: 100%;">
+  <img src="/assets/Articles/laser.png" style="float: right; margin: 0 0 20px 20px; width: 300px; max-width: 40%;">
 
   <!-- 텍스트 -->
   <p>
@@ -21,6 +21,7 @@ permalink: ko/article/:title.html
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [SPA vs TPA](/article/2025/03/29/2.SPA-와-TPA.html)
-- [레이저평가의 세계동향](/article/2025/03/22/9.레이저평가-세계동향.html)
-- [방사선 내성 평가(Radiation Hardness Test)](/article/2025/03/28/3.방사선-내성-평가.html)
+- [SPA vs TPA](/article/2.SPA-와-TPA.html)
+- [레이저 평가가 필요한 이유 (비용적 측면)](/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)
+- [레이저평가의 세계동향](/article/9.레이저평가-세계동향.html)
+- [방사선 내성 평가(Radiation Hardness Test)](/article/3.방사선-내성-평가.html)
