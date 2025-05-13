@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-13T16:01:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/ko/article/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/ko/article/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-13T16:02:39+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/ko/article/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/ko/article/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
 <p>SEE (Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.</p>
 
 <h2 id="see의-효과와-종류">SEE의 효과와 종류</h2>
@@ -313,7 +313,27 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 </ul>
 
 <p><br /> <!-- 한줄 띄기 -->
-우리가 사용하는 반도체가 방사선에 견딜 수 있어야 하는 이유는, 그것이 쓰이는 환경이 결코 평범하지 않기 때문입니다. 가장 먼저 떠오르는 분야는 단연 우주산업입니다. 인공위성이나 우주탐사선, 통신위성 등은 지구 대기권을 벗어난 공간에서 운용되며, 이곳에는 지구가 자연적으로 차단해주는 보호막이 없습니다. 즉, 강력한 방사선에 거의 무방비로 노출되기 때문에, 단 한 번의 우주 입자 충돌로 시스템이 오작동하거나 저장된 데이터가 날아가는 사태가 발생할 수 있습니다. 특히 단일사건현상(SEU)처럼 눈에 띄지 않게 일어나는 작은 오류 하나가 전체 임무에 치명적인 영향을 미칠 수 있기에, 우주 장비에 들어가는 반도체는 수많은 테스트를 거쳐 엄격하게 선별된 것만이 사용됩니다.</p>
+«««&lt; HEAD
+우리가 사용하는 반도체가 방사선에 견딜 수 있어야 하는 이유는, 그것이 쓰이는 환경이 결코 평범하지 않기 때문입니다. 가장 먼저 떠오르는 분야는 단연 우주산업입니다. 인공위성이나 우주탐사선, 통신위성 등은 지구 대기권을 벗어난 공간에서 운용되며, 이곳에는 지구가 자연적으로 차단해주는 보호막이 없습니다. 즉, 강력한 방사선에 거의 무방비로 노출되기 때문에, 단 한 번의 우주 입자 충돌로 시스템이 오작동하거나 저장된 데이터가 날아가는 사태가 발생할 수 있습니다. 특히 단일사건현상(SEU)처럼 눈에 띄지 않게 일어나는 작은 오류 하나가 전체 임무에 치명적인 영향을 미칠 수 있기에, 우주 장비에 들어가는 반도체는 수많은 테스트를 거쳐 엄격하게 선별된 것만이 사용됩니다.
+=======
+방사선은 어디에나 존재합니다. 넓은 의미로 저희가 항상 쬐는 햇볕도 방사선 입니다만 이런 넓은 의미의 방사선이 아니더라도 공기 중에도 매시간 cm^2 당 20개 정도의 중성자가 지나갑니다. 일반적인 생활을 하면서도 매 시간 수천개의 중성자가 저희의 몸을 통과하고 있다는 겁니다.</p>
+
+<p>거군다나 우주에는 지구의 밴앨런대(Van Allen Belt) 같은 자연적으로 차단해주는 보호막이 없습니다. 인공위성이나 우주탐사선, 통신위성 등은 강력한 방사선에 거의 무방비로 노출되기 때문에, 단 한 번의 우주 입자 충돌로 시스템이 오작동하거나 저장된 데이터가 날아가는 사태가 발생할 수 있습니다. 특히 단일사건현상(SEU)처럼 눈에 띄지 않게 일어나는 작은 오류 하나가 전체 임무에 치명적인 영향을 미칠 수 있기에, 우주 장비에 들어가는 반도체는 수많은 테스트를 거쳐 엄격하게 선별된 것만을 사용합니다.</p>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+        <blockquote>
+          <blockquote>
+            <blockquote>
+              <p>544330322caa1a6ebb93b5ae51a64367cadf093e</p>
+            </blockquote>
+          </blockquote>
+        </blockquote>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+</blockquote>
 
 <p>비단 우주뿐만 아니라, 항공 및 군사용 장비에서도 방사선 내성은 중요한 요소입니다. 고고도에서 운항하는 항공기나 정찰 드론, 심지어는 지상에 있는 군사용 전자장비조차도, 핵폭발이나 EMP(전자기 펄스)와 같은 극단적인 상황을 상정하고 설계되어야 하기 때문입니다. 이러한 환경에서는 예상치 못한 전자파나 방사선이 회로에 영향을 줄 수 있으므로, 전자 부품들이 이와 같은 충격에도 안정적으로 작동해야만 합니다.</p>
 
