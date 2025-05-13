@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-12T16:03:51+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS QRT</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/ko/article/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/ko/article/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
-<p>SEE(Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-13T16:01:37+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/ko/article/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/ko/article/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
+<p>SEE (Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.</p>
 
 <h2 id="see의-효과와-종류">SEE의 효과와 종류</h2>
 <p>SEE는 반도체 내에서 여러 가지 현상으로 나타나며 가장 먼저 관찰된 것이 ‘Soft Error’로 불리는 단일 이벤트 업셋(SEU, Single Event Upset)입니다. SEU는 단일 입자에 의한 업셋으로 인한 래치, 플립플롭, 메모리 셀 또는 기타 쌍안정 기능(Bi-stable Function)을 가진 회로의 안정적으로 유지된 논리 상태를 바꾸게 하는 논리값에 영구적이지 않은 오류가 발생하는 것을 말합니다. 예로 메모리 소자의 셀에 단일 이벤트 업셋이 발생하면 저장된 논리 값 ‘0’(‘1’)은 ‘1’(‘0’)로 바뀌게 됩니다. 하지만 같은 위치에 새로운 값인 ‘0’이나 ‘1’을 다시 저장하면 이전과 마찬가지로 정상적인 기능을 유지하고 있습니다. 소프트 오류는 일시적 오류이며 고정 오류와 구분되는 연성 오류입니다.
@@ -21,7 +21,7 @@
 
   <summary>
     <h4 style="display:inline-block">
-SEU(Single Event Upset) - 단일 이벤트 업셋
+SEU (Single Event Upset) - 단일 이벤트 업셋
 </h4>
   </summary>
 
@@ -33,7 +33,7 @@ SEU(Single Event Upset) - 단일 이벤트 업셋
 
   <summary>
     <h4 style="display:inline-block">
-SCU(Single Cell Upset) - 단일 셀 업셋
+SCU (Single Cell Upset) - 단일 셀 업셋
 </h4>
   </summary>
 
@@ -54,7 +54,7 @@ SCU(Single Cell Upset) - 단일 셀 업셋
 <details>
   <summary>
     <h4 style="display:inline-block">
-MBU(Multi-Bit Upset) - 다중 비트 업셋
+MBU (Multi-Bit Upset) - 다중 비트 업셋
 </h4>
   </summary>
   <p>동일한 논리 단어(FPGA의 경우 프레임/열/섹터 등)에서 둘 이상의 업셋이 발생하는 다중 셀의 업셋을 유도하는 단일 이벤트입니다. 다중 비트 업셋은 단일 이벤트의 논리적 표현입니다. 다중 비트 업셋은 단일 측정 중에 두 개 이상의 비트가 업셋이 되도록 하는 단일 이벤트로 정의됩니다. 다중 비트 업셋처럼 단일 워드에 여러 비트 오류가 발생할 수 있을 뿐만 아니라 여러 인접 워드에 단일 비트 오류가 발생할 수도 있습니다.
@@ -64,7 +64,7 @@ MBU(Multi-Bit Upset) - 다중 비트 업셋
 <details>
   <summary>
     <h4 style="display:inline-block">
-MCU(Multi Cell Upset) - 다중 셀 업셋
+MCU (Multi Cell Upset) - 다중 셀 업셋
 </h4>
   </summary>
   <p>집적 회로의 여러 셀(예: 메모리 셀 또는 플립플롭)이 동시에 상태를 뒤집도록 유도하는 단일 이벤트입니다. 유도된 오류는 일반적으로 항상 그런 것은 아니지만 물리적으로 인접해 있습니다. 물리적으로 인접해 있다 하더라도 셀이 배치되고 라우팅(입출력 신호 인터리브)되는 방법에 따라 다르게 나타날 수 있기 때문에 논리적 인접성을 의미하는 것은 아닙니다. 다중 셀 업셋은 논리적으로 다중 비트 업셋, 다중 단일 비트 업셋 또는 이 둘의 조합으로 나타날 수도 있습니다.</p>
@@ -85,7 +85,7 @@ MCU(Multi Cell Upset) - 다중 셀 업셋
 <details>
   <summary>
     <h4 style="display:inline-block">
-SED(Single Event Disturb) - 단일 이벤트 교란
+SED (Single Event Disturb) - 단일 이벤트 교란
 </h4>
   </summary>
   <p>SRAM 셀의 일시적인 불안정 상태로 인한 것으로 설명할 수 있습니다. 이 불안정한 SRAM 상태는 결국 안정적인 상태에 되돌아 가게 되고 특성은 SEU에 해당합니다. 셀의 불안정한 상태는 읽기 명령을 수행할 수 있을 만큼 충분히 긴 시간일 수 있어서 소프트 오류가 발생할 수 있기 때문에 SED는 별도로 식별이 가능합니다. SED는 원래 반도체 접합부를 통과하거나 근처를 통과하는 이온에 의해 생성된 전하의 전기장 분리에 의해 형성된 집적 회로의 노드에서의 순간적인 전압 변동(전압 스파이크)입니다. SED는 SET와 유사하지만 미세 논리회로 소자에서 이러한 이벤트의 결과를 이를 때 사용합니다. 조합 논리 회로나 논리 소자의 저장 매체인 래치나 플립플롭에 저장된 정보가 SET에 의해서 일시적으로 손상된 것을 의미한고 이 값은 교란된 상태이나 오류가 아닌 것을 의미합니다.
@@ -97,7 +97,7 @@ SED(Single Event Disturb) - 단일 이벤트 교란
 
   <summary>
     <h4 style="display:inline-block">
-SEFI(Single Event Functional Interrupt) - 단일 이벤트 기능 차단
+SEFI (Single Event Functional Interrupt) - 단일 이벤트 기능 차단
 </h4>
   </summary>
   <p>구성 요소를 재설정, 잠금 또는 감지 가능한 방식으로 오작동하게 하는 단일 이벤트 효과(SEE)이지만 영구적인 손상(예: 하드 오류)을 초래하지 않습니다. SEFI는 종종 제어 비트 또는 레지스터의 SBU/MBU와 연관되는 반면 SEL은 기생 사이리스터의 켜짐으로 인해 발생합니다. 많은 SEFI 이벤트는 구성 요소 재설정 작업으로 지울 수 있습니다 (기능 재설정으로 정상 복귀가 가능한 소프트 오류). 일부 구성 레지스터를 재설정하려면 장치의 완전한 전원 재인가가 필요한 경우 SEFI와 SEL을 구별하기 어려울 수 있습니다. SEFI 이벤트가 반드시 고전류 SEL과 같이 작동 전류의 확장된 증가를 초래하는 것은 아닙니다. 제어 레지스터 또는 클럭의 교란으로 인한 복잡한 집적 회로의 기능 손실(또는 정상 작동 중단)을 단일 이벤트 기능 인터럽트(SEFI)라고 합니다. SEFI는 오류 버스트 또는 장기간 기능 손실(예: 잠금)을 생성할 수 있습니다. 일반적으로 SEFI에는 단일 이벤트 래치업(SEL) 또는 단일 이벤트 스냅백(SESB)과 관련된 고전류 상태가 수반되지 않습니다. 기능은 전원을 재인가 하거나 구성 레지스터를 재설정하여 복구할 수 있습니다.</p>
@@ -109,20 +109,20 @@ SEFI(Single Event Functional Interrupt) - 단일 이벤트 기능 차단
 <details>
   <summary>
     <h4 style="display:inline-block">
-SET(Single Event Transient) - 단일 이벤트 과도 현상
+SET (Single Event Transient) - 단일 이벤트 과도 현상
 </h4>
   </summary>
   <p>단일 이벤트 과도 현상은 조합 논리 회로의 출력 게이트에서 단일 이벤트 업셋에 의해 생성된 잘못된 논리 상태를 초래할 수 있는 짧은(과도) 임펄스입니다. 활성 클럭 에지 동안 잘못된 논리 상태가 나타나면 이 값이 소멸되지 않고 전파가 가능하게 됩니다. 이는 임펄스가 결국 저장 셀(예: 래치 또는 플립플롭[FF])에 래치될 수 있기 때문입니다.
 SET는 잘 알려진 세 가지 유형의 마스킹에 의해 오류로 전파가 되는 것을 제한할 수 있고 소프트 오류 완화의 많은 도움이 될 수 있습니다. 그 구체적인 유형은 논리적 마스킹(Logical Masking, SET가 논리 기능에서 막혀 전파가 못된 경우), 시간적 마스킹(Timing Masking, SET가 래치에 저장되지 못한 경우) 및 전기적 마스킹(Electrical Masking, SET가 전파 도중 다수의 후속 논리 게이트에 의해 소멸되는 경우)등이 있습니다.
 논리회로의 SET는 소자의 논리 기능과 소자의 나노급 노드에 따라 많은 차이가 있지만 일반적인 제어 및 연산 기능을 갖는 주문형 집적 회로 (ASIC, Application Specific Integrated Circuit)의 경우 발생하는 SET의 90% 이상이 마스킹 되며 이중 남은 10%가 생존하여 오류를 유발할 수 있는 업셋을 일으키는 것으로 알려져 있습니다. 중요한 것은 ASIC이 커지면 논리회로의 SET가 기하 급수적으로 증가한다는 것입니다.
-아날로그 SET(ASET, Analog Single Event Transient)는 잘못된 출력을 유발하는 아날로그 회로의 일시적 결함 신호(Spurious Signal)로서 정상적인 아날로그 신호의 변형 혹은 디지털 단의 입력으로 제공될 경우 디지털 단에 소프트 오류의 일으키는 주요한 원인이 될 수 있습니다.
+아날로그 SET (ASET, Analog Single Event Transient)는 잘못된 출력을 유발하는 아날로그 회로의 일시적 결함 신호(Spurious Signal)로서 정상적인 아날로그 신호의 변형 혹은 디지털 단의 입력으로 제공될 경우 디지털 단에 소프트 오류의 일으키는 주요한 원인이 될 수 있습니다.
 <br /> <!-- 한줄 띄기 --></p>
 </details>
 
 <details>
   <summary>
     <h4 style="display:inline-block">
-SEL(Single Event Latch-up) - 단일 이벤트 래치업
+SEL (Single Event Latch-up) - 단일 이벤트 래치업
 </h4>
   </summary>
   <p>기생 사이리스터가 켜지고 장치의 전원을 재설정 할 때까지 고정 상태를 유지하도록 유도하는 단일 에너지 입자의 통과로 인해 발생하는 회로의 비정상적인 전류 상태입니다. 일부 SEL 이벤트는 측정 가능한 전류 증가를 초래합니다(예: IO 회로의 래치업). 일부 SEL 이벤트는 전체 구성 요소의 대기 전류(예: 공통 웰 내 메모리 셀 래치업)와 비교하여 전류(micro-SEL)의 증가를 감지하기 어렵게 만들 수 있습니다.
@@ -138,7 +138,7 @@ SEL(Single Event Latch-up) - 단일 이벤트 래치업
 <details>
   <summary>
     <h4 style="display:inline-block">
-SEHE(Single-event Hard Error) - 단일 이벤트 하드 오류
+SEHE (Single-event Hard Error) - 단일 이벤트 하드 오류
 </h4>
   </summary>
   <p>단일 이벤트 방사선 타격으로 인해 발생하는 하드 오류입니다. 단일 이벤트 하드 오류(SEHE)는 중성자 유발 업셋(예: SEU, MBU)이 복구할 수 없다는 사실을 강조하는 데 사용됩니다. 예를 들어, 입자 충돌로 인해 비트 값이 바뀜에 따라 소자의 기판이 손상되는 경우 SEU 대신 SEHE로 구분합니다.</p>
@@ -150,7 +150,7 @@ SEHE(Single-event Hard Error) - 단일 이벤트 하드 오류
 <details>
   <summary>
     <h4 style="display:inline-block">
-SEGR(Single-event Gate Rupture) - 단일 이벤트 게이트 파열
+SEGR (Single-event Gate Rupture) - 단일 이벤트 게이트 파열
 </h4>
   </summary>
   <p>단일 에너지 입자 충돌이 MOSFET의 게이트 산화물을 통한 고장 및 후속 전도 경로를 초래하는 이벤트입니다. SEGR은 게이트 누설 전류의 증가로 나타나며 장치의 성능 저하 또는 완전한 고장을 초래할 수 있습니다. SEGR은 전력 부품의 게이트 산화물과 드레인 사이에 이온화 컬럼을 손상시키는 입자 충격으로 인해 발생합니다. 이는 일반적으로 비노출 장치의 정상 누설 전류를 초과하는 게이트 및 드레인의 누설 전류를 초래합니다. SEGR은 파괴적인 결과를 초래할 수 있습니다.
@@ -160,17 +160,17 @@ SEGR(Single-event Gate Rupture) - 단일 이벤트 게이트 파열
 <details>
   <summary>
     <h4 style="display:inline-block">
-SEDR(ingle Event Dielectric Rupture) - 단일 이벤트 유전체 파열
+SEDR (ingle Event Dielectric Rupture) - 단일 이벤트 유전체 파열
 </h4>
   </summary>
-  <p>단일 에너지 입자 충돌로 인해 유전 물질에 전도 경로가 생성되는 이벤트입니다. SEDR(Single Event Dielectric rupture)은 테스트에서 관찰되었지만 우주 비행 데이터에서는 관찰되지 않았습니다. 따라서 현재 대부분 학문적 호기심으로 간주됩니다. SEDR은 코어 전원 공급 장치의 전류가 미량으로 증가한 상태가 지속적으로 유지되는 것으로 식별합니다.
+  <p>단일 에너지 입자 충돌로 인해 유전 물질에 전도 경로가 생성되는 이벤트입니다. SEDR (Single Event Dielectric rupture)은 테스트에서 관찰되었지만 우주 비행 데이터에서는 관찰되지 않았습니다. 따라서 현재 대부분 학문적 호기심으로 간주됩니다. SEDR은 코어 전원 공급 장치의 전류가 미량으로 증가한 상태가 지속적으로 유지되는 것으로 식별합니다.
 <br /> <!-- 한줄 띄기 --></p>
 </details>
 
 <details>
   <summary>
     <h4 style="display:inline-block">
-SEBO or SEB(Single Event Burn-out) - 단일 이벤트 소진 (혹은 열 파괴)
+SEBO or SEB (Single Event Burn-out) - 단일 이벤트 소진 (혹은 열 파괴)
 </h4>
   </summary>
   <p>단일 에너지 입자 충돌이 장치에 국부적인 고전류 상태를 유도하여 치명적인 고장을 초래하는 이벤트입니다. SEBO는 전력 트랜지스터의 고전류 상태로 인해 장치가 파손될 수 있는 상태이며 결과적으로 영구적인 고장이 발생합니다. SEBO 감수성은 온도가 증가함에 따라 감소하는 것으로 나타납니다. SEBO에는 전력 금속 산화물 반도체 전계 효과 트랜지스터(MOSFET)의 소진, 게이트 파열, 고정 비트 및 전하 결합 장치의 잡음이 포함됩니다.
@@ -180,7 +180,7 @@ SEBO or SEB(Single Event Burn-out) - 단일 이벤트 소진 (혹은 열 파괴)
 <details>
   <summary>
     <h4 style="display:inline-block">
-SESB(Single Event Snap-Back) - 단일 이벤트 스냅백
+SESB (Single Event Snap-Back) - 단일 이벤트 스냅백
 </h4>
   </summary>
   <p>SEL의 하위 유형이며 SEL과 마찬가지로 영향을 받는 장치에서 높은 전류 소비 조건을 나타냅니다. 에너지가 공급된 입자가 배수구 근처에 닿으면 전하 운반체의 눈사태 증식이 생성됩니다. 트랜지스터는 열려 있고 전원을 재설정할 때까지 (장치가 다시 스냅될때까지) 열려 있습니다(래치업 조건 참조).</p>
@@ -194,11 +194,11 @@ SESB(Single Event Snap-Back) - 단일 이벤트 스냅백
   <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
   <li><a href="/ko/article/4.레이저평가.html">레이저 평가</a></li>
   <li><a href="/ko/article/6.LET.html">LET(Liner Energy Transfer)란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SEE (Single Event Effect) - 단일 이벤트 효과 SEE(Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.]]></summary></entry><entry><title type="html">SPA vs TPA</title><link href="http://localhost:4000/ko/article/2.SPA-%EC%99%80-TPA.html" rel="alternate" type="text/html" title="SPA vs TPA" /><published>2025-03-29T00:00:00+09:00</published><updated>2025-03-29T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/2.SPA%20%EC%99%80%20TPA</id><content type="html" xml:base="http://localhost:4000/ko/article/2.SPA-%EC%99%80-TPA.html"><![CDATA[<h1 id="spasingle-photon-absorption">SPA(Single Photon Absorption)</h1>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SEE (Single Event Effect) - 단일 이벤트 효과 SEE (Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.]]></summary></entry><entry><title type="html">SPA vs TPA</title><link href="http://localhost:4000/ko/article/2.SPA-%EC%99%80-TPA.html" rel="alternate" type="text/html" title="SPA vs TPA" /><published>2025-03-29T00:00:00+09:00</published><updated>2025-03-29T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/2.SPA%20%EC%99%80%20TPA</id><content type="html" xml:base="http://localhost:4000/ko/article/2.SPA-%EC%99%80-TPA.html"><![CDATA[<h1 id="spa-single-photon-absorption">SPA (Single Photon Absorption)</h1>
 <p>조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 선형 흡수입니다. 광자가 물질에 도달하고
 광자의 에너지가 물질의 밴드갭보다 크거나 같으면 물질에 있던 전자가 밸런스 밴드에서 전도 밴드로 ‘점프’하고 이로 인해해 전자-전공 쌍이 생성됩니다.</p>
 
-<h1 id="tpatwo-photon-absorption">TPA(Two Photon Absorption)</h1>
+<h1 id="tpa-two-photon-absorption">TPA (Two Photon Absorption)</h1>
 <p>짧은 펄스(~200 fs)로 레이저를 조사하게 되면 반도체에서 하나의 전자에 밴드갭 에너지 보다 낮은 에너지의 광자 두개를 확률적으로 흡수되어 전자-전공 쌍을 만드는 비선형 흡수입니다.
 TPA 레이저는 전자-전공 쌍 생성으로 반도체 내에서 발생하는 비 하전 입자와 하전 입자가 만드는 대부분의 단일 이벤트 업셋를 재현하고 평가가 가능합니다. 특히 중이온이나 낮은 에너지의 중성자 평가 단면도와 아주 유사한 결과를 제공하며 업셋으로 인한 고장 메커니즘, 임계 에너지 그리고 감응 부피 (Sensitive Volume)의 위치를 알아낼 수 있습니다.
 TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 반응을 아주 잘 재현할 수 있으며 대부분의 업셋 현상을 정성적인 분석의 입장에서 재현이 가능합니다. 반면 중성자 반응을 모사하기는 어려우나 중성자에 의해 발생하는 대부분의 이벤트를 재현하고 정량화 할 수 있습니다. 이는 반응 위치, 깊이 그리고 에너지 등을 독립적으로 제어할 수 있어 단일 이벤트 업셋의 진단과 업셋에 의해서 소진이 일어난 원인과 고장 메커니즘 분석에 적합합니다.</p>
@@ -276,7 +276,7 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 <ul>
   <li><a href="/ko/article/4.레이저평가.html">레이저 평가</a></li>
   <li><a href="/ko/article/1.-SEE.html">SEE (Single Event Effect)란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SPA(Single Photon Absorption) 조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 선형 흡수입니다. 광자가 물질에 도달하고 광자의 에너지가 물질의 밴드갭보다 크거나 같으면 물질에 있던 전자가 밸런스 밴드에서 전도 밴드로 ‘점프’하고 이로 인해해 전자-전공 쌍이 생성됩니다.]]></summary></entry><entry><title type="html">방사선 내성 평가(Radiation Hardness Test)</title><link href="http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html" rel="alternate" type="text/html" title="방사선 내성 평가(Radiation Hardness Test)" /><published>2025-03-28T00:00:00+09:00</published><updated>2025-03-28T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0%20%EB%82%B4%EC%84%B1%20%ED%8F%89%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html"><![CDATA[<h1 id="방사선-내성-평가radiation-hardness-test">방사선 내성 평가(Radiation Hardness Test)</h1>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[SPA (Single Photon Absorption) 조사된 레이저에 의해 반도체에서 하나의 광자를 흡수하여 전자-전공 쌍을 만드는 선형 흡수입니다. 광자가 물질에 도달하고 광자의 에너지가 물질의 밴드갭보다 크거나 같으면 물질에 있던 전자가 밸런스 밴드에서 전도 밴드로 ‘점프’하고 이로 인해해 전자-전공 쌍이 생성됩니다.]]></summary></entry><entry><title type="html">방사선 내성 평가(Radiation Hardness Test)</title><link href="http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html" rel="alternate" type="text/html" title="방사선 내성 평가(Radiation Hardness Test)" /><published>2025-03-28T00:00:00+09:00</published><updated>2025-03-28T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0%20%EB%82%B4%EC%84%B1%20%ED%8F%89%EA%B0%80</id><content type="html" xml:base="http://localhost:4000/ko/article/3.%EB%B0%A9%EC%82%AC%EC%84%A0-%EB%82%B4%EC%84%B1-%ED%8F%89%EA%B0%80.html"><![CDATA[<h1 id="방사선-내성-평가radiation-hardness-test">방사선 내성 평가(Radiation Hardness Test)</h1>
 
 <div style="overflow: hidden;">
   <p><!-- 이미지 -->
@@ -295,15 +295,15 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <ul>
   <li>
-    <p><a href="/article/2025/03/30/1.-SEE.html">SEU</a> (Single Event Upset)
+    <p><a href="/ko/article/1.-SEE.html">SEU</a> (Single Event Upset)
 단일 입자 충돌로 인해 메모리 셀이나 레지스터의 비트값이 일시적으로 반전되는 현상입니다. 예를 들어, 0이 1로, 혹은 1이 0으로 바뀌는 오류가 발생할 수 있으며, 이는 시스템의 오작동이나 데이터 오류로 이어질 수 있습니다.</p>
   </li>
   <li>
-    <p><a href="/article/2025/03/30/1.-SEE.html">SEL</a> (Single Event Latch-up)
+    <p><a href="/ko/article/1.-SEE.html">SEL</a> (Single Event Latch-up)
 입자의 충돌로 인해 회로 내에 과도한 전류가 흐르면서, 회로 전체가 손상되거나 시스템이 완전히 멈추는 현상입니다. 이는 복구가 불가능한 치명적인 오류로 이어질 수 있기 때문에 특히 주의가 필요합니다.</p>
   </li>
   <li>
-    <p><a href="/article/2025/03/24/7.TID.html">TID</a> (Total Ionizing Dose)
+    <p><a href="/ko/article/7.TID.html">TID</a> (Total Ionizing Dose)
 장시간 동안 방사선에 노출되면, 누적된 방사선 에너지로 인해 회로의 전기적 특성과 성능이 점차 저하됩니다. 이는 소자의 수명을 단축시키고 장기적인 신뢰성에 부정적인 영향을 줍니다.</p>
   </li>
   <li>
@@ -342,18 +342,49 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
   <p><!-- 텍스트 --></p>
   <p>
   펨토 초 펄스레이저를 이용한 레이저 평가인 Pulsed Laser SEE Test (PLSEE)는 Pulsed Laser를 통해 우주 방사선이 반도체 소자에 미치는 영향을 모사하여 기존 방사선 시험을 대체하여 평가를 수행하는 방법입니다.
-  레이저는 짧은 시간 동안 매우 높은 에너지를 국소적으로 부여할 수 있기 때문에, 실제 입자 충돌에 준하는 전자기적 반응을 유도할 수 있습니다. 일반적으로 SEE의 평가는 <a href="/article/2025/03/21/10.중이온.html">중이온 빔</a> 가속 시설에서 이뤄집니다. 하지만 이는 고가의 시설 대여료, 공간의 제약, 정밀한 취약점 분석 불가 등의 단점이 존재합니다. 레이저 테스트의 가장 큰 장점은 실험 비용과 시간의 절감입니다. 입자 가속기를 활용하는 기존의 방사선 테스트는 장비 이용이 제한적이고 비용이 매우 높아 테스트 기회를 확보하는 데 어려움이 따릅니다. 반면, 레이저 기반 장비는 상대적으로 저렴하고, 실험실 내 설치 및 운용이 가능하여 빠른 반복 실험이 가능합니다. 또한 레이저는 매우 높은 위치 정확도를 제공하여, 전자 소자 내부의 특정 영역을 정밀하게 타격하고, 취약 부위를 분석할 수 있습니다. 이를 통해 디자인 초기 단계부터 방사선 취약성을 식별하고 보완할 수 있는 장점이 있습니다.
-&lt;/div&gt;
-————————————-
-<br /> <!-- 한줄 띄기 -->
+  레이저는 짧은 시간 동안 매우 높은 에너지를 국소적으로 부여할 수 있기 때문에, 실제 입자 충돌에 준하는 전자기적 반응을 유도할 수 있습니다. 일반적으로 SEE의 평가는 <a href="/ko/article/10.중이온.html">중이온 빔</a> 가속 시설에서 이뤄집니다. 하지만 이는 고가의 시설 대여료, 공간의 제약, 정밀한 취약점 분석 불가 등의 단점이 존재합니다. 레이저 테스트의 가장 큰 장점은 실험 비용과 시간의 절감입니다. 입자 가속기를 활용하는 기존의 방사선 테스트는 장비 이용이 제한적이고 비용이 매우 높아 테스트 기회를 확보하는 데 어려움이 따릅니다. 반면, 레이저 기반 장비는 상대적으로 저렴하고, 실험실 내 설치 및 운용이 가능하여 빠른 반복 실험이 가능합니다. 또한 레이저는 매우 높은 위치 정확도를 제공하여, 전자 소자 내부의 특정 영역을 정밀하게 타격하고, 취약 부위를 분석할 수 있습니다. 이를 통해 디자인 초기 단계부터 방사선 취약성을 식별하고 보완할 수 있는 장점이 있습니다.
+  </p>
+</div>
 
-<strong>관련 글</strong>
-- <a href="/ko/article/2.SPA-와-TPA.html">SPA vs TPA</a>
-- <a href="/ko/article/11.레이저-평가가-필요한-이유-(비용적-측면).html">레이저 평가가 필요한 이유 (비용적 측면)</a>
-- <a href="/ko/article/9.레이저평가-세계동향.html">레이저평가의 세계동향</a>
-- <a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a>
-</p>
-</div>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[레이저 평가]]></summary></entry><entry><title type="html">COTS(Commercial off-the-shelf)</title><link href="http://localhost:4000/ko/article/5.COTS.html" rel="alternate" type="text/html" title="COTS(Commercial off-the-shelf)" /><published>2025-03-26T00:00:00+09:00</published><updated>2025-03-26T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/5.COTS</id><content type="html" xml:base="http://localhost:4000/ko/article/5.COTS.html"><![CDATA[<h1 id="cots란">COTS란?</h1>
+<hr />
+
+<h1 id="qrt-레이저-평가-서비스">QRT 레이저 평가 서비스</h1>
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="/assets/Articles/QRT-laser.png" style="max-width: 500px;" />
+      <div style="margin-top: 10px;">QRT-Laser Evaluation System
+      </div>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="/assets/Chapter-3/S-Map.png" style="max-width: 400px;" />
+      <div style="margin-top: 10px;">반도체 민감 영역 분석</div>
+    </td>
+  </tr>
+</table>
+
+<h1 id="qrt의-레이저-평가-기술">QRT의 레이저 평가 기술</h1>
+<p>QRT는 다년간의 레이저 내방사선 평가 수행 경험을 보유하고 있는 국내 유일 회사입니다.
+펨토초(Femtosecond) 레이저 시스템을 활용해, 단일 광자 흡수(SPA, Single Photon Absorption)는 물론 이중 광자 흡수(TPA, Two Photon Absorption) 방식까지 모두 구현 가능한 다목적 레이저 평가 기술을 보유하고 있습니다.
+QRT에서는 레이저를 이용한 반도체의 내방사선 대체평가와 내방사선 반도체의 설계 검증을 진행하실 수 있습니다.</p>
+
+<h1 id="회로-민감-영역-분석">회로 민감 영역 분석</h1>
+<p>QRT의 평가 장비는 나노미터 단위로 제어 가능한 고정밀 XYZ 스테이지를 통해, 칩의 특정 좌표에 레이저를 정밀하게 조사할 수 있습니다.
+이를 통해, SEE (Single Event Effect) 발생 위치 및 패턴을 정밀하게 분석하고, 회로 내 <strong>민감 영역 (Sensitive Area)</strong>을 효과적으로 식별할 수 있습니다.</p>
+
+<p><a href="https://www.qrtkr.com/kr/customer/inquiry.php">※ QRT에 레이저 평가 문의하기</a></p>
+
+<hr />
+<p><br /> <!-- 한줄 띄기 --></p>
+
+<p><strong>관련 글</strong></p>
+<ul>
+  <li><a href="/ko/article/2.SPA-와-TPA.html">SPA vs TPA</a></li>
+  <li><a href="/ko/article/11.레이저-평가가-필요한-이유-(비용적-측면).html">레이저 평가가 필요한 이유 (비용적 측면)</a></li>
+  <li><a href="/ko/article/9.레이저평가-세계동향.html">레이저평가의 세계동향</a></li>
+  <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[레이저 평가]]></summary></entry><entry><title type="html">COTS (Commercial off-the-shelf)</title><link href="http://localhost:4000/ko/article/5.COTS.html" rel="alternate" type="text/html" title="COTS (Commercial off-the-shelf)" /><published>2025-03-26T00:00:00+09:00</published><updated>2025-03-26T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/5.COTS</id><content type="html" xml:base="http://localhost:4000/ko/article/5.COTS.html"><![CDATA[<h1 id="cots란">COTS란?</h1>
 
 <div style="overflow: hidden;">
   <p><!-- 이미지 -->
@@ -381,7 +412,7 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
     <li><a href="/ko/article/12.upScreening.html">Up-Screening</a></li>
     <li><a href="/ko/article/8.-EEE.html">Space Product Assurance(우주 제품 보증)란?</a></li>
   </ul>
-</div>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[COTS란?]]></summary></entry><entry><title type="html">LET(Liner Energy Transfer)란?</title><link href="http://localhost:4000/ko/article/6.LET.html" rel="alternate" type="text/html" title="LET(Liner Energy Transfer)란?" /><published>2025-03-25T00:00:00+09:00</published><updated>2025-03-25T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/6.LET</id><content type="html" xml:base="http://localhost:4000/ko/article/6.LET.html"><![CDATA[<h1 id="letliner-energy-transfer---선형-에너지-전이">LET(Liner Energy Transfer) - 선형 에너지 전이</h1>
+</div>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[COTS란?]]></summary></entry><entry><title type="html">LET (Liner Energy Transfer)란?</title><link href="http://localhost:4000/ko/article/6.LET.html" rel="alternate" type="text/html" title="LET (Liner Energy Transfer)란?" /><published>2025-03-25T00:00:00+09:00</published><updated>2025-03-25T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/6.LET</id><content type="html" xml:base="http://localhost:4000/ko/article/6.LET.html"><![CDATA[<h1 id="let-liner-energy-transfer---선형-에너지-전이">LET (Liner Energy Transfer) - 선형 에너지 전이</h1>
 
 <p>LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에너지 손실을 말합니다. LET의 단위는 MeV cm<sup>2</sup>/mg이고 경로의 단위 길이당 에너지 손실(MeV/cm)은 표적 물질의 밀도(mg/cm<sup>3</sup>)로 정규화되어 LET는 표적과 독립적으로 인용될 수 있습니다.</p>
 
@@ -404,7 +435,7 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 <ul>
   <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
   <li><a href="/ko/article/10.중이온.html">중이온 빔이란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[LET(Liner Energy Transfer) - 선형 에너지 전이]]></summary></entry><entry><title type="html">TID(Total Ionizing Dose effect)란?</title><link href="http://localhost:4000/ko/article/7.TID.html" rel="alternate" type="text/html" title="TID(Total Ionizing Dose effect)란?" /><published>2025-03-24T00:01:00+09:00</published><updated>2025-03-24T00:01:00+09:00</updated><id>http://localhost:4000/ko/article/7.TID</id><content type="html" xml:base="http://localhost:4000/ko/article/7.TID.html"><![CDATA[<h1 id="tidtotal-ionizing-dose-effect---총-이온화-선량-효과">TID(Total Ionizing Dose effect) - 총 이온화 선량 효과</h1>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[LET (Liner Energy Transfer) - 선형 에너지 전이]]></summary></entry><entry><title type="html">TID (Total Ionizing Dose effect)란?</title><link href="http://localhost:4000/ko/article/7.TID.html" rel="alternate" type="text/html" title="TID (Total Ionizing Dose effect)란?" /><published>2025-03-24T00:01:00+09:00</published><updated>2025-03-24T00:01:00+09:00</updated><id>http://localhost:4000/ko/article/7.TID</id><content type="html" xml:base="http://localhost:4000/ko/article/7.TID.html"><![CDATA[<h1 id="tid-total-ionizing-dose-effect---총-이온화-선량-효과">TID (Total Ionizing Dose effect) - 총 이온화 선량 효과</h1>
 <div style="overflow: hidden;">
   <p><!-- 이미지 -->
   <img src="/assets/Articles/TID2.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;" /></p>
@@ -426,7 +457,7 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 <ul>
   <li><a href="/ko/article/3.방사선-내성-평가.html">방사선 내성 평가(Radiation Hardness Test)</a></li>
   <li><a href="/ko/article/10.중이온.html">중이온 빔이란?</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[TID(Total Ionizing Dose effect) - 총 이온화 선량 효과 감마선과 같은 방사선에 의해서 점진적으로 반도체의 특성에 변화를 가져오는 효과가 TID인데, CMOS소자의 경우는 절연층에 이온화 선량의 의해서 생성된 전하가 트래핑(Charge Trapping)되거나 결정 구조에 결함을 만들 수 있습니다. 게이트 산화물의 두께가 얇아짐에 따라 게이트 스택의 방사선 효과가 훨씬 더 낮아지지만 그럼에도 불구하고 전도성 채널을 둘러싸고 있는 두꺼운 절연 산화물에서 여전히 손상과 이온 트래핑이 발생할 수 있습니다. 일반적으로 중성자 가속 평가나 해면 고도에서 중성자에 의한 총 이온화 선량 효과는 무시할 수 있으나, 극저온 중성자와 열 중성자는 점진적으로 반도체 특성 변화를 유발하는 것으로 잘 알려져 있습니다. 또한, LET에 단일 에너지 빔의 입자 선량을 곱하면 이온화를 통해 질량 단위당 증착된 총 에너지 양을 얻을 수 있는데 이를 TID라고 합니다. 그림출처 : F. B. McLean and T. R. Oldham, HDL-TR-2129, via Sandia National Laboratories SAND2013-4379C]]></summary></entry><entry><title type="html">Space Product Assurance(우주 제품 보증)란?</title><link href="http://localhost:4000/ko/article/8.-EEE.html" rel="alternate" type="text/html" title="Space Product Assurance(우주 제품 보증)란?" /><published>2025-03-23T00:00:00+09:00</published><updated>2025-03-23T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/8.%20EEE</id><content type="html" xml:base="http://localhost:4000/ko/article/8.-EEE.html"><![CDATA[<h1 id="space-product-assurance---eeeelectrical-electronic-and-electromechanical-components">Space Product Assurance - EEE(Electrical, Electronic and Electromechanical) components</h1>
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[TID (Total Ionizing Dose effect) - 총 이온화 선량 효과 감마선과 같은 방사선에 의해서 점진적으로 반도체의 특성에 변화를 가져오는 효과가 TID인데, CMOS소자의 경우는 절연층에 이온화 선량의 의해서 생성된 전하가 트래핑(Charge Trapping)되거나 결정 구조에 결함을 만들 수 있습니다. 게이트 산화물의 두께가 얇아짐에 따라 게이트 스택의 방사선 효과가 훨씬 더 낮아지지만 그럼에도 불구하고 전도성 채널을 둘러싸고 있는 두꺼운 절연 산화물에서 여전히 손상과 이온 트래핑이 발생할 수 있습니다. 일반적으로 중성자 가속 평가나 해면 고도에서 중성자에 의한 총 이온화 선량 효과는 무시할 수 있으나, 극저온 중성자와 열 중성자는 점진적으로 반도체 특성 변화를 유발하는 것으로 잘 알려져 있습니다. 또한, LET에 단일 에너지 빔의 입자 선량을 곱하면 이온화를 통해 질량 단위당 증착된 총 에너지 양을 얻을 수 있는데 이를 TID라고 합니다. 그림출처 : F. B. McLean and T. R. Oldham, HDL-TR-2129, via Sandia National Laboratories SAND2013-4379C]]></summary></entry><entry><title type="html">Space Product Assurance(우주 제품 보증)란?</title><link href="http://localhost:4000/ko/article/8.-EEE.html" rel="alternate" type="text/html" title="Space Product Assurance(우주 제품 보증)란?" /><published>2025-03-23T00:00:00+09:00</published><updated>2025-03-23T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/8.%20EEE</id><content type="html" xml:base="http://localhost:4000/ko/article/8.-EEE.html"><![CDATA[<h1 id="space-product-assurance---eee-electrical-electronic-and-electromechanical-components">Space Product Assurance - EEE (Electrical, Electronic and Electromechanical) components</h1>
 
 <p>EEE Components는 Electrical(전기), Electronic(전자), Electromechanical(전자기계) 부품을 아우르는 포괄적인 용어로, 우주 산업에서 필수적으로 사용되는 모든 핵심 부품을 지칭합니다.</p>
 
@@ -436,9 +467,9 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 
 <p>우주용 EEE 부품 관리에 있어 전 세계적으로 인정받는 주요 표준은 다음과 같습니다.</p>
 <ul>
-  <li><a href="https://ecss.nl/" target="_blank"><strong>ECSS</strong></a>(European Cooperation for Space Standardization): ESA(유럽우주국), 유럽 각국 우주 기관 및 산업체들이 공동으로 개발하여,
+  <li><a href="https://ecss.nl/" target="_blank"><strong>ECSS</strong></a> (European Cooperation for Space Standardization): ESA(유럽우주국), 유럽 각국 우주 기관 및 산업체들이 공동으로 개발하여,
 우주 시스템의 품질, 신뢰성, 안전성, 비용 효율성을 확보하고자 만든 일련의 공식적인 국제 우주 표준</li>
-  <li><a href="https://www.dsp.dla.mil/Specs-Standards/" target="_blank"><strong>MIL-STD</strong></a>(Military Standard): 미국 국방부(DoD, Department of Defense)가 군사용 시스템, 부품, 장비, 공정 등을 대상으로 제정한 표준 규격 체계</li>
+  <li><a href="https://www.dsp.dla.mil/Specs-Standards/" target="_blank"><strong>MIL-STD</strong></a> (Military Standard): 미국 국방부(DoD, Department of Defense)가 군사용 시스템, 부품, 장비, 공정 등을 대상으로 제정한 표준 규격 체계</li>
   <li><a href="https://standards.nasa.gov/standard/NASA/NASA-STD-873910" target="_blank"><strong>NASA-STD</strong></a>: NASA에서 우주 미션에 사용되는 전자 부품(EEE parts)의 신뢰성과 품질을 확보하기 위해 제정한 공식 표준 문서</li>
 </ul>
 
@@ -464,7 +495,7 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
 <ul>
   <li><a href="/ko/article/12.upScreening.html">Up-Screening</a></li>
   <li><a href="/ko/article/5.COTS.html">COTS(Commercial off-the-shelf)</a></li>
-</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[Space Product Assurance - EEE(Electrical, Electronic and Electromechanical) components]]></summary></entry><entry><title type="html">레이저평가의 글로벌 동향</title><link href="http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html" rel="alternate" type="text/html" title="레이저평가의 글로벌 동향" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80%20%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5</id><content type="html" xml:base="http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html"><![CDATA[<p align="center"> 
+</ul>]]></content><author><name></name></author><category term="article" /><summary type="html"><![CDATA[Space Product Assurance - EEE (Electrical, Electronic and Electromechanical) components]]></summary></entry><entry><title type="html">레이저평가의 글로벌 동향</title><link href="http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html" rel="alternate" type="text/html" title="레이저평가의 글로벌 동향" /><published>2025-03-22T00:00:00+09:00</published><updated>2025-03-22T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80%20%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5</id><content type="html" xml:base="http://localhost:4000/ko/article/9.%EB%A0%88%EC%9D%B4%EC%A0%80%ED%8F%89%EA%B0%80-%EC%84%B8%EA%B3%84%EB%8F%99%ED%96%A5.html"><![CDATA[<p align="center"> 
   <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 300px;" />
 </p>
 <p>이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다.
