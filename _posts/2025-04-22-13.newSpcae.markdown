@@ -39,13 +39,15 @@ permalink: ko/article/:title.html
 | 발사 전략 | 1회용 발사체              | 재사용, 소형 다수 발사                         |
 
 </div>
-<br/> <!-- 한줄 띄기 -->
+
 
 -------------------------------------
+
+
 
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
 - [Space Product Assurance(우주 제품 보증)란?](/ko/article/8.-EEE.html)
 - [COTS(Commercial off-the-shelf)](/ko/article/5.COTS.html)
-- [Up-Screening](/ko/article/upScreening.html)
+- [Up-Screening](/ko/article/12.upScreening.html)
