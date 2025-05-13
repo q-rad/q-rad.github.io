@@ -23,13 +23,13 @@ permalink: ko/article/:title.html
 
 우주나 고고도 환경에는 지구 대기권이 차단하지 못하는 _고에너지 입자(양성자, 전자, 중성자, 감마선 등)_ 가 존재합니다. 이러한 입자들이 반도체 칩과 충돌하면 다음과 같은 심각한 문제들이 발생할 수 있습니다:
 
-- [SEU](/article/2025/03/30/1.-SEE.html) (Single Event Upset)
+- [SEU](/ko/article/1.-SEE.html) (Single Event Upset)
 단일 입자 충돌로 인해 메모리 셀이나 레지스터의 비트값이 일시적으로 반전되는 현상입니다. 예를 들어, 0이 1로, 혹은 1이 0으로 바뀌는 오류가 발생할 수 있으며, 이는 시스템의 오작동이나 데이터 오류로 이어질 수 있습니다.
 
-- [SEL](/article/2025/03/30/1.-SEE.html) (Single Event Latch-up)
+- [SEL](/ko/article/1.-SEE.html) (Single Event Latch-up)
 입자의 충돌로 인해 회로 내에 과도한 전류가 흐르면서, 회로 전체가 손상되거나 시스템이 완전히 멈추는 현상입니다. 이는 복구가 불가능한 치명적인 오류로 이어질 수 있기 때문에 특히 주의가 필요합니다.
 
-- [TID](/article/2025/03/24/7.TID.html) (Total Ionizing Dose)
+- [TID](/ko/article/7.TID.html) (Total Ionizing Dose)
 장시간 동안 방사선에 노출되면, 누적된 방사선 에너지로 인해 회로의 전기적 특성과 성능이 점차 저하됩니다. 이는 소자의 수명을 단축시키고 장기적인 신뢰성에 부정적인 영향을 줍니다.
 
 - DD (Displacement Damage)

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: TID(Total Ionizing Dose effect)란?
+title: TID (Total Ionizing Dose effect)란?
 date: 2025-03-24 00:01:00 +0900
 category: article
 permalink: ko/article/:title.html
 ---
-# TID(Total Ionizing Dose effect) - 총 이온화 선량 효과
+# TID (Total Ionizing Dose effect) - 총 이온화 선량 효과
 <div style="overflow: hidden;">
   <!-- 이미지 -->
   <img src="/assets/Articles/TID2.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;">

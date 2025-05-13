@@ -11,7 +11,7 @@ permalink: ko/article/:title.html
 그러나 실제로 Up-screening을 구성하는 주요 항목별 비용을 분석해 보면, 방사선 시험 항목 중에서도 특히 SEE (Single Event Effect) 시험—Heavy Ion(중이온) 기반 평가가 전체 비용에서 압도적으로 높은 비중을 차지하고 있습니다.
 
 <p align="center"> <img src="/assets/Articles/cost.png" style="width: 80%; max-width: 500px;"/> </p>
-그래프에서 확인 가능하 듯, 전체 Up-screening 비용 중, 중이온 기반 SEE 시험이 차지하는 비율이 절대적으로 크며, TID(Total Ionizing Dose), DPA(Destructive Physical Analysis), CA(Construction Analysis) 등 수행해야하는 다른 평가 항목들 대비 높은 비용이 소요됩니다.
+그래프에서 확인 가능하 듯, 전체 Up-screening 비용 중, 중이온 기반 SEE 시험이 차지하는 비율이 절대적으로 크며, TID (Total Ionizing Dose), DPA (Destructive Physical Analysis), CA (Construction Analysis) 등 수행해야하는 다른 평가 항목들 대비 높은 비용이 소요됩니다.
 
 <br/> <!-- 한줄 띄기 -->
 
