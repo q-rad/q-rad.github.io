@@ -383,7 +383,7 @@ table td {
 	z-index: 1000;
 	position: fixed;
 	transform: translate(-50%, 0%);
-	left: 50%;
+	right: 1%;
 	bottom: 30px;
 
 	display: flex;
