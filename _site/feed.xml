@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-13T16:02:39+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/ko/article/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/ko/article/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-14T10:28:50+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LASER2COTS</title><subtitle></subtitle><entry><title type="html">SEE (Single Event Effect)란?</title><link href="http://localhost:4000/ko/article/1.-SEE.html" rel="alternate" type="text/html" title="SEE (Single Event Effect)란?" /><published>2025-03-30T00:00:00+09:00</published><updated>2025-03-30T00:00:00+09:00</updated><id>http://localhost:4000/ko/article/1.%20SEE</id><content type="html" xml:base="http://localhost:4000/ko/article/1.-SEE.html"><![CDATA[<h1 id="see-single-event-effect---단일-이벤트-효과">SEE (Single Event Effect) - 단일 이벤트 효과</h1>
 <p>SEE (Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.</p>
 
 <h2 id="see의-효과와-종류">SEE의 효과와 종류</h2>
@@ -289,61 +289,37 @@ TPA 레이저는 이미 설명한 특성을 고려하면 중이온과 양성자 
   </p>
 </div>
 
-<p><strong>1. 방사선이 반도체에 미치는 영향</strong></p>
-
 <p>우주나 고고도 환경에는 지구 대기권이 차단하지 못하는 <em>고에너지 입자(양성자, 전자, 중성자, 감마선 등)</em> 가 존재합니다. 이러한 입자들이 반도체 칩과 충돌하면 다음과 같은 심각한 문제들이 발생할 수 있습니다:</p>
 
 <ul>
   <li>
-    <p><a href="/ko/article/1.-SEE.html">SEU</a> (Single Event Upset)
-단일 입자 충돌로 인해 메모리 셀이나 레지스터의 비트값이 일시적으로 반전되는 현상입니다. 예를 들어, 0이 1로, 혹은 1이 0으로 바뀌는 오류가 발생할 수 있으며, 이는 시스템의 오작동이나 데이터 오류로 이어질 수 있습니다.</p>
+    <p><a href="/article/2025/03/30/1.-SEE.html">SEU</a> (Single Event Upset)
+단일 입자로 인해 메모리 셀이나 레지스터의 비트값이 일시적으로 반전되는 현상입니다. 쉽게 말해, 0이 1로, 혹은 1이 0으로 바뀌는 오류가 발생할 수 있으며, 이는 시스템의 오작동이나 데이터 오류로 이어질 수 있습니다.</p>
   </li>
   <li>
-    <p><a href="/ko/article/1.-SEE.html">SEL</a> (Single Event Latch-up)
-입자의 충돌로 인해 회로 내에 과도한 전류가 흐르면서, 회로 전체가 손상되거나 시스템이 완전히 멈추는 현상입니다. 이는 복구가 불가능한 치명적인 오류로 이어질 수 있기 때문에 특히 주의가 필요합니다.</p>
+    <p><a href="/article/2025/03/30/1.-SEE.html">SEL</a> (Single Event Latch-up)
+단일 입자로 인해 회로 내에 과도한 전류가 흐르면서, 회로 전체가 손상되거나 시스템이 완전히 멈추는 현상입니다. 이는 복구가 불가능한 치명적인 오류로 이어질 수 있기 때문에 특히 주의가 필요합니다.</p>
   </li>
   <li>
-    <p><a href="/ko/article/7.TID.html">TID</a> (Total Ionizing Dose)
-장시간 동안 방사선에 노출되면, 누적된 방사선 에너지로 인해 회로의 전기적 특성과 성능이 점차 저하됩니다. 이는 소자의 수명을 단축시키고 장기적인 신뢰성에 부정적인 영향을 줍니다.</p>
+    <p><a href="/article/2025/03/24/7.TID.html">TID</a> (Total Ionizing Dose)
+장시간 동안 방사선에 노출되면, ionized trap이 누적되며 회로의 전기적 특성과 성능이 점차 저하됩니다. 이는 소자의 특성, 수명, 다른 에러(SEU, SEL) 발생 증가 등 부정적인 영향을 줍니다.</p>
   </li>
   <li>
     <p>DD (Displacement Damage)
-고에너지 입자가 반도체 내부 원자 구조를 물리적으로 변화시키는 현상입니다. 이로 인해 전자 이동성이 감소하고, 소자의 전체적인 성능이 열화됩니다.</p>
+방사선이 장기간 노출에 의한 누적된 현상이란 점은 TID와 유사하나 반도체 특성의 변화가 생기는 원리로 TID 구분 됩니다. 고에너지 입자가 반도체 내부 원자 구조를 물리적으로 변화시키는 현상입니다. 일반적으로 소자의 성능이 열화됩니다.</p>
   </li>
 </ul>
 
 <p><br /> <!-- 한줄 띄기 -->
-«««&lt; HEAD
-우리가 사용하는 반도체가 방사선에 견딜 수 있어야 하는 이유는, 그것이 쓰이는 환경이 결코 평범하지 않기 때문입니다. 가장 먼저 떠오르는 분야는 단연 우주산업입니다. 인공위성이나 우주탐사선, 통신위성 등은 지구 대기권을 벗어난 공간에서 운용되며, 이곳에는 지구가 자연적으로 차단해주는 보호막이 없습니다. 즉, 강력한 방사선에 거의 무방비로 노출되기 때문에, 단 한 번의 우주 입자 충돌로 시스템이 오작동하거나 저장된 데이터가 날아가는 사태가 발생할 수 있습니다. 특히 단일사건현상(SEU)처럼 눈에 띄지 않게 일어나는 작은 오류 하나가 전체 임무에 치명적인 영향을 미칠 수 있기에, 우주 장비에 들어가는 반도체는 수많은 테스트를 거쳐 엄격하게 선별된 것만이 사용됩니다.
-=======
 방사선은 어디에나 존재합니다. 넓은 의미로 저희가 항상 쬐는 햇볕도 방사선 입니다만 이런 넓은 의미의 방사선이 아니더라도 공기 중에도 매시간 cm^2 당 20개 정도의 중성자가 지나갑니다. 일반적인 생활을 하면서도 매 시간 수천개의 중성자가 저희의 몸을 통과하고 있다는 겁니다.</p>
 
 <p>거군다나 우주에는 지구의 밴앨런대(Van Allen Belt) 같은 자연적으로 차단해주는 보호막이 없습니다. 인공위성이나 우주탐사선, 통신위성 등은 강력한 방사선에 거의 무방비로 노출되기 때문에, 단 한 번의 우주 입자 충돌로 시스템이 오작동하거나 저장된 데이터가 날아가는 사태가 발생할 수 있습니다. 특히 단일사건현상(SEU)처럼 눈에 띄지 않게 일어나는 작은 오류 하나가 전체 임무에 치명적인 영향을 미칠 수 있기에, 우주 장비에 들어가는 반도체는 수많은 테스트를 거쳐 엄격하게 선별된 것만을 사용합니다.</p>
-<blockquote>
-  <blockquote>
-    <blockquote>
-      <blockquote>
-        <blockquote>
-          <blockquote>
-            <blockquote>
-              <p>544330322caa1a6ebb93b5ae51a64367cadf093e</p>
-            </blockquote>
-          </blockquote>
-        </blockquote>
-      </blockquote>
-    </blockquote>
-  </blockquote>
-</blockquote>
 
 <p>비단 우주뿐만 아니라, 항공 및 군사용 장비에서도 방사선 내성은 중요한 요소입니다. 고고도에서 운항하는 항공기나 정찰 드론, 심지어는 지상에 있는 군사용 전자장비조차도, 핵폭발이나 EMP(전자기 펄스)와 같은 극단적인 상황을 상정하고 설계되어야 하기 때문입니다. 이러한 환경에서는 예상치 못한 전자파나 방사선이 회로에 영향을 줄 수 있으므로, 전자 부품들이 이와 같은 충격에도 안정적으로 작동해야만 합니다.</p>
 
-<p>또 하나 간과해서는 안 되는 곳이 바로 의료 기기와 원자력 발전소입니다. 방사선 치료기기나 원자로 주변의 제어 시스템은, 말 그대로 방사선이 늘 존재하는 환경 속에서 작동합니다. 기기 자체가 방사선에 영향을 받아 오작동을 일으키면, 환자의 생명에 위협이 될 수 있고, 발전소라면 대형 사고로 이어질 수 있죠. 그래서 이 분야에서도 방사선 내성을 갖춘 부품은 선택이 아닌 필수입니다.</p>
+<p>또 하나 간과해서는 안 되는 곳이 바로 의료 기기와 원자력 발전소입니다. 방사선 치료기기(흔히 알고 있는 X-ray가 방사선이죠)나 원자로 주변의 제어 시스템은, 말 그대로 방사선이 늘 존재하는 환경 속에서 작동합니다. 기기 자체가 방사선에 영향을 받아 오작동을 일으키면, 환자의 생명에 위협이 될 수 있고, 발전소라면 대형 사고로 이어질 수 있죠. 그래서 이 분야에서도 방사선 내성을 갖춘 부품은 선택이 아닌 필수입니다.</p>
 
-<p>이처럼 중요한 환경에서 사용되는 반도체들은, 제작 후에도 단순히 정상 작동하는지만 확인하는 것이 아니라, 방사선에 얼마나 강한지를 테스트해야 합니다. 이 테스트는 단순한 기술적 요구가 아니라, 제품의 안정성과 신뢰성을 확보하는 첫걸음입니다. 예를 들어 우주에서 어떤 미션을 수행하다가 장비가 오류를 일으킨다면, 이미 궤도에 진입한 장비를 다시 수리하러 갈 수는 없습니다. 그러므로 사전에 오류 가능성을 차단하는 것이 매우 중요합니다.</p>
-
-<p>또한 이와 같은 테스트는 국제 인증 취득과도 밀접한 관련이 있습니다. NASA, ESA(유럽우주국), MIL-STD-883(미국 군사표준) 등에서는 특정 수준 이상의 방사선 내성을 요구하며, 이 기준을 만족하지 못하면 해당 반도체는 사용이 불가능합니다. 결국, 방사선 내성 테스트는 단지 품질을 평가하는 것을 넘어, 설계 초기 단계에서부터 위험 요소를 식별하고 제거함으로써, 궁극적으로 사람의 안전과 시스템의 성공률을 높이는 데 목적이 있습니다.</p>
-
-<p>이 모든 이유가, 우리가 반도체의 방사선 내성을 중요하게 여기는 배경입니다. 단순한 기술적 특성을 넘어, 이것은 안전과 신뢰, 그리고 미션의 성공과 직결되는 요소입니다.</p>
+<p>이처럼 중요한 환경에서 사용되는 반도체들은 방사선에 얼마나 강한지를 테스트해야 합니다. 이 테스트는 단순한 기술적 요구가 아니라, 제품의 안정성과 신뢰성을 확보하는 첫걸음입니다. 수백억 수천억씩 비용이 소모되는 우주에서 어떤 미션을 수행하다가 장비가 오류를 일으킨다면 큰 손실이 발생하게 됩니다.</p>
 
 <hr />
 <p><br /> <!-- 한줄 띄기 --></p>
