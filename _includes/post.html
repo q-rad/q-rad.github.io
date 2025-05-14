@@ -6,9 +6,16 @@
 		<div style="margin-top: 20px; text-align: center;">
 			{%- assign category_name = page.url | split: '/' | slice: 2 -%}
 			
-			<a onclick="history.back()" class="btn btn-primary" style="padding: 5px 10px; background-color: #888888; color: white; text-decoration: none; border-radius: 5px; margin-right: auto;">
-				←List
-			</a>
+			<a
+  onclick="history.back()"
+  class="btn btn-primary"
+  style="padding: 5px 10px; background-color: #888888; color: white; text-decoration: none; border-radius: 5px; margin-right: auto; cursor: pointer;"
+  onmouseover="this.style.backgroundColor='#555555'"
+  onmouseout="this.style.backgroundColor='#888888'"
+>
+  ←List
+</a>
+
 		</div>
 	
 		<div class="post-title" style="margin-left: auto; margin-right: auto; padding-right: 10%;">

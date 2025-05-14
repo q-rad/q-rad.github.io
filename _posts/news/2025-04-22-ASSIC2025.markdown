@@ -9,7 +9,7 @@ permalink: ko/news/:title.html
 <a href="https://yelec.kr/product/assic2025/" height="5" width="10" target="_blank">
 	<img src="https://yelec.kr/wp-content/uploads/2025/03/%ED%97%A4%EB%8D%94_%ED%81%90%EC%95%8C%ED%8B%B0N-1.jpg" alt="위의 이미지를 누르면 연결됩니다.">
 <a>
-
+<p align="right" style="color: #666666; font-size:10px;">※ 이미지 클릭 시 링크로 연결됩니다.</p>
 # ASSIC2025 첨단우주반도체혁신콘퍼런스
 <br>
 

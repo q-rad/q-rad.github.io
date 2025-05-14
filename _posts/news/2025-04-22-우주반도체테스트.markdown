@@ -1,0 +1,98 @@
+---
+layout: post
+title: "[영상] 우주 반도체 테스트, 중이온 가속기 없이도 가능하다?"
+date: 2025-04-29 00:01:00 +0900
+category: news
+permalink: ko/news/:title.html
+---
+
+# 우주 반도체 테스트, 중이온 가속기 없이도 가능하다?
+<p style="color: #666666">2025년 4월 29일</p>
+
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/_6l7bhIXtJw?si=kyi-G6mFI_VvncRv"
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+
+<br>
+
+<p style="font-size:23px"> <b>QRT 이혁재 박사가 말하는 ‘첨단 우주 반도체 신뢰성 평가 기술’</b></p>
+
+
+<p>이 영상은 QRT 이혁재 박사와 함께 우주 반도체의 신뢰성 평가 방법론, 특히 중이온 내성 평가 및 레이저 대체 기술에 대한 심도 있는 인터뷰를 담고 있습니다. </p>
+<p>또한, 2025년 5월 20일에 개최되는 첨단 우주 반도체 혁신 콘퍼런스에 대한 소개도 포함되어 있습니다.</p>
+
+
+**1. 우주 환경과 반도체 신뢰성**
+
+  - 우주에는 양성자, 중성자, 중이온(Heavy Ion) 같은 방사선 입자들이 존재
+
+  - 이 입자들이 반도체에 충돌하면 오작동 또는 영구 손상을 유발
+
+  - 특히 중이온은 질량과 에너지가 크기 때문에 가장 큰 영향을 끼침
+
+
+
+**2. 전통적인 신뢰성 평가 방식**
+
+  - LET(선형에너지전이율, Linear Energy Transfer) 기준으로 평가
+
+  - 국제적 기준은 60 LET 이상
+
+  - 그러나 한국은 중이온 가속 장비가 없어, 평가를 위해 유럽, 미국에 의존
+
+
+
+**3. 레이저를 활용한 반도체 내방사선 평가 기술**
+
+  - 레이저를 활용해 중이온 환경을 모사
+
+  - 이미 유럽의 TRAD, 미국의 NRL 등은 이 기술을 상용화
+
+  - QRT 역시 자체 레이저 장비와 디캡(De-capsulation) 기술을 바탕으로 경쟁력 있는 평가 수행 가능
+
+  - 특히 큐브위성, 군집위성, 저비용 위성용 반도체에는 레이저 기반 평가가 충분히 효과적
+
+
+
+**4. QRT의 경쟁력**
+
+  - 3~4년 전부터 기술 개발 시작, 빠른 속도로 상용 수준에 근접
+
+  - 고도화된 디캡 기술과 레이저 기반 평가 장비 보유
+
+  - 해외 주요 기관과 유사한 성능 및 프로세스를 확보
+
+
+
+**5. ASSIC 2025 첨단우주반도체혁신콘퍼런스 안내**
+
+  - 2025년 5월 20일 (화), 경기경제과학진흥원 광교홀에서 개최
+
+  - QRT 이혁재 박사가 직접 "중이온 대체 기술 개발 현황" 발표 예정
+
+  - 무료 행사, 반도체 및 우주항공 분야 종사자, 연구자, 학생에게 추천
+
+ASSIC 2025는 단순한 기술 세미나를 넘어, 미래 우주산업과 방위 산업의 핵심 인프라를 논의하는 자리입니다.
+우주 반도체에 관심 있는 기업, 연구자, 공공기관에게 기술적 인사이트와 실제 적용 가능성을 확인할 수 있는 절호의 기회입니다.
+
+[무료로 참가 가능한 이 행사를 놓치지 마세요!](https://yelec.kr/product/assic2025/)
+
+QRT 이혁재 박사의 발표는 오전 11:50에 예정되어 있습니다.
+
+
+-------------------------------------
+
+
+
+<br/> <!-- 한줄 띄기 -->
+
+**관련 글**
+- [ASSIC 2025](/ko/news/ASSIC2025.html)
+- [Space Product Assurance(우주 제품 보증)란?](/ko/article/8.-EEE.html)
+- [COTS(Commercial off-the-shelf)](/ko/article/5.COTS.html)
+- [Up-Screening](/ko/article/12.upScreening.html)
