@@ -382,7 +382,9 @@ table td {
 .float-button-container {
 	z-index: 1000;
 	position: fixed;
-	left: 90%;
+	/*left: 90%;*/
+	right: 15px;
+	left: auto;
 	bottom: 15px;
 
 	display: flex;
@@ -425,8 +427,8 @@ table td {
 }
 
 .float-button-image {
-	height: 50px;
-	width: 50px;
+	height: 36px;
+	width: 36px;
 	line-height: 45px;
 
 	display: inline-block;

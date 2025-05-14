@@ -6,7 +6,7 @@
 		<!-- 원래 카테고리로 돌아가는 버튼 -->
 		<div style="margin-top: 20px; text-align: center;">
 			{%- assign category_name = page.url | split: '/' | slice: 2 -%}
-			<a href="/category/#{{ category_name }}" class="btn btn-primary" style="padding: 5px 10px; background-color: #888888; color: white; text-decoration: none; border-radius: 5px; margin-right: auto;">
+			<a onclick="history.back()" class="btn btn-primary" style="padding: 5px 10px; background-color: #888888; color: white; text-decoration: none; border-radius: 5px; margin-right: auto;">
 				←List
 			</a>
 		</div>
