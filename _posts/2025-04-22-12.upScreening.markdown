@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Up-Screening
+title: Up-Screening (업 스크리닝)
 date: 2025-03-19 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
