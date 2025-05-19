@@ -5,8 +5,8 @@ date: 2025-03-17 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
 ---
-
-다음 표는 반도체 기판의 재료별로 다양한 레이저 파장에서 발생 가능한 광자 흡수 메커니즘을 정리한 것입니다
+레이저 내방사선 평가 시, 반도체 소자는 사용되는 소재 마다 레이저 파장에 따른 흡수 메커니즘이 달라집니다.
+다음 표는 QRT에서 사용하는 파장에서, 반도체 소재 별로 다양한 레이저 파장에서 발생 가능한 광자 흡수 메커니즘의 차이를 정리한 것입니다
 
 <div align="center"> 
 <h5>Si, GaAs, SiC, GaN 기판의 광학적 특성 비교</h5>
@@ -14,24 +14,28 @@ permalink: ko/article/:title.html
 
 <div align="center">
 
-| Substrate | Band Gap | 1064nm    | 620nm |
+| Substrate | Band Gap | 1064nm~1260nm   | 620nm |
 |-----------|----------|-----------|-------|
 | Si        | 1.12eV   | SPA/TPA   | SPA   |
 | GaAs      | 1.42eV   | TPA       | SPA   |
 | SiC       | 3.23eV   | MPA       | TPA   |
 | GaN       | 3.42eV   | MPA       | TPA   |
 
-<p align="left" style="color: #666666; font-size:15px; margin-left: 400px;">
-SPA: single photon absorption <br>
-TPA: two photon absorption <br>
-MPA: multiple photon absorption
+<p align="center" style="color: #666666; font-size:15px;">
+SPA: single photon absorption, 
+ TPA: two photon absorption,
+ MPA: multiple photon absorption
 </p>
 
 </div>
 
+반도체 소재 중 대표적인 Si은 밴드갭이 상대적으로 작아, 상대적으로 긴 파장(1064nm)의 레이저를 활용한 단일 광자 흡수(SPA) 메커니즘을 통해 평가가 가능합니다.
 
-Si(규소)과 GaAs(비소화 갈륨)는 비교적 밴드갭이 작아 SPA와 TPA가 가능하지만
-SiC(탄화규소)와 GaN(질화갈륨)은 비교적 밴드갭이 커서 1064nm에서는 SPA는 불가능하고 MPA가 요구됩니다. 또한 620nm의 파장에서는 TPA에 의한 흡수가 일어납니다.
+반면, 전력 반도체 소자에 주로 사용되는 GaAs, SiC, GaN은 밴드갭이 큰 특성을 가지고 있어, 동일한 파장으로는 SPA 기반의 평가를 수행하기 어렵습니다.
+
+예를 들어, 630nm 파장의 레이저는 약 2eV의 광자 에너지를 가지므로, 밴드갭이 이보다 큰 소재에서는 전자가 밴드갭 위로 여기(excitation)시키기 위해서는 두 개의 광자가 동시에 흡수되는 TPA 메커니즘을 이용해야 합니다.
+
+이번 다양한 소재에서의 레이저 평가를 수행하기 위해서, QRT에서는 **630nm~1700nm의 넓은 파장** 범위와 최소 200fs의 초단 펄스 폭을 구현할 수 있는 레이저 조사 장비를 보유하고 있어, 다양한 반도체 소자에 맞는 유연한 내방사선 평가가 가능합니다.
 
 -------------------------------------
 

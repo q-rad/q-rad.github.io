@@ -49,7 +49,8 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Nanum Myeongjo', serif;
+	/*font-family: 'Gelasio', 'Nanum Myeongjo', serif;*/
+	font-family: 'Play', 'NEXON Lv2 Gothic', 'Noto Sans KR', "나눔고딕", NanumGothic, "Nanum Gothic", "돋움", Dotum, Arial, sans-serif;
 	color: #2c3e50;
 }
 

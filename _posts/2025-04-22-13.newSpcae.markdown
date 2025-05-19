@@ -5,7 +5,19 @@ date: 2025-03-18 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
 ---
+<div align="center">
 
+|     | Old Space            | New Space                             |
+| ----- | -------------------- | ------------------------------------- |
+| 주도 주체 | NASA, ESA, 국방기관 등 정부 | SpaceX, Blue Origin, Planet Labs 등 민간 |
+| 추진 방식 | 보수적, 기술 검증 우선        | 실용 중심, 위험 감수                          |
+| 개발 주기 | 수년\~수십 년             | 수개월\~2년 내외                            |
+| 비용    | 수백\~수천억 단위           | 수억\~수십억 단위로 절감                        |
+| 기술 전략 | 우주 인증 부품 위주          | COTS, 민간기술 전환 활용                      |
+| 발사 전략 | 1회용 발사체              | 재사용, 소형 다수 발사                         |
+
+</div>
+<br>
 <div style="overflow: hidden;">
   <!-- 이미지 -->
   <img src="/assets/Articles/newSpace.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;">
@@ -27,18 +39,6 @@ permalink: ko/article/:title.html
 </div>
 
 <br/> <!-- 한줄 띄기 -->
-<div align="center">
-
-|     | Old Space            | New Space                             |
-| ----- | -------------------- | ------------------------------------- |
-| 주도 주체 | NASA, ESA, 국방기관 등 정부 | SpaceX, Blue Origin, Planet Labs 등 민간 |
-| 추진 방식 | 보수적, 기술 검증 우선        | 실용 중심, 위험 감수                          |
-| 개발 주기 | 수년\~수십 년             | 수개월\~2년 내외                            |
-| 비용    | 수백\~수천억 단위           | 수억\~수십억 단위로 절감                        |
-| 기술 전략 | 우주 인증 부품 위주          | COTS, 민간기술 전환 활용                      |
-| 발사 전략 | 1회용 발사체              | 재사용, 소형 다수 발사                         |
-
-</div>
 
 
 -------------------------------------
