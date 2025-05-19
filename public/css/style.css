@@ -356,7 +356,7 @@ table td {
 	}
 
 	.sidebar {
-		font-size: 0.5em;
+		font-size: 0.8em;
 		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
@@ -383,6 +383,7 @@ table td {
         height: 60px !important;
         width: 60px !important;
         max-width: 100%;
+		display: none !important;
     }
 }
 .float-button-container {
