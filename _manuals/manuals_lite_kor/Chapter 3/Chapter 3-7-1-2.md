@@ -1,5 +1,5 @@
 ---
-layout: post_manual_manual
+layout: post_manual
 title: 3.7.1.2.	오실로스코프(MSO)를 이용한 민감 영역 분석(Sensitive Area) 이미지 생성
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"

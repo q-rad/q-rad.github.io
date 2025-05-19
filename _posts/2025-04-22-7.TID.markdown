@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TID (Total Ionizing Dose effect)란?
+title: TID (Total Ionizing Dose) effect란?
 date: 2025-03-24 00:01:00 +0900
 category: article
 permalink: ko/article/:title.html

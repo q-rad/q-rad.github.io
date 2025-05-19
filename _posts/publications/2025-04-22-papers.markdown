@@ -1,0 +1,8 @@
+---
+layout: post
+title: Papers
+date: 2025-04-29 00:01:00 +0900
+category: publications
+permalink: ko/publications/:title.html
+---
+

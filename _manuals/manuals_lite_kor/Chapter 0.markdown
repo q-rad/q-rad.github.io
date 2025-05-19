@@ -13,7 +13,7 @@ QRT-LITE(Laser Irradiation Tools for Evaluation)는 Pulsed Laser를 통해 우�
 
 <br/>
 <div align="right" style="margin-top: 100px;">
-  <a href="/manuals/manuals_lite_kor/Chapter 1/Chapter 1-1/"  class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="/manuals/manuals_lite_kor/Laser장비/"  class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
     Next →
   </a>
 </div>
