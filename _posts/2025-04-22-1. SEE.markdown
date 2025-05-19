@@ -16,15 +16,20 @@ SEE는 반도체 내에서 여러 가지 현상으로 나타나며 가장 먼저
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Articles/단일 이벤트 효과의 체계도.png">
+  <img src="/assets/Articles/단일이벤트효과의유사성.png">
 </p>
 
 <!-- 이미지 설명 -->
 <div align="center"> 
-<h5>단일 이벤트 효과의 체계도</h5>
+<h5>단일 이벤트 효과의 유사성과 상이성</h5>
 </div>
 
- <h2>Soft Error (소프트 오류)</h2>
+<p style="font-size: 10px; color: gray; text-align: center;">
+문서 활용: Ray Ladbury. "Radiation hardening at the system level."<br> In 2007 Nuclear and Space Radiation Effects Conference Short Course Notebook, 2007.</p>
+
+
+
+<h2>Soft Error (소프트 오류)</h2>
 
 <details >
 

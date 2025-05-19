@@ -122,13 +122,13 @@ code {
 	font-size: 120%;
 	color: #aaa;
 }
-
-.sidebar-header {
-	margin-bottom: 50px;
+/*로고 아래 공백 추가하는 부분*/
+.sidebar-header { 
+	/*margin-bottom: 50px;*/
 }
 
 .sidebar-nav {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .nav-title {
@@ -144,9 +144,10 @@ a.nav-item {
 	font-family: "Noto Sans";
 	text-transform: capitalize;
 	color: #aaa;
+	transition: color 0.3s ease;
 }
 
-a.nav-item:hover { color: #777; }
+a.nav-item:hover { color: #E42044; }
 
 .badge { font-size: 70%; }
 .badge::before { content: "("; }
@@ -155,10 +156,17 @@ a.nav-item:hover { color: #777; }
 .post-list > li {
 }
 
+.post-list > li:hover .post-link {
+    color: #E42044;
+    text-decoration: underline;
+	transition: color 0.2s;
+}
+
 .post-link {
 	margin-left: 10px;
 	font-size: 110%;
 	color: #333;
+	transition: color 0.3s;
 }
 
 #contact-list li .fa,

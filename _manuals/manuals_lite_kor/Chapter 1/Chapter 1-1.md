@@ -37,7 +37,7 @@ Pulsed Laser Test는 크게 Single Photon Absorption(SPA)와 Two Photon Absorpti
 <br/>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 100px;">
   <!-- 이전 페이지 버튼 -->
-  <a href="/manuals/manuals_lite_kor/Chapter 0/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="/manuals/manuals_lite_kor/Laser장비/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
     ← Previous
   </a>
 
