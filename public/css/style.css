@@ -356,7 +356,7 @@ table td {
 	}
 
 	.sidebar {
-		font-size: 0.6em;
+		font-size: 0.5em;
 		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
@@ -379,6 +379,11 @@ table td {
 		visibility: hidden;
 		display: none;
 	}
+	.sidebar-logo img {
+        height: 60px !important;
+        width: 60px !important;
+        max-width: 100%;
+    }
 }
 .float-button-container {
 	z-index: 1000;
