@@ -45,6 +45,21 @@
     -->
   </div>
 
+  <!-- load about.md-->
+
+  <div class="content" style="margin: 0 20px; padding: 0 5% 0;">
+
+    <div class="post-content">
+      {% assign about_page = site.pages | where: "title", "About LASER2COTS" | first %}
+      {% if about_page %}
+        {{ about_page.content }}
+      {% else %}
+        <p>About page not found.</p>
+      {% endif %}
+    </div>
+  </div>
+  
+
   <div class="content" style="margin: 0 20px; padding: 0 5% 0;">
     <header class="post-header home">
       <div class="post-title">Articles</div>
