@@ -17,6 +17,7 @@ permalink: ko/news/:title.html
 또한, COTS 부품이 우주사업에 적용될 경우의 주요 이점으로는 우주등급 부품 대비 비용절감, 짧은 부품 획득 납기, 혁신적인 첨단 기술 활용 가능 등을 들 수 있으며, 이와 더불어 적용 시 반드시 고려해야 할 신뢰성 확보 방안 및 평가 기준에 대해서도 체계적으로 정리해 주었습니다.
 
 
+
 **QRT 이혁재 박사의 중이온 대체 소스 기술개발 현황**
 
 이혁재 박사는 큐알티가 레이저를 통해 반도체 방사선 내성 평가를 하는 국내 유일 기업이고, 해외 평가 기관들도 레이저를 사용해 평가를 진행하고 있고
@@ -26,11 +27,22 @@ permalink: ko/news/:title.html
 국내에서 간단하게 측정/평가 할수 있고 소자의 취약점을 분석할 수 있다는 점을 강조했습니다.
 
 
+<p align= "center">
+<img src="/assets/Articles/큐알티.png" style="width: 100%; max-width: 700px;">
+</p>
+<p style="font-size: 10px; color: gray; text-align: center;">
+  QRT 이혁재 박사의 중이온 대체 소스 기술개발 현황
+</p> 
 
+<br>
 
+<p align= "center">
+<img src="/assets/Articles/우주항공청.png" style="width: 100%; max-width: 700px;">
+</p>
 
-
-
+<p style="font-size: 10px; color: gray; text-align: center;">
+  우주항공청 박훤 임무지원단장의 우주항공청 R&D전략
+</p> 
 
 
 
