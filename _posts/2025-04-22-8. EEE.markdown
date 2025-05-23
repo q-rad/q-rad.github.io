@@ -18,7 +18,7 @@ Space Product Assurance는 이러한 EEE 부품들이 우주 임무를 성공적
 - <a href="https://ecss.nl/" target="_blank">**ECSS**</a> (European Cooperation for Space Standardization): ESA(유럽우주국), 유럽 각국 우주 기관 및 산업체들이 공동으로 개발하여,
 우주 시스템의 품질, 신뢰성, 안전성, 비용 효율성을 확보하고자 만든 일련의 공식적인 국제 우주 표준
 - <a href="https://www.dsp.dla.mil/Specs-Standards/" target="_blank">**MIL-STD**</a> (Military Standard): 미국 국방부(DoD, Department of Defense)가 군사용 시스템, 부품, 장비, 공정 등을 대상으로 제정한 표준 규격 체계
-- <a href="https://standards.nasa.gov/standard/NASA/NASA-STD-873910" target="_blank">**NASA-STD**</a>: NASA에서 우주 미션에 사용되는 전자 부품(EEE parts)의 신뢰성과 품질을 확보하기 위해 제정한 공식 표준 문서
+- <a href="https://standards.nasa.gov/NASA-Technical-Standards" target="_blank">**NTSS(NASA Technical Standards System)**</a>: NASA가 공식적으로 운영하는 기술 표준 통합 시스템이며 이 시스템은 NASA 뿐만 아니라, 계약업체, 연구소, 대학, 산업 파트너들이 NASA 프로젝트를 수행할 때 필요한 공통 기술 기준을 공유하고, 프로젝트 전반의 일관성과 품질을 유지하는 데 중요한 역할을 합니다.
 
 이러한 표준들은 부품의 시험, 인증, 조달, 관리 등 전 과정을 포괄적으로 다루며, 우주 시스템의 안정성과 신뢰성을 철저하게 보장하고 있습니다.
 

@@ -55,5 +55,6 @@ QRT의 평가 장비는 나노미터 단위로 제어 가능한 고정밀 XYZ �
 **관련 글**
 - [SPA vs TPA](/ko/article/2.SPA-와-TPA.html)
 - [레이저 평가가 필요한 이유 (비용적 측면)](/ko/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)
-- [레이저평가의 세계동향](/ko/article/9.레이저평가-세계동향.html)
+- [레이저평가의 글로벌동향](/ko/article/9.레이저평가-세계동향.html)
 - [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)
+- [NASA 문건으로 본 레이저 평가](/ko/article/17.레이저-평가-적용-근거.html)

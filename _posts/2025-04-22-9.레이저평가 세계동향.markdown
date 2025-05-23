@@ -42,3 +42,4 @@ SEE 시험 전체 수가 꾸준히 늘어나는 가운데, 레이저를 활용�
 - [레이저 평가](/ko/article/4.레이저평가.html)
 - [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)
 - [Space Product Assurance(우주 제품 보증)란?](/ko/article/8.-EEE.html)
+- [NASA 문건으로 본 레이저 평가](/ko/article/17.레이저-평가-적용-근거.html)
