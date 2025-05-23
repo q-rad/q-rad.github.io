@@ -364,14 +364,14 @@ table td {
 	}
 
 	.sidebar {
-		font-size: 0.8em;
+		font-size: 0.6em;
 		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
 	}
 
 	.sidebar-nav {
-		margin: 5px;
+		margin: 10px;
 	}
 
 	.sidebar-item {
