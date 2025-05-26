@@ -24,12 +24,12 @@ permalink: ko/article/:title.html
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="/assets/Articles/QRT-laser.png" style="max-width: 500px;">
+      <img src="/assets/Articles/QRT-laser.png" style="max-width: 500px;" alt= "QRT-Laser Evaluation System">
       <div style="margin-top: 10px;">QRT-Laser Evaluation System
       </div>
     </td>
     <td align="center" style="border: none;">
-      <img src="/assets/Chapter-3/S-Map.png" style="max-width: 400px;">
+      <img src="/assets/Chapter-3/S-Map.png" style="max-width: 400px;" alt= "반도체 민감 영역 분석">
       <div style="margin-top: 10px;">반도체 민감 영역 분석</div>
     </td>
   </tr>

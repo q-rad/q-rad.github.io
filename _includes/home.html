@@ -66,24 +66,34 @@
     </header>
 
     <div class="post-content">
-        {%- if site.posts.size > 0 -%}
-      <ul class="post-list">
-        {%- for post in site.posts -%}
+  {%- assign max_posts = 10 -%}
+  {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in site.posts limit:max_posts -%}
         <li class="post-list-item">
-          <!-- {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%} -->
-           <!--
-          {%- assign date_format = "%Y/%m/%d" -%}
-          <span class="post-date">{{ post.date | date: date_format }}</span>
-          -->
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
-      </a>
+          </a>
           {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
         </li>
-        {%- endfor -%}
-      </ul>
-    {%- endif -%}
+      {%- endfor -%}
+    </ul>
+
+    <!-- 더보기 버튼 -->
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="{{ '/category/#article' | relative_url }}" class="more-button" style="
+        display: inline-block;
+        padding: 6px 20px;
+        background-color: #888888;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+      ">모든 글 보기</a>
     </div>
+  {%- endif -%}
+</div>
   
   </div>
 </article>

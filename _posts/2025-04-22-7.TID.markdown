@@ -8,7 +8,7 @@ permalink: ko/article/:title.html
 # TID (Total Ionizing Dose) effect - 총 이온화 선량 효과
 <div style="overflow: hidden;">
   <!-- 이미지 -->
-  <img src="/assets/Articles/TID2.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;">
+  <img src="/assets/Articles/TID2.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;" alt= "TID">
   
   <!-- 텍스트 -->
   <p>

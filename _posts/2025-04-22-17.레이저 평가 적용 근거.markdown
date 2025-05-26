@@ -13,7 +13,10 @@ NASA/TM–20205011579 문서는 NASA 임무에서 COTS EEE parts(상용 전자 �
 
  
 <p align= "center">
-<img src="/assets/Articles/적용근거.png" style="width: 100%; max-width: 700px;">
+<img src="/assets/Articles/적용근거.png" style="width: 100%; max-width: 700px;" alt= "Recommendations on Use of 
+Commercial-Off-The-Shelf (COTS) <br>Electrical,
+Electronic, and Electromechanical (EEE) Parts 
+for NASA Missions">
 </p>
 <p align= "center">Recommendations on Use of 
 Commercial-Off-The-Shelf (COTS) <br>Electrical,
@@ -32,7 +35,9 @@ QRT에서는 이런 국제적인 동향에 근거하여 레이저 평가기술�
 <br>
 
 <p align= "center">
-<img src="/assets/Articles/적용근거1.png" style="width: 100%; max-width: 700px;">
+<img src="/assets/Articles/적용근거1.png" style="width: 100%; max-width: 700px;" alt= "Guidelines for Verification Strategies to 
+Minimize RISK Based On  
+Mission Environment, -Application and  –Lifetime (MEAL)">
 </p>
 <p align= "center">Guidelines for Verification Strategies to 
 Minimize RISK Based On  
