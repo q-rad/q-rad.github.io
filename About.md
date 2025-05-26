@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 <p align="center"> 
-  <img src="/assets/about.png" style="max-width: 80%;">
+  <img src="/assets/about_diagram.png" style="max-width: 80%;">
 </p>
 
 ## QRT Inc.
