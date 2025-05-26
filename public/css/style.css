@@ -452,3 +452,19 @@ table td {
 	text-align: center;
 	position: relative;
 }
+
+.more-button {
+   	display: inline-block;
+	padding: 5px 15px;
+	background-color: #888888;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: bold;
+  	transition: background-color 0.3s ease;
+}
+
+.more-button:hover {
+  background-color: #E42044; /* 원하는 hover 색상 */
+}
