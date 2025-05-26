@@ -1,16 +1,9 @@
 ---
 layout: page
-title: About LASER2COTS
-permalink: /about/
+title: About LASER2COTS_main
+permalink:
+hidden: true
 ---
-
-<p align="center"> 
-  <img src="/assets/about.png" style="max-width: 80%;">
-</p>
-
-## QRT Inc.
-> **큐알티주식회사(QRT)**는 40년 이상의 반도체 신뢰성 평가 및 불량 분석 노하우를 바탕으로, 글로벌 고객에게 최고 수준의 기술 서비스를 제공하는 신뢰성 전문 기업입니다.  
-방사선 신뢰성, 5G, AI 등 미래 기술 분야에 대응하는 신뢰성 시험 장비 개발을 통해, 분석 서비스와 장비 사업을 아우르는 차별화된 경쟁력을 갖추고 글로벌 시장으로 도약하고 있습니다.
 
 ## LASER2COTS
 > **LASER2COTS**는 QRT에서 진행한 반도체 레이저 SEE(Single Event Effect) 평가 결과와 관련 기술 정보를 공유하기 위해 오픈한 페이지 입니다.  

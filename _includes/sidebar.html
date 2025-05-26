@@ -20,31 +20,43 @@
 	<ul class="nav">
       <li class="nav-title">About</li>
 	  
+	  <!-- Home 항목 먼저 -->
+	  <li>
+		<a class="nav-item" href="/">Home</a>
+	  </li>
+
+	  <!-- About LASER2COTS만 먼저 표시 -->
 	  {% assign pages_list = site.pages %}
 	  {% for node in pages_list %}
-	    {% if node.title != "pygments-css" %}
-		{% if node.title != "README" %}
-		{% if node.title != null %}
-	      {% if node.layout == "page" %}
+	    {% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
+	      <li>
+	        <a class="nav-item" href="{{ node.url }}">
+	          {{ node.title }}
+	        </a>
+	      </li>
+	    {% endif %}
+	  {% endfor %}
+
+	  <!-- 나머지 페이지들 중 About LASER2COTS, pygments-css, README 제외 -->
+	  {% for node in pages_list %}
+	    {% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
+	      {% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
 	        <li>
-	        	<a class="nav-item" href="{{ node.url }}">
-	            	{{ node.title }}
-	            </a>
+	          <a class="nav-item" href="{{ node.url }}">
+	            {{ node.title }}
+	          </a>
 	        </li>
 	      {% endif %}
-		  {% endif %}
 	    {% endif %}
-		{% endif %}
 	  {% endfor %}
+
+	  <!-- 마지막에 QRT homepage -->
 	  <li>
 		<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
-
-	</li>
-	<li>
-		<a class="nav-item" href="/">Home</a>
-	</li>
+	  </li>
 	</ul>
 </div>
+
 
 
 <div class="sidebar-item sidebar-nav">
