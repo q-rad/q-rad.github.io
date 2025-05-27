@@ -160,6 +160,7 @@ a.nav-item:hover { color: #E42044; }
     color: #E42044;
     text-decoration: underline;
 	transition: color 0.2s;
+	transform: translateY(-5px);
 }
 
 .post-link {
@@ -438,7 +439,7 @@ table td {
 }
 
 .float-button-container:hover {
-	transform: translate(0%, -20%);
+	transform: translate(0%, -10%);
 }
 
 .float-button-image {
@@ -454,17 +455,71 @@ table td {
 }
 
 .more-button {
-   	display: inline-block;
-	padding: 5px 15px;
-	background-color: #888888;
-	color: white;
-	text-decoration: none;
-	border-radius: 5px;
-	font-size: 14px;
-	font-weight: bold;
-  	transition: background-color 0.3s ease;
+  display: inline-block;
+  padding: 10px 25px;
+  background: linear-gradient(120deg, #ef8009, #E42044);
+  color: white;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+.more-button:hover {
+  background: linear-gradient(120deg, #dd6100, #c71c3e);
+  transform: translateY(-2px);
 }
 
-.more-button:hover {
-  background-color: #E42044; /* 원하는 hover 색상 */
+/* 🔝 최상단 버튼 스타일 - 기존 스타일 덮어쓰기 및 개선 */
+#scrollTopBtn {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #ffffff;
+  color: #333;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-size: 20px;
+
+  cursor: pointer;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out; /* 👈 더 빠르게 설정 */
+  opacity: 0;
+  transform: translateY(40px); /* 👈 더 아래로 내려가게 설정 */
+  pointer-events: none;
+}
+
+#scrollTopBtn.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+#scrollTopBtn:hover {
+
+
+  transform: translateY(-3px);
+}
+
+/* 스크롤시 등장 효과 */
+#scrollTopBtn.show {
+  display: flex !important;
+  opacity: 1;
+  animation: fadeInTop 0.4s ease-in-out;
+}
+
+@keyframes fadeInTop {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
