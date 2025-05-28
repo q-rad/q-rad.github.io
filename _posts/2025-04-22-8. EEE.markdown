@@ -14,7 +14,7 @@ EEE Components는 Electrical(전기), Electronic(전자), Electromechanical(전�
 Space Product Assurance는 이러한 EEE 부품들이 우주 임무를 성공적으로 수행할 수 있도록 품질, 신뢰성, 안전성을 철저히 보장하기 위한 일련의 활동과 프로세스를 포함합니다.
 
 
-우주용 EEE 부품 관리에 있어 전 세계적으로 인정받는 주요 표준은 다음과 같습니다.
+우주용 EEE 부품(우주반도체) 관리에 있어 전 세계적으로 인정받는 주요 표준은 다음과 같습니다.
 - <a href="https://ecss.nl/" target="_blank">**ECSS**</a> (European Cooperation for Space Standardization): ESA(유럽우주국), 유럽 각국 우주 기관 및 산업체들이 공동으로 개발하여,
 우주 시스템의 품질, 신뢰성, 안전성, 비용 효율성을 확보하고자 만든 일련의 공식적인 국제 우주 표준
 - <a href="https://www.dsp.dla.mil/Specs-Standards/" target="_blank">**MIL-STD**</a> (Military Standard): 미국 국방부(DoD, Department of Defense)가 군사용 시스템, 부품, 장비, 공정 등을 대상으로 제정한 표준 규격 체계

@@ -3,42 +3,51 @@
 @import url(syntax/monokai.css);
 
 :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #007bff;
-  --secondary: #6c757d;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #343a40;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Roboto", "Nanum Gothic";
-  --font-family-serif: "Nanum Myeongjo";
+	--blue: #007bff;
+	--indigo: #6610f2;
+	--purple: #6f42c1;
+	--pink: #e83e8c;
+	--red: #dc3545;
+	--orange: #fd7e14;
+	--yellow: #ffc107;
+	--green: #28a745;
+	--teal: #20c997;
+	--cyan: #17a2b8;
+	--white: #fff;
+	--gray: #6c757d;
+	--gray-dark: #343a40;
+	--primary: #007bff;
+	--secondary: #6c757d;
+	--success: #28a745;
+	--info: #17a2b8;
+	--warning: #ffc107;
+	--danger: #dc3545;
+	--light: #f8f9fa;
+	--dark: #343a40;
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+	--font-family-sans-serif: "Roboto", "Nanum Gothic";
+	--font-family-serif: "Nanum Myeongjo";
 }
 
 * {
 	box-sizing: border-box;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+	display: block;
 }
 
 html {
@@ -112,7 +121,7 @@ code {
 	padding-inline-start: 0px;
 }
 
-.sidebar-brand > a {
+.sidebar-brand>a {
 	font-size: 300%;
 	font-family: 'Gelasio';
 	color: #fff;
@@ -122,8 +131,9 @@ code {
 	font-size: 120%;
 	color: #aaa;
 }
+
 /*로고 아래 공백 추가하는 부분*/
-.sidebar-header { 
+.sidebar-header {
 	/*margin-bottom: 50px;*/
 }
 
@@ -147,18 +157,27 @@ a.nav-item {
 	transition: color 0.3s ease;
 }
 
-a.nav-item:hover { color: #E42044; }
-
-.badge { font-size: 70%; }
-.badge::before { content: "("; }
-.badge::after { content: ")"; }
-
-.post-list > li {
+a.nav-item:hover {
+	color: #E42044;
 }
 
-.post-list > li:hover .post-link {
-    color: #E42044;
-    text-decoration: underline;
+.badge {
+	font-size: 70%;
+}
+
+.badge::before {
+	content: "(";
+}
+
+.badge::after {
+	content: ")";
+}
+
+.post-list>li {}
+
+.post-list>li:hover .post-link {
+	color: #E42044;
+	text-decoration: underline;
 	transition: color 0.2s;
 	transform: translateY(-5px);
 }
@@ -172,28 +191,35 @@ a.nav-item:hover { color: #E42044; }
 
 #contact-list li .fa,
 article .share .btn {
-	-o-transition:color .2s ease-out, background 1s ease-in;
-  -ms-transition:color .2s ease-out, background 1s ease-in;
-  -moz-transition:color .2s ease-out, background 1s ease-in;
-  -webkit-transition:color .2s ease-out, background 1s ease-in;
-  transition:color .2s ease-out, background 1s ease-in;
+	-o-transition: color .2s ease-out, background 1s ease-in;
+	-ms-transition: color .2s ease-out, background 1s ease-in;
+	-moz-transition: color .2s ease-out, background 1s ease-in;
+	-webkit-transition: color .2s ease-out, background 1s ease-in;
+	transition: color .2s ease-out, background 1s ease-in;
 }
-#contact-list li:hover .fa-twitter, article .share .twitter:hover {
+
+#contact-list li:hover .fa-twitter,
+article .share .twitter:hover {
 	color: #00ACEE;
 	border-color: #00ACEE;
 }
+
 #contact-list li:hover .fa-linkedin {
 	color: #1D87BD;
 }
+
 #contact-list li:hover .fa-envelope {
 	color: #E93E30;
 }
+
 #contact-list li:hover .fa-pinterest {
 	color: #CC2127;
 }
+
 #contact-list li:hover .fa-rss {
 	color: #e74c3c;
 }
+
 #contact-list-secondary {
 	padding-bottom: 10px;
 }
@@ -202,6 +228,7 @@ article .share .facebook:hover {
 	color: #43609C;
 	border-color: #43609C;
 }
+
 article .share .gplus:hover {
 	color: #C13929;
 	border-color: #C13929;
@@ -219,21 +246,32 @@ article {
 	line-height: 1.9;
 }
 
-article.home div a, article.home pre a { color: #2c3e50; }
-article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
-article img { max-width: 100%; }
+article.home div a,
+article.home pre a {
+	color: #2c3e50;
+}
+
+article.home div a:hover,
+article.home pre a:hover {
+	color: #2c3e50;
+	text-decoration: none;
+}
+
+article img {
+	max-width: 100%;
+}
 
 blockquote {
 	color: #828282;
-  	border-left: 4px solid #ccc;
-  	padding-left: 10px;
-  	margin: 0;
-  	margin-bottom: 15px;
+	border-left: 4px solid #ccc;
+	padding-left: 10px;
+	margin: 0;
+	margin-bottom: 15px;
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 15px;
+	margin-top: 0;
+	margin-bottom: 15px;
 }
 
 article h1,
@@ -244,7 +282,7 @@ article h5,
 article h6 {
 	font-family: "Roboto", "Nanum Gothic";
 	color: #333;
-  	margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 article.home h1 a,
@@ -253,6 +291,7 @@ article.home h3 a,
 article.home h4 a {
 	color: #f2756a;
 }
+
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
@@ -287,8 +326,8 @@ header.home {
 }
 
 .author .author-image {
-  float: left;
-  margin-right: 20px;
+	float: left;
+	margin-right: 20px;
 }
 
 footer {
@@ -313,6 +352,7 @@ table {
 	text-align: left;
 	line-height: 1.5;
 }
+
 table thead th {
 	text-align: center;
 	padding: 10px;
@@ -322,6 +362,7 @@ table thead th {
 	border-top: 2px solid #1b3453;
 	border-bottom: 2px solid #1b3453;
 }
+
 table tbody th {
 	padding: 10px 15px;
 	font-weight: bold;
@@ -329,6 +370,7 @@ table tbody th {
 	border-bottom: 1px solid #ccc;
 	background: #f3f6f7;
 }
+
 table td {
 	padding: 10px 15px;
 	vertical-align: top;
@@ -337,21 +379,28 @@ table td {
 
 /* fade-in 애니메이션 정의 */
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 
 /* 페이지 전체에 적용할 클래스 */
 .fade-in {
-    animation: fadeIn 0.5s ease-in-out; /* 1초 동안 fade-in 효과 */
-    opacity: 1; /* 애니메이션 완료 후 유지 */
+	animation: fadeIn 0.5s ease-in-out;
+	/* 1초 동안 fade-in 효과 */
+	opacity: 1;
+	/* 애니메이션 완료 후 유지 */
 }
 
 @media (max-width: 576px) {
+	.visual-sub-txt {
+		display: none;
+	}
+
 	article {
 		font-size: 0.9em;
 		line-height: 1.5;
@@ -360,8 +409,9 @@ table td {
 	.content {
 		padding: 0px;
 	}
+
 	.container {
-	    flex-direction: column;
+		flex-direction: column;
 	}
 
 	.sidebar {
@@ -388,13 +438,15 @@ table td {
 		visibility: hidden;
 		display: none;
 	}
+
 	.sidebar-logo img {
-        height: 60px !important;
-        width: 60px !important;
-        max-width: 100%;
+		height: 60px !important;
+		width: 60px !important;
+		max-width: 100%;
 		display: none !important;
-    }
+	}
 }
+
 .float-button-container {
 	z-index: 1000;
 	position: fixed;
@@ -407,14 +459,14 @@ table td {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	padding:0 10px;
+	padding: 0 10px;
 
-	background: linear-gradient(120deg, rgba(239,128,9,1) 0%, rgba(224,0,42,1) 100%);
+	background: linear-gradient(120deg, rgba(239, 128, 9, 1) 0%, rgba(224, 0, 42, 1) 100%);
 	opacity: 0.9;
 	height: 50px;
 	max-width: 150px;
 	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
-	border:1px solid #e9e9e9;
+	border: 1px solid #e9e9e9;
 	border-radius: 30px;
 	text-decoration: none !important;
 	transition: 0.5s;
@@ -423,18 +475,18 @@ table td {
 .float-button {
 	display: flex;
 	align-items: center;
-	padding:0 8px;
+	padding: 0 8px;
 
 	cursor: pointer;
-	color:#ffffff !important;
+	color: #ffffff !important;
 	font-size: 13px;
 	text-decoration: none !important;
 	white-space: nowrap;
 	font-weight: bold;
 	transition: 0.5s;
 
-	background: none; 
-	border: none;   
+	background: none;
+	border: none;
 	outline: none;
 }
 
@@ -455,71 +507,84 @@ table td {
 }
 
 .more-button {
-  display: inline-block;
-  padding: 10px 25px;
-  background: linear-gradient(120deg, #ef8009, #E42044);
-  color: white;
-  border-radius: 30px;
-  font-size: 15px;
-  font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: all 0.3s ease;
+	display: inline-block;
+	padding: 10px 25px;
+	background: linear-gradient(120deg, #ef8009, #E42044);
+	color: white;
+	border-radius: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: all 0.3s ease;
 }
+
 .more-button:hover {
-  background: linear-gradient(120deg, #dd6100, #c71c3e);
-  transform: translateY(-2px);
+	background: linear-gradient(120deg, #dd6100, #c71c3e);
+	transform: translateY(-2px);
 }
 
 /* 🔝 최상단 버튼 스타일 - 기존 스타일 덮어쓰기 및 개선 */
 #scrollTopBtn {
-  position: fixed;
-  right: 15px;
-  bottom: 15px;
-  z-index: 9999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
-  background: #ffffff;
-  color: #333;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  font-size: 20px;
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	background: #ffffff;
+	color: #333;
+	border-radius: 50%;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	font-size: 20px;
 
-  cursor: pointer;
-  transition: opacity 0.3s ease-out, transform 0.3s ease-out; /* 👈 더 빠르게 설정 */
-  opacity: 0;
-  transform: translateY(40px); /* 👈 더 아래로 내려가게 설정 */
-  pointer-events: none;
+	cursor: pointer;
+	transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+	/* 👈 더 빠르게 설정 */
+	opacity: 0;
+	transform: translateY(40px);
+	/* 👈 더 아래로 내려가게 설정 */
+	pointer-events: none;
 }
 
 #scrollTopBtn.show {
-  opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
+	opacity: 1;
+	transform: translateY(0);
+	pointer-events: auto;
 }
 
 #scrollTopBtn:hover {
 
 
-  transform: translateY(-3px);
+	transform: translateY(-3px);
 }
 
 /* 스크롤시 등장 효과 */
 #scrollTopBtn.show {
-  display: flex !important;
-  opacity: 1;
-  animation: fadeInTop 0.4s ease-in-out;
+	display: flex !important;
+	opacity: 1;
+	animation: fadeInTop 0.4s ease-in-out;
 }
 
 @keyframes fadeInTop {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
+
+.visual-sub-txt {
+	font-size: 1.5em;
+	color: rgba(255, 255, 255, 0.3);
+	font-weight: 600;
+	margin-left: 9px;
+	font-family: 'Arial', sans-serif;
+}
+
