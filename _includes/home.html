@@ -16,6 +16,8 @@
     }
   </style>
 
+
+  <!-- Welcome Section -->
   <div class="welcome-section" style="display: flex; align-items: center; 
     justify-content: center; 
     margin-bottom: 20px;
@@ -47,119 +49,169 @@
     -->
   </div>
 
-  <!-- load about.md-->
+  <!-- Gallery Section -->
 
-  <!-- 부모 컨테이너에 flex 설정 -->
-<div style="display: flex; margin: 0 20px; padding: 0 5% 0; gap: 40px; flex-wrap: wrap;">
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="/assets/Articles/space2.png" alt="Up-Screen">
+      <div class="label-center">Up-Screen</div>
+      <div class="overlay">
+        <h3 style="color: #fff; cursor: default;">Up-Screen</h3>
+        <p style="cursor: default">우주 환경에 적합한 부품을 선별하는 Up-screening 서비스를 제공합니다</p>
+        <a href="/ko/article/12.upScreening.html" class="button">자세히 보기</a>
+      </div>
+    </div>
 
-  <!-- 좌측: About 섹션 -->
-  <div class="content" style="flex: 1; min-width: 300px;">
-    <div class="post-content">
-      {% assign about_page = site.pages | where: "title", "About LASER2COTS_main" | first %}
-      {% if about_page %}
-      {{ about_page.content }}
-      {% else %}
-      <p>About page not found.</p>
-      {% endif %}
+    <div class="gallery-item">
+      <img src="/assets/Articles/laser.png" alt="laser evaluation">
+      <div class="label-center">Laser Evaluation</div>
+      <div class="overlay">
+        <h3 style="color: #fff; cursor: default;">Laser Evaluation</h3>
+        <p style="cursor: default">레이저를 이용한 내방사선 평가 서비스를 제공합니다</p>
+        <a href="/ko/article/4.레이저평가.html" class="button">자세히 보기</a>
+      </div>
+    </div>
+
+    <div class="gallery-item">
+      <img src="/assets/Articles/QRT-laser.png" alt="laser lab Access Service">
+      <div class="label-center">Laser Lab Access Service</div>
+      <div class="overlay">
+        <h3 style="color: #fff; cursor: default;">Laser Lab Access Service</h3>
+        <p style="cursor: default">내방사선 평가를 위한 레이저 시설 대여 서비스를 제공합니다</p>
+        <a href="/ko/article/4.레이저평가.html" class="button">자세히 보기</a>
+      </div>
     </div>
   </div>
-<!--<div style="width: 1px; background-color: #757575; margin: 0 10px;"></div>-->
-  <!-- 우측: Articles 섹션 -->
-  <div class="content" style="flex: 1; min-width: 300px;">
-    <header class="post-header home">
-      <div class="post-title">Articles</div>
-    </header>
 
-    
+  <!-- 본문 -->
+  <div style="display: flex; margin: 0 20px; padding: 0 5% 0; gap: 40px; flex-wrap: wrap;">
 
-    <div class="post-content">
-      {%- assign max_posts = 10 -%}
-      {%- if site.posts.size > 0 -%}
-      <ul class="post-list">
-        {%- for post in site.posts limit:max_posts -%}
-        <li class="post-list-item">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-          {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
-        </li>
-        {%- endfor -%}
-      </ul>
-
-      <div style="text-align: center; margin-top: 20px;">
-        <a href="{{ '/category/#article' | relative_url }}" class="more-button">
-          더 많은 글 보기</a>
+    <!-- 좌측: About 섹션 -->
+    <div class="content" style="flex: 1; min-width: 300px;">
+      <div class="post-content">
+        {% assign about_page = site.pages | where: "title", "About LASER2COTS_main" | first %}
+        {% if about_page %}
+        {{ about_page.content }}
+        {% else %}
+        <p>About page not found.</p>
+        {% endif %}
       </div>
-      {%- endif -%}
+    </div>
+    <!--<div style="width: 1px; background-color: #757575; margin: 0 10px;"></div>-->
+    <!-- 우측: Articles 섹션 -->
+    <div class="content" style="flex: 1; min-width: 300px;">
+      <header class="post-header home">
+        <div class="post-title">Articles</div>
+      </header>
+
+
+
+      <div class="post-content">
+        {%- assign max_posts = 10 -%}
+        {%- if site.posts.size > 0 -%}
+        <ul class="post-list">
+          {%- for post in site.posts limit:max_posts -%}
+          <li class="post-list-item">
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+            {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ul>
+
+        <div style="text-align: center; margin-top: 20px;">
+          <a href="{{ '/category/#article' | relative_url }}" class="more-button">
+            더 많은 글 보기</a>
+        </div>
+        {%- endif -%}
+      </div>
     </div>
   </div>
-</div>
-
-<div class="content" style="margin: 0 20px; padding: 0 5% 0;">
- <header class="post-header home">
-      <div class="post-title">Our Services</div>
-    </header>
-
-<div class="gallery-container">
-      <div class="gallery-item">
-        <img src="/assets/Articles/space2.png" alt="Up-Screen">
-        <div class="label-center">Up-Screen</div>
-        <div class="overlay">
-          <h3 style="color: #fff; cursor: default;">Up-Screen</h3>
-          <p style="cursor: default">우주 환경에 적합한 부품을 선별하는 Up-screening 서비스를 제공합니다</p>
-          <a href="/ko/article/12.upScreening.html" class="button">자세히 보기</a>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="/assets/Articles/laser.png" alt="laser evaluation">
-        <div class="label-center">Laser Evaluation</div>
-        <div class="overlay">
-          <h3 style="color: #fff; cursor: default;">Laser Evaluation</h3>
-          <p style="cursor: default">레이저를 이용한 내방사선 평가 서비스를 제공합니다</p>
-          <a href="/ko/article/4.레이저평가.html" class="button">자세히 보기</a>
-        </div>
-      </div>
-
-      <div class="gallery-item">
-        <img src="/assets/Articles/QRT-laser.png" alt="laser lab Access Service">
-        <div class="label-center">Laser Lab Access Service</div>
-        <div class="overlay">
-          <h3 style="color: #fff; cursor: default;">Laser Lab Access Service</h3>
-          <p style="cursor: default">내방사선 평가를 위한 레이저 시설 대여 서비스를 제공합니다</p>
-          <a href="/ko/article/4.레이저평가.html" class="button">자세히 보기</a>
-        </div>
-      </div>
-    </div>
-</div>
 
 
 </article>
 
-<div class="scroll-hint" id="scroll-hint">
-  SCROLL DOWN<br>ˇ
+
+<!-- Footer Section -->
+<div style="padding: 40px 0px 80px; background-color: #000; display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: rgba(255,255,255,0.6);
+  font-size: 14px;
+  font-family: 'Play', sans-serif;
+  padding-right: 15px;
+  padding-left: 15px;">
+  <div class="footer-address-txt" style="flex: 1;">
+    <p class="m-block">큐알티 주식회사</p>
+    <p class="m-block">경기도 이천시 부발읍 경충대로 2091 (우 :17336)</p>
+    <p>신뢰성 문의 전화 : 031-8094-8211 </p>
+    <p>종합분석 문의 전화 : 031-8019-9950</p>
+    <p>IR 담당자 : 070-4473-6251</p>
+    <p>팩스 : 031-8094-8239</p>
+    <p>사업자등록번호 : 126-86-75409</p>
+    <p>법인등록번호 : 134411-0059857</p>
+    <p class="m-block">대표자 : 김영부</p>
+    <ul class="foot-menu clearfix">
+      <li><a href="/footer_html/privacy.html" class="cm-modal-open-btn"><span>개인정보처리방침</span></a></li>
+      <li><a href="/footer_html/agreement.html" class="cm-modal-open-btn">이용약관</a></li>
+      <li><a href="/footer_html/email.html" class="cm-modal-open-btn">이메일 무단수집 거부</a></li>
+    </ul>
+  </div>
+  <div class="footer-icon" style="flex: 1; padding: 20px 0px 0px;">
+    <img src="https://www.qrtkr.com/images/common/footer_logo.jpg" alt="QRT Inc.">
+
+  </div>
 </div>
 
 
+<!-- 개선된 모달 팝업 -->
+<div id="modal">
+  <div>
+    <button class="close-btn" onclick="closeModal()">&times;</button>
+    <div id="modal-content">불러오는 중...</div>
+  </div>
+</div>
 
-  <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const scrollHint = document.getElementById('scroll-hint');
 
-    window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
-        scrollHint.classList.add('hidden');
-      } else {
-        scrollHint.classList.remove('hidden');
-      }
-    });
+<script>
+  function openModal(url) {
+    const modal = document.getElementById("modal");
+    const modalContent = document.getElementById("modal-content");
+    modal.style.display = "flex";
 
-    scrollHint.addEventListener('click', () => {
-      window.scrollTo({
-        top: window.innerHeight,
-        behavior: 'smooth'
+    // 콘텐츠 로드
+    fetch(url)
+      .then(response => response.text())
+      .then(html => {
+        // 전체 HTML에서 body 내용만 추출
+        const bodyContent = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
+        modalContent.innerHTML = bodyContent ? bodyContent[1] : html;
+      })
+      .catch(err => {
+        modalContent.innerHTML = "내용을 불러오지 못했습니다.";
+        console.error(err);
+      });
+  }
+
+  function closeModal() {
+    document.getElementById("modal").style.display = "none";
+    document.getElementById("modal-content").innerHTML = "";
+  }
+
+  // 링크 클릭 차단 및 팝업 띄우기
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".cm-modal-open-btn").forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const url = link.getAttribute("href");
+        openModal(url);
       });
     });
+  });
+  // 팝업 외부 클릭 시 닫기
+  document.getElementById("modal").addEventListener("click", function (e) {
+    if (e.target === this) closeModal();
   });
 
 </script>
@@ -168,6 +220,7 @@
 
 <!-- CDN 방식으로 추가 -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
