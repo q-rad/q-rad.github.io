@@ -51,7 +51,7 @@
 
   <!-- Gallery Section -->
 
-  <div class="gallery-container">
+  <div class="gallery-container" style="margin-top: 40px; margin-bottom: 40px; ">
     <div class="gallery-item">
       <img src="/assets/Articles/space2.png" alt="Up-Screen">
       <div class="label-center">Up-Screen</div>
@@ -133,88 +133,6 @@
 </article>
 
 
-<!-- Footer Section -->
-<div style="padding: 40px 0px 80px; background-color: #000; display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  color: rgba(255,255,255,0.6);
-  font-size: 14px;
-  font-family: 'Play', sans-serif;
-  padding-right: 15px;
-  padding-left: 15px;">
-  <div class="footer-address-txt" style="flex: 1;">
-    <p class="m-block">큐알티 주식회사</p>
-    <p class="m-block">경기도 이천시 부발읍 경충대로 2091 (우 :17336)</p>
-    <p>신뢰성 문의 전화 : 031-8094-8211 </p>
-    <p>종합분석 문의 전화 : 031-8019-9950</p>
-    <p>IR 담당자 : 070-4473-6251</p>
-    <p>팩스 : 031-8094-8239</p>
-    <p>사업자등록번호 : 126-86-75409</p>
-    <p>법인등록번호 : 134411-0059857</p>
-    <p class="m-block">대표자 : 김영부</p>
-    <ul class="foot-menu clearfix">
-      <li><a href="/footer_html/privacy.html" class="cm-modal-open-btn"><span>개인정보처리방침</span></a></li>
-      <li><a href="/footer_html/agreement.html" class="cm-modal-open-btn">이용약관</a></li>
-      <li><a href="/footer_html/email.html" class="cm-modal-open-btn">이메일 무단수집 거부</a></li>
-    </ul>
-  </div>
-  <div class="footer-icon" style="flex: 1; padding: 20px 0px 0px;">
-    <img src="https://www.qrtkr.com/images/common/footer_logo.jpg" alt="QRT Inc.">
-
-  </div>
-</div>
-
-
-<!-- 개선된 모달 팝업 -->
-<div id="modal">
-  <div>
-    <button class="close-btn" onclick="closeModal()">&times;</button>
-    <div id="modal-content">불러오는 중...</div>
-  </div>
-</div>
-
-
-<script>
-  function openModal(url) {
-    const modal = document.getElementById("modal");
-    const modalContent = document.getElementById("modal-content");
-    modal.style.display = "flex";
-
-    // 콘텐츠 로드
-    fetch(url)
-      .then(response => response.text())
-      .then(html => {
-        // 전체 HTML에서 body 내용만 추출
-        const bodyContent = html.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
-        modalContent.innerHTML = bodyContent ? bodyContent[1] : html;
-      })
-      .catch(err => {
-        modalContent.innerHTML = "내용을 불러오지 못했습니다.";
-        console.error(err);
-      });
-  }
-
-  function closeModal() {
-    document.getElementById("modal").style.display = "none";
-    document.getElementById("modal-content").innerHTML = "";
-  }
-
-  // 링크 클릭 차단 및 팝업 띄우기
-  document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll(".cm-modal-open-btn").forEach(link => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const url = link.getAttribute("href");
-        openModal(url);
-      });
-    });
-  });
-  // 팝업 외부 클릭 시 닫기
-  document.getElementById("modal").addEventListener("click", function (e) {
-    if (e.target === this) closeModal();
-  });
-
-</script>
 
 
 
