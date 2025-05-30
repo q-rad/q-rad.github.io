@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 레이저 평가
+title: 레이저 평가(Laser Test)
 date: 2025-03-27 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
 ---
-# 레이저 평가
+# 레이저 평가(Laser Test)
 <div style="overflow: hidden;">
   <!-- 이미지 -->
   <img src="/assets/Articles/laser.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;">
