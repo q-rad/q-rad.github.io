@@ -29,7 +29,7 @@ SEE는 반도체 내에서 여러 가지 현상으로 나타나며 가장 먼저
 
 
 
-<h2>Soft Error (소프트 오류)</h2>
+<h2>Soft Error</h2>
 
 <details >
 
@@ -149,7 +149,7 @@ SET는 잘 알려진 세 가지 유형의 마스킹에 의해 오류로 전파�
 
 <br/> <!-- 한줄 띄기 -->
 
-## Hard Error (고정 오류)
+## Hard Error
 
 <details>
 <summary >
