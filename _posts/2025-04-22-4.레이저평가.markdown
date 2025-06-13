@@ -5,7 +5,7 @@ date: 2025-03-27 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
 ---
-# 반도체 방사선 내성 레이저 평가(Laser Test)
+### 반도체 방사선 내성 레이저 평가(Laser Test)
 <div style="overflow: hidden;">
   <!-- 이미지 -->
   <img src="/assets/Articles/laser.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 400px;">
@@ -37,7 +37,7 @@ permalink: ko/article/:title.html
 
 # QRT의 레이저 평가 기술
 QRT는 다년간의 레이저 내방사선 평가 수행 경험을 보유하고 있는 국내 유일 회사입니다.
-펨토초(Femtosecond) 레이저 시스템을 활용해, 단일 광자 흡수(SPA, Single Photon Absorption)는 물론 이중 광자 흡수(TPA, Two Photon Absorption) 방식까지 모두 구현 가능한 다목적 레이저 평가 기술을 보유하고 있습니다.
+펨토초(Femtosecond) 펄스 레이저 시스템을 활용해, 단일 광자 흡수(SPA, Single Photon Absorption)는 물론 두 광자 흡수(TPA, Two Photon Absorption) 방식까지 모두 구현 가능한 다목적 레이저 평가 기술을 보유하고 있습니다.
 QRT에서는 레이저를 이용한 반도체의 내방사선 대체평가와 내방사선 반도체의 설계 검증을 진행하실 수 있습니다.
 
 # 회로 민감 영역 분석

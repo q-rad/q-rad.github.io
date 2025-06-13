@@ -16,7 +16,7 @@ DD는 다음과 같은 네 가지 주요 메커니즘을 통해 발생합니다.
 
 1. 쿨롱 산란 (Coulomb Scattering): 에너지가 낮은 하전 입자(예: 양성자)가 실리콘 원자와 전기적인 힘으로 상호작용하면서, 자신의 운동 에너지를 실리콘 원자에 전달해 격자에서 밀어내는 현상입니다. 양성자의 경우, 이 현상은 보통 에너지가 10 MeV 이하일 때 잘 발생합니다.
 
-2. 핵 탄성 반응 (Nuclear Elastic Reactions): 입사 입자(양성자, 중성자 등)가 실리콘 원자핵과 탄성 충돌을 하여 반동(Recoil) 실리콘을 생성하며, 이는 공공 결함(vacancy)과 간정 결함(interstitial defect)을 유발합니다.
+2. 핵 탄성 반응 (Nuclear Elastic Reactions): 입사 입자(양성자, 중성자 등)가 실리콘 원자핵과 탄성 충돌을 하여 반동(Recoil) 실리콘을 생성하며, 이는 결손 결함(vacancy)과 침입형 결함(interstitial defect)을 유발합니다.
 
 3. 핵 비탄성 반응 (Nuclear Inelastic Reactions): 입사 입자의 에너지가 실리콘 핵에 전달되어 핵이 여기 상태가 되며, 이후 붕괴되어 핵 반동 또는 2차 입자를 방출합니다.
 

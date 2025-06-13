@@ -6,17 +6,17 @@ category: article
 permalink: ko/article/:title.html
 ---
 # SEE (Single Event Effect) - 단일 이벤트 효과
-SEE (Single Event Effect)는 하전 입자가 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.
+SEE (Single Event Effect)는 방사선(양성자, 중성자, 중이온, 감마선 등) 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.
 
 
 
 ## SEE의 효과와 종류
-SEE는 반도체 내에서 여러 가지 현상으로 나타나며 가장 먼저 관찰된 것이 'Soft Error'로 불리는 단일 이벤트 업셋(SEU, Single Event Upset)입니다. SEU는 단일 입자에 의한 업셋으로 인한 래치, 플립플롭, 메모리 셀 또는 기타 쌍안정 기능(Bi-stable Function)을 가진 회로의 안정적으로 유지된 논리 상태를 바꾸게 하는 논리값에 영구적이지 않은 오류가 발생하는 것을 말합니다. 예로 메모리 소자의 셀에 단일 이벤트 업셋이 발생하면 저장된 논리 값 '0'('1')은 '1'('0')로 바뀌게 됩니다. 하지만 같은 위치에 새로운 값인 '0'이나 '1'을 다시 저장하면 이전과 마찬가지로 정상적인 기능을 유지하고 있습니다. 소프트 오류는 일시적 오류이며 고정 오류와 구분되는 연성 오류입니다.
+SEE는 반도체 소자 내에서 여러 가지 현상으로 나타나며 'Soft Error'로 불리는 단일 이벤트 업셋(SEU, Single Event Upset)이 있습니다. SEU는 단일 입자에 의한 업셋으로 인한 래치, 플립플롭, 메모리 셀 또는 기타 쌍안정 기능(Bi-stable Function)을 가진 회로의 안정적으로 유지된 논리 상태를 바꾸게 하는 논리값에 일시적인 오류가 발생하는 것을 말합니다. 예로 메모리 소자의 셀에 단일 이벤트 업셋이 발생하면 저장된 논리 값 '0'('1')은 '1'('0')로 바뀌게 됩니다. 하지만 같은 위치에 새로운 값인 '0'이나 '1'을 다시 저장하면 이전과 마찬가지로 정상적인 기능을 유지하고 있습니다. 소프트 오류는 일시적 오류입니다.
 <br/> <!-- 한줄 띄기 -->
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Articles/단일이벤트효과의유사성.png">
+  <img src="/assets/Articles/SEE체계도.png">
 </p>
 
 <!-- 이미지 설명 -->
@@ -82,7 +82,7 @@ MBU (Multi-Bit Upset) - 다중 비트 업셋
 <details>
 <summary >
 <h4  style="display:inline-block">
-MCU (Multi Cell Upset) - 다중 셀 업셋
+MCU (Multi-Cell Upset) - 다중 셀 업셋
 </h4>
 </summary>
 집적 회로의 여러 셀(예: 메모리 셀 또는 플립플롭)이 동시에 상태를 뒤집도록 유도하는 단일 이벤트입니다. 유도된 오류는 일반적으로 항상 그런 것은 아니지만 물리적으로 인접해 있습니다. 물리적으로 인접해 있다 하더라도 셀이 배치되고 라우팅(입출력 신호 인터리브)되는 방법에 따라 다르게 나타날 수 있기 때문에 논리적 인접성을 의미하는 것은 아닙니다. 다중 셀 업셋은 논리적으로 다중 비트 업셋, 다중 단일 비트 업셋 또는 이 둘의 조합으로 나타날 수도 있습니다.
@@ -166,7 +166,7 @@ SEL (Single Event Latch-up) - 단일 이벤트 래치업
 <details>
 <summary >
 <h4  style="display:inline-block">
-SEHE (Single-event Hard Error) - 단일 이벤트 하드 오류
+SEHE (Single Event Hard Error) - 단일 이벤트 하드 오류
 </h4>
 </summary>
 단일 이벤트 방사선 타격으로 인해 발생하는 하드 오류입니다. 단일 이벤트 하드 오류(SEHE)는 중성자 유발 업셋(예: SEU, MBU)이 복구할 수 없다는 사실을 강조하는 데 사용됩니다. 예를 들어, 입자 충돌로 인해 비트 값이 바뀜에 따라 소자의 기판이 손상되는 경우 SEU 대신 SEHE로 구분합니다.
@@ -179,7 +179,7 @@ SEHE (Single-event Hard Error) - 단일 이벤트 하드 오류
 <details>
 <summary >
 <h4  style="display:inline-block">
-SEGR (Single-event Gate Rupture) - 단일 이벤트 게이트 파괴
+SEGR (Single Event Gate Rupture) - 단일 이벤트 게이트 파괴
 </h4>
 </summary>
 단일 에너지 입자 충돌이 MOSFET의 게이트 산화물을 통한 고장 및 후속 전도 경로를 초래하는 이벤트입니다. SEGR은 게이트 누설 전류의 증가로 나타나며 장치의 성능 저하 또는 완전한 고장을 초래할 수 있습니다. SEGR은 전력 부품의 게이트 산화물과 드레인 사이를 손상시키는 현상이 발생합니다. 이로인해 일반적인 정상 누설 전류를 초과하는 게이트 및 드레인의 누설 전류가 크게 증가합니다. SEGR은 파괴적인 결과를 초래할 수 있습니다.
@@ -192,7 +192,7 @@ SEGR (Single-event Gate Rupture) - 단일 이벤트 게이트 파괴
 <details>
 <summary >
 <h4  style="display:inline-block">
-SEDR (ingle Event Dielectric Rupture) - 단일 이벤트 유전체 파괴
+SEDR (Single Event Dielectric Rupture) - 단일 이벤트 유전체 파괴
 </h4>
 </summary>
 단일 에너지 입자 충돌로 인해 유전 물질에 전도 경로가 생성되는 현상입니다. SEDR (Single Event Dielectric rupture)은 테스트에서 관찰되었지만 우주 비행 데이터에서는 관찰되지 않았습니다. 따라서 현재 대부분 학문적 호기심으로 간주됩니다. SEDR은 코어 전원 공급 장치의 전류가 미량으로 증가한 상태가 지속적으로 유지되는 것으로 식별합니다.
