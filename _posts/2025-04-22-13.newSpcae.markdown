@@ -7,7 +7,6 @@ permalink: ko/article/:title.html
 ---
   <img src="/assets/Articles/newSpace.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 300px;">
   
-  <!-- 텍스트 -->
     한때 우주는 오직 국가들만의 배타적 영역으로 여겨졌습니다. 냉전 시대 미국과 소련의 치열한 우주 경쟁을 거치며, 우주 개발은 천문학적인 예산과 긴 개발 기간, 엄격한 인증 절차를 요구하는 정부 주도 프로젝트로 인식되어 왔습니다. 그러나 21세기에 들어서면서 우주 산업의 지형이 급격히 변화하기 시작했습니다.
     <br/> <!-- 한줄 띄기 -->
     이러한 변화를 이끌고 있는 것이 바로 **'New Space'**입니다.

@@ -6,7 +6,6 @@ category: article
 permalink: ko/article/:title.html
 ---
 # Space Product Assurance - EEE (Electrical, Electronic and Electromechanical) components
-
 EEE Components는 Electrical(전기), Electronic(전자), Electromechanical(전자기계) 부품을 아우르는 포괄적인 용어로, 우주 산업에서 필수적으로 사용되는 모든 핵심 부품을 지칭합니다.
 이러한 부품들은 위성, 우주 탐사선, 발사체와 같은 우주 시스템의 성능과 신뢰성을 결정짓는 핵심 요소로, 극한의 환경에서도 안정적으로 기능을 수행해야 합니다.
 Space Product Assurance는 이러한 EEE 부품들이 우주 임무를 성공적으로 수행할 수 있도록 품질, 신뢰성, 안전성을 철저히 보장하기 위한 일련의 활동과 프로세스를 포함합니다.
