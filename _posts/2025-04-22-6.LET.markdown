@@ -12,7 +12,7 @@ LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에�
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Articles/LET.png" alt= "하전 입자의 간단한 선형 에너지 전달 형상">
+  <img src="/assets/Articles/LET.png" alt= "하전 입자의 간단한 선형 에너지 전달 형상" style="width: 70%;">
 </p>
 
 <!-- 이미지 설명 -->
