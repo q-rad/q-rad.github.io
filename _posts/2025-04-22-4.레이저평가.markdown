@@ -6,7 +6,7 @@ category: article
 permalink: ko/article/:title.html
 ---
 # 반도체 방사선 내성 레이저 평가(Laser Test)
-  펨토 초 펄스레이저(femto second pulsed laser)를 이용한 반도체 내방사선 레이저 평가인 Pulsed Laser SEE Test는 Pulsed Laser를 통해 우주 방사선이 반도체 소자에 미치는 영향을 모사하여 기존 방사선 시험을 대체하여 평가를 수행하는 방법입니다.<br>
+  펨토 초 펄스레이저(femto second pulsed laser)를 이용한 반도체 내방사선 레이저 평가인 Pulsed Laser SEE Test (PLSEE)는 Pulsed Laser를 통해 우주 방사선이 반도체 소자에 미치는 영향을 모사하여 기존 방사선 시험을 대체하여 평가를 수행하는 방법입니다.<br>
 
 <p align="center"> 
   <img src="/assets/Articles/laser.png" alt= "laser test" style="width: 100%; max-width: 400px;">
