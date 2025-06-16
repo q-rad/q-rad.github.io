@@ -10,7 +10,7 @@ permalink: ko/article/:title.html
 COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추세를 보였으며, 특히 2021년에서 2022년 사이에 눈에 띄는 상승폭을  기록했습니다. 레이저는 이미 세계적으로 COTS를 평가하기 위해 대체 선원으로 사용되고 있습니다. 이는 레이저 평가가 저렴한 비용으로 가능하기 때문일 것입니다.
 
 <p align="center"> 
-  <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 300px;">
+  <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 400px;">
 </p>
 <p align="center"> 2020-2022 COTS Devices for Laser test in Chinese Institute </p>
 
