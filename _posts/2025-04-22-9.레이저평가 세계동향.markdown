@@ -23,12 +23,12 @@ SEE 시험 전체 수가 꾸준히 늘어나는 가운데, 레이저를 활용�
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="/assets/Articles/NRNU MEPhI SPELS.png" style="margin-top: 50px;">
+      <img src="/assets/Articles/NRNU MEPhI SPELS.png" style="margin-top: 10px; max-width: 450px;">
       <div style="margin-top: 10px;">Actual rate of conducted test in NRNU(2015)
       </div>
     </td>
     <td align="center" style="border: none;">
-      <img src="/assets/Articles/NRNU MEPhI SPELS 2.png">
+      <img src="/assets/Articles/NRNU MEPhI SPELS 2.png" style="max-width: 400px;">
       <div style="margin-top: 10px;">Laser tests fraction during last three years</div>
     </td>
   </tr>
