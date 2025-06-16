@@ -29,8 +29,7 @@ permalink: ko/article/:title.html
 </p>
 <p align= "center">밴 앨런 이온대</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
-  논문 활용[Reno Harboe-Sorensen. "Space Technology Applications."
-  <br>European Space Agency/ESTEC - The Netherlands, June 18, 2004]
+  출처: Doopedia
 </p> 
   <!-- 텍스트 -->
 

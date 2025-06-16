@@ -49,7 +49,7 @@ TPA 레이저는 전자-전공 쌍(electron-hole pair) 생성으로 반도체 �
 
 </div>
 
-*: QRT Femto second Laser 기준
+*: QRT Femto second Laser 및 Si(실리콘)기준
 
 
 
