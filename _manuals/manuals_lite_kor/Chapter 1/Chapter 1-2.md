@@ -1,13 +1,13 @@
 ---
 layout: post_manual
-title: 1.3. 레이저 평가 방법
+title: 1.2. 레이저 평가 방법
 date: 2025-03-31 13:20:23 +0900
 category: "lite_kor"
 lang: ko
-order: 1300
+order: 1200
 ---
 
-# 1.3 레이저 평가 방법
+# 1.2 레이저 평가 방법
 
 SEE(Single Event Effect)란 방사선 입자(중이온, 양성자, 중성자, 감마선 등)에 의해 반도체 소자의 기능이 점진적, 일시적 혹은 순간적으로 변화되거나 기능 일부 혹은 전체가 상실되는 현상을 말합니다.  
 
@@ -37,12 +37,12 @@ Pulsed Laser Test는 크게 Single Photon Absorption(SPA)와 Two Photon Absorpti
 <br/>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 100px;">
   <!-- 이전 페이지 버튼 -->
-  <a href="/manuals/manuals_lite_kor/Chapter 1/Chapter 1-2/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="/manuals/manuals_lite_kor/Chapter 1/Chapter 1-1-1/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
     ← Previous
   </a>
 
   <!-- 다음 페이지 버튼 -->
-  <a href="/manuals/manuals_lite_kor/Chapter 1/Chapter 1-4/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="/manuals/manuals_lite_kor/Chapter 2/Chapter 2/" class="btn btn-primary" style="display: inline-block; padding: 5px 10px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px;">
     Next →
   </a>
 </div>
