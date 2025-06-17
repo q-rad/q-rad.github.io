@@ -172,6 +172,12 @@ a.nav-item:hover {
 .badge::after {
 	content: ")";
 }
+/* 메뉴얼 리스트 띄울 때 점도 같이 들여쓰기 되게 하는 부분 */
+ul.post-list {
+  list-style-position: inside;
+  padding-left: 0;
+  margin-left: 0;
+}
 
 .post-list>li {}
 

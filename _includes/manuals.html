@@ -20,7 +20,7 @@
                     {%- assign previous_hundreds = 0 -%}
                     {%- for manual in sorted_manuals -%}
                         {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%}
-                        {%- if previous_hundreds != current_hundreds -%}
+                        {%- if previous_hundreds != current_hundreds and forloop.index != 1 -%}
                             <hr>
                         {%- endif -%}
 
@@ -31,18 +31,18 @@
 
                         {%- if hundreds == 0 and tens == 0 and ones == 0 -%}
                             <!-- 1000, 2000 등 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.8em; font-weight: bold;">
+                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.8em; font-weight: bold;padding-left: 0px;">
                         {%- elsif tens == 0 and ones == 0 -%}
                             <!-- 1100, 1200 등 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.5em; font-weight: 600;">
+                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.5em; font-weight: 600; padding-left: 20px;">
                         {%- elsif ones == 0 -%}
                             <!-- 1110, 1210 등 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.2em; font-weight: 500;">
+                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.2em; font-weight: 500; padding-left: 40px;">
                         {%- else -%}
                             <!-- 기본 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}">
+                            <li class="post-list-item post-category-{{ manual.categories }}" style="padding-left: 60px;">
                         {%- endif -%}
-                            <a class="post-link" href="{{ manual.url | relative_url }}">
+                            <a class="post-link" href="{{ manual.url | relative_url }}" >
                                 {{ manual.title | escape }}
                             </a>
                         </li>
