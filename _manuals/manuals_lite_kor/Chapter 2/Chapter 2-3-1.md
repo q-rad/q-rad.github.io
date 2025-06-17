@@ -25,7 +25,7 @@ ISM은 QRT에서 제작한 방사선 평가를 위한 프로그램입니다. GUI
 <table align="center">
   <tr>
     <td align="center">
-      <img src="/assets/Chapter-2/ISM.png" alt="ISM">
+      <img src="/assets/Chapter-2/ISM.png" alt="Intelligent SEU Manager">
       <div style="margin-top: 10px;">Figure 12. ISM</div>
     </td>
     <td align="center">

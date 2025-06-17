@@ -15,7 +15,7 @@ order: 3100
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Chapter-3/메인 화면.png">
+  <img src="/assets/Chapter-3/메인 화면.png" alt= "QRT-LITE main">
 </p>
 
 <!-- 이미지 설명 -->

@@ -22,7 +22,7 @@ order: 2150
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img width="300" height="300" src="/assets/Chapter-2/위치정보 Set-up.png">
+  <img width="300" height="300" src="/assets/Chapter-2/위치정보 Set-up.png" alt="위치정보 Set-up">
 </p>
 
 <!-- 이미지 설명 -->

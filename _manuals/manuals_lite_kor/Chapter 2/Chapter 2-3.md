@@ -15,7 +15,7 @@ order: 2300
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Chapter-2/QRT SEE Analysis System.png" width="30%">
+  <img src="/assets/Chapter-2/QRT SEE Analysis System.png" width="30%" alt="SEE Analysis System">
 </p>
 
 <!-- 이미지 설명 -->
