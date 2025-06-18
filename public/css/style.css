@@ -422,14 +422,14 @@ table td {
 	}
 
 	.sidebar {
-		font-size: 0.7em;
+		font-size: 0.65em;
 		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
 	}
 
 	.sidebar-nav {
-		margin: 5px;
+		margin: 3px;
 	}
 
 	.sidebar-item {
@@ -826,6 +826,35 @@ table td {
 	background-color: #f7f7f7;
 	color: #c71c3e;
 }
+.search-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.search-icon.hover {
+  opacity: 0;
+  z-index: 1;
+}
+
+.search-icon.default {
+  opacity: 1;
+  z-index: 2;
+}
+
+/* hover는 아이콘 자체에만 반응 */
+.search-icon.default:hover {
+  opacity: 0;
+}
+
+.search-icon.default:hover + .hover {
+  opacity: 1;
+}
+
 
 /* 모바일에서 전체 화면 사용 */
 @media (max-width: 600px) {
