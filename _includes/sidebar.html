@@ -1,91 +1,119 @@
 <div class="sidebar-item sidebar-header">
 	<div class="sidebar-brand">
-        <!-- 로고와 제목을 포함한 링크   -->
-        <a href="/" class="sidebar-logo">
-            <img src="{{ '/assets/logo2.png' | relative_url }}" alt="Logo" style="height: 180px; max-width: 100%; margin-left: 0; margin-right: auto; display: block; 
+		<!-- 로고와 제목을 포함한 링크   -->
+		<a href="/" class="sidebar-logo">
+			<img src="{{ '/assets/logo2.png' | relative_url }}" alt="Logo" style="height: 180px; max-width: 100%; margin-left: 0; margin-right: auto; display: block; 
  object-fit: contain;">
-            <!--span>{{ site.title }}</span-->
-        </a>
-    </div>
+			<!--span>{{ site.title }}</span-->
+		</a>
+	</div>
 	<p class="lead">{{ site.description }}</p>
 	{%- if social.github -%}
-		<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}" title="{{ social.github | escape }}">
-			<svg class="svg-icon grey">
-				<use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}" />
-			</svg></a></li>
+	<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}"
+		title="{{ social.github | escape }}">
+		<svg class="svg-icon grey">
+			<use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}" />
+		</svg></a></li>
 	{%- endif -%}
 </div>
 
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
-      <li class="nav-title">About</li>
-	  
-	  <!-- Home 항목 먼저 -->
-	  <li>
-		<a class="nav-item" href="/">Home</a>
-	  </li>
+		<li class="nav-title">About</li>
 
-	  <!-- About LASER2COTS만 먼저 표시 -->
-	  {% assign pages_list = site.pages %}
-	  {% for node in pages_list %}
-	    {% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
-	      <li>
-	        <a class="nav-item" href="{{ node.url }}">
-	          {{ node.title }}
-	        </a>
-	      </li>
-	    {% endif %}
-	  {% endfor %}
+		<!-- Home 항목 먼저 -->
+		<li>
+			<a class="nav-item" href="/">Home</a>
+		</li>
 
-	  <!-- 나머지 페이지들 중 About LASER2COTS, pygments-css, README 제외 -->
-	  {% for node in pages_list %}
-	    {% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
-	      {% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
-	        <li>
-	          <a class="nav-item" href="{{ node.url }}">
-	            {{ node.title }}
-	          </a>
-	        </li>
-	      {% endif %}
-	    {% endif %}
-	  {% endfor %}
+		<!-- About LASER2COTS만 먼저 표시 -->
+		{% assign pages_list = site.pages %}
+		{% for node in pages_list %}
+		{% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
+		<li>
+			<a class="nav-item" href="{{ node.url }}">
+				{{ node.title }}
+			</a>
+		</li>
+		{% endif %}
+		{% endfor %}
 
-	  <!-- 마지막에 QRT homepage -->
-	  <li>
-		<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
-	  </li>
+		<!-- 나머지 페이지들 중 About LASER2COTS, pygments-css, README 제외 -->
+		{% for node in pages_list %}
+		{% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
+		{% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
+		<li>
+			<a class="nav-item" href="{{ node.url }}">
+				{{ node.title }}
+			</a>
+		</li>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
+
+		<!-- 마지막에 QRT homepage -->
+		<li>
+			<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
+		</li>
 	</ul>
 </div>
 
 
 
 <div class="sidebar-item sidebar-nav">
-    <ul class="nav">
-        <li class="nav-title">QRT - LITE Manual</li>
-        <li>
+	<ul class="nav">
+		<li class="nav-title">QRT - LITE Manual</li>
+		<li>
 			<!-- _includes/manual.html-->
-			<a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">	
+			<a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">
 				<span class="name">KOR</span>
 				<!--span class="badge">{{ site.manuals | size }}</span-->
 			</a>
 		</li>
 
-    </ul>
+	</ul>
 </div>
 
 <div class="sidebar-item sidebar-nav">
-    <ul class="nav">
-        <li class="nav-title">contents</li>
-        {% for category in site.categories %}
-        <li>
-            <a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-                <span class="name">{{ category | first }}</span>
-                <span class="badge">{{ category | last | size }}</span>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+	<ul class="nav">
+		<li class="nav-title">contents</li>
+		{% for category in site.categories %}
+		<li>
+			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
+				<span class="name">{{ category | first }}</span>
+				<span class="badge">{{ category | last | size }}</span>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
 </div>
+
+<!-- 검색 -->
+<!-- 🔹 검색창 외 영역 클릭용 오버레이 -->
+<div id="search-backdrop"
+	style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0); z-index: 9998;">
+</div>
+
+<!-- 사이드바: 검색 아이콘만 표시 -->
+<div class="sidebar-item sidebar-search-toggle" style="text-align: center;">
+	<img src="{{ '/assets/search.png' | relative_url }}" alt="Search" id="search-toggle-btn"
+		style="width: 24px; height: 24px; filter: grayscale(40%); opacity: 0.7; cursor: pointer;">
+
+</div>
+
+<!-- 오른쪽에 표시될 검색 패널 -->
+<div id="search-panel"
+	style="position: fixed; top: 0; left: -340px; width: 340px; height: 100%; background: #fff; box-shadow: -2px 0 5px rgba(0,0,0,0.2); transition: left 0.3s ease; z-index: 9999; padding: 20px; overflow-y: auto;">
+	<div style="display: flex; justify-content: space-between; align-items: center;">
+		<h3 style="margin: 0;">Search</h3>
+		<button id="close-search"
+			style="border: none; background: none; font-size: 24px; cursor: pointer;">&times;</button>
+	</div>
+	<input type="text" id="search-input" placeholder="Search..." style="width: 100%; padding: 8px; margin-top: 10px;">
+	<ul id="results-container" class="search-results" style="margin-top: 10px; list-style: none; padding-left: 0;"></ul>
+</div>
+<!-- 검색 패널 끝 -->
+
 <br>
 <p class="visual-sub-txt">You Dream, <br><span class="m-none">&nbsp;&nbsp;&nbsp;</span> We Deliver!</p>
 <!--div class="sidebar-item sidebar-footer">
@@ -93,14 +121,57 @@
 </div-->
 
 <div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
-    <p>
-        Everything about LASER SEE test at&nbsp&nbsp
-        <a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
-            <img src="{{ '/assets/logo.png' | relative_url }}" alt="QRT Logo" style="height: 20px; vertical-align: middle;">
-        </a>
-    </p>
+	<p>
+		Everything about LASER SEE test at&nbsp&nbsp
+		<a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
+			<img src="{{ '/assets/logo.png' | relative_url }}" alt="QRT Logo"
+				style="height: 20px; vertical-align: middle;">
+		</a>
+	</p>
 </div>
 
 <div class="sidebar-footer" style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #888;">
-    <p>&copy; {{ site.time | date: "%Y" }} QRT Inc. All rights reserved.</p>
+	<p>&copy; {{ site.time | date: "%Y" }} QRT Inc. All rights reserved.</p>
 </div>
+
+<!-- 검색 기능을 위한 스크립트 -->
+<script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		SimpleJekyllSearch({
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			json: '{{ "/search.json" | relative_url }}',
+			searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+			noResultsText: 'No results found',
+			limit: 10,
+			fuzzy: false
+		});
+
+		const searchPanel = document.getElementById('search-panel');
+		const searchToggleBtn = document.getElementById('search-toggle-btn');
+		const closeSearch = document.getElementById('close-search');
+		const searchBackdrop = document.getElementById('search-backdrop');
+
+		function openSearchPanel() {
+			const isMobile = window.innerWidth <= 600;
+			searchPanel.style.left = isMobile ? '0' : '220px';
+			searchBackdrop.style.display = 'block';
+		}
+
+		function closeSearchPanel() {
+			const isMobile = window.innerWidth <= 600;
+			searchPanel.style.left = isMobile ? '-100%' : '-400px';
+			searchBackdrop.style.display = 'none';
+		}
+
+		searchToggleBtn.addEventListener('click', openSearchPanel);
+		closeSearch.addEventListener('click', closeSearchPanel);
+		searchBackdrop.addEventListener('click', closeSearchPanel);
+
+		document.addEventListener('keydown', function (e) {
+			if (e.key === 'Escape') closeSearchPanel();
+		});
+	});
+</script>
+<!-- 검색 기능 끝 -->
