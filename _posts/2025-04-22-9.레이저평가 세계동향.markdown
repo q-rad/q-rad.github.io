@@ -28,7 +28,7 @@ SEE 시험 전체 수가 꾸준히 늘어나는 가운데, 레이저를 활용�
     </td>
     <td align="center" style="border: none; width: 50%;">
       <img src="/assets/Articles/NRNU MEPhI SPELS 2.png" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt= "Laser tests fraction during last three years">
-      <div style="margin-top: 10px;">Laser tests fraction during last three years</div>
+      <div style="margin-top: 10px;">Laser tests fraction for the past three years at NRNU</div>
     </td>
   </tr>
 </table>
