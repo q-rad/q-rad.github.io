@@ -811,106 +811,110 @@ table td {
 		opacity: 1;
 	}
 }
+
 /* 검색 패널 스타일 */
 /* 닫기 버튼 */
 #close-search-btn {
-  position: absolute;
-  top: 12px;
-  right: 14px;
-  font-size: 24px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #999;
-  transition: color 0.2s ease;
+	position: absolute;
+	top: 12px;
+	right: 14px;
+	font-size: 24px;
+	background: none;
+	border: none;
+	cursor: pointer;
+	color: #999;
+	transition: color 0.2s ease;
 }
 
 #close-search-btn:hover {
-  color: #c71c3e;
+	color: #c71c3e;
 }
 
 #no-results {
-  margin-top: 12px;
-  color: #999;
-  font-style: italic;
+	margin-top: 12px;
+	color: #999;
+	font-style: italic;
 }
 
 .search-results li a {
-  display: block;
-  padding: 6px;
-  border-bottom: 1px solid #eee;
-  color: #000;
-  text-decoration: none;
+	display: block;
+	padding: 6px;
+	border-bottom: 1px solid #eee;
+	color: #000;
+	text-decoration: none;
 }
 
 .search-results li a:hover {
-  background-color: #f7f7f7;
-  color: #c71c3e;
+	background-color: #f7f7f7;
+	color: #c71c3e;
 }
 
 .floating-label-input {
-  position: relative;
-  margin-top: 20px;
+	position: relative;
+	margin-top: 20px;
 }
 
 .floating-label-input input {
-  width: 100%;
-  padding: 10px 12px 10px;
-  border: 2px solid #aaa;
-  border-radius: 10px;
-  font-size: 16px;
-  background: transparent;
-  color: #aaa;
-  outline: none;
-  box-sizing: border-box;
+	width: 100%;
+	padding: 10px 12px 10px;
+	border: 2px solid #aaa;
+	border-radius: 10px;
+	font-size: 16px;
+	background: transparent;
+	color: #aaa;
+	outline: none;
+	box-sizing: border-box;
 }
 
 .floating-label-input input:hover {
-  border-color: white;
+	border-color: white;
 }
 
 .floating-label-input input:focus {
-  border-color: white;
-  color: white;
+	border-color: white;
+	color: white;
 }
 
 .floating-label-input label {
-  position: absolute;
-  top: 8px;
-  left: 10px;
-  color: #aaa;
-  font-size: 16px;
-  pointer-events: none;
-  background: transparent;
-  transition: 0.3s ease all;
-  padding: 0 4px;
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	color: #aaa;
+	font-size: 16px;
+	pointer-events: none;
+	background: transparent;
+	transition: 0.3s ease all;
+	padding: 0 4px;
 }
 
 /* 포커스 또는 내용 있을 때 위로 이동 */
-.floating-label-input input:focus + label,
-.floating-label-input input:not(:placeholder-shown):valid + label {
-  top: -8px;
-  left: 10px;
-  font-size: 12px;
-  background: #222;
-	  color: white;}
+.floating-label-input input:focus+label,
+.floating-label-input input:not(:placeholder-shown):valid+label {
+	top: -8px;
+	left: 10px;
+	font-size: 12px;
+	background: #222;
+	color: white;
+}
 
 
 /* input에 hover 시 label도 white로 */
-.floating-label-input input:hover + label {
-  color: white;
+.floating-label-input input:hover+label {
+	color: white;
 }
+
 @media (max-width: 600px) {
-  .sidebar-item.sidebar-search-input {
-    display: none !important;
-  }
+	.sidebar-item.sidebar-search-input {
+		display: none !important;
+	}
 
-  #search-panel {
-    display: none !important;
-  }
+	#search-panel {
+		display: none !important;
+	}
 
-  #search-backdrop {
-    display: none !important;
-  }
+	#search-backdrop {
+		display: none !important;
+	}
 }
+
 /* 검색 패널 스타일 끝 */
