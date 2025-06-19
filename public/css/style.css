@@ -456,6 +456,11 @@ table td {
 	.post-title {
 		font-size: 1.5em;
 	}
+
+	#typing-text {
+		font-size: 1rem !important;
+		/* 모바일에선 더 작은 폰트 */
+	}
 }
 
 .float-button-container {
@@ -906,12 +911,14 @@ table td {
 @media (max-width: 600px) {
 	.sidebar-item.sidebar-search-input {
 		display: none !important;
+		padding: 0 !important;
+		/* ✅ 이 줄을 추가하세요 */
+		height: 0 !important;
+		/* 또는 명시적으로 공간 제거 */
+		margin: 0 !important;
 	}
 
-	#search-panel {
-		display: none !important;
-	}
-
+	#search-panel,
 	#search-backdrop {
 		display: none !important;
 	}
