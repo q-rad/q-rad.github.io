@@ -24,7 +24,7 @@ Up-screening(업스크린, 업스크리닝)은 본래 우주 등급(Space-Grade)
 NASA의 우주 임무 등급은 다음과 같습니다.
 <details >
 
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 Level 1
 </h4>
@@ -38,21 +38,21 @@ Level 1 등급의 임무는 일반적으로 5년 이상의 기간을 가집니�
 
 <details >
 
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 Level 2
 </h4>
 </summary>
 
 이 레벨은 낮은 수준에서 중간 수준의 리스크를 갖는 임무를 대상으로 하며, 비용 제약과 임무 목표 사이의 균형을 고려하여 부품이 선택되고 가공됩니다.
-Level 2의 능동 소자 역시 복사 내성이 검토되어야 하며, 관련 정보가 없을 경우 복사 시험이 요구됩니다.
+Level 2의 능동 소자 역시 방사선 내성이 검토되어야 하며, 관련 정보가 없을 경우 방사선 시험이 요구됩니다.
 Level 2 프로그램의 일반적인 임무 기간은 1년에서 5년 사이입니다.
 <br/> <!-- 한줄 띄기 -->
 </details>
 
 <details >
 
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 Level 3
 </h4>
@@ -61,7 +61,7 @@ Level 3
 Level 3 부품은 공식적인 신뢰성 평가, 스크리닝, 적격성 평가가 부족하여 본질적으로 높은 리스크 또는 미확인된 리스크를 갖는 부품입니다.
 또한, 신뢰할 수 있는 데이터나 비행 이력이 거의 없으며, 설계·재료·제조 공정의 지속적인 변경으로 인해 한 LDC(Lot Design Code)의 데이터가 다른 LDC에 적용되지 않을 수 있습니다.
 Level 3 부품은 고위험 부품의 사용이 허용되는 임무를 대상으로 하며, (큐브샛, 저비용 위성)
-해당 부품 역시 복사 내성 검토가 요구되며, 정보가 없을 경우 복사 시험이 필요합니다.
+해당 부품 역시 방사선 내성 검토가 요구되며, 정보가 없을 경우 방사선 시험이 필요합니다.
 Level 3 프로그램의 일반적인 임무 기간은 1년 미만에서 2년 사이입니다.
 <br/> <!-- 한줄 띄기 -->
 </details>

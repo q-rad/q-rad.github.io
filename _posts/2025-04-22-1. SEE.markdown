@@ -33,7 +33,7 @@ SEE는 반도체 소자 내에서 여러 가지 현상으로 나타나며 'Soft 
 
 <details >
 
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SEU (Single Event Upset) - 단일 이벤트 업셋
 </h4>
@@ -45,7 +45,7 @@ SEU (Single Event Upset) - 단일 이벤트 업셋
 
 <details>
 
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SCU (Single Cell Upset) - 단일 셀 업셋
 </h4>
@@ -67,7 +67,7 @@ SCU (Single Cell Upset) - 단일 셀 업셋
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 MBU (Multi-Bit Upset) - 다중 비트 업셋
 </h4>
@@ -80,7 +80,7 @@ MBU (Multi-Bit Upset) - 다중 비트 업셋
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 MCU (Multi-Cell Upset) - 다중 셀 업셋
 </h4>
@@ -104,7 +104,7 @@ MCU (Multi-Cell Upset) - 다중 셀 업셋
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SED (Single Event Disturb) - 단일 이벤트 교란
 </h4>
@@ -118,7 +118,7 @@ SED (Single Event Disturb) - 단일 이벤트 교란
 
 <details>
 
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SEFI (Single Event Functional Interrupt) - 단일 이벤트 기능 차단
 </h4>
@@ -131,7 +131,7 @@ SEFI (Single Event Functional Interrupt) - 단일 이벤트 기능 차단
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SET (Single Event Transient) - 단일 이벤트 과도 현상
 </h4>
@@ -152,7 +152,7 @@ SET는 잘 알려진 세 가지 유형의 마스킹에 의해 오류로 전파�
 ## Hard Error
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SEL (Single Event Latch-up) - 단일 이벤트 래치업
 </h4>
@@ -164,7 +164,7 @@ SEL (Single Event Latch-up) - 단일 이벤트 래치업
 </details>
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SEHE (Single Event Hard Error) - 단일 이벤트 하드 오류
 </h4>
@@ -177,7 +177,7 @@ SEHE (Single Event Hard Error) - 단일 이벤트 하드 오류
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SEGR (Single Event Gate Rupture) - 단일 이벤트 게이트 파괴
 </h4>
@@ -190,7 +190,7 @@ SEGR (Single Event Gate Rupture) - 단일 이벤트 게이트 파괴
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SEDR (Single Event Dielectric Rupture) - 단일 이벤트 유전체 파괴
 </h4>
@@ -202,7 +202,7 @@ SEDR (Single Event Dielectric Rupture) - 단일 이벤트 유전체 파괴
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SEB (Single Event Burn-out) - 단일 이벤트 파괴
 </h4>
@@ -214,7 +214,7 @@ SEB (Single Event Burn-out) - 단일 이벤트 파괴
 
 
 <details>
-<summary >
+<summary class="clickable-summary">
 <h4  style="display:inline-block">
 SESB (Single Event Snap-Back) - 단일 이벤트 스냅백
 </h4>

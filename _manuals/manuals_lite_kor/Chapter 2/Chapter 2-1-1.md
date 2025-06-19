@@ -26,15 +26,15 @@ order: 2110
       <div style="margin-top: 10px;">Figure 3. Piezo stage top surface drawing</div>
     </td>
     <td align="center">
-      <img width="300" height="400" src="/assets/Chapter-2/Piezo stage top surface.png" alt="Piezo stage top surface">
+      <img width="300" height="auto" src="/assets/Chapter-2/Piezo stage top surface.png" alt="Piezo stage top surface">
       <div style="margin-top: 10px;">Figure 4. Piezo stage top surface</div>
     </td>
     <td align="center">
-      <img width="300" height="400" src="/assets/Chapter-2/보강 플레이트 예시.png" alt="보강 플레이트 예시">
+      <img width="300" height="auto" src="/assets/Chapter-2/보강 플레이트 예시.png" alt="보강 플레이트 예시">
       <div style="margin-top: 10px;">Figure 5. 보강 플레이트 예시</div>
     </td>
     <td align="center">
-      <img width="300" height="300" src="/assets/Chapter-2/경량화 DUT 예시.png" alt="경량화 DUT 예시">
+      <img width="300" height="auto" src="/assets/Chapter-2/경량화 DUT 예시.png" alt="경량화 DUT 예시">
       <div style="margin-top: 10px;">Figure 6. 경량화 DUT 예시</div>
     </td>
   </tr>

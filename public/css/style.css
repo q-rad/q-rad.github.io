@@ -459,8 +459,13 @@ table td {
 
 	#typing-text {
 		font-size: 1rem !important;
+		cursor: default;
 		/* 모바일에선 더 작은 폰트 */
 	}
+}
+
+#typing-text {
+	cursor: default;
 }
 
 .float-button-container {
@@ -925,3 +930,7 @@ table td {
 }
 
 /* 검색 패널 스타일 끝 */
+
+.clickable-summary {
+	cursor: pointer;
+}

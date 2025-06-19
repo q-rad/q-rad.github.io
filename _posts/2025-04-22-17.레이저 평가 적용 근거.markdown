@@ -43,7 +43,7 @@ Mission Environment, -Application and  –Lifetime (MEAL) </p>
   참고문헌[NASA, Guidelines for Verification Strategies to Minimize RISK Based On Mission Environment, Application and Lifetime (MEAL), NASA/TM–2018-220074, June 2018.]
 </p> 
 <br>
-QRT에서는 이런 국제적인 동향에 근거하여 레이저 평가기술을 개발 하고 있습니다. 레이저 에너지와 LET(선형 에너지 전달) 간의 상관관계를 분석함으로써, 레이저 시험 결과를 기반으로 중이온 시험 결과를 예측하고 하는 평가와 부품 내 SEE(단일 이벤트 효과) 취약점을 보다 정밀하게 식별 하는 평가를 수행하고 있습니다.
+QRT에서는 이런 국제적인 동향에 근거하여 레이저 평가기술을 개발 하고 있습니다. 레이저 에너지와 LET(선형 에너지 전달) 간의 상관관계를 분석함으로써, 레이저 시험 결과를 기반으로 중이온 시험 결과를 예측하고 부품 내 SEE(단일 이벤트 효과) 취약점을 보다 정밀하게 식별 하는 평가를 수행하고 있습니다.
 
 
 -------------------------------------
