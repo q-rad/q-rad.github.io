@@ -127,7 +127,10 @@ QRT는 국내/외 다양한 방사선 조사 시설을 활용하여 고객 맞�
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
+- [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)
+- [Up-Screening](/ko/article/12.upScreening.html)
+- [중이온 빔이란?](/ko/article/10.중이온.html)
+- [레이저 평가](/ko/article/4.레이저평가.html)
 - [레이저평가의 글로벌동향](/ko/article/9.레이저평가-세계동향.html)
 - [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
-- [레이저 평가](/ko/article/4.레이저평가.html)
-- [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)
+

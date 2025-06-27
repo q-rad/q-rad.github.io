@@ -46,7 +46,9 @@ permalink: ko/article/:title.html
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
+- [국내 방사선 평가 시설](/ko/article/19.국내방사선시설.html)
 - [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
 - [TID(Total Ionizing Dose effect)란?](/ko/article/7.TID.html)
 - [LET(Liner Energy Transfer)란?](/ko/article/6.LET.html)
 - [레이저평가](/ko/article/4.레이저평가.html)
+- [중이온 빔이란?](/ko/article/10.중이온.html)

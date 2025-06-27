@@ -6,11 +6,13 @@ category: article
 permalink: ko/article/:title.html
 ---
 
-QRT가 보유한 레이저 장비는 650~1650nm의 파장을 지원하여 Si, GaN, SiC등 일반적인 모든 반도체 소재뿐만 아니라 메모리, 프로세서, 아날로그 소자 등도 평가 가능합니다. 하지만 HBM의 3D 스택 같은 특수한 케이스의 경우 완전한 평가가 불가능합니다. (레이저가 스택을 투과할 수 없기 때문에)<br>
-이런 특수한 케이스를 제외하더라도 일부 패키지 타입에 따라 평가가 제한될 수 있습니다.
-레이저 평가를 위해서는 소자의 Epoxy Mold Compound를 제거하는 De-capsulation이 필수적입니다. 
-Amplifier, ADC, isolator 등 단순 소자의 경우 Back-Side 뿐 아니라 Front-Side 를 통한 레이저 평가가 가능합니다.
-하지만 FPGA, MCU, Memory(SRAM,DRAM)등의 복잡한 소자의 경우 Back-Side로 만 평가가 가능합니다.
+QRT가 보유한 레이저 장비는 650nm에서 1650nm에 이르는 광범위한 파장 대역을 지원하며, 이를 통해 Si(Silicon), GaN(Gallium Nitride), SiC(Silicon Carbide) 등 주요 반도체 소재는 물론, 메모리, 프로세서, 아날로그 소자 등 다양한 디바이스에 대한 레이저 기반 평가가 가능합니다.
+<br>
+다만, HBM(High Bandwidth Memory)과 같은 3D 스택 구조를 가진 특수 패키지의 경우, 적층 구조가 레이저의 투과를 방해하므로 완전한 평가는 불가능합니다.
+<br>
+이러한 특수 사례를 제외하더라도, 일부 패키지 타입의 구조적 특성에 따라 평가 가능 여부는 제한될 수 있습니다. 레이저 평가를 위한 필수 전처리 과정으로는 소자의 Epoxy Mold Compound를 제거하는 De-capsulation 공정이 요구되며, 이 과정이 정확히 수행되어야 레이저 평가의 정밀도와 신뢰도를 확보할 수 있습니다.
+<br>
+단순 구조의 소자들(예: Amplifier, ADC, Digital Isolator 등)은 Front-Side 및 Back-Side 양측 모두에서 레이저 평가가 가능하지만, FPGA, MCU, SRAM, DRAM과 같은 고집적 복합 소자의 경우, 레이저의 Metal Layer투과 불가 등의 이유로 인해 Back-Side 평가만 가능합니다.
 <br>
 저희가 실제로 진행한 케이스들을 확인하며 어떤 경우 테스트가 가능한지 또는 불가능 할지 파악해보시면 좋을 것 같습니다.
 
@@ -54,14 +56,14 @@ BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 M
 
 
 # 방사선 내성 레이저 평가를 위한 반도체 소자의 전처리
-위의 설명 만으로는 정확히 평가하려는 소자가 레이저로 평가 가능할지 알기 어려우실 겁니다.
-대부분의 경우 X-ray (엑스레이)를 찍어보면 평가가 가능 할지 알아볼 수 있습니다.
+위의 설명만으로는 정확히 평가하려는 소자가 레이저로 평가가 가능할지 알기 어려우실 겁니다.
+대부분의 경우, X-ray(엑스레이) 촬영을 통해 내부 구조를 확인함으로써 해당 소자에 대한 평가 가능 여부를 사전에 판단할 수 있습니다.
 아래는 QRT에서 방사선 내성 평가를 진행한 몇 가지 사례입니다. 사례를 통해서 대략적으로 평가가 가능한 소자에 대한 아이디어를 얻어가시길 바랍니다.
 <br>
 
 ### TSSOP Type Package (메모리, Lead Frame 제거 불가능한 경우)
-완벽한 평가를 위해서는 Lead Frame을 제거해야 했지만, 엑스레이로 확인시 Lead Frame이 여러 핀들과 연결되어 있어 제거가 불가능 했습니다.
-다만 Lead Frame 사이의 접착제가 제거된 부분으로 일부분 평가가 가능하였고 방사선으로 인한 에러가 발생할 가능성을 예측하였습니다.
+전면은 Metal Layer로 인해 평가가 제한되었고, 후면의 경우 완벽한 평가를 위해서는 Lead Frame을 제거해야 했지만, 엑스레이로 확인시 Lead Frame이 여러 핀들과 연결되어 있어 제거가 불가능 했습니다.<br>
+다만 Lead Frame 사이의 접착제가 제거된 부분으로 일부분 평가가 가능하였고, SEE(Single Event Effects) 발생 가능성을 예측하였습니다.
 
 <p align= "center">
 <img src="/assets/Articles/메모리1.png" style="width: 100%; max-width: 300px;" alt= "메모리">
@@ -69,7 +71,7 @@ BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 M
 <p align= "center">Memory(TSSOP)</p>
 
 ### BGA & TSSOP Type Package (메모리)
-처음 들어온 소자는 BGA 타입의 메모리 소자였지만, 같은 소자의 TSSOP(Thin Shrink Small Outline Package) 타입을 확보하여 전·후면 모두에 대해 De-capsulation이 가능하였으며, 이를 바탕으로 평가를 성공적으로 수행하였습니다.
+처음 들어온 소자는 BGA 타입의 메모리 소자였지만, 같은 소자의 TSSOP(Thin Shrink Small Outline Package) 타입을 확보하여 전/후면 모두에 대해 De-capsulation이 가능하였으며, 이를 바탕으로 평가를 성공적으로 수행하였습니다.
 
 <p align= "center">
 <img src="/assets/Articles/메모리2.png" style="width: 100%; max-width: 300px;" alt= "메모리">
@@ -77,7 +79,7 @@ BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 M
 <p align= "center">Memory(TSSOP)</p>
 
 ### BGA Type Package (메모리)
-BGA(Ball Grid Array) 패키지는 일반적인 평가 접근이 어려운 구조이나, 해당 소자는 Flip-Chip 공정이 적용되어 있어 후면에 대해 손쉽게 평가 수행이 가능하였습니다
+BGA(Ball Grid Array) 패키지는 일반적인 평가 접근이 어려운 구조이나, 해당 소자는 Metal Layer로 인해 전면은 평가가 제한되었지만, 후면은 Flip-Chip 공정이 적용되어 있어 손쉽게 평가 수행이 가능하였습니다.
 
 <p align= "center">
 <img src="/assets/Articles/메모리3.png" style="width: 100%; max-width: 300px;" alt= "메모리">
@@ -85,7 +87,7 @@ BGA(Ball Grid Array) 패키지는 일반적인 평가 접근이 어려운 구조
 <p align= "center">Memory(BGA)</p>
 
 ### TSSOP Type Package (메모리)
-Lead Frame이 칩 후면부 전체를 덮고 있는 형태라서 제거가 필요하였습니다. 칩 제작 업체와 정밀하게 촬영한 엑스레이를 통해서 제거 가능한 Lead Frame 영역을 확인하였고, Lead Frame과의 연결에 손상이 적게 정밀하게 제거함으로써 전체 칩 면적의 90% 이상에 대해 평가가 가능하였습니다.
+Lead Frame이 칩 후면부 전체를 덮고 있는 형태라서 제거가 필요하였습니다. 칩 제작 업체와 정밀하게 촬영한 엑스레이를 통해서 제거 가능한 Lead Frame 영역을 확인하였고, Lead Frame과의 연결에 손상이 적게 정밀하게 제거함으로써 후면 기준 전체 칩 면적의 90% 이상에 대해 평가가 가능하였습니다. 전면은 Metal Layer로 인해 평가가 제한되었습니다.
 
 <p align= "center">
 <img src="/assets/Articles/메모리4.png" style="width: 100%; max-width: 300px;" alt= "메모리">

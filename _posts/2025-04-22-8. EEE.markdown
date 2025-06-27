@@ -38,3 +38,4 @@ Space Product Assurance는 이러한 EEE 부품들이 우주 임무를 성공적
 **관련 글**
 - [Up-Screening](/ko/article/12.upScreening.html)
 - [COTS(Commercial off-the-shelf)](/ko/article/5.COTS.html)
+- [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)

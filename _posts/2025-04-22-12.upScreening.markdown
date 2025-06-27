@@ -102,5 +102,7 @@ QRT에서는 DPA, CA, Radiation Hardness (TID, SEE) 등 컨설팅을 포함한 �
 
 **관련 글**
 - [Space Product Assurance(우주 제품 보증)란?](/ko/article/8.-EEE.html)
+- [국내 방사선 평가 시설](/ko/article/19.국내방사선시설.html)
+- [중이온 빔이란?](/ko/article/10.중이온.html)
 - [COTS(Commercial off-the-shelf)](/ko/article/5.COTS.html)
 - [레이저 평가가 필요한 이유 (비용적 측면)](/ko/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)
