@@ -71,7 +71,7 @@ BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 M
 <p align= "center">Memory(TSSOP)</p>
 
 ### BGA & TSSOP Type Package (메모리)
-처음 들어온 소자는 BGA 타입의 메모리 소자였지만, 같은 소자의 TSSOP(Thin Shrink Small Outline Package) 타입을 확보하여 전/후면 모두에 대해 De-capsulation이 가능하였으며, 이를 바탕으로 평가를 성공적으로 수행하였습니다.
+처음 들어온 소자는 BGA 타입의 메모리 소자였지만, 같은 소자의 TSSOP(Thin Shrink Small Outline Package) 타입을 확보하여 후면에 대해서만 De-capsulation이 가능하였으며, 이를 바탕으로 전면을 제외한 후면의 평가를 성공적으로 수행하였습니다.
 
 <p align= "center">
 <img src="/assets/Articles/메모리2.png" style="width: 100%; max-width: 300px;" alt= "메모리">
