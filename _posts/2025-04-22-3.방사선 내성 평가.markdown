@@ -4,6 +4,8 @@ title: 방사선 내성 평가(Radiation Hardness Test)
 date: 2025-03-28 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 1001
 ---
 # 방사선 내성 평가(Radiation Hardness Test)
 일반적으로 방사선 내성 평가는 빔 가속 시설에서 이뤄집니다.
@@ -50,5 +52,6 @@ permalink: ko/article/:title.html
 - [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
 - [TID(Total Ionizing Dose effect)란?](/ko/article/7.TID.html)
 - [LET(Liner Energy Transfer)란?](/ko/article/6.LET.html)
+- [DD (Displacement Damage)란?](/ko/article/18.DD.html)
 - [레이저평가](/ko/article/4.레이저평가.html)
 - [중이온 빔이란?](/ko/article/10.중이온.html)

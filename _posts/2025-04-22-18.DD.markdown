@@ -4,6 +4,8 @@ title: DD (Displacement Damage)란?
 date: 2025-03-24 00:01:00 +0900
 category: article
 permalink: ko/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 1005
 ---
 
 # DD (Displacement Damage) - 변위 손상
@@ -43,4 +45,7 @@ DD는 다음과 같은 네 가지 주요 메커니즘을 통해 발생합니다.
 - [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
 - [TID(Total Ionizing Dose effect)란?](/ko/article/7.TID.html)
 - [LET(Liner Energy Transfer)란?](/ko/article/6.LET.html)
+- [국내 방사선 평가 시설](/ko/article/19.국내방사선시설.html)
+- [DD (Displacement Damage)란?](/ko/article/18.DD.html)
+- [레이저평가](/ko/article/4.레이저평가.html)
 - [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)

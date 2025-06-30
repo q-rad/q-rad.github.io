@@ -4,6 +4,8 @@ title: LET (Liner Energy Transfer)란?
 date: 2025-03-25 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 1003
 ---
 # LET (Liner Energy Transfer) - 선형 에너지 전달
 LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에너지 손실을 말합니다. LET의 단위는 MeV cm<sup>2</sup>/mg이고 경로의 단위 길이당 에너지 손실(MeV/cm)은 표적 물질의 밀도(mg/cm<sup>3</sup>)로 정규화되어 LET는 표적과 독립적으로 인용될 수 있습니다.<br>
@@ -26,3 +28,8 @@ LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에�
 **관련 글**
 - [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)
 - [중이온 빔이란?](/ko/article/10.중이온.html)
+- [국내 방사선 평가 시설](/ko/article/19.국내방사선시설.html)
+- [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
+- [TID(Total Ionizing Dose effect)란?](/ko/article/7.TID.html)
+- [DD (Displacement Damage)란?](/ko/article/18.DD.html)
+- [레이저평가](/ko/article/4.레이저평가.html)

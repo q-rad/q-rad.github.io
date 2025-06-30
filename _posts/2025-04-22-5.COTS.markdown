@@ -4,6 +4,8 @@ title: COTS (Commercial off-the-shelf)
 date: 2025-03-26 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
+sub_category: Space Environment & Space-Grade Electronics
+order: 3003
 ---
 # COTS란?
  우주 산업의 민간 참여가 활발해지며, 상용 기성품(COTS, Commercial Off-The-Shelf)의 활용이 우주 시스템 개발의 대안으로 주목받고 있습니다. COTS 부품은 기존의 고비용·장기개발 중심의 우주 전용 부품과 달리, 상업 시장에서 대량 생산되는 제품을 활용함으로써 비용 절감, 개발 시간 단축, 최신 기술의 빠른 수용 등 다양한 이점을 제공합니다. 이러한 특성은 특히 스타트업이나 소규모 연구기관에게 매력적인 선택지를 제공합니다.<br>

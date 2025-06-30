@@ -4,6 +4,8 @@ title: 지구의 자기장과 방사선대의 관계
 date: 2025-03-15 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
+sub_category: Space Environment & Space-Grade Electronics
+order: 3005
 ---
 
 우주에서 유입된 입자가 밴 앨런대와 같은 이온대에서 일부 포획이 되면 입자는 자장선을 따라서 나선형으로 한 극에서 다른 극으로 이동하여 다시 튀어 오릅니다. 양전하 및 음전하 입자는 각각 서로 반대 방향으로 더 느리게 남북 방향으로도 이동합니다. 이러한 자기장의 활동은 남 대서양의 자기장에 강하를 일으켜 남 대서양 이상 현상(SAA)이라고 불리며 저궤도에서 많은 문제를 일으키는 원인이 됩니다.<br>

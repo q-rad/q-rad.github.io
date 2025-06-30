@@ -4,6 +4,8 @@ title: 국내 방사선 평가 시설
 date: 2025-03-13 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 1010
 ---
 
 고고도(High Altitude)나 대기권 밖의 우주에서 발생하는 소프트 오류나 단일 이벤트 현상의 평가는 우주 환경에서 관찰되는 중이온, 양성자 이 두 가지의 입자를 중심으로 평가가 이루어져야 합니다. 일반적으로 우주 방사선 평가는 중이온 평가와 TID 평가를 기준으로 하고 양성자 평가를 차선으로 권장합니다.<br>
@@ -133,4 +135,7 @@ QRT는 국내/외 다양한 방사선 조사 시설을 활용하여 고객 맞�
 - [레이저 평가](/ko/article/4.레이저평가.html)
 - [레이저평가의 글로벌동향](/ko/article/9.레이저평가-세계동향.html)
 - [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
-
+- [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
+- [TID(Total Ionizing Dose effect)란?](/ko/article/7.TID.html)
+- [LET(Liner Energy Transfer)란?](/ko/article/6.LET.html)
+- [DD (Displacement Damage)란?](/ko/article/18.DD.html)
