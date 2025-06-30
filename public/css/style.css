@@ -934,3 +934,19 @@ table td {
 .clickable-summary {
 	cursor: pointer;
 }
+
+
+.subcat-divider {
+	border: none;
+	border-top: 1px solid #ccc;
+}
+
+.subcat-title {
+	display: inline-block; /* ✅ 글자 너비만큼만 박스 생성 */
+	color: #111;
+	border-bottom: 1px solid #ccc; /* 하단 구분선 */
+	margin: 0px;
+	padding-left: 10px; /* 좌측 여백 */
+	padding-right: 10px; /* 우측 여백 */
+	position: relative;
+}
