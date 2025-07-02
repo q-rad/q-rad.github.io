@@ -6,6 +6,14 @@ category: publications
 permalink: ko/publications/:title.html
 ---
 
-- 항공우주학회 춘계학술 대회 (2025) - ADC Radiation Hardness Evaluation using Femtosecond Pulsed Laser for Space-COTS Applications [[pdf](</assets/pdf/paper/한국항공우주학회 2025 - 1.pdf>)]
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-- 항공우주학회 춘계학술 대회 (2025) - Radiation Hardness Evaluation Comparison Between Heavy-Ion and TPA Pulsed-Laser on 65nm SRAM [[pdf](</assets/pdf/paper/한국항공우주학회 2025 - 2.pdf>)]
+- 항공우주학회 춘계학술 대회 (2025) - ADC Radiation Hardness Evaluation using Femtosecond Pulsed Laser for Space-COTS Applications
+<a href="/assets/pdf/paper/한국항공우주학회 2025 - 1.pdf" target="_blank">
+<i class="fas fa-file-pdf hover-icon" style="color:red; margin-left:8px;"></i></a>
+    
+
+- 항공우주학회 춘계학술 대회 (2025) - Radiation Hardness Evaluation Comparison Between Heavy-Ion and TPA Pulsed-Laser on 65nm SRAM
+<a href="/assets/pdf/paper/한국항공우주학회 2025 - 2.pdf" target="_blank">
+<i class="fas fa-file-pdf hover-icon" style="color:red; margin-left:8px;"></i></a>
+    

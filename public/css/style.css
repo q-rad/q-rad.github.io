@@ -954,3 +954,14 @@ table td {
 	line-height: 0;
 	position: relative;
 }
+
+
+  .hover-icon {
+    transition: all 0.3s ease;
+  }
+
+  .hover-icon:hover {
+    filter: brightness(1.3) ;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
