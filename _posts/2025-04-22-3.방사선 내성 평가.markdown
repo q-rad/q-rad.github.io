@@ -55,3 +55,7 @@ order: 1001
 - [DD (Displacement Damage)란?](/ko/article/18.DD.html)
 - [레이저평가](/ko/article/4.레이저평가.html)
 - [중이온 빔이란?](/ko/article/10.중이온.html)
+- [광자(Photon)의 에너지 전달 메커니즘](/ko/article/21.photons.html)
+- [전자(Electron)의 에너지 전달 메커니즘](/ko/article/22.electrons.html)
+- [양성자(Proton)와 중성자(Neutron)의 에너지 전달 메커니즘](/ko/article/23.Nucleons.html)
+- [이온(Ion)의 에너지 전달 메커니즘](/ko/article/24.ions.html)
