@@ -1,3 +1,6 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+
 <div class="sidebar-item sidebar-header">
 	<div class="sidebar-brand">
 		<!-- 로고와 제목을 포함한 링크   -->
@@ -18,74 +21,88 @@
 </div>
 
 <div class="sidebar-item sidebar-nav">
-	<ul class="nav">
-		<li class="nav-title">About</li>
+  <ul class="nav">
+    <!-- 👤 아이콘 추가된 About 제목 -->
+    <li class="nav-title">
+      <i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i> About
+    </li>
 
-		<!-- Home 항목 먼저 -->
-		<li>
-			<a class="nav-item" href="/">Home</a>
-		</li>
+    <!-- Home 항목 먼저 -->
+    <li>
+      <a class="nav-item" href="/">Home</a>
+    </li>
 
-		<!-- About LASER2COTS만 먼저 표시 -->
-		{% assign pages_list = site.pages %}
-		{% for node in pages_list %}
-		{% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
-		<li>
-			<a class="nav-item" href="{{ node.url }}">
-				{{ node.title }}
-			</a>
-		</li>
-		{% endif %}
-		{% endfor %}
+    <!-- About LASER2COTS만 먼저 표시 -->
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
+      <li>
+        <a class="nav-item" href="{{ node.url }}">
+          {{ node.title }}
+        </a>
+      </li>
+      {% endif %}
+    {% endfor %}
 
-		<!-- 나머지 페이지들 중 About LASER2COTS, pygments-css, README 제외 -->
-		{% for node in pages_list %}
-		{% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
-		{% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
-		<li>
-			<a class="nav-item" href="{{ node.url }}">
-				{{ node.title }}
-			</a>
-		</li>
-		{% endif %}
-		{% endif %}
-		{% endfor %}
+    <!-- 나머지 페이지들 중 제외 대상 제외 -->
+    {% for node in pages_list %}
+      {% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
+        {% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
+        <li>
+          <a class="nav-item" href="{{ node.url }}">
+            {{ node.title }}
+          </a>
+        </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
 
-		<!-- 마지막에 QRT homepage -->
-		<li>
-			<a class="nav-item" href="https://www.qrtkr.com/kr/company/greeting.php">QRT homepage</a>
-		</li>
-	</ul>
+    <!-- QRT homepage -->
+    <li>
+      <a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
+        QRT homepage
+      </a>
+    </li>
+  </ul>
 </div>
 
 
 
 <div class="sidebar-item sidebar-nav">
-	<ul class="nav">
-		<li class="nav-title">QRT - LITE Manual</li>
-		<li>
-			<!-- _includes/manual.html-->
-			<a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">
-				<span class="name">KOR</span>
-				<!--span class="badge">{{ site.manuals | size }}</span-->
-			</a>
-		</li>
-
-	</ul>
+  <ul class="nav">
+    <!-- 📘 아이콘 추가된 제목 -->
+    <li class="nav-title">
+      <i class="fa-solid fa-book" style="margin-right: 6px;"></i>
+      QRT - LITE Manual
+    </li>
+    <li>
+      <!-- _includes/manual.html -->
+      <a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">
+        <span class="name">KOR</span>
+        <!--span class="badge">{{ site.manuals | size }}</span-->
+      </a>
+    </li>
+  </ul>
 </div>
 
+
 <div class="sidebar-item sidebar-nav">
-	<ul class="nav">
-		<li class="nav-title">contents</li>
-		{% for category in site.categories %}
-		<li>
-			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-				<span class="name">{{ category | first }}</span>
-				<span class="badge">{{ category | last | size }}</span>
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
+  <ul class="nav">
+    <!-- 🗂️ 아이콘 추가 -->
+    <li class="nav-title">
+      <i class="fa-solid fa-layer-group" style="margin-right: 6px;"></i>
+      contents
+    </li>
+
+    {% for category in site.categories %}
+    <li>
+      <a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
+        <span class="name">{{ category | first }}</span>
+        <span class="badge">{{ category | last | size }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <!-- 검색 -->
