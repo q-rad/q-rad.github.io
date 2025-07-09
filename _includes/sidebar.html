@@ -21,88 +21,88 @@
 </div>
 
 <div class="sidebar-item sidebar-nav">
-  <ul class="nav">
-    <!-- 👤 아이콘 추가된 About 제목 -->
-    <li class="nav-title">
-      <i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i> About
-    </li>
+	<ul class="nav">
+		<!-- 👤 아이콘 추가된 About 제목 -->
+		<li class="nav-title">
+			<i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i> About
+		</li>
 
-    <!-- Home 항목 먼저 -->
-    <li>
-      <a class="nav-item" href="/">Home</a>
-    </li>
+		<!-- Home 항목 먼저 -->
+		<li>
+			<a class="nav-item" href="/">Home</a>
+		</li>
 
-    <!-- About LASER2COTS만 먼저 표시 -->
-    {% assign pages_list = site.pages %}
-    {% for node in pages_list %}
-      {% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
-      <li>
-        <a class="nav-item" href="{{ node.url }}">
-          {{ node.title }}
-        </a>
-      </li>
-      {% endif %}
-    {% endfor %}
+		<!-- About LASER2COTS만 먼저 표시 -->
+		{% assign pages_list = site.pages %}
+		{% for node in pages_list %}
+		{% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
+		<li>
+			<a class="nav-item" href="{{ node.url }}">
+				{{ node.title }}
+			</a>
+		</li>
+		{% endif %}
+		{% endfor %}
 
-    <!-- 나머지 페이지들 중 제외 대상 제외 -->
-    {% for node in pages_list %}
-      {% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
-        {% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
-        <li>
-          <a class="nav-item" href="{{ node.url }}">
-            {{ node.title }}
-          </a>
-        </li>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
+		<!-- 나머지 페이지들 중 제외 대상 제외 -->
+		{% for node in pages_list %}
+		{% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
+		{% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
+		<li>
+			<a class="nav-item" href="{{ node.url }}">
+				{{ node.title }}
+			</a>
+		</li>
+		{% endif %}
+		{% endif %}
+		{% endfor %}
 
-    <!-- QRT homepage -->
-    <li>
-      <a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
-        QRT homepage
-      </a>
-    </li>
-  </ul>
+		<!-- QRT homepage -->
+		<li>
+			<a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
+				QRT homepage
+			</a>
+		</li>
+	</ul>
 </div>
 
 
 
 <div class="sidebar-item sidebar-nav">
-  <ul class="nav">
-    <!-- 📘 아이콘 추가된 제목 -->
-    <li class="nav-title">
-      <i class="fa-solid fa-book" style="margin-right: 6px;"></i>
-      QRT - LITE Manual
-    </li>
-    <li>
-      <!-- _includes/manual.html -->
-      <a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">
-        <span class="name">KOR</span>
-        <!--span class="badge">{{ site.manuals | size }}</span-->
-      </a>
-    </li>
-  </ul>
+	<ul class="nav">
+		<!-- 📘 아이콘 추가된 제목 -->
+		<li class="nav-title">
+			<i class="fa-solid fa-book" style="margin-right: 6px;"></i>
+			QRT - LITE Manual
+		</li>
+		<li>
+			<!-- _includes/manual.html -->
+			<a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">
+				<span class="name">KOR</span>
+				<!--span class="badge">{{ site.manuals | size }}</span-->
+			</a>
+		</li>
+	</ul>
 </div>
 
 
 <div class="sidebar-item sidebar-nav">
-  <ul class="nav">
-    <!-- 🗂️ 아이콘 추가 -->
-    <li class="nav-title">
-      <i class="fa-solid fa-layer-group" style="margin-right: 6px;"></i>
-      contents
-    </li>
+	<ul class="nav">
+		<!-- 🗂️ 아이콘 추가 -->
+		<li class="nav-title">
+			<i class="fa-solid fa-layer-group" style="margin-right: 6px;"></i>
+			contents
+		</li>
 
-    {% for category in site.categories %}
-    <li>
-      <a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-        <span class="name">{{ category | first }}</span>
-        <span class="badge">{{ category | last | size }}</span>
-      </a>
-    </li>
-    {% endfor %}
-  </ul>
+		{% for category in site.categories %}
+		<li>
+			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
+				<span class="name">{{ category | first }}</span>
+				<span class="badge">{{ category | last | size }}</span>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
 </div>
 
 <!-- 검색 -->
@@ -114,7 +114,7 @@
 <!-- 검색 입력창 (floating label 적용) -->
 <div class="sidebar-item sidebar-search-input" style="padding: 10px;">
 	<div class="floating-label-input">
-		<input type="text" id="search-input" required placeholder=" " title="여기에 검색어를 입력하세요"/>
+		<input type="text" id="search-input" required placeholder=" " title="여기에 검색어를 입력하세요" />
 		<label for="search-input">Search</label>
 	</div>
 </div>
