@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 인공위성의 궤도
+title: 인공위성의 궤도(LEO, GEO)와 방사선 평가
 date: 2025-03-11 00:00:00 +0900
 category: article
 permalink: ko/article/:title.html
@@ -27,6 +27,7 @@ GEO는 지표면으로부터 약 35,786km 고도에 위치하며, 위성이 지�
 다만, 고도가 높기 때문에 통신 지연(latency)이 크고, 극지방 관측에는 한계가 있으며, 발사 비용이 높습니다.
 또한 GEO는 지구 자기장의 보호 효과가 약화되는 구간에 해당하여, LEO보다 고에너지 입자에 더 많이 노출됩니다.
 
+
 <br>
 <p align="center"> 
   <img src="/assets/Articles/leogeo.png" alt= "LEO의 위성(좌)과 GEO의 위성(우)" style="width: 70%;">
@@ -35,6 +36,20 @@ GEO는 지표면으로부터 약 35,786km 고도에 위치하며, 위성이 지�
 <!-- 이미지 설명 -->
 <div align="center"> 
 <h5>LEO의 위성(좌)과 GEO의 위성(우)</h5>
+</div>
+
+
+# GTO (Geostationary transfer orbit) - 정지 천이 궤도
+Geostationary Transfer Orbit(GTO)은 위성을 정지궤도(GEO: Geostationary Earth Orbit)로 진입시키기 위한 중간 타원 궤도입니다. 이 궤도는 근지점은 저지구 궤도(LEO) 수준으로 낮고, 원지점은 정지궤도 고도인 약 35,786km에 이르는 타원 형태로 구성됩니다. 위성 발사체는 위성을 이 GTO의 근지점까지 진입시킵니다.<br> 그 후, 위성이 관성에 의해 정지 천이 궤도를 따라 원지점에 도달하면 위성 자체의 추진 장치를 통해 정지궤도에 진입합니다. 이 궤도 전이 방식은 일반적으로 호만 전이(Hohmann Transfer)를 활용하며, 가장 연료 효율적인 방식 중 하나로 알려져 있습니다.
+아래 이미지에서 노란색 타원은 GTO이며, 노란색 실선은 인공위성의 경로입니다.
+<br>
+<p align="center"> 
+  <img src="/assets/Articles/gto.png" alt= "Geostationary transfer orbit" style="width: 50%;">
+</p>
+
+<!-- 이미지 설명 -->
+<div align="center"> 
+<h5>Geostationary transfer orbit</h5>
 </div>
 
 
