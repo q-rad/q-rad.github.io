@@ -1,0 +1,71 @@
+---
+
+layout: post
+title: Energy Transfer Mechanisms of Photons
+date: 2025-03-12 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 2006
+lang: en
+---
+
+# Photon
+
+A photon is the fundamental carrier of electromagnetic energy, spanning the entire electromagnetic spectrum from low to high energy and from long to short wavelengths. This includes radio waves, microwaves, visible light, ultraviolet rays, X-rays, and gamma rays.
+
+Most electronic devices are sealed with opaque packages (such as plastic, ceramic, or metal), so photons in the visible light range generally pose no significant issues. However, high-energy photons like X-rays or gamma rays can easily penetrate packaging materials and affect the device.
+
+In both terrestrial and space environments, the direct photon flux from X-rays and gamma rays is not considered highly significant compared to other radiation types.
+
+In industrial and medical settings, X-rays and gamma rays are the primary sources of radiation, with photon energies typically in the 10 to 1,000 keV range. In this range, the photoelectric effect is the dominant mechanism for charge generation, with Compton scattering also contributing.
+
+Because photons carry no charge, they do not cause the same interactions as charged particles do with electrons or atomic nuclei.
+
+Below are the three primary mechanisms by which photons transfer energy:
+
+<p align="center"> <img src="/assets/Articles/선스펙트럼.png" alt="Diagram illustrating the electromagnetic spectrum" style="width: 40%;"> </p>
+<!-- Image description -->
+<div align="center">
+<h5>Diagram illustrating the electromagnetic spectrum</h5>
+</div>
+<div align="center" style="font-size: 10px; color: gray; ">
+  Image source: EM Spectrum Properties edit.svg, created by Inductiveload & NASA (adapted from NASA’s File:EM Spectrum3-new.jpg).<br>
+Licensed under CC BY-SA 3.0 and GNU Free Documentation License 1.2+.<br>
+You are free to use and modify this image with attribution and ShareAlike terms.
+</div>
+
+### 1. Photoelectric Effect
+
+When a photon incident on a semiconductor has enough energy to free an electron from the valence band or bound state, the photon is absorbed and its energy is transferred to the electron, creating a photoelectron. This process also leaves behind a positively charged hole. This is called the photoelectric effect.
+
+In this effect, photons ranging from visible light to X-rays (around 100 keV) can excite tightly bound inner-shell electrons. The vacancy left by the ejected electron is filled by an outer-shell electron, and characteristic X-rays may be emitted. These emitted X-rays reflect the properties of specific elements.
+
+The photoelectric effect is an inelastic process, where the energy of the photon is proportional to its frequency. If the photon’s energy is insufficient to generate an electron-hole pair, the photon will pass through the material—this is referred to as transparency.
+
+### 2. Compton Scattering
+
+In Compton scattering, a photon collides with an electron and loses part of its energy, resulting in a scattered photon with lower energy and a recoil electron. Depending on the energy transferred to the electron, it may be excited to a higher energy state or, if the energy is sufficient, become a free electron that can interact with other atoms or electrons.
+
+### 3. Pair Production
+
+Pair production is a major energy loss mechanism for gamma rays and occurs between a photon and an atomic nucleus. This process creates an electron and a positron.
+
+For pair production to occur, the photon must have energy exceeding the combined rest mass energy of the electron and positron. The excess energy becomes the kinetic energy of the two particles.
+
+If the photon’s energy is below this threshold, pair production cannot occur. Conversely, the higher the photon energy and the larger the atomic number of the absorbing material, the more readily this process occurs.
+
+---
+
+<br/> <!-- Line break -->
+
+**Related Articles**
+
+* [Energy Transfer Mechanisms of Electrons](/en/article/22.electrons.html)
+* [Energy Transfer Mechanisms of Protons and Neutrons](/en/article/23.Nucleons.html)
+* [Energy Transfer Mechanisms of Ions](/en/article/24.ions.html)
+* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+* [What is TID (Total Ionizing Dose Effect)?](/en/article/7.TID.html)
+* [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
+* [What is DD (Displacement Damage)?](/en/article/18.DD.html)
+* [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

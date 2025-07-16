@@ -50,100 +50,130 @@
   </div>
 
   <!-- Gallery Section -->
+  <div class="gallery-container" style="margin-top: 40px; margin-bottom: 40px;">
 
-  <div class="gallery-container" style="margin-top: 40px; margin-bottom: 40px; ">
+    <!-- Up-Screen -->
     <div class="gallery-item">
       <img src="/assets/Articles/space2.png" alt="Up-Screen">
       <div class="label-center">Up-Screen</div>
       <div class="overlay">
         <h3 style="color: #fff; cursor: default;">Up-Screen</h3>
-        <p style="cursor: default">우주 환경에 적합한 부품을 선별하는 Up-screening 서비스</p>
-        <a href="/ko/article/12.upScreening.html" class="button">자세히 보기</a>
+        <p class="gallery-text-ko" style="cursor: default;">우주 환경에 적합한 부품을 선별하는 Up-screening 서비스</p>
+        <p class="gallery-text-en" style="display: none; cursor: default;">Up-screening service for selecting components
+          suitable for space environments</p>
+        <a href="/ko/article/12.upScreening.html" class="button gallery-btn" data-ko="자세히 보기" data-en="See Details">자세히
+          보기</a>
       </div>
     </div>
 
+    <!-- Laser Evaluation -->
     <div class="gallery-item">
-      <img src="/assets/Articles/laser.png" alt="laser evaluation">
+      <img src="/assets/Articles/laser.png" alt="Laser Evaluation">
       <div class="label-center">Laser Evaluation</div>
       <div class="overlay">
         <h3 style="color: #fff; cursor: default;">Laser Evaluation</h3>
-        <p style="cursor: default">레이저를 이용한 내방사선 평가 서비스</p>
-        <a href="/ko/article/4.레이저평가.html" class="button">자세히 보기</a>
+        <p class="gallery-text-ko" style="cursor: default;">레이저를 이용한 내방사선 평가 서비스</p>
+        <p class="gallery-text-en" style="display: none; cursor: default;">Radiation evaluation service using lasers</p>
+        <a href="/ko/article/4.레이저평가.html" class="button gallery-btn" data-ko="자세히 보기" data-en="See Details">자세히 보기</a>
       </div>
     </div>
 
+    <!-- Laser Lab Access -->
     <div class="gallery-item">
-      <img src="/assets/Articles/QRT-laser.png" alt="laser lab Access Service">
+      <img src="/assets/Articles/QRT-laser.png" alt="Laser Lab Access Service">
       <div class="label-center">Laser Lab Access Service</div>
       <div class="overlay">
         <h3 style="color: #fff; cursor: default;">Laser Lab Access Service</h3>
-        <p style="cursor: default">연구자들을 위한 내방사선 평가를 위한 레이저 시설 대여</p>
-        <a href="/ko/article/4.레이저평가.html" class="button">자세히 보기</a>
+        <p class="gallery-text-ko" style="cursor: default;">연구자들을 위한 내방사선 평가를 위한 레이저 시설 대여</p>
+        <p class="gallery-text-en" style="display: none; cursor: default;">Laser facility rental for radiation
+          evaluation by researchers</p>
+        <a href="/ko/article/4.레이저평가.html" class="button gallery-btn" data-ko="자세히 보기" data-en="See Details">자세히 보기</a>
       </div>
     </div>
+
   </div>
+
 
   <!-- 본문 -->
   <div style="display: flex; margin: 0 20px; padding: 0 5% 0; gap: 40px; flex-wrap: wrap;">
 
-    <!-- 좌측: About 섹션 -->
+    <!-- 좌측: About -->
     <div class="content" style="flex: 1; min-width: 300px;">
       <div class="post-content">
-        {% assign about_page = site.pages | where: "title", "About LASER2COTS_main" | first %}
-        {% if about_page %}
-        {{ about_page.content }}
-        {% else %}
-        <p>About page not found.</p>
+        {% assign about_ko = site.pages | where: "title", "About LASER2COTS_main" | first %}
+        {% assign about_en = site.pages | where: "title", "About LASER2COTS_main_en" | first %}
+        {% if about_ko %}
+        <div id="about-ko">{{ about_ko.content }}</div>
+        {% endif %}
+        {% if about_en %}
+        <div id="about-en" style="display: none;">{{ about_en.content }}</div>
         {% endif %}
       </div>
     </div>
-    <!--<div style="width: 1px; background-color: #757575; margin: 0 10px;"></div>-->
-    <!-- 우측: Articles 섹션 -->
-    <div class="content" style="flex: 1; min-width: 300px;">
-      <header class="post-header home">
-        <div class="post-title">Articles</div>
-      </header>
 
+    <!-- 우측: Articles -->
+<div class="content" style="flex: 1; min-width: 300px;">
+  <header class="post-header home">
+    <div class="post-title">Articles</div>
+  </header>
 
+  <div class="post-content">
+    {% assign sorted_posts = site.posts | where: "categories", "article" | sort: "order" %}
+    {% assign max_posts = 20 %}
+    {% if sorted_posts.size > 0 %}
+    <ul class="post-list" id="post-list">
+      {% for post in sorted_posts limit:max_posts %}
+      <li class="post-list-item" data-lang="{{ post.lang | default: 'ko' }}">
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {% if site.show_excerpts %}{{ post.excerpt }}{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
 
-      <div class="post-content">
-        {%- assign max_posts = 10 -%}
-        {%- if site.posts.size > 0 -%}
-        <ul class="post-list">
-          {%- for post in site.posts limit:max_posts -%}
-          <li class="post-list-item">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-            {%- if site.show_excerpts -%}{{ post.excerpt }}{%- endif -%}
-          </li>
-          {%- endfor -%}
-        </ul>
-
-        <div style="text-align: center; margin-top: 20px;">
-          <a href="{{ '/category/#article' | relative_url }}" class="more-button">
-            더 많은 글 보기</a>
-        </div>
-        {%- endif -%}
-      </div>
+    <div style="text-align: center; margin-top: 20px;">
+      <a id="more-button" href="{{ '/category/#article' | relative_url }}" class="more-button">더 많은 글 보기</a>
     </div>
+    {% endif %}
+  </div>
+</div>
+
+<!-- 언어별 필터링 JavaScript 추가 -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const currentLang = localStorage.getItem('lang') || 'ko';
+    const listItems = document.querySelectorAll('#post-list .post-list-item');
+
+    let shown = 0;
+    const maxPosts = 10;
+
+    listItems.forEach(item => {
+      const lang = item.dataset.lang || 'ko';
+      if (lang === currentLang && shown < maxPosts) {
+        item.style.display = 'list-item';
+        shown++;
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    // 더보기 버튼 텍스트도 변경
+    const moreBtn = document.getElementById('more-button');
+    if (moreBtn) {
+      moreBtn.textContent = currentLang === 'en' ? 'See More Articles' : '더 많은 글 보기';
+    }
+  });
+</script>
+
+
   </div>
 </article>
 
-
-
-
-
-<!-- CDN 방식으로 추가 -->
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     new Typed('#typing-text', {
-      strings: [
-        "Welcome to LASER2COTS<br>Explore what we do with the lasers😀",
-      ],
+      strings: ["Welcome to LASER2COTS<br>Explore what we do with the lasers😀"],
       typeSpeed: 30,
       showCursor: true,
       cursorChar: '|',

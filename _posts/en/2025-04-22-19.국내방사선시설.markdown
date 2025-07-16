@@ -1,0 +1,132 @@
+---
+
+layout: post
+title: Domestic Radiation Test Facilities
+date: 2025-03-13 00:00:00 +0900
+category: article
+lang: en
+permalink: en/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 1010
+---
+
+Evaluating soft errors or single event phenomena occurring in high-altitude or outer atmospheric space should focus primarily on heavy ions and protons, which are particles observed in the space environment. Generally, space radiation testing is based on heavy ion and TID evaluations, with proton testing recommended as a secondary option.<br>
+
+Another essential evaluation in space radiation testing is the Total Ionizing Dose (TID) effect caused by charged particles. Although this can be caused by protons and heavy ions, it is commonly and efficiently evaluated using gamma rays. <br>
+
+Recently, the demand for electronic components exposed to radiation environments in advanced industries such as space, defense, nuclear, and medical sectors has increased rapidly. In the space sector in particular, electronic components mounted on satellites and launch vehicles are continuously exposed to space radiation, making it essential to verify that these components operate reliably in such environments. <br>
+
+Radiation evaluation infrastructure is a key foundation for securing technology sovereignty in Korea’s independent development and potential export of space components. As private-led independent space development projects advance, the demand for highly reliable electronic components is increasing. <br>
+
+Radiation test infrastructure not only strengthens the foundation of the space industry but is also a strategic asset for Korea to lead the future technological race in space. Below is a summary of Korea's major radiation evaluation facilities.
+
+# Proton Accelerators
+
+### KOMAC – Korea Multi-purpose Accelerator Complex (Gyeongju, Gyeongbuk)
+
+> KOMAC, located in Gyeongju, offers proton irradiation at 20MeV and 100MeV. The table below shows the specifications of the proton accelerator.
+
+<p align="center"> 
+  <img src="/assets/Articles/양성자과학연구단.png" alt="KOMAC 100MeV Proton Accelerator" style="width: 40%;">
+</p>
+
+<div align="center"> 
+<h5>KOMAC 100MeV Proton Accelerator</h5>
+</div>
+<div align="center" style="font-size: 10px; color: gray; ">
+  Image source: KOMAC Official Website<br>
+  https://komac.kaeri.re.kr/komac/img/sub/inst01_01.png
+</div>
+
+<div align="center">
+
+|          Category         |    20MeV    |    100MeV    |
+| :-----------------------: | :---------: | :----------: |
+|       Energy \[MeV]       |      20     |      100     |
+|     Peak Current (mA)     |  0.1 \~ 20  |   0.1 \~ 20  |
+|     Max Beam Duty (%)     |      24     |       8      |
+|     Avg Current \[mA]     |  0.1 \~ 4.8 |  0.1 \~ 1.6  |
+|     Pulse Length \[ms]    | 0.02 \~ 2.0 | 0.05 \~ 1.33 |
+| Max Repetition Rate \[Hz] |     120     |      60      |
+|    Max Beam Power \[kW]   |      96     |      160     |
+
+</div>
+<div align="center"> 
+<h5>KOMAC Proton Accelerator Specifications</h5>
+</div>
+
+### KIRAMS – Korea Institute of Radiological & Medical Sciences (Nowon-gu, Seoul)
+
+> Located in Nowon-gu, Seoul, KIRAMS provides 20–45MeV proton beams using the MC-50 Cyclotron. A cyclotron accelerates particles near the speed of light by circular motion in a magnetic field. The following table outlines the specifications.
+
+<p align="center"> 
+  <img src="/assets/Articles/KIRAMS.png" alt="KIRAMS MC-50 Cyclotron" style="width: 40%;">
+</p>
+
+<div align="center"> 
+<h5>KIRAMS 50MeV Particle Accelerator</h5>
+</div>
+<div align="center" style="font-size: 10px; color: gray; ">
+  Image source: KIRAMS Official Website<br>
+  https://www.kirams.re.kr/common/front/rirams/images/sub/img_equip_02.png
+</div>
+
+<div align="center">
+
+|   Particle  |     Energy     |   Current   | Max Irradiation Area |
+| :---------: | :------------: | :---------: | :------------------: |
+|    Proton   | 20MeV \~ 40MeV | 1nA \~ 20uA |       2cm x 2cm      |
+|   Deuteron  |    \~ 45MeV    |      -      |      30cm x 30cm     |
+| Alpha (4HE) | 25MeV \~ 45MeV |   \~200nA   |       2cm x 2cm      |
+
+</div>
+<div align="center"> 
+<h5>KIRAMS Particle Accelerator Specifications</h5>
+</div>
+
+# Gamma Ray Irradiation Facilities
+
+### ARTI – Advanced Radiation Technology Institute (Jeongeup, Jeonbuk)
+
+> Located in Jeongeup, ARTI provides gamma irradiation facilities from 0.5kCi up to 470kCi. Using gamma rays from Co<sup>60</sup>, ARTI provides precision irradiation services for agriculture, aerospace, and basic science applications.
+
+<p align="center"> 
+  <img src="/assets/Articles/ARTI.png" alt="ARTI Low-Dose Gamma Irradiation Facility" style="width: 40%;">
+</p>
+
+<div align="center"> 
+<h5>ARTI Low-Dose Gamma Irradiation Facility</h5>
+</div>
+<div align="center" style="font-size: 10px; color: gray; ">
+  Image source: ARTI Official Website<br>
+  https://www.kaeri.re.kr/resources/images/arti/contents/facility_02.jpg
+</div>
+
+# Heavy Ion Accelerators
+
+Currently, Korea does not have domestic heavy ion accelerator infrastructure suitable for SEE (Single Event Effect) testing of semiconductors. As a result, overseas facilities are required for space and radiation environment reliability tests.
+
+To address this, the Korea Institute of Science and Technology (KIST) is pursuing heavy ion accelerator development. Additionally, the RAON accelerator by IBS (Institute for Basic Science) is Korea’s first large-scale heavy ion accelerator being developed for both nuclear physics and practical applications like SEE evaluation.
+
+Once these projects are completed, independent SEE testing in Korea will be possible.
+
+# QRT Radiation Hardness Evaluation Services
+
+QRT provides customized radiation hardness evaluation services using various domestic and international radiation facilities.<br>
+Please contact us via **[this link](https://www.qrtkr.com/kr/customer/inquiry.php)** for more details.
+
+---
+
+<br/>
+
+**Related Articles**
+
+* [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+* [Up-Screening](/en/article/12.upScreening.html)
+* [What is a Heavy Ion Beam?](/en/article/10.중이온.html)
+* [Laser Evaluation](/en/article/4.레이저평가.html)
+* [Global Trends in Laser Evaluation](/en/article/9.레이저평가-세계동향.html)
+* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+* [What is TID (Total Ionizing Dose)?](/en/article/7.TID.html)
+* [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
+* [What is DD (Displacement Damage)?](/en/article/18.DD.html)

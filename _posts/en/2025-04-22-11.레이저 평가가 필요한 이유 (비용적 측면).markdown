@@ -1,0 +1,39 @@
+---
+layout: post
+title: Why Laser Evaluation is Necessary (Cost Perspective)
+date: 2025-03-20 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Laser-Based SEE Evaluation
+order: 2003
+lang: en
+---
+
+When using Commercial-Off-The-Shelf (COTS) components in space environments, **up-screening** procedures to ensure high reliability are essential.  
+These procedures include mechanical, electrical, environmental tests, and especially **radiation hardness evaluation**.
+
+However, when analyzing the cost of each major item in up-screening, the **SEE (Single Event Effect)** test—particularly the heavy ion-based evaluation—accounts for a disproportionately large portion of the total cost.
+
+<p align="center"> <img src="/assets/Articles/cost.png" style="width: 80%; max-width: 500px;"/> </p>
+
+As shown in the graph, heavy ion-based SEE tests dominate the overall up-screening cost, requiring significantly more budget compared to other evaluation categories such as TID (Total Ionizing Dose), DPA (Destructive Physical Analysis), and CA (Construction Analysis).  
+While COTS components have the advantage of being cheaper than space-grade parts in terms of initial purchase price, the cost of SEE testing during up-screening can sometimes match or even exceed the price of space-grade components.
+
+<p align="center"> <img src="/assets/Articles/costComparison.png" style="width: 80%; max-width: 500px;"/> </p>
+
+As this graph illustrates, evaluation using heavy ions incurs substantial cost even for a single test. Compared to this, laser-based testing for the same component is about **four times cheaper**.  
+This cost issue essentially negates the cost-saving benefits of using COTS parts, making them inefficient in some cases when compared to certified space-grade components.
+
+To solve this issue, many are now proposing to **replace heavy ion tests with laser-based SEE evaluations**.  
+In the up-screening process required to apply COTS components to space systems, radiation hardness evaluation—particularly heavy ion-based SEE tests—has a major impact on the total cost structure.
+
+---
+
+<br/>
+
+**Related Articles**
+- [Laser Evaluation](/en/article/4.레이저평가.html)
+- [Laser Evaluation Based on NASA Documentation](/en/article/17.레이저-평가-적용-근거.html)
+- [What is a Heavy Ion Beam?](/en/article/10.중이온.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+- [Up-Screening](/en/article/12.upScreening.html)

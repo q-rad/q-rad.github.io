@@ -1,0 +1,97 @@
+---
+layout: post
+title: Radiation Assessment for Satellite Orbits (LEO, GEO)
+date: 2025-03-11 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Space Environment & Space-Grade Electronics
+order: 3006
+lang: en
+---
+
+# LEO (Low Earth Orbit)
+LEO is an orbit located at an altitude of approximately 2,000 km or less above Earth's surface, positioned between the Earth's atmosphere and the Van Allen belts. While LEO is less affected by Solar Protons and Galactic Cosmic Rays (GCR), it is significantly influenced by trapped radiation in the Van Allen belts.
+
+This orbit is widely used in fields such as communications, weather observation, and scientific exploration, and the majority of currently operating satellites are located here. Due to its proximity to Earth, it enables high-resolution imaging, with mission durations typically ranging from 2 to 5 years. The International Space Station (ISS), for example, is in LEO and orbits Earth about 15.7 times per day at a speed of 27,744 km/h.
+
+Because the radiation environment is relatively mild, even Commercial Off-The-Shelf (COTS) components can be used, making it suitable for mega-constellations through cost-effective mass deployment.
+
+### VLEO (Very Low Earth Orbit)
+VLEO refers to very low Earth orbit, located approximately 180–400 km above the Earth. Its proximity enables ultra-high-resolution imaging and low communication latency. However, atmospheric drag causes high fuel consumption and shorter satellite lifespans. There is virtually no trapped radiation in this region, and the main radiation source is solar protons.
+
+# GEO (Geostationary Orbit)
+GEO is positioned approximately 35,786 km above the Earth's surface. A satellite in GEO orbits the Earth at the same rotational speed, appearing stationary from the ground. This orbit lies above the equator and completes one orbit per day.
+
+It is ideal for applications requiring continuous ground observation, such as communications, broadcasting, and weather satellites. Ground antennas can be fixed in one direction, offering stable operation. However, due to the high altitude, it suffers from greater signal latency and cannot effectively observe polar regions. Launching to GEO is also more expensive.
+
+Furthermore, GEO is situated in a region with reduced geomagnetic shielding, making it more exposed to high-energy particles compared to LEO.
+
+<br>
+<p align="center"> 
+  <img src="/assets/Articles/leogeo.png" alt= "LEO satellite (left) and GEO satellite (right)" style="width: 70%;">
+</p>
+
+<!-- Image Caption -->
+<div align="center"> 
+<h5>LEO satellite (left) and GEO satellite (right)</h5>
+</div>
+
+# GTO (Geostationary Transfer Orbit)
+Geostationary Transfer Orbit (GTO) is an intermediate elliptical orbit used to place satellites into GEO. Its perigee lies at LEO altitude, while its apogee reaches approximately 35,786 km. Launch vehicles inject the satellite into the perigee of the GTO, and the satellite uses its own propulsion system at the apogee to circularize its orbit into GEO.
+
+This transition typically uses a Hohmann transfer, which is known to be one of the most fuel-efficient orbital maneuvers.
+
+<p align="center"> 
+  <img src="/assets/Articles/gto.png" alt= "Geostationary transfer orbit" style="width: 50%;">
+</p>
+
+<!-- Image Caption -->
+<div align="center"> 
+<h5>Geostationary transfer orbit</h5>
+</div>
+
+# Radiation Hardness Evaluation by Orbit
+
+LEO is strongly influenced by shielding effects from the Van Allen belts, which significantly reduce the impact of Solar Particle Events (SPE) and Galactic Cosmic Rays (GCR). The belts act like a cyclotron, trapping and accelerating particles, increasing their energy to levels harmful to semiconductors.
+
+GEO, on the other hand, is vulnerable to solar flares. Although it lies outside the Van Allen belts, it still receives some geomagnetic shielding. The sunward side of the magnetosphere extends up to about 65,000 km, meaning GEO is still within its influence. However, trapped particles from the belts have little impact at GEO altitudes.
+
+<br>
+
+<div align="center">
+
+| Category                         | **LEO (Low Earth Orbit)**                                                   | **GEO (Geosynchronous Orbit)**                               |
+|----------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------|
+| **Main Radiation Source**        | - Trapped particles (protons/electrons)<br>- Van Allen belts               | - Solar Flares (SPE)<br>- Galactic Cosmic Rays (GCR)        |
+| **Trapped Particle Effects**     | Significant (especially when crossing SAA or polar regions)<br>→ Possible SEE | Minimal (outside Van Allen belts)                           |
+| **Solar Proton Events (SPE)**    | Low impact due to magnetospheric shielding<br>(SAA/polar regions affected) | Primary radiation source during flares (>10 MeV particles)  |
+| **GCR**                          | Very low due to geomagnetic shielding                                       | Over 6× stronger than LEO                                    |
+| **TID (Total Ionizing Dose)**    | - LEO-Zero: ~136 Rad<br>- LEO-ISS: ~430 Rad<br>- LEO-Polar: ~333 Rad       | - GEO: ~5,930 Rad<br>- GTO: ~59,630 Rad (highest)           |
+| **SEE Causes**                   | Trapped protons/electrons (especially in SAA)                               | Solar flares, GCR → high-energy particle collisions         |
+| **LET Influence**                | - Proton LET: 0.1–50 MeV range<br>- TID dominant factor                     | - Proton LET: 10–100+ MeV<br>- SEE is the main concern       |
+| **Shielding Requirements**       | Moderate (basic packaging may suffice)                                      | High (≥5 mm Al recommended)                                  |
+| **Application Examples**         | ISS, CubeSat, Earth observation satellites                                  | Communication/weather satellites, military GEO satellites     |
+
+</div>
+
+<br>
+<br>
+
+**Reference**  
+>Dalehite, K. A., & Xapsos, M. A. (2022). Mission Radiation Environment Modeling and Analysis (NASA STI/TP-20220016301). NASA Goddard Space Flight Center.
+
+<br>
+
+-------------------------------------
+
+<br/> <!-- line break -->
+
+**Related Articles**
+- [Energy Transfer Mechanism of Photon](/en/article/21.photons.html)
+- [Energy Transfer Mechanism of Electron](/en/article/22.electrons.html)
+- [Energy Transfer Mechanism of Proton and Neutron](/en/article/23.Nucleons.html)
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+- [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
+- [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
+- [What is DD (Displacement Damage)?](/en/article/18.DD.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

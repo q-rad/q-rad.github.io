@@ -1,0 +1,55 @@
+---
+
+layout: post
+title: Accidents Caused by Soft Errors
+date: 2025-03-16 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 1006
+lang: en
+---
+
+# Airbus A330-303 (Qantas Flight 72) Incident
+
+In October 2008, Airbus A330-303 (Qantas Flight 72) was cruising at an altitude of 37,000 feet on autopilot en route from Singapore to Perth, Western Australia. Suddenly, the Inertial Reference System (monitoring the aircraft's pitch, roll, and bank) began outputting incorrect values. As a result, the aircraft erroneously judged that it was entering a stall and responded to incorrect "angle of attack" data, prompting the flight computer to automatically command the nose down.
+This dramatic and sudden pitch change injured one-third of the passengers and over three-quarters of the crew.
+This failure mode had only been observed three times in over 128 million hours of unit operation and still met the reliability and undetected fault rate specifications of the aircraft manufacturer (which later redesigned the algorithm to prevent similar incidents).
+The soft error rate of the equipment responsible was calculated as 3/0.128 = 23.44 FIT. However, at the cruising altitude of 37,000 feet, the soft error rate for unprotected memory is several thousand times higher, meaning this figure was vastly underestimated. Therefore, the real-world "glitch" rate is typically much higher. Multiple countermeasures based on this soft error rate could have prevented the accident, but due to the inaccurate prediction, it was not avoided.
+
+<!-- Image -->
+
+<p align= "center">
+<img src="/assets/Articles/콴타스72편의피해모습.png" style="width: 100%; max-width: 400px;" alt="Damage from Qantas Flight 72">
+</p>
+<p align= "center">Damage from Qantas Flight 72</p>
+<p style="font-size: 10px; color: gray; text-align: center;">
+  Source: Bureau, Australian Transport Safety. "In-Flight Upset--154km West of Learmonth, WA, 7 October 2008, VH-QPA, Airbus A330-303; 2011." Page 169
+</p>
+
+---
+
+# Sudden Acceleration in Automobiles
+
+<p>Sudden acceleration incidents in 'T' brand vehicles caused many casualties and property damage. NASA's Jet Propulsion Laboratory (JPL), known for its advanced technology, initiated an investigation. The image below was published by JPL to help allay public fear and curiosity, illustrating that soft errors can indeed impact our safety and property.</p>
+<p align= "center">
+<img src="/assets/Articles/급발진.png" style= "width: 100%; max-width: 400px;" alt="Sudden Acceleration in T Brand Vehicles">
+</p>
+<p align= "center">Sudden Acceleration in 'T' Brand Vehicles</p>
+<p style="font-size: 10px; color: gray; text-align: center;">
+  Image Source: NASA
+</p>
+
+<p>
+  Between 2010 and 2011, JPL questioned whether soft errors might cause sudden acceleration, asking, "Do spacecraft experience sudden acceleration?" The case was ultimately closed not by JPL, but by Carnegie Mellon University. They concluded that a "single-bit upset" was the cause and provided supporting analysis and experimental data. The final report noted that even though the memory components involved had error-correcting code (ECC) applied, in reality, they were not protected against such upsets.
+</p>
+
+---
+
+<br/>
+
+**Related Articles**
+
+* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+* [Laser Evaluation](/en/article/4.레이저평가.html)
+* [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

@@ -1,0 +1,67 @@
+---
+layout: post
+title: Semiconductor Radiation Hardness Laser Evaluation (Laser Test)
+date: 2025-03-27 00:00:00 +0900
+category: article
+lang: en
+permalink: en/article/:title.html
+sub_category: Laser-Based SEE Evaluation
+order: 2001
+---
+
+# Semiconductor Radiation Hardness Laser Evaluation (Laser Test)
+Pulsed Laser SEE Test (PLSEE) is a method of evaluating semiconductor radiation hardness using femtosecond pulsed lasers. It simulates the effects of space radiation on semiconductor devices using pulsed lasers, offering an alternative to traditional radiation testing.
+
+<p align="center"> 
+  <img src="/assets/Articles/laser.png" alt="laser test" style="width: 100%; max-width: 400px;">
+</p>
+
+Lasers can deliver extremely high energy to a localized area in a very short time, inducing electromagnetic responses comparable to actual particle collisions.  
+SEE evaluations are typically conducted at [heavy ion beam](/en/article/10.중이온.html) accelerator facilities.  
+However, these facilities have drawbacks such as high rental costs, spatial limitations, and the inability to perform precise vulnerability analyses.  
+
+The greatest advantage of laser testing is the reduction in experiment cost and time.  
+Traditional radiation tests using particle accelerators are expensive and limited in availability, making it difficult to secure testing opportunities.  
+In contrast, laser-based equipment is relatively inexpensive, can be installed and operated in a laboratory setting, and allows for rapid iterative testing.  
+
+Additionally, lasers provide extremely high positional accuracy, enabling precise targeting of specific areas within semiconductor devices and facilitating analysis of weak spots.  
+This makes it possible to identify and mitigate radiation vulnerabilities from the early stages of design.
+
+---
+
+# QRT Laser Evaluation Service
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="/assets/Articles/QRT-laser.png" style="max-width: 500px;" alt="QRT-Laser Evaluation System">
+      <div style="margin-top: 10px;">QRT-Laser Evaluation System</div>
+    </td>
+    <td align="center" style="border: none;">
+      <img src="/assets/Chapter-3/S-Map.png" style="max-width: 400px;" alt="Sensitive Area Mapping">
+      <div style="margin-top: 10px;">Sensitive Area Mapping</div>
+    </td>
+  </tr>
+</table>
+
+## QRT's Laser Evaluation Technology
+QRT is the only domestic company with many years of experience in performing laser-based radiation evaluation.  
+Using a femtosecond pulsed laser system, QRT possesses multipurpose laser evaluation technology capable of implementing both Single Photon Absorption (SPA) and Two Photon Absorption (TPA) methods.  
+QRT provides services for radiation hardness alternative evaluations of semiconductors using lasers, as well as radiation-tolerant semiconductor design validation.
+
+## Sensitive Area Analysis
+QRT's evaluation equipment features a high-precision XYZ stage controllable at the nanometer level, allowing precise laser targeting of specific coordinates on a chip.  
+This enables detailed analysis of the locations and patterns of SEE (Single Event Effects), effectively identifying **Sensitive Areas** within the circuit.
+
+[※ Contact QRT for laser evaluation and facility rental](https://www.qrtkr.com/kr/customer/inquiry.php)
+
+---
+
+<br/>
+
+**Related Articles**
+- [SPA vs TPA](/en/article/2.SPA-와-TPA.html)
+- [Why Laser Evaluation is Necessary (Cost Perspective)](/en/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)
+- [Global Trends in Laser Evaluation](/en/article/9.레이저평가-세계동향.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+- [Laser Evaluation Based on NASA Documents](/en/article/17.레이저-평가-적용-근거.html)

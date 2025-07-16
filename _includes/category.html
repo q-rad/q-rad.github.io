@@ -21,7 +21,7 @@
 			<ul class="post-list">
 				{%- for post in article_posts -%}
 				{%- if post.sub_category == subcat -%}
-				<li class="post-list-item post-category-article post-subcategory-{{ post.sub_category | slugify }}">
+				<li class="post-list-item post-category-article post-subcategory-{{ post.sub_category | slugify }}" data-lang="{{ post.lang }}">
 					<a class="post-link" href="{{ post.url | relative_url }}">
 						{{ post.title | escape }}
 					</a>
@@ -37,7 +37,7 @@
 		<!-- 기타 카테고리용 -->
 		<ul class="post-list" id="default-list">
 			{%- for post in other_posts -%}
-			<li class="post-list-item post-category-{{ post.categories }}">
+			<li class="post-list-item post-category-{{ post.categories }}" data-lang="{{ post.lang }}">
 				<a class="post-link" href="{{ post.url | relative_url }}">
 					{{ post.title | escape }}
 				</a>
@@ -51,35 +51,44 @@
 <script src="/public/js/jquery-3.4.1.slim.min.js"></script>
 <script>
 	function removeCategory() {
-		const hash = window.location.hash.substring(1);
-		if (!hash) return;
+	const hash = window.location.hash.substring(1);
+	if (!hash) return;
 
-		$('#category-name').text(hash.charAt(0).toUpperCase() + hash.slice(1));
+	$('#category-name').text(hash.charAt(0).toUpperCase() + hash.slice(1));
 
-		if (hash === 'article') {
-			// article일 때: 그룹형 목록 표시
-			$('#article-grouped').show();
-			$('#default-list').hide();
+	const currentLang = localStorage.getItem('lang') || 'ko';
 
-			// 모든 article 항목을 표시
-			$('.post-category-article').each((i, el) => {
-				$(el).show().addClass('fade-in');
-			});
-		} else {
-			// 그 외 카테고리 필터링
-			$('#article-grouped').hide();
-			$('#default-list').show();
+	if (hash === 'article') {
+		$('#article-grouped').show();
+		$('#default-list').hide();
 
-			$('.post-list-item').each((i, e) => {
-				const $el = $(e);
-				if (!$el.hasClass('post-category-' + hash)) {
-					$el.hide().removeClass('fade-in');
-				} else {
-					$el.show().addClass('fade-in');
-				}
-			});
-		}
+		$('.post-category-article').each((i, el) => {
+			const $el = $(el);
+			const lang = $el.data('lang') || 'ko';
+
+			if (lang === currentLang) {
+				$el.show().addClass('fade-in');
+			} else {
+				$el.hide().removeClass('fade-in');
+			}
+		});
+	} else {
+		$('#article-grouped').hide();
+		$('#default-list').show();
+
+		$('.post-list-item').each((i, e) => {
+			const $el = $(e);
+			const lang = $el.data('lang') || 'ko';
+
+			if ($el.hasClass('post-category-' + hash) && lang === currentLang) {
+				$el.show().addClass('fade-in');
+			} else {
+				$el.hide().removeClass('fade-in');
+			}
+		});
 	}
+}
+
 
 
 	$(window).on('hashchange', removeCategory);

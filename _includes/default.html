@@ -10,16 +10,107 @@
 <link href="/public/css/style.css" rel="stylesheet">
 
 <body>
+<!-- 모바일 햄버거 버튼 -->
+<button id="hamburger-btn" class="hamburger" aria-label="메뉴 열기">
+  <i class="fas fa-bars"></i>
+</button>
+
+<!-- 모바일 오버레이 배경 -->
+<div id="mobile-sidebar-backdrop" class="mobile-sidebar-backdrop"></div>
+
+<!-- 모바일 사이드바 -->
+<div id="mobile-sidebar" class="mobile-sidebar">
+  <button class="close-mobile-sidebar" aria-label="닫기">&times;</button>
+
+  <!-- About 섹션 -->
+  <ul class="mobile-nav">
+    <li class="nav-title">
+      <i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i> About
+    </li>
+    <li><a class="nav-item" href="/">Home</a></li>
+
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
+        <li><a class="nav-item" href="{{ node.url }}">{{ node.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+
+    {% for node in pages_list %}
+      {% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
+        {% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
+          <li><a class="nav-item" href="{{ node.url }}">{{ node.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    <li>
+      <a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
+        QRT homepage
+      </a>
+    </li>
+  </ul>
+
+  <!-- LITE 메뉴얼 섹션 -->
+  <ul class="mobile-nav">
+    <li class="nav-title">
+      <i class="fa-solid fa-book" style="margin-right: 6px;"></i> QRT - LITE Manual
+    </li>
+    <li>
+      <a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">KOR</a>
+    </li>
+  </ul>
+
+  <!-- 카테고리 섹션 -->
+  <ul class="mobile-nav">
+    <li class="nav-title">
+      <i class="fa-solid fa-layer-group" style="margin-right: 6px;"></i> Contents
+    </li>
+    {% for category in site.categories %}
+      <li>
+        <a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
+          <span class="name">{{ category | first }}</span>
+          <span class="badge">{{ category | last | size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const mobileSidebar = document.getElementById('mobile-sidebar');
+    const closeBtn = document.querySelector('.close-mobile-sidebar');
+    const backdrop = document.getElementById('mobile-sidebar-backdrop');
+
+    function openSidebar() {
+      mobileSidebar.classList.add('show');
+      backdrop.classList.add('show');
+    }
+
+    function closeSidebar() {
+      mobileSidebar.classList.remove('show');
+      backdrop.classList.remove('show');
+    }
+
+    hamburgerBtn.addEventListener('click', openSidebar);
+    closeBtn.addEventListener('click', closeSidebar);
+    backdrop.addEventListener('click', closeSidebar);
+  });
+</script>
 
 
-  <!-- 문의하기 버튼 -->
-  <div class="float-button-container" id="contactBtn" style="bottom: 15px;">
-    <a class="float-button" href="https://www.qrtkr.com/kr/customer/inquiry.php" target="_blank">
-      문의하기&nbsp;
-      <img class="float-button-image" src="/assets/right_btn_logo.png"
-        style="margin-left: auto; width: 34px; height: 34px;" />
-    </a>
-  </div>
+
+<!-- 문의하기 버튼 -->
+<div class="float-button-container" id="contactBtn" style="bottom: 15px;">
+  <a class="float-button" href="https://www.qrtkr.com/kr/customer/inquiry.php" target="_blank">
+    <span id="contact-text">문의하기</span>&nbsp;
+    <img class="float-button-image" src="/assets/right_btn_logo.png"
+      style="margin-left: auto; width: 34px; height: 34px;" />
+  </a>
+</div>
+
 
   <!-- 최상단 버튼 -->
   <div id="scrollTopBtn" onclick="scrollToTop()">↑</div>

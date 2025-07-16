@@ -1,0 +1,106 @@
+---
+layout: post
+title: Up-Screening
+date: 2025-03-19 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Space Environment & Space-Grade Electronics
+order: 3001
+lang: en
+---
+
+In fields requiring high reliability such as space, aviation, and defense industries, the quality and reliability of each component significantly impact the performance and stability of the entire system.  
+However, configuring all components using only space-grade parts often faces limitations in terms of cost, supply, and technical constraints.  
+As a result, the use of Commercial-Off-The-Shelf (COTS) components becomes inevitable in many cases.  
+In such cases, **Up-Screening** is applied as a method to ensure reliability suitable for space environments.
+
+# What is Up-Screening?
+Up-screening refers to the procedure of conducting additional tests and evaluations on commercial-grade components (such as COTS or Automotive Grade) that are not originally classified as space-grade, to ensure their usability in high-reliability environments.  
+This goes beyond basic functional testing to rigorously verify various reliability elements—such as temperature characteristics, electrical performance, lifespan, and failure rates—according to space mission quality standards.
+
+------------------------
+
+The table below is part of the EEE component test matrix summarized from a NASA document.  
+Test requirements vary depending on the space mission level (Level 1–3).
+
+<p align="center"> 
+  <img src="/assets/Articles/EEE-inst-002-2.png" style="width: 100%; max-width: 700px;" alt= "EEE-INST-002">
+</p>
+
+NASA’s space mission levels are as follows:
+
+<details>
+<summary class="clickable-summary">
+<h4 style="display:inline-block">
+Level 1
+</h4>
+</summary>
+
+This level requires the highest reliability and minimum risk.  
+Active components must undergo **Radiation Hardness** evaluation, and if no data is available, **Radiation Testing** is mandatory.  
+Typical mission duration is over 5 years.
+
+</details>
+
+<details>
+<summary class="clickable-summary">
+<h4 style="display:inline-block">
+Level 2
+</h4>
+</summary>
+
+This level targets missions with low to moderate risk, balancing cost constraints and mission goals.  
+Radiation hardness should still be evaluated, and radiation testing is required if relevant data is lacking.  
+Typical mission duration is 1 to 5 years.
+
+</details>
+
+<details>
+<summary class="clickable-summary">
+<h4 style="display:inline-block">
+Level 3
+</h4>
+</summary>
+
+Level 3 components inherently have high or unknown risk due to lack of formal reliability screening and qualification.  
+They often lack reliable data or flight heritage, and changes in design, materials, and processes mean test data from one lot may not apply to another.  
+These components are used in high-risk missions (e.g., CubeSats, low-cost satellites).  
+Radiation review is required, and radiation testing is necessary if no data is available.  
+Typical mission duration is less than 1 to 2 years.
+
+</details>
+
+-------------------------------
+
+ESA defines classes 1 through 3 and provides guidelines on how to supplement Up-Screening when using AEC-Q components.  
+<div style="font-size: 11px; color: gray; text-align: left;">
+  *AEC-Q is a standard for testing and qualifying electronic components used in the automotive industry.
+</div>
+
+<p align="center"> 
+  <img src="/assets/Articles/ECSS2.png" style="width: 100%; max-width: 750px;" alt= "ECSS">
+</p>
+
+ESA space mission classification offers varying trade-offs between assurance levels and risk.  
+Class 1 provides the highest assurance and lowest risk, while Class 3 allows the lowest assurance and highest risk.  
+Procurement cost is typically highest for Class 1 and lowest for Class 3.  
+However, the difference in Total Cost of Ownership can be reduced through mitigation and engineering measures.  
+The appropriate component class depends on project objectives, definitions, and constraints.
+
+-----------------------------------
+
+# QRT Up-Screening Service
+
+QRT offers full Up-Screening services, including consulting for DPA, CA, and Radiation Hardness (TID, SEE).
+
+[※ Inquire about Up-Screening with QRT](https://www.qrtkr.com/kr/customer/inquiry.php)
+
+-------------------------------------
+<br/>
+
+**Related Articles**
+- [What is Space Product Assurance?](/en/article/8.-EEE.html)
+- [Domestic Radiation Evaluation Facilities](/en/article/19.국내방사선시설.html)
+- [What is a Heavy Ion Beam?](/en/article/10.중이온.html)
+- [What is COTS (Commercial off-the-shelf)?](/en/article/5.COTS.html)
+- [Why Laser Evaluation is Necessary (Cost Perspective)](/en/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)

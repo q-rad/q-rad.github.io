@@ -1,0 +1,56 @@
+---
+layout: post
+title: Energy Transfer Mechanisms of Electrons
+date: 2025-03-12 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 2007
+lang: en
+---
+
+# Electron
+
+Electrons incident on a material are negatively charged and interact with electrons or atomic nuclei within the material via electric forces. During this process, the path of the incident electron is altered, and in some cases, photons may be emitted.<br>
+
+### Electron–Electron Interaction
+
+Since electrons carry the same negative charge, a strong repulsive force acts when they come close. This causes the incident electron to deviate from its path, while the target electron generally maintains its own orbit. As a result, the direction of the incident electron changes after collision.
+The incident electron may also interact by promoting the target electron to a higher energy level. If the target electron is ejected from its orbit, a vacancy is created and an upper-level electron fills the gap, releasing a photon.
+In high atomic number (Z) elements, the emitted photon corresponds to X-rays, similar to characteristic X-rays seen in the photoelectric effect. In low-Z elements, visible light photons are emitted, as seen in fluorescent lamps.<br>
+In some cases, the target electron is completely ejected, becoming a free electron. If it possesses enough energy, it can ionize other atoms, triggering a chain reaction. Such high-energy free electrons are referred to as delta-rays.
+
+### Electron–Nucleus Interaction
+
+When a negatively charged electron approaches a positively charged nucleus, an attractive force causes the electron to decelerate and deviate from its path. Since the nucleus is significantly heavier than the electron, its trajectory remains almost unchanged. During this interaction, the path of the incident electron changes.
+Occasionally, the electron may displace the nucleus, leading to what is known as [Displacement Damage](/en/article/18.DD.html). However, most of the electron's energy is used for ionization.
+When an incident electron interacts with the nucleus and slows down, it can emit a photon called bremsstrahlung or braking radiation. The closer the electron gets to the nucleus, the greater the deceleration due to the electric attraction, resulting in the emission of higher-energy photons.
+This phenomenon results in a continuous energy spectrum, and the maximum energy of emitted photons depends on the kinetic energy of the incident electron.
+
+<p align= "center">
+<img src="/assets/Articles/전자산란.png" style="width: 100%; max-width: 500px;" alt= "Electron Scattering">
+</p>
+<p align= "center">Electron Scattering</p>
+<p style="font-size: 10px; color: gray; text-align: center;">
+Image source: [Electron-beam interaction and transmission with sample - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electron-beam_interaction_and_transmission_with_sample.jpg)  
+Author: Zephyris / CC BY-SA 3.0
+</p>
+
+Typical semiconductor devices are enclosed in opaque materials (plastic, ceramic, metal, etc.), requiring electrons with energies above approximately 300 keV to penetrate the package and reach the internal die.
+In industrial and medical environments, beta particles emitted from electron beams or radioactive materials exist, with energies ranging from 0.01 to 4 MeV. These high-energy electrons can penetrate the packaging and affect the circuitry.<br>
+On Earth, the quantity of high-energy electrons is insufficient to pose a major reliability threat to semiconductors. However, in space environments, electron flux is significantly higher—particularly within the [Van Allen Radiation Belts](/en/article/16.지구의-자기장과-방사선대의-관계.html), where high-energy electrons in the 0.1–10 MeV range are prevalent. These electrons can easily pass through semiconductor packaging and induce effects such as [Total Ionizing Dose (TID)](/en/article/7.TID.html).
+
+---
+
+<br/> <!-- Line break -->
+
+**Related Articles**
+
+* [Photon Energy Transfer Mechanisms](/en/article/21.photons.html)
+* [Energy Transfer Mechanisms of Protons and Neutrons](/en/article/23.Nucleons.html)
+* [Energy Transfer Mechanisms of Ions](/en/article/24.ions.html)
+* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+* [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
+* [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
+* [What is DD (Displacement Damage)?](/en/article/18.DD.html)
+* [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

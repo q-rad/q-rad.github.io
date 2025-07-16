@@ -1,0 +1,31 @@
+---
+layout: post
+title: "[Video] 'Up-Screen': Transforming Commercial Semiconductors into Space-Grade Devices"
+date: 2024-04-17 00:01:00 +0900
+category: news
+permalink: en/news/:title.html
+lang: en
+---
+
+# 'Up-Screen': Transforming Commercial Semiconductors into Space-Grade Devices
+
+<p style="color: #666666">April 17, 2024</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0eppDZ0qxQU?si=SsS26bN9nF9jJ6sS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<br>
+
+<p style="font-size:23px"><b>Dr. Hyukjae Lee of QRT Discusses ‘Up-Screen Technology and QRT’s Challenge’</b></p>
+
+<p>This video explains “Up-Screen” technology, which allows commercial semiconductors to be tested and selected for use in space environments through rigorous reliability testing—offering a cost-effective and practical alternative to expensive space-grade semiconductors.</p>
+<p>It also highlights the capabilities of the Korean company QRT, which utilizes femtosecond laser-based radiation simulation technology to perform precise reliability evaluations while reducing time and cost. The video emphasizes the potential for commercialization and localization of space semiconductor evaluation in Korea.</p>
+
+-------------------------------------
+
+<br/>
+
+**Related Articles**
+- [ASSIC 2025](/en/news/ASSIC2025.html)
+- [Space Semiconductor Testing Without a Heavy Ion Accelerator?](/en/news/우주반도체테스트.html)
+- [What Is Space Product Assurance?](/en/article/8.-EEE.html)
+- [COTS (Commercial Off-the-Shelf)](/en/article/5.COTS.html)
+- [Up-Screening](/en/article/12.upScreening.html)

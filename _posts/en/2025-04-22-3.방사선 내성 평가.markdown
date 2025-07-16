@@ -1,0 +1,62 @@
+---
+layout: post
+title: Radiation Hardness Test
+date: 2025-03-28 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+lang: en
+sub_category: Radiation Effects & Hardness Test
+order: 1001
+---
+
+# Radiation Hardness Test
+Radiation hardness tests are generally conducted at beam accelerator facilities.  
+They are performed to ensure the reliability of electronic equipment used in high-radiation environments such as space, aerospace, military, and nuclear fields.  
+In space or high-altitude environments, high-energy particles and radiation (protons, electrons, neutrons, gamma rays, etc.) that the Earth's atmosphere cannot block are present. When these particles collide with semiconductor chips, they can cause the following serious problems:
+
+- [SEU](/en/article/1.-SEE.html) (Single Event Upset)  
+  A phenomenon where a single particle causes a temporary bit flip in memory cells or registers. Simply put, a 0 turns into a 1, or a 1 turns into a 0. This can lead to system malfunction or data errors.
+
+- [SEL](/en/article/1.-SEE.html) (Single Event Latch-up)  
+  A single particle causes excessive current to flow in the circuit, which can damage the entire circuit or cause the system to completely halt. This can result in an unrecoverable and critical failure.
+
+- [TID](/en/article/7.TID.html) (Total Ionizing Dose)  
+  Prolonged radiation exposure leads to the accumulation of ionized traps, gradually degrading the electrical characteristics and performance of the circuit. This negatively impacts device properties, lifetime, and increases the likelihood of other errors (SEU, SEL).
+
+- [DD](/en/article/18.DD.html) (Displacement Damage)  
+  Although it accumulates over time like TID, DD differs in that it physically alters the atomic structure of the semiconductor. High-energy particles displace atoms inside the semiconductor, usually degrading the device’s performance.
+
+<div style="overflow: hidden;">
+  <!-- Image -->
+  <img src="/assets/Articles/space2.png" style="float: right; margin: 10px 0 20px 20px; width: 100%; max-width: 400px;">
+
+  <!-- Text -->
+  <p>
+  Radiation is everywhere. Broadly speaking, even sunlight is a form of radiation. Even without considering such broad definitions, about 20 neutrons pass through every cm² of air each hour. This means that thousands of neutrons pass through our bodies every hour.<br>
+
+  In space, there are no natural protective shields like the Earth's Van Allen Belt. Satellites, space probes, and communication satellites are exposed almost unprotected to intense radiation. A single collision with a space particle can cause system malfunctions or data loss. Especially, small and inconspicuous errors like SEU can have a critical impact on entire missions. Therefore, only rigorously tested and strictly selected semiconductors are used in space equipment.<br>
+
+  Not only space, but radiation hardness is also crucial in aerospace and military equipment. Aircraft flying at high altitudes, reconnaissance drones, and even ground-based military electronics must be designed to withstand extreme scenarios such as nuclear explosions or EMPs (electromagnetic pulses). In such environments, unexpected electromagnetic or radiation exposure may affect circuits, so components must operate reliably under these conditions.<br>
+
+  One must not overlook medical devices and nuclear power plants. Radiation treatment equipment (such as X-rays) and control systems near nuclear reactors operate in environments with constant radiation. Malfunctions due to radiation can threaten patients’ lives or lead to major accidents in power plants. Thus, radiation-hardened components are essential in these fields.<br>
+
+  Therefore, semiconductors used in such critical environments must be tested for radiation hardness. This testing is not just a technical requirement but the first step in ensuring product stability and reliability. If an error occurs during a mission that costs hundreds of billions of won, the damage can be enormous.
+  </p>
+</div>
+
+---
+
+<br/>
+
+**Related Articles**
+- [Domestic Radiation Test Facilities](/en/article/19.국내방사선시설.html)
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+- [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
+- [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
+- [What is DD (Displacement Damage)?](/en/article/18.DD.html)
+- [Laser Evaluation](/en/article/4.레이저평가.html)
+- [What is a Heavy Ion Beam?](/en/article/10.중이온.html)
+- [Photon Energy Transfer Mechanism](/en/article/21.photons.html)
+- [Electron Energy Transfer Mechanism](/en/article/22.electrons.html)
+- [Proton and Neutron Energy Transfer Mechanism](/en/article/23.Nucleons.html)
+- [Ion Energy Transfer Mechanism](/en/article/24.ions.html)

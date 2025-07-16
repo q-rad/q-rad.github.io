@@ -1,0 +1,55 @@
+---
+layout: post
+title: What is DD (Displacement Damage)?
+date: 2025-03-24 00:01:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 1005
+lang: en
+---
+
+# DD (Displacement Damage)
+
+Displacement Damage (DD) occurs within the bulk of semiconductors and, unlike surface- or interface-limited Total Ionizing Dose (TID), affects the entire volume of a device. This type of volumetric damage alters the electrical, optical, and thermal properties of semiconductors, potentially leading to performance degradation or functional failure.
+
+For example, if damage occurs in the active layers of devices, such as the channel region of MOSFETs or the base region of BJTs, it can lead to increased recombination rates, decreased carrier mobility, and reduced switching speed, all of which contribute to significant degradation.
+
+Radiation types that typically cause DD include high-energy electrons, protons, neutrons, and high-energy photons such as gamma rays and X-rays that generate secondary electrons.
+
+DD occurs via four main mechanisms:
+
+1. **Coulomb Scattering**: Charged particles (e.g., protons) interact electrostatically with silicon atoms, transferring kinetic energy and causing trajectory deviations. This effect is prominent at proton energies below 10 MeV.
+
+2. **Nuclear Elastic Scattering**: Incident particles (e.g., protons, neutrons) elastically collide with silicon nuclei, generating recoil silicon atoms. This leads to vacancy and interstitial defects.
+
+3. **Nuclear Inelastic Scattering**: Energy from the incident particle excites the silicon nucleus, which subsequently decays, emitting nuclear recoils or secondary particles, leading to further displacement.
+
+4. **Stopping of Energetic Secondary Particles and Phonon Interaction**: When energetic secondary particles lose energy and stop, they interact with phonons, amplifying the vibration of surrounding atoms and locally increasing temperature.
+
+<p align="center">
+  <img src="/assets/Articles/DD.png" style="width: 100%; max-width: 500px;" alt="Displacement Damage">
+</p>
+<p align="center">Displacement Damage – Nuclear Elastic Interaction</p>
+
+<p align="center">
+  <img src="/assets/Articles/전자산란.png" style="width: 100%; max-width: 500px;" alt="Electron Scattering">
+</p>
+<p align="center">Electron Scattering</p>
+<p style="font-size: 10px; color: gray; text-align: center;">
+Image source: [Electron-beam interaction and transmission with sample - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electron-beam_interaction_and_transmission_with_sample.jpg)  
+Author: Zephyris / CC BY-SA 3.0
+</p>
+
+-------------------------------------
+
+<br/>
+
+**Related Articles**
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+- [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
+- [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
+- [Domestic Radiation Evaluation Facilities](/en/article/19.국내방사선시설.html)
+- [What is DD (Displacement Damage)?](/en/article/18.DD.html)
+- [Laser Evaluation](/en/article/4.레이저평가.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

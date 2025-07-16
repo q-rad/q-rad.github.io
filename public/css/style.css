@@ -430,6 +430,7 @@ table td {
 
 	.sidebar-nav {
 		margin: 5px;
+		display: none;
 	}
 
 	.sidebar-item {
@@ -450,7 +451,7 @@ table td {
 		height: 60px !important;
 		width: 60px !important;
 		max-width: 100%;
-		display: none !important;
+		
 	}
 
 	.post-title {
@@ -688,7 +689,7 @@ table td {
 	background-color: #ddd;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
 	.gallery-item {
 		width: 100%;
 		height: 200px;
@@ -913,7 +914,7 @@ table td {
 	color: white;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 576px) {
 	.sidebar-item.sidebar-search-input {
 		display: none !important;
 		padding: 0 !important;
@@ -967,4 +968,144 @@ table td {
 	filter: brightness(1.3);
 	transform: scale(1.1);
 	cursor: pointer;
+}
+
+.lang-toggle {
+  font-weight: bold;
+  font-size: 14px;
+  color: #aaa;
+  transition: color 0.2s ease;
+}
+
+.lang-toggle.active-lang {
+  color: #fff;
+}
+
+.lang-divider {
+  color: #aaa;
+}
+
+@media (max-width: 576px) {
+  #lang-switch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+}
+
+
+/* 햄버거 버튼 (모바일 전용, 오른쪽 상단 고정) */
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 10001;
+  background: none;
+  border: none;
+  font-size: 26px;
+  color: #fff;
+  cursor: pointer;
+}
+/* 팝업 배경 오버레이 */
+.mobile-sidebar-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 10000;
+}
+
+.mobile-sidebar-backdrop.show {
+  display: block;
+}
+
+/* 모바일 사이드바 팝업 */
+.mobile-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 260px;
+  height: 100%;
+  background-color: #222;
+  color: white;
+  z-index: 10002;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobile-sidebar.show {
+  transform: translateX(0);
+}
+
+.close-mobile-sidebar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-nav li {
+  margin: 12px 0;
+}
+
+.mobile-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.mobile-nav a:hover {
+  color: #E42044;
+}
+
+/* 언어 선택 하단 고정 */
+.mobile-lang-switch {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.lang-toggle {
+  font-weight: bold;
+  color: #aaa;
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.lang-toggle.active-lang {
+  color: #fff;
+}
+
+.lang-divider {
+  color: #aaa;
+  margin: 0 8px;
+}
+
+/* 모바일에서만 보이도록 */
+@media (max-width: 576px) {
+  .hamburger {
+    display: block;
+  }
+
+
 }

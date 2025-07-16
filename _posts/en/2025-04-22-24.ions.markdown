@@ -1,0 +1,49 @@
+---
+layout: post
+title: Energy Transfer Mechanism of Ion
+date: 2025-03-12 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 2009
+lang: en
+---
+
+# Ion
+An ion is an atomic nucleus that has lost electrons and carries a positive charge. When ions are incident on a material, they ionize electrons (removal of electrons due to electric force), which leads to the creation of electron-hole pairs. Compared to other particles, ions deliver more energy to the material and generate more charge.
+
+Even a small region of silicon penetrated by a heavy ion can experience a sudden and massive injection of charge in a short time. Ions pass through sensitive areas in silicon within tens of femtoseconds and come to a stop within less than one picosecond—much faster than the typical response time of semiconductor devices.
+
+As ions pass through, the generated charge is distributed cylindrically, with lengths ranging from tens to hundreds of microns and radii in the nanometer range. If this occurs in deep substrate areas or metal layers without circuits, it may not pose a problem. However, if it affects layers with sensitive circuits, the resulting charge can disrupt the circuit and cause malfunctions.
+
+<p align="center"> 
+  <img src="/assets/Articles/LET.png" alt= "Generation of electron-hole pairs by charged particle in semiconductor" style="width: 70%;">
+</p>
+
+<!-- Image Caption -->
+<div align="center"> 
+<h5>Generation of electron-hole pairs by heavy ions in semiconductors</h5>
+</div>
+<br>
+
+In low-voltage circuits, the resulting electron-hole pairs can lead to unwanted voltages or currents, causing digital circuits to exhibit data errors or analog circuits to output abnormal signals. In CMOS circuits, if charges are injected into areas where two wells are close together, it can create an unintended current path, leading to excessive current flow and a malfunction called “latch-up.”
+
+In high-voltage or power devices, heavy ions can damage semiconductor junctions or gate oxide layers, leading to permanent failures.
+
+Heavy ions are primarily found in space, especially cosmic rays from outside the solar system. These ions have such high energy that they can easily penetrate semiconductor packages and generate substantial charge. This makes heavy ions a major cause of Single Event Effects (SEE) in space, and SEE testing of space-grade components is typically conducted using heavy ions.
+
+However, heavy ions are not common—even in space—and are often not abundant enough to cause significant Total Ionizing Dose (TID) or Displacement Damage (DD). Additionally, since ions are easily absorbed by the Earth's atmosphere, they have minimal impact at ground level.
+
+-------------------------------------
+
+<br/> <!-- line break -->
+
+**Related Articles**
+- [Energy Transfer Mechanism of Photon](/en/article/21.photons.html)
+- [Energy Transfer Mechanism of Electron](/en/article/22.electrons.html)
+- [Energy Transfer Mechanism of Proton and Neutron](/en/article/23.Nucleons.html)
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+- [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
+- [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
+- [What is DD (Displacement Damage)?](/en/article/18.DD.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

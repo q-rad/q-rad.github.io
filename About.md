@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About LASER2COTS
-permalink: /about/
+permalink: /ko/about/
 ---
 
 <p align="center"> 

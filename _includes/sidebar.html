@@ -19,6 +19,107 @@
 		</svg></a></li>
 	{%- endif -%}
 </div>
+<!-- 언어 선택 버튼 (데스크탑 전용) -->
+<div id="lang-switch" style="text-align: center; margin: 10px 0;">
+	<span id="lang-kr" class="lang-toggle active-lang" style="cursor: pointer; margin-right: 8px;">KR</span>
+	<span class="lang-divider" style="margin: 0 6px;">|</span>
+	<span id="lang-en" class="lang-toggle" style="cursor: pointer; margin-left: 8px;">EN</span>
+</div>
+
+<script>
+	function updatePageLanguage(lang) {
+		// 문의하기 버튼 텍스트 변경
+		const contactText = document.getElementById('contact-text');
+		if (contactText) {
+			contactText.textContent = lang === 'en' ? 'Contact Us' : '문의하기';
+		}
+
+		const aboutLink = document.getElementById('about-laser2cots-link');
+		if (aboutLink) {
+			aboutLink.href = lang === 'en' ? '/en/about/' : '/ko/about/';
+		}
+
+		// 버튼 상태
+		document.getElementById('lang-kr').classList.toggle('active-lang', lang === 'ko');
+		document.getElementById('lang-en').classList.toggle('active-lang', lang === 'en');
+		
+		// 현재 페이지 경로 확인
+		const path = window.location.pathname;
+
+		// Article 리스트 필터링은 /manuals/ 페이지에서는 건너뜀
+		if (!path.startsWith('/manuals')) {
+			document.querySelectorAll('.post-list-item').forEach(post => {
+				const postLang = post.getAttribute('data-lang') || 'ko';
+				post.style.display = postLang === lang ? '' : 'none';
+			});
+		}
+
+		// 더보기 버튼
+		const moreBtn = document.getElementById('more-button');
+		if (moreBtn) {
+
+			moreBtn.textContent = lang === 'en' ? 'See More Articles' : '더 많은 글 보기';
+		}
+
+		// About 섹션
+		const aboutKo = document.getElementById('about-ko');
+		const aboutEn = document.getElementById('about-en');
+		if (aboutKo && aboutEn) {
+			aboutKo.style.display = lang === 'ko' ? 'block' : 'none';
+			aboutEn.style.display = lang === 'en' ? 'block' : 'none';
+		}
+
+		// 갤러리 텍스트 및 버튼
+		document.querySelectorAll('.gallery-text-ko').forEach(el => {
+			el.style.display = lang === 'ko' ? 'block' : 'none';
+		});
+		document.querySelectorAll('.gallery-text-en').forEach(el => {
+			el.style.display = lang === 'en' ? 'block' : 'none';
+		});
+		document.querySelectorAll('.gallery-btn').forEach(btn => {
+			const koText = btn.getAttribute('data-ko') || '자세히 보기';
+			const enText = btn.getAttribute('data-en') || 'See Details';
+			btn.textContent = lang === 'ko' ? koText : enText;
+
+			const href = btn.getAttribute('href');
+			if (href) {
+				const updatedHref = href.replace(/^\/(ko|en)\//, `/${lang}/`);
+				btn.setAttribute('href', updatedHref);
+			}
+		});
+	}
+
+
+	function setActiveLang(lang) {
+		localStorage.setItem('lang', lang);
+		updatePageLanguage(lang);
+
+		const path = window.location.pathname;
+
+		// 예외 처리: /manuals/ 페이지는 URL 변경 없이 내부 UI만 전환
+		if (path.startsWith('/manuals/')) return;
+
+		// 언어 접두어 교체 (예: /ko/... → /en/...)
+		if (/^\/(ko|en)\//.test(path)) {
+			const newPath = path.replace(/^\/(ko|en)\//, `/${lang}/`);
+			if (newPath !== path) {
+				window.location.pathname = newPath;
+				return;
+			}
+		}
+		location.reload();
+		removeCategory(); // 언어 변경 시 카테고리 리스트도 다시 필터링
+	}
+
+
+	document.addEventListener('DOMContentLoaded', function () {
+		const storedLang = localStorage.getItem('lang') || 'ko';
+		updatePageLanguage(storedLang);
+
+		document.getElementById('lang-kr')?.addEventListener('click', () => setActiveLang('ko'));
+		document.getElementById('lang-en')?.addEventListener('click', () => setActiveLang('en'));
+	});
+</script>
 
 <div class="sidebar-item sidebar-nav">
 	<ul class="nav">
@@ -33,29 +134,22 @@
 		</li>
 
 		<!-- About LASER2COTS만 먼저 표시 -->
-		{% assign pages_list = site.pages %}
-		{% for node in pages_list %}
-		{% if node.title == "About LASER2COTS" and node.layout == "page" and node.hidden != true %}
 		<li>
-			<a class="nav-item" href="{{ node.url }}">
-				{{ node.title }}
-			</a>
+			<a id="about-laser2cots-link" class="nav-item" href="/about/">About LASER2COTS</a>
 		</li>
-		{% endif %}
-		{% endfor %}
 
-		<!-- 나머지 페이지들 중 제외 대상 제외 -->
-		{% for node in pages_list %}
-		{% if node.title != "pygments-css" and node.title != "README" and node.title != null %}
-		{% if node.layout == "page" and node.hidden != true and node.title != "About LASER2COTS" %}
-		<li>
-			<a class="nav-item" href="{{ node.url }}">
-				{{ node.title }}
-			</a>
-		</li>
-		{% endif %}
-		{% endif %}
-		{% endfor %}
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const currentLang = localStorage.getItem('lang') || 'ko';
+				const aboutLink = document.getElementById('about-laser2cots-link');
+				if (!aboutLink) return;
+
+				aboutLink.href = currentLang === 'en' ? '/en/about/' : '/ko/about/';
+			});
+		</script>
+
+
+
 
 		<!-- QRT homepage -->
 		<li>
@@ -95,10 +189,12 @@
 		</li>
 
 		{% for category in site.categories %}
+		{% assign post_count = category | last | size %}
+		{% assign half_count = post_count | divided_by: 2 %}
 		<li>
 			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
 				<span class="name">{{ category | first }}</span>
-				<span class="badge">{{ category | last | size }}</span>
+				<span class="badge">{{ half_count }}</span>
 			</a>
 		</li>
 		{% endfor %}
@@ -169,17 +265,32 @@
 		const keywordSpan = document.getElementById('search-keyword');
 		const closeBtn = document.getElementById('close-search-btn');
 		const backdrop = document.getElementById('search-backdrop');
+		const searchTitle = document.getElementById('search-title');
+
+		const storedLang = localStorage.getItem('lang') || 'ko';
 
 		// 검색 초기화
 		SimpleJekyllSearch({
 			searchInput: input,
 			resultsContainer: results,
 			json: '{{ "/search.json" | relative_url }}',
-			searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+			// lang 필드를 포함시켜야 아래 필터링에서 작동
+			searchResultTemplate: '<li data-lang="{lang}"><a href="{url}">{title}</a></li>',
 			noResultsText: '',
 			limit: 10,
 			fuzzy: false
 		});
+
+		// 검색 결과 UI 텍스트 업데이트
+		function updateSearchLabels(keyword) {
+			if (storedLang === 'en') {
+				searchTitle.innerHTML = `Search results for <span id="search-keyword">"${keyword}"</span>`;
+				noResults.textContent = 'No results found';
+			} else {
+				searchTitle.innerHTML = `<span id="search-keyword">"${keyword}"</span>에 대한 검색 결과`;
+				noResults.textContent = '검색 결과가 없습니다';
+			}
+		}
 
 		// 검색창 열기
 		input.addEventListener('input', function () {
@@ -188,11 +299,21 @@
 			if (keyword.length > 0) {
 				panel.style.display = 'block';
 				backdrop.style.display = 'block';
-				keywordSpan.textContent = `"${keyword}"`;
+				updateSearchLabels(keyword);
 
 				setTimeout(() => {
 					const items = results.querySelectorAll('li');
-					noResults.style.display = items.length === 0 ? 'block' : 'none';
+					let visibleCount = 0;
+
+					items.forEach(item => {
+						const lang = item.getAttribute('data-lang') || 'ko';
+						const show = (storedLang === 'en' && lang === 'en') || (storedLang === 'ko' && lang === 'ko');
+
+						item.style.display = show ? 'block' : 'none';
+						if (show) visibleCount++;
+					});
+
+					noResults.style.display = visibleCount === 0 ? 'block' : 'none';
 				}, 150);
 			} else {
 				closeSearchPanel();
@@ -206,18 +327,13 @@
 			keywordSpan.textContent = '';
 		}
 
-		// 닫기 버튼 클릭 시
 		closeBtn.addEventListener('click', closeSearchPanel);
-
-		// 오버레이 클릭 시
 		backdrop.addEventListener('click', closeSearchPanel);
-
-		// ESC 키 눌렀을 때 닫기
 		document.addEventListener('keydown', function (e) {
 			if (e.key === 'Escape') closeSearchPanel();
 		});
 	});
-
 </script>
+
 
 <!-- 검색 기능 끝 -->

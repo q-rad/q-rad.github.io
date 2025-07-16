@@ -1,0 +1,61 @@
+---
+layout: post
+title: SPA vs TPA
+date: 2025-03-29 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+lang: en
+sub_category: Laser-Based SEE Evaluation
+order: 2002
+---
+
+Both SPA and TPA lasers can effectively reproduce error phenomena caused by heavy ion irradiation. Most upset phenomena can be qualitatively reproduced. This is because the location, depth, and energy of the reaction can be independently controlled, making it suitable for diagnosing single event upsets and analyzing the causes and failure mechanisms of charge depletion due to the upset.
+
+<p align="center"> 
+  <img src="/assets/Articles/SPATPA.png" style="max-width: 40%;" alt="Single Photon Absorption & Two Photon Absorption">
+</p>
+
+<!-- Image Caption -->
+<div align="center"> 
+<h5>Principles of SPA and TPA</h5>
+</div>
+
+# SPA (Single Photon Absorption)
+
+This is a linear absorption process where a single photon is absorbed by the semiconductor, creating an electron-hole pair. When the energy of the incident photon is equal to or greater than the bandgap of the material, the electron in the valence band 'jumps' to the conduction band, thereby generating an electron-hole pair.
+
+<!-- Centered Image -->
+<p align="center"> 
+  <img src="/assets/Chapter-1/fig_1_heavy-ion_vs_pulsed_laser.png" style="max-width: 80%;" alt="Heavy Ion & Pulsed Laser">
+</p>
+
+<!-- Image Caption -->
+<div align="center"> 
+<h5>Heavy Ion vs. Femtosecond Pulsed Laser (hereafter Pulsed Laser)</h5>
+</div>
+
+# TPA (Two Photon Absorption)
+
+With a short pulse (~200 fs) of photons with energy less than the bandgap, a non-linear absorption occurs in which two photons are absorbed probabilistically, creating electron-hole pairs.  
+TPA lasers can reproduce and evaluate most single event upsets caused by radiation particles in semiconductors through the generation of electron-hole pairs. It is possible to determine the failure mechanism, critical energy, and the location of the sensitive volume.
+
+<div align="center">
+
+|                      | Single Photon Absorption (SPA)                      | Two Photon Absorption (TPA)                                      |
+|----------------------|-----------------------------------------------------|-------------------------------------------------------------------|
+| **Wavelength Condition** | One photon with wavelength exactly matching the transition energy | Two photons with wavelength each corresponding to half of the transition energy |
+| **Required Light Intensity** | Low (natural light, general LED/laser)         | Very high (requires high power like femtosecond laser)            |
+| **Linear/Non-linear**  | Linear optical phenomenon                          | Non-linear optical phenomenon                                     |
+| **Wavelength***        | 1064nm                                             | 1260nm                                                            |
+
+</div>
+
+\*: Based on QRT Femtosecond Laser and Si (Silicon)
+
+---
+
+<br/>
+
+**Related Articles**  
+- [Laser Evaluation](/en/article/4.레이저평가.html)  
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)

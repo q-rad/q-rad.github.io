@@ -1,0 +1,39 @@
+---
+layout: post
+title: Relationship Between Earth's Magnetic Field and Radiation Belts
+date: 2025-03-15 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Space Environment & Space-Grade Electronics
+order: 3005
+lang: en
+---
+
+When particles from space are captured in ionized regions such as the Van Allen belts, they spiral along magnetic field lines, bouncing from one pole to the other. Positively and negatively charged particles move in opposite directions, slowly drifting north and south. This magnetic field activity causes a weakening of the field over the South Atlantic Ocean, known as the South Atlantic Anomaly (SAA), which is a significant cause of issues in low Earth orbit.
+
+The belts consist primarily of electrons in the outer belt and protons and electrons in the inner belt. As described in this overview of space weather, the amount of radiation that reaches spacecraft or satellites depends greatly on orbital altitude, solar activity, and other factors. In addition, the radiation dose received by specific components may vary depending on their internal location within a satellite and surrounding materials.
+
+# Van Allen Radiation Belt
+
+The Van Allen Belt or Van Allen Radiation Belt extends up to about 10 times the Earth's radius and remains highly stable once formed. In 1958, two giant radiation belts surrounding the Earth were discovered. According to observations by the Van Allen Probes launched in 2012, a third belt can occasionally appear. These giant toroidal belts, composed of high-energy charged particles trapped by the Earth’s magnetic field, surround the planet.
+
+<p align="center">
+  <img src="/assets/Articles/밴앨런이온대.png" style="width: 100%; max-width: 400px;" alt="Van Allen Belt">
+</p>
+<p align="center">Van Allen Belt</p>
+<p style="font-size: 10px; color: gray; text-align: center;">
+  Source: Doopedia
+</p>
+
+James Van Allen, a physicist at the University of Iowa, discovered these radiation belts after the launch of the first U.S. satellite, Explorer 1, in 1958. The belts were later named after him. His experiment aboard Explorer 1, launched on January 31, 1958, consisted of a Geiger counter (a device that detects radiation) and a tape recorder.
+
+Subsequent missions such as Explorer 3, Explorer 4, and Pioneer 3 also conducted follow-up studies of the radiation belts, confirming the existence of two distinct radiation belts encircling the Earth. Although the term “Van Allen Belts” is specific to Earth, similar radiation belts have been found around other planets.
+
+-------------------------------------
+
+<br/>
+
+**Related Articles**
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+- [Laser Evaluation](/en/article/4.레이저평가.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

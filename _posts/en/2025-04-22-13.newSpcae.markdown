@@ -1,0 +1,56 @@
+---
+layout: post
+title: What is New Space?
+date: 2025-03-18 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Space Environment & Space-Grade Electronics
+order: 3000
+lang: en
+---
+
+<img src="/assets/Articles/newSpace.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 300px;">
+
+There was a time when space was considered the exclusive domain of nations.  
+During the Cold War, intense competition between the U.S. and the Soviet Union shaped space development into a government-led endeavor requiring astronomical budgets, long development timelines, and strict certification procedures.  
+However, in the 21st century, the landscape of the space industry began to change dramatically.  
+
+The key driver of this transformation is **"New Space"**.
+
+<div align="center">
+
+|               | Old Space                             | New Space                                           |
+|---------------|----------------------------------------|-----------------------------------------------------|
+| Leading Entity | Government agencies (NASA, ESA, DoD)  | Private companies (SpaceX, Blue Origin, Planet Labs) |
+| Development Approach | Conservative, verification-first         | Practical, risk-taking                              |
+| Development Cycle | Years to decades                     | Months to ~2 years                                  |
+| Cost           | Hundreds of billions                   | Tens to hundreds of millions                        |
+| Tech Strategy  | Space-certified components              | COTS, commercial tech conversion                    |
+| Launch Strategy| One-time use rockets                   | Reusability, mass deployment of small satellites    |
+
+</div>
+
+Unlike the traditional government-led Old Space model, New Space represents a new approach where private companies innovate and expand the space market.  
+Key features of New Space include low cost, fast development, proactive use of commercial technology, vertical integration, and consumer-focused service models.  
+This shift is expanding space from a realm of science and defense into an industry and consumer service sector.
+
+Moving away from the days when NASA and ESA monopolized all technology development, private companies such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab are now independently handling satellite manufacturing, launch, ground station operations, and service delivery.  
+They are making space more accessible by reusing launch vehicles or deploying dozens to hundreds of satellites simultaneously in low Earth orbit (LEO)—something unimaginable in the past.
+
+Traditionally, space systems depended on expensive **space-grade parts**, but New Space companies are designing systems based on **COTS (Commercial-Off-The-Shelf)** components.  
+This strategy is based on the practical belief that as long as radiation tolerance is ensured, commercial technology can be viable in space environments.
+
+For example, SpaceX has drastically reduced launch costs to one-tenth of previous levels through reusability of its Falcon 9 rocket.  
+Meanwhile, small launch vehicle companies like Rocket Lab are successfully pioneering dedicated markets for small satellites.  
+These innovations are creating new entry points into the space industry for startups and SMEs alike.
+
+<br/>
+
+-------------------------------------
+
+<br/>
+
+**Related Articles**
+- [What is Space Product Assurance?](/en/article/8.-EEE.html)
+- [What is COTS (Commercial off-the-shelf)?](/en/article/5.COTS.html)
+- [Up-Screening](/en/article/12.upScreening.html)

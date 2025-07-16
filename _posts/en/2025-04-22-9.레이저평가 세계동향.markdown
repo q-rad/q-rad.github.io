@@ -1,0 +1,49 @@
+---
+layout: post
+title: Global Trends in Laser Evaluation
+date: 2025-03-22 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Laser-Based SEE Evaluation
+order: 2005
+lang: en
+---
+
+This graph shows the number of laser tests performed on commercial off-the-shelf (COTS) devices by a Chinese institute from 2020 to 2022.  
+The number of laser evaluations on COTS devices increased significantly over the three years, with a particularly sharp rise between 2021 and 2022.  
+Laser technology is already being used worldwide as an alternative source to evaluate COTS. This is likely because laser testing can be performed at a relatively low cost.
+
+<p align="center"> 
+  <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 450px;" alt="2020-2022 COTS Devices for Laser test in Chinese Institute">
+</p>
+<p align="center"> 2020-2022 COTS Devices for Laser Test in Chinese Institute </p>
+
+At a Russian institute, heavy ion testing is still the mainstream method, but Laser + Heavy Ion and Laser-only methods are also becoming increasingly important.  
+This reflects a strategic approach to conduct SEE radiation hardness evaluations for various electronic devices in a more flexible and cost-effective manner.  
+While the total number of SEE tests continues to grow, the proportion of laser-based tests is also rising.  
+The active adoption of laser evaluation in Russia reflects a strategy focused on both efficiency and speed of evaluation.  
+It is increasingly common in Russia to use lasers not only as a supplement but as a core part of SEE testing, in addition to heavy ions.  
+In particular, the high proportion of Laser + Heavy Ion usage suggests that a pre-screening process is conducted using lasers followed by validation with heavy ion testing to maximize cost-efficiency.
+
+<table align="center" style="border: none; border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: none; width: 50%;">
+      <img src="/assets/Articles/NRNU MEPhI SPELS.png" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt="Actual rate of conducted test in NRNU(2015)">
+      <div style="margin-top: 10px;">Actual rate of conducted tests in NRNU (2015)</div>
+    </td>
+    <td align="center" style="border: none; width: 50%;">
+      <img src="/assets/Articles/NRNU MEPhI SPELS 2.png" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt="Laser tests fraction during last three years">
+      <div style="margin-top: 10px;">Laser test fraction over the past three years at NRNU</div>
+    </td>
+  </tr>
+</table>
+
+---
+
+<br/>
+
+**Related Articles**
+- [Laser Evaluation](/en/article/4.레이저평가.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+- [What is Space Product Assurance?](/en/article/8.-EEE.html)
+- [Laser Evaluation Based on NASA Documentation](/en/article/17.레이저-평가-적용-근거.html)

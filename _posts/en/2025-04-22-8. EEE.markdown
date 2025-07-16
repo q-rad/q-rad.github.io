@@ -1,0 +1,47 @@
+---
+layout: post
+title: What is Space Product Assurance?
+date: 2025-03-23 00:00:00 +0900
+category: article
+permalink: en/article/:title.html
+sub_category: Space Environment & Space-Grade Electronics
+order: 3002
+lang: en
+---
+
+# Space Product Assurance - EEE (Electrical, Electronic and Electromechanical) Components
+
+EEE components are a comprehensive term that encompasses Electrical, Electronic, and Electromechanical parts, which are essential for the space industry.  
+These components are critical to the performance and reliability of space systems such as satellites, spacecraft, and launch vehicles, and must function reliably even under extreme environmental conditions.  
+Space Product Assurance includes a series of activities and processes to ensure the quality, reliability, and safety of EEE components for successful space missions.
+
+The following are globally recognized standards for the management of space-grade EEE components (space semiconductors):
+
+- <a href="https://ecss.nl/" target="_blank">**ECSS**</a> (European Cooperation for Space Standardization): A set of formal international space standards developed jointly by ESA (European Space Agency), European national space agencies, and industry partners to ensure quality, reliability, safety, and cost efficiency in space systems.
+
+- <a href="https://www.dsp.dla.mil/Specs-Standards/" target="_blank">**MIL-STD**</a> (Military Standard): A standard system established by the U.S. Department of Defense (DoD) for military systems, components, equipment, and processes.
+
+- <a href="https://standards.nasa.gov/NASA-Technical-Standards" target="_blank">**NTSS (NASA Technical Standards System)**</a>: The official integrated technical standard system operated by NASA, used not only by NASA but also by contractors, research institutions, universities, and industry partners to ensure consistency and quality throughout NASA projects.
+
+These standards comprehensively cover testing, certification, procurement, and management of components, ensuring the reliability and robustness of space systems.
+
+<!-- 2x2 Image Table -->
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr>
+    <td align="center" style="border: none;">
+      <img src="/assets/Articles/NASA.png" style="float: left; margin: 0 20px 20px 0; width: 100px; max-width: 100%;">
+    </td>
+    <td align="center" style="border: none;">
+      <img src="/assets/Articles/ESA.png" style="float: left; margin: 0 20px 20px 0; width: 140px; max-width: 100%;">
+    </td>
+  </tr>
+</table>
+
+---
+
+<br/>
+
+**Related Articles**
+- [Up-Screening](/en/article/12.upScreening.html)
+- [COTS (Commercial off-the-shelf)](/en/article/5.COTS.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

@@ -1,0 +1,43 @@
+---
+layout: post
+title: "[Video] Space Semiconductor Testing Without a Heavy Ion Accelerator?"
+date: 2025-04-29 00:01:00 +0900
+category: news
+permalink: en/news/:title.html
+lang: en
+---
+
+# Space Semiconductor Testing Without a Heavy Ion Accelerator?
+<p style="color: #666666">April 29, 2025</p>
+
+<iframe width="560" height="315" 
+  src="https://www.youtube.com/embed/_6l7bhIXtJw?si=kyi-G6mFI_VvncRv"
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
+
+<br>
+
+<p style="font-size:23px"> <b>Dr. Hyukjae Lee of QRT Discusses ‘Advanced Space Semiconductor Reliability Evaluation Technology’</b></p>
+
+<p>This in-depth interview with Dr. Hyukjae Lee of QRT explores the methodology of evaluating the reliability of space semiconductors, particularly focusing on heavy ion tolerance and laser-based alternative technologies.</p>
+<p>It also introduces the upcoming Advanced Space Semiconductor Innovation Conference scheduled for May 20, 2025.</p>
+<p>ASSIC 2025 goes beyond a typical technical seminar, providing a platform to discuss key infrastructure for the future space and defense industries.</p>
+<p>This event offers technical insights and real-world applicability for companies, researchers, and public institutions interested in space semiconductors.</p>
+
+[Don’t miss this free-to-attend event!](https://yelec.kr/product/assic2025/)
+
+Dr. Hyukjae Lee's presentation is scheduled at 11:50 AM.
+
+-------------------------------------
+
+<br/>
+
+**Related Articles**
+- [ASSIC 2025](/en/news/ASSIC2025.html)
+- [What Is Space Product Assurance?](/en/article/8.-EEE.html)
+- [COTS (Commercial Off-the-Shelf)](/en/article/5.COTS.html)
+- [Up-Screening](/en/article/12.upScreening.html)
