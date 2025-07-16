@@ -943,7 +943,7 @@ table td {
 }
 
 .subcat-title {
-	display: inline-block;
+	display: block;
 	/* ✅ 글자 너비만큼만 박스 생성 */
 	color: #111;
 
@@ -955,7 +955,7 @@ table td {
 	padding-bottom: 0px;
 	margin-block-start: 0px;
 	margin-block-end: 0px;
-	line-height: 0;
+	line-height: 1.4;
 	position: relative;
 }
 
