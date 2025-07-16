@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Laser Evaluation Based on NASA Documents
+description: Based on official NASA documents, this post explains how laser-based SEE evaluation is used as a recommended and effective method for radiation testing of COTS components, often complementing or replacing heavy ion testing.
 date: 2025-03-14 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

@@ -2,6 +2,7 @@
 
 layout: post
 title: Accidents Caused by Soft Errors
+description: This article examines real-world incidents caused by soft errors, including the Qantas Flight 72 emergency descent and a sudden acceleration case involving a 'T' brand vehicle. It highlights how Single Event Upsets (SEE) due to radiation can impact system reliability.
 date: 2025-03-16 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

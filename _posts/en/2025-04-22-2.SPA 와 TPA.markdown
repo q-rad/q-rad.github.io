@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SPA vs TPA
+description: Compare SPA and TPA laser methods in replicating single event effects (SEE), including absorption principles and diagnostic capabilities.
 date: 2025-03-29 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

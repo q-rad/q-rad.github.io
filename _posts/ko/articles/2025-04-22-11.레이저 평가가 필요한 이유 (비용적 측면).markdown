@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 레이저 평가가 필요한 이유 (비용적 측면)
+description: 중이온 기반 SEE 시험은 Up-screening 비용의 대부분을 차지하며, 이는 COTS 부품의 경제성을 약화시킵니다. 레이저 기반 평가가 비용 효율적인 대안으로 주목받고 있습니다.
 date: 2025-03-20 00:00:00 +0900
 category: article
 lang: ko

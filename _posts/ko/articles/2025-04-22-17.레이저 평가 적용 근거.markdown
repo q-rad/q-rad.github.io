@@ -1,6 +1,7 @@
 ---
 layout: post
 title: NASA 문건으로 본 레이저 평가
+description: NASA 공식 문서를 기반으로 레이저 기반 SEE 평가의 타당성과 적용 사례를 소개합니다. COTS 부품의 방사선 내성 시험에서 레이저가 중이온 평가를 대체하거나 보완하는 방법으로 권장되는 이유를 설명합니다.
 date: 2025-03-14 00:00:00 +0900
 category: article
 lang: ko

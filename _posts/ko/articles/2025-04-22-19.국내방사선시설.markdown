@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 국내 방사선 평가 시설
+description: 국내 방사선 평가 시설 현황을 정리한 글입니다. KOMAC, KIRAMS, ARTI 등 주요 양성자 및 감마선 조사 인프라와 제원을 소개하고, 국내 중이온 가속기 현황과 향후 구축 계획까지 다룹니다.
 date: 2025-03-13 00:00:00 +0900
 category: article
 lang: ko

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Energy Transfer Mechanisms of Electrons
+description: This article explains how electrons transfer energy through electron–electron and electron–nucleus interactions, including mechanisms such as delta-rays and Bremsstrahlung radiation. It also covers their effects on semiconductors in space and industrial environments.
 date: 2025-03-12 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

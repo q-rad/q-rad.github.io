@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Video] Space Semiconductor Testing Without a Heavy Ion Accelerator?"
+description: Is it possible to evaluate space semiconductors without heavy ion accelerators? Dr. Hyukjae Lee from QRT introduces advanced evaluation methods including laser-based alternatives. Includes details about the ASSIC 2025 conference on May 20, 2025.
 date: 2025-04-29 00:01:00 +0900
 category: news
 permalink: en/news/:title.html

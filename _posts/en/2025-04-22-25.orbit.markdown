@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Radiation Assessment for Satellite Orbits (LEO, GEO)
+description: Compares radiation environments across LEO, GEO, and GTO orbits, including key sources like trapped particles, solar flares, and cosmic rays. Explains evaluation criteria such as TID and SEE, shielding requirements, and mission-specific considerations.
 date: 2025-03-11 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

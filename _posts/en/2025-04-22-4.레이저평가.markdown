@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Semiconductor Radiation Hardness Laser Evaluation (Laser Test)
+description: QRT's femtosecond laser-based radiation hardness testing offers a cost-effective alternative to heavy ion testing, enabling precise SEE simulation and sensitive area analysis.
 date: 2025-03-27 00:00:00 +0900
 category: article
 lang: en

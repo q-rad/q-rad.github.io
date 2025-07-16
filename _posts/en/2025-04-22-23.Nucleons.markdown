@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Energy Transfer Mechanisms of Protons and Neutrons
+description: This article explores how neutrons and protons transfer energy in semiconductors through elastic and inelastic nuclear reactions, including spallation. It also examines their roles in causing SEE, TID, and DD in radiation environments such as space.
 date: 2025-03-12 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

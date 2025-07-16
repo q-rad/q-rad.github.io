@@ -2,6 +2,7 @@
 
 layout: post
 title: Domestic Radiation Test Facilities
+description: This post summarizes South Korea's radiation testing infrastructure, including proton and gamma facilities such as KOMAC, KIRAMS, and ARTI. It also covers the current lack of heavy ion accelerators and future plans like RAON and KIST initiatives.
 date: 2025-03-13 00:00:00 +0900
 category: article
 lang: en

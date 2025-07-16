@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[영상] 일반 반도체를 우주 반도체로 쓰는 기술 '업스크린'"
+description: 일반 상용 반도체를 우주 환경에 적용 가능한 ‘업스크린(Up-Screen)’ 기술을 소개합니다. QRT 이혁재 박사가 신뢰성 평가와 팸토초 레이저 기술을 통한 국산화 가능성을 설명합니다.
 date: 2024-04-17 00:01:00 +0900
 category: news
 permalink: ko/news/:title.html

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[영상] 우주 반도체 테스트, 중이온 가속기 없이도 가능하다?"
+description: 중이온 가속기 없이도 우주 반도체의 방사선 내성 평가가 가능할까? QRT 이혁재 박사가 레이저 대체 기술을 포함한 첨단 평가 방법을 소개합니다. 2025년 5월 20일 ASSIC 2025 콘퍼런스 정보도 함께 확인하세요.
 date: 2025-04-29 00:01:00 +0900
 category: news
 permalink: ko/news/:title.html

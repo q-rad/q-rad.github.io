@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TID (Total Ionizing Dose) effect란?
+description: TID(총 이온화 선량)은 방사선으로 인한 전하가 반도체 내부에 누적되어 장기적으로 특성 변화를 유발하는 현상으로, 신뢰성 평가의 핵심 지표입니다.
 date: 2025-03-24 00:01:00 +0900
 category: article
 lang: ko

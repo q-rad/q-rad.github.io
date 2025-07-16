@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 반도체 기판의 밴드갭 및 광흡수 메커니즘 비교
+description: 반도체 소재별 밴드갭과 레이저 파장에 따른 광흡수 메커니즘(SPA, TPA, MPA)을 비교 분석합니다. QRT의 넓은 파장 범위와 펨토초 레이저 시스템으로 다양한 소자 평가가 가능합니다.
 date: 2025-03-17 00:00:00 +0900
 category: article
 lang: ko

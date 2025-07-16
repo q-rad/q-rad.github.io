@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why Laser Evaluation is Necessary (Cost Perspective)
+description: SEE testing using heavy ions accounts for the majority of Up-screening costs, often outweighing the benefits of COTS components. Laser-based evaluations offer a more cost-effective alternative.
 date: 2025-03-20 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

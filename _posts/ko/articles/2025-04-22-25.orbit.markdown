@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 인공위성의 궤도(LEO, GEO)와 방사선 평가
+description: LEO, GEO, GTO 등 다양한 인공위성 궤도에 따른 방사선 환경과 방사선 내성 평가 항목(TID, SEE, GCR, SPE 등)을 비교 분석합니다. 궤도별 주요 방사선원과 차폐 필요성까지 상세히 설명합니다.
 date: 2025-03-11 00:00:00 +0900
 category: article
 lang: ko

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 양성자(Proton)와 중성자(Neutron)의 에너지 전달 메커니즘
+description: 중성자와 양성자가 반도체에 에너지를 전달하는 탄성·비탄성 핵반응, 스폴레이션 등 다양한 메커니즘을 설명합니다. SEE, TID, DD 유발 가능성과 우주 환경에서의 영향도 함께 다룹니다.
 date: 2025-03-12 00:00:00 +0900
 category: article
 lang: ko

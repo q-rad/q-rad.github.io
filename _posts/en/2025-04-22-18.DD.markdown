@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is DD (Displacement Damage)?
+description: Displacement Damage (DD) refers to bulk degradation in semiconductors caused by high-energy particles disrupting atomic structures. This post explains its definition, key mechanisms like Coulomb and nuclear scattering, and its impact on device performance.
 date: 2025-03-24 00:01:00 +0900
 category: article
 permalink: en/article/:title.html

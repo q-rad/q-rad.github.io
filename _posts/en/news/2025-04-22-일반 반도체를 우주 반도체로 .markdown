@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "[Video] 'Up-Screen': Transforming Commercial Semiconductors into Space-Grade Devices"
+description: Introducing the 'Up-Screen' technique that enables commercial semiconductors to be used in space. Dr. Hyukjae Lee from QRT explains how femtosecond laser-based testing enhances reliability and supports localization.
 date: 2024-04-17 00:01:00 +0900
 category: news
 permalink: en/news/:title.html

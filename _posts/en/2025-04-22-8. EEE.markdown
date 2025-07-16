@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is Space Product Assurance?
+description: Space Product Assurance ensures the quality and reliability of space-grade EEE components through global standards like ECSS, MIL-STD, and NASA technical standards.
 date: 2025-03-23 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

@@ -2,6 +2,7 @@
 
 layout: post
 title: Energy Transfer Mechanisms of Photons
+description: This article explains photon energy transfer mechanisms—photoelectric effect, Compton scattering, and pair production—and their physical impact on semiconductors. It also discusses high-energy photon interactions and the electromagnetic spectrum.
 date: 2025-03-12 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

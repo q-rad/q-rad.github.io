@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Global Trends in Laser Evaluation
+description: Laser testing for COTS devices is rapidly increasing in countries like China and Russia, emerging as a global strategy for cost-effective and flexible SEE evaluation.
 date: 2025-03-22 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

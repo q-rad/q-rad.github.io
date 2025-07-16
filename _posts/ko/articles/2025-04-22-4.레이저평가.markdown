@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 반도체 방사선 내성 레이저 평가(Laser Test)
+description: QRT의 레이저 기반 방사선 내성 평가 기술은 펨토초 레이저를 활용하여 SEE를 모사하고 민감 영역을 정밀 분석할 수 있는 효율적 대체 시험 방법입니다.
 date: 2025-03-27 00:00:00 +0900
 category: article
 lang: ko

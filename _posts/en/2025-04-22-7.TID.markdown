@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is TID (Total Ionizing Dose) effect?
+description: TID (Total Ionizing Dose) refers to the gradual degradation of semiconductor properties caused by accumulated charge from radiation, a key factor in long-term device reliability.
 date: 2025-03-24 00:01:00 +0900
 category: article
 permalink: en/article/:title.html

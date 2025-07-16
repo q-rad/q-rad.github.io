@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 지구의 자기장과 방사선대의 관계
+description: 지구 자기장과 밴 앨런대(Van Allen Belt)의 관계를 설명하며, 방사선 입자가 어떻게 포획되고 위성과 우주선에 어떤 영향을 미치는지, 남대서양 이상현상(SAA)의 원인과 결과를 중심으로 설명합니다.
 date: 2025-03-15 00:00:00 +0900
 category: article
 lang: ko

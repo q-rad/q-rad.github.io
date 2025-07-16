@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Energy Transfer Mechanism of Ion
+description: Explains how energetic ions interact with semiconductors to induce charge generation and cause single-event effects (SEE), such as data corruption, latchup, and permanent damage. Discusses ion behavior in space environments and their impact on circuit reliability.
 date: 2025-03-12 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

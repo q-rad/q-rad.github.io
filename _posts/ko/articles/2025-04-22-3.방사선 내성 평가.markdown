@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 방사선 내성 평가(Radiation Hardness Test)
+description: 방사선 내성 평가는 우주, 군사, 항공, 원자력 환경에서 반도체의 오동작을 방지하기 위한 필수 시험입니다. SEU, SEL, TID 등 주요 이슈 설명.
 date: 2025-03-28 00:00:00 +0900
 category: article
 lang: ko

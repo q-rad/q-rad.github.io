@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is LET (Linear Energy Transfer)?
+description: LET (Linear Energy Transfer) measures the energy loss per unit distance of a particle traveling through material, crucial for understanding radiation effects in semiconductors.
 date: 2025-03-25 00:00:00 +0900
 category: article
 lang: en

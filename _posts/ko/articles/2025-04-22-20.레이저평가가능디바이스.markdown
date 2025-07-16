@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 반도체 패키지 타입별 SEE 레이저 평가 가능성 분석
+description: 패키지 구조에 따라 반도체 소자의 SEE 레이저 평가 가능 여부를 분석한 글입니다. BGA, TSSOP, SOIC 등 다양한 실제 사례를 통해 전처리 요건과 평가 한계, Flip-Chip 적용 가능성 등을 안내합니다.
 date: 2025-03-12 00:00:00 +0900
 category: article
 lang: ko

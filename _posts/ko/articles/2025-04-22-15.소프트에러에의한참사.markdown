@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Soft Error로 인해 발생한 사고
+description: 소프트 에러(Soft Error)가 실제 사고로 이어진 사례로, 에어버스 A330 콴타스 72편의 비상 강하와 'T'사 차량의 급발진 사건을 분석합니다. 방사선에 의한 단일 이벤트 업셋이 시스템 신뢰성에 끼치는 영향을 소개합니다.
 date: 2025-03-16 00:00:00 +0900
 category: article
 lang: ko

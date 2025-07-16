@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ASSIC 2025 Review
+description: On May 20, 2025, the ASSIC 2025 conference gathered around 300 attendees to explore topics such as space semiconductor reliability, heavy ion alternative technologies, and COTS component evaluation across 10 expert sessions.
 date: 2025-05-21 00:00:00 +0900
 category: news
 permalink: en/news/:title.html

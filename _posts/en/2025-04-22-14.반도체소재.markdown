@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Comparison of Band Gaps and Optical Absorption Mechanisms of Semiconductor Substrates
+description: This post compares the band gaps and laser absorption mechanisms (SPA, TPA, MPA) of semiconductor substrates such as Si, GaAs, SiC, and GaN. QRT provides flexible radiation evaluation using ultra-short pulsed lasers across a wide wavelength range (630nm–1700nm).
 date: 2025-03-17 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

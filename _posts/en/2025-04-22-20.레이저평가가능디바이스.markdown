@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Analysis of Laser Evaluation Feasibility by Semiconductor Package Type
+description: This post analyzes the feasibility of SEE laser testing for various semiconductor package types such as BGA, TSSOP, SOIC, and PDIP. It explains decapsulation requirements, test limitations, and includes real evaluation case studies.
 date: 2025-03-12 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

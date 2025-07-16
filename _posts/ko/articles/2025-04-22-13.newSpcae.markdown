@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New Space란?
+description: New Space는 민간 기업 중심의 우주 개발 방식으로, 저비용·고속 개발·COTS 기술 활용이 특징입니다. Old Space와의 차이점과 주요 기업 사례를 소개합니다.
 date: 2025-03-18 00:00:00 +0900
 category: article
 lang: ko

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: COTS (Commercial off-the-shelf)
+description: COTS는 상용 기성품으로 우주 시스템의 비용 절감과 개발 기간 단축에 기여하지만, 우주 환경에서의 신뢰성과 내성을 확보하기 위한 검증 및 보호 전략이 필수입니다.
 date: 2025-03-26 00:00:00 +0900
 category: article
 lang: ko

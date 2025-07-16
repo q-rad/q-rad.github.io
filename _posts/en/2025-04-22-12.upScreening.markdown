@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Up-Screening
+description: Up-screening is a qualification process that evaluates the reliability of COTS components for use in space and aerospace systems. Includes NASA and ESA standards for radiation testing, DPA, and CA.
 date: 2025-03-19 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

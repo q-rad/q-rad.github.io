@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ASSIC 2025 Review
+description: 2025년 5월 20일 열린 ASSIC 2025 콘퍼런스에서는 우주 반도체 신뢰성 평가, 중이온 대체 기술, COTS 부품 신뢰성 등 다양한 주제로 10개 세션이 진행되었습니다. 약 300명이 참석한 업계 주요 행사였습니다.
 date: 2025-05-21 00:00:00 +0900
 category: news
 permalink: ko/news/:title.html

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SEE (Single Event Effect)란?
+description: SEE(Single Event Effect)는 방사선이 반도체에 일으키는 단일 이벤트 오류로, SEU부터 SEL까지 다양한 현상을 포함합니다.
 date: 2025-03-30 00:00:00 +0900
 category: article
 lang: ko

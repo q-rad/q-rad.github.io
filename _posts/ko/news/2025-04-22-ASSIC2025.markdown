@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ASSIC 2025 개최
+description: QRT가 주최하는 ASSIC 2025 콘퍼런스에서는 우주용 반도체의 신뢰성 평가 기술, 시장 동향, 정책 발표 등을 다룹니다. 국내외 우주항공 및 방위산업 관계자들이 대거 참여합니다.
 date: 2025-05-14 00:00:00 +0900
 category: news
 permalink: ko/news/:title.html

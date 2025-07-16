@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Space Product Assurance(우주 제품 보증)란?
+description: Space Product Assurance는 우주용 EEE 부품의 품질과 신뢰성을 확보하기 위한 국제 표준과 인증 체계를 통해 우주 임무의 성공을 보장하는 핵심 관리 체계입니다.
 date: 2025-03-23 00:00:00 +0900
 category: article
 lang: ko

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SPA vs TPA
+description: SPA와 TPA 레이저를 활용한 단일 이벤트 업셋(SEE) 평가와 차이점, 장단점을 비교 설명합니다.
 date: 2025-03-29 00:00:00 +0900
 category: article
 lang: ko

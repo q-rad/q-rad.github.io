@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is New Space?
+description: New Space refers to a new wave of space development led by private companies like SpaceX and Planet Labs. It emphasizes low cost, fast development, and COTS-based systems, marking a shift from traditional government-led space programs.
 date: 2025-03-18 00:00:00 +0900
 category: article
 permalink: en/article/:title.html

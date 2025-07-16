@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 중이온(Heavy Ion) 빔이란?
+description: 중이온 빔은 헬륨보다 무거운 입자를 가속시켜 방사선 효과를 평가하는 실험 방식으로, 우주 및 반도체 방사선 내성 평가에 필수적인 도구입니다.
 date: 2025-03-21 00:00:00 +0900
 category: article
 lang: ko

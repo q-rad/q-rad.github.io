@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ASSIC 2025 to Be Held
+description: ASSIC 2025, hosted by QRT, explores reliability evaluation technologies for space semiconductors, market trends, and policy updates. Key players from the aerospace and defense sectors will participate.
 date: 2025-05-14 00:00:00 +0900
 category: news
 permalink: en/news/:title.html

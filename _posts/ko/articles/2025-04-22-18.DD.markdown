@@ -1,6 +1,7 @@
 ---
 layout: post
 title: DD (Displacement Damage)란?
+description: Displacement Damage(DD)는 고에너지 입자에 의해 반도체 내부 원자 배열이 붕괴되며 발생하는 체적 손상으로, 전기적·광학적 특성을 변화시키고 소자 성능 저하를 유발합니다. 본 글에서는 DD의 정의, 주요 메커니즘, 영향을 상세히 설명합니다.
 date: 2025-03-24 00:01:00 +0900
 category: article
 lang: ko
