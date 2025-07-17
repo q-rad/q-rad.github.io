@@ -29,7 +29,7 @@ order: 3005
   <!-- 이미지 -->
 밴 앨런대(Van Allen Belt) 또는 밴 앨런 복사대(Van Allen Radiation Belt)는 태양풍에서 지구반경의 약 10배의 공간까지 퍼져 있으며 매우 안정되어 있어 한 번 생기면 그 실체가 계속 유지됩니다. 1958년에 지구를 둘러싸고 있는 밴 앨런 대로 알려진 두 개의 거대한 방사선 복사 띠가 발견되었습니다. 2012년에 실시된 밴 앨런 탐사선(Van Allen Probes)의 관측에 따르면 때때로 세 번째 벨트가 나타날 수 있습니다. 자기에 의해 갇힌 고에너지 하전 입자로 이루어진 거대한 도넛 모양의 입자들이 모인 띠가 지구를 둘러싸고 있습니다.
 <p align= "center">
-<img src="/assets/Articles/밴앨런이온대.png" style="width: 100%; max-width: 400px;" alt= "Van Allen Belt">
+<img src="/assets/Articles/밴앨런이온대.webp" style="width: 100%; max-width: 400px;" alt= "Van Allen Belt">
 </p>
 <p align= "center">밴 앨런대</p>
 <p style="font-size: 10px; color: gray; text-align: center;">

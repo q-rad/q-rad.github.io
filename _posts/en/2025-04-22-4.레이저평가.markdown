@@ -14,7 +14,7 @@ order: 2001
 Pulsed Laser SEE Test (PLSEE) is a method of evaluating semiconductor radiation hardness using femtosecond pulsed lasers. It simulates the effects of space radiation on semiconductor devices using pulsed lasers, offering an alternative to traditional radiation testing.
 
 <p align="center"> 
-  <img src="/assets/Articles/laser.png" alt="laser test" style="width: 100%; max-width: 400px;">
+  <img src="/assets/Articles/laser.webp" alt="laser test" style="width: 100%; max-width: 400px;">
 </p>
 
 Lasers can deliver extremely high energy to a localized area in a very short time, inducing electromagnetic responses comparable to actual particle collisions.  
@@ -35,7 +35,7 @@ This makes it possible to identify and mitigate radiation vulnerabilities from t
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="/assets/Articles/QRT-laser.png" style="max-width: 500px;" alt="QRT-Laser Evaluation System">
+      <img src="/assets/Articles/QRT-laser.webp" style="max-width: 500px;" alt="QRT-Laser Evaluation System">
       <div style="margin-top: 10px;">QRT-Laser Evaluation System</div>
     </td>
     <td align="center" style="border: none;">

@@ -19,7 +19,7 @@ The belts consist primarily of electrons in the outer belt and protons and elect
 The Van Allen Belt or Van Allen Radiation Belt extends up to about 10 times the Earth's radius and remains highly stable once formed. In 1958, two giant radiation belts surrounding the Earth were discovered. According to observations by the Van Allen Probes launched in 2012, a third belt can occasionally appear. These giant toroidal belts, composed of high-energy charged particles trapped by the Earth’s magnetic field, surround the planet.
 
 <p align="center">
-  <img src="/assets/Articles/밴앨런이온대.png" style="width: 100%; max-width: 400px;" alt="Van Allen Belt">
+  <img src="/assets/Articles/밴앨런이온대.webp" style="width: 100%; max-width: 400px;" alt="Van Allen Belt">
 </p>
 <p align="center">Van Allen Belt</p>
 <p style="font-size: 10px; color: gray; text-align: center;">

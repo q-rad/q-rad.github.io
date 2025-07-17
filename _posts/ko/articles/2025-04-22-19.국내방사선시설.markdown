@@ -26,7 +26,7 @@ order: 1010
 하단의 표는 양성자 가속기의 제원입니다.
 
 <p align="center"> 
-  <img src="/assets/Articles/양성자과학연구단.png" alt= "양성자과학연구단 100MeV 양성자가속기" style="width: 40%;">
+  <img src="/assets/Articles/양성자과학연구단.webp" alt= "양성자과학연구단 100MeV 양성자가속기" style="width: 40%;">
 </p>
 
 <!-- 이미지 설명 -->
@@ -63,7 +63,7 @@ order: 1010
 하단의 표는 MC-50 사이클로트론의 제원입니다.
 
 <p align="center"> 
-  <img src="/assets/Articles/KIRAMS.png" alt= "한국원자력의학원 방사선의학연구소 MC-50 사이클로트론" style="width: 40%;">
+  <img src="/assets/Articles/KIRAMS.webp" alt= "한국원자력의학원 방사선의학연구소 MC-50 사이클로트론" style="width: 40%;">
 </p>
 
 <!-- 이미지 설명 -->
@@ -97,7 +97,7 @@ order: 1010
 Co<sup>60</sup>에서 방출되는 감마선을 활용하여, 농업·생물자원·우주항공·기초과학 연구 등 다양한 분야의 저선량 조사 대상 시료에 대해 정밀한 감마선 조사 서비스를 제공합니다.
 
 <p align="center"> 
-  <img src="/assets/Articles/ARTI.png" alt= "헌국원자력연구원 첨단방사선연구소 저준위 감마선조사장치" style="width: 40%;">
+  <img src="/assets/Articles/ARTI.webp" alt= "헌국원자력연구원 첨단방사선연구소 저준위 감마선조사장치" style="width: 40%;">
 </p>
 
 <!-- 이미지 설명 -->

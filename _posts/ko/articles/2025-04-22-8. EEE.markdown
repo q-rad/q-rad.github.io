@@ -29,10 +29,10 @@ Space Product Assurance는 이러한 EEE 부품들이 우주 임무를 성공적
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
     <td align="center" style="border: none;">
-      <img src="/assets/Articles/NASA.png" style="float: left; margin: 0 20px 20px 0; width: 100px; max-width: 100%;">
+      <img src="/assets/Articles/NASA.webp" style="float: left; margin: 0 20px 20px 0; width: 100px; max-width: 100%;">
     </td>
     <td align="center" style="border: none;">
-      <img src="/assets/Articles/ESA.png" style="float: left; margin: 0 20px 20px 0; width: 140px; max-width: 100%;">
+      <img src="/assets/Articles/ESA.webp" style="float: left; margin: 0 20px 20px 0; width: 140px; max-width: 100%;">
     </td>
   </tr>
 </table>

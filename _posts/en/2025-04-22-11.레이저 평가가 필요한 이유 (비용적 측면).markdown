@@ -15,12 +15,12 @@ These procedures include mechanical, electrical, environmental tests, and especi
 
 However, when analyzing the cost of each major item in up-screening, the **SEE (Single Event Effect)** test—particularly the heavy ion-based evaluation—accounts for a disproportionately large portion of the total cost.
 
-<p align="center"> <img src="/assets/Articles/cost.png" style="width: 80%; max-width: 500px;"/> </p>
+<p align="center"> <img src="/assets/Articles/cost.webp" style="width: 80%; max-width: 500px;"/> </p>
 
 As shown in the graph, heavy ion-based SEE tests dominate the overall up-screening cost, requiring significantly more budget compared to other evaluation categories such as TID (Total Ionizing Dose), DPA (Destructive Physical Analysis), and CA (Construction Analysis).  
 While COTS components have the advantage of being cheaper than space-grade parts in terms of initial purchase price, the cost of SEE testing during up-screening can sometimes match or even exceed the price of space-grade components.
 
-<p align="center"> <img src="/assets/Articles/costComparison.png" style="width: 80%; max-width: 500px;"/> </p>
+<p align="center"> <img src="/assets/Articles/costComparison.webp" style="width: 80%; max-width: 500px;"/> </p>
 
 As this graph illustrates, evaluation using heavy ions incurs substantial cost even for a single test. Compared to this, laser-based testing for the same component is about **four times cheaper**.  
 This cost issue essentially negates the cost-saving benefits of using COTS parts, making them inefficient in some cases when compared to certified space-grade components.

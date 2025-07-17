@@ -57,7 +57,7 @@ order: 2008
 
 아래 이미지는 중성자에 의한 비탄성 핵반응 이후에 나타나는 4가지 현상을 정리한 그림입니다.
 <p align= "center">
-<img src="/assets/Articles/중성자에의한현상.png" style="width: 100%; max-width: 500px;" alt= "중성자에의한현상">
+<img src="/assets/Articles/중성자에의한현상.webp" style="width: 100%; max-width: 500px;" alt= "중성자에의한현상">
 </p>
 <p align= "center">비탄성 핵 반응 이후 여기된 핵에서 나타나는 4가지 현상</p>
 

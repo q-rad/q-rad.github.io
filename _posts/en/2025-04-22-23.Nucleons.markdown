@@ -50,7 +50,7 @@ In spallation, the neutron transfers energy to a single nucleon inside the nucle
 The image below summarizes four outcomes after an inelastic nuclear reaction caused by a neutron:
 
 <p align= "center">
-<img src="/assets/Articles/중성자에의한현상.png" style="width: 100%; max-width: 500px;" alt= "Neutron-induced phenomena">
+<img src="/assets/Articles/중성자에의한현상.webp" style="width: 100%; max-width: 500px;" alt= "Neutron-induced phenomena">
 </p>
 <p align= "center">Four phenomena observed in an excited nucleus after inelastic nuclear reaction</p>
 

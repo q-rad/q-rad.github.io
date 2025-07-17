@@ -32,7 +32,7 @@ GEO는 지표면으로부터 약 35,786km 고도에 위치하며, 위성이 지�
 
 <br>
 <p align="center"> 
-  <img src="/assets/Articles/leogeo.png" alt= "LEO의 위성(좌)과 GEO의 위성(우)" style="width: 70%;">
+  <img src="/assets/Articles/leogeo.webp" alt= "LEO의 위성(좌)과 GEO의 위성(우)" style="width: 70%;">
 </p>
 
 <!-- 이미지 설명 -->
@@ -46,7 +46,7 @@ Geostationary Transfer Orbit(GTO)은 위성을 정지궤도(GEO: Geostationary E
 아래 이미지에서 노란색 타원은 GTO이며, 노란색 실선은 인공위성의 경로입니다.
 <br>
 <p align="center"> 
-  <img src="/assets/Articles/gto.png" alt= "Geostationary transfer orbit" style="width: 50%;">
+  <img src="/assets/Articles/gto.webp" alt= "Geostationary transfer orbit" style="width: 50%;">
 </p>
 
 <!-- 이미지 설명 -->

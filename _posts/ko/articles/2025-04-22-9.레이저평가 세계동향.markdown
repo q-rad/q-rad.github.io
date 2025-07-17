@@ -14,7 +14,7 @@ order: 2005
 COTS Devices에 대한 레이저 시험 건수는 3년간 급격한 증가 추세를 보였으며, 특히 2021년에서 2022년 사이에 눈에 띄는 상승폭을  기록했습니다. 레이저는 이미 세계적으로 COTS를 평가하기 위해 대체 선원으로 사용되고 있습니다. 이는 레이저 평가가 저렴한 비용으로 가능하기 때문일 것입니다.
 
 <p align="center"> 
-  <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 450px;" alt="2020-2022 COTS Devices for Laser test in Chinese Institute">
+  <img src="/assets/Articles/COTS NSSC.webp" style="width: 80%; max-width: 450px;" alt="2020-2022 COTS Devices for Laser test in Chinese Institute">
 </p>
 <p align="center"> 2020-2022 COTS Devices for Laser test in Chinese Institute </p>
 
@@ -27,11 +27,11 @@ SEE 시험 전체 수가 꾸준히 늘어나는 가운데, 레이저를 활용�
 <table align="center" style="border: none; border-collapse: collapse; width: 100%;">
   <tr>
     <td align="center" style="border: none; width: 50%;">
-      <img src="/assets/Articles/NRNU MEPhI SPELS.png" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt= "Actual rate of conducted test in NRNU(2015)">
+      <img src="/assets/Articles/NRNU MEPhI SPELS.webp" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt= "Actual rate of conducted test in NRNU(2015)">
       <div style="margin-top: 10px;">Actual rate of conducted test in NRNU(2015)</div>
     </td>
     <td align="center" style="border: none; width: 50%;">
-      <img src="/assets/Articles/NRNU MEPhI SPELS 2.png" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt= "Laser tests fraction during last three years">
+      <img src="/assets/Articles/NRNU MEPhI SPELS 2.webp" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt= "Laser tests fraction during last three years">
       <div style="margin-top: 10px;">Laser tests fraction for the past three years at NRNU</div>
     </td>
   </tr>

@@ -24,7 +24,7 @@ However, ultra-cold neutrons and thermal neutrons are known to gradually degrade
 For radiation particles, multiplying the LET (Linear Energy Transfer) of the particle by the particle fluence (dose) of a monoenergetic beam yields the total energy deposited per unit mass due to ionization — this value is used to determine TID.
 
 <p align="center"> 
-  <img src="/assets/Articles/TID2.png" style="width: 60%;" alt="TID">
+  <img src="/assets/Articles/TID2.webp" style="width: 60%;" alt="TID">
 </p>
 
 <!-- Image Caption -->

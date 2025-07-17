@@ -21,7 +21,7 @@ The soft error rate of the equipment responsible was calculated as 3/0.128 = 23.
 <!-- Image -->
 
 <p align= "center">
-<img src="/assets/Articles/콴타스72편의피해모습.png" style="width: 100%; max-width: 400px;" alt="Damage from Qantas Flight 72">
+<img src="/assets/Articles/콴타스72편의피해모습.webp" style="width: 100%; max-width: 400px;" alt="Damage from Qantas Flight 72">
 </p>
 <p align= "center">Damage from Qantas Flight 72</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
@@ -34,7 +34,7 @@ The soft error rate of the equipment responsible was calculated as 3/0.128 = 23.
 
 <p>Sudden acceleration incidents in 'T' brand vehicles caused many casualties and property damage. NASA's Jet Propulsion Laboratory (JPL), known for its advanced technology, initiated an investigation. The image below was published by JPL to help allay public fear and curiosity, illustrating that soft errors can indeed impact our safety and property.</p>
 <p align= "center">
-<img src="/assets/Articles/급발진.png" style= "width: 100%; max-width: 400px;" alt="Sudden Acceleration in T Brand Vehicles">
+<img src="/assets/Articles/급발진.webp" style= "width: 100%; max-width: 400px;" alt="Sudden Acceleration in T Brand Vehicles">
 </p>
 <p align= "center">Sudden Acceleration in 'T' Brand Vehicles</p>
 <p style="font-size: 10px; color: gray; text-align: center;">

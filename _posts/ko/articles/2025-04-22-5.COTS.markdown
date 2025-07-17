@@ -19,7 +19,7 @@ order: 3003
 <br/> <!-- 한줄 띄기 -->
     결론적으로, COTS 부품은 우주 개발의 속도와 경제성을 높이는 데 핵심적인 역할을 할 수 있지만, 그 활용은 체계적인 검증과 보완 전략 없이는 성공적인 우주 임무로 이어지기 어렵습니다. 따라서 기회와 위험을 균형 있게 고려한 신중한 접근이 필요합니다.
 <p align="center"> 
-  <img src="/assets/Articles/COTS2.jpg" alt= "COTS" style="width: 100%; max-width: 400px;">
+  <img src="/assets/Articles/COTS2.webp" alt= "COTS" style="width: 100%; max-width: 400px;">
 </p>
  
 -------------------------------------

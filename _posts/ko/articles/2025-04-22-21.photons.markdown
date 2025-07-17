@@ -17,7 +17,7 @@ order: 2006
 광자는 전하를 가지지 않기 때문에, 전하를 띤 입자들이 전자나 원자핵과 상호작용할 때 나타나는 현상들은 발생하지 않습니다.
 아래는 광자가 에너지를 전달하는 3가지 주요 메커니즘입니다:
 
-<p align="center"> <img src="/assets/Articles/선스펙트럼.png" alt= "Diagram illustrating the electromagnetic spectrum" style="width: 40%;"> </p> 
+<p align="center"> <img src="/assets/Articles/선스펙트럼.webp" alt= "Diagram illustrating the electromagnetic spectrum" style="width: 40%;"> </p> 
 <!-- 이미지 설명 -->
 <div align="center"> 
 <h5>Diagram illustrating the electromagnetic spectrum</h5>

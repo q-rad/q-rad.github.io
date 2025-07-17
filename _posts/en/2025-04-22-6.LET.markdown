@@ -28,7 +28,7 @@ Thus, LET normalized by the density of the target material is represented in uni
 
 <!-- Centered Image -->
 <p align="center"> 
-  <img src="/assets/Articles/LET.png" alt="Electron-hole pair generation by charged particles" style="width: 70%;">
+  <img src="/assets/Articles/LET.webp" alt="Electron-hole pair generation by charged particles" style="width: 70%;">
 </p>
 
 <!-- Image Caption -->

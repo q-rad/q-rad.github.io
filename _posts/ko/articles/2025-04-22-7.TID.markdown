@@ -19,7 +19,7 @@ order: 1004
 방사선 입자의 경우는 입자의 LET에 단일 에너지 빔의 입자 선량을 곱하면 이온화를 통해 질량 단위당 증착된 총 에너지 양을 얻을 수 있는데 이를 통해 TID를 구합니다.
 
 <p align="center"> 
-  <img src="/assets/Articles/TID2.png"  style="width: 60%;" alt= "TID">
+  <img src="/assets/Articles/TID2.webp"  style="width: 60%;" alt= "TID">
 </p>
 
 <!-- 이미지 설명 -->

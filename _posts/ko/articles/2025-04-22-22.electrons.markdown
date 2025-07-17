@@ -27,7 +27,7 @@ order: 2007
 
 
 <p align= "center">
-<img src="/assets/Articles/전자산란.png" style="width: 100%; max-width: 500px;" alt= "전자 산란">
+<img src="/assets/Articles/전자산란.webp" style="width: 100%; max-width: 500px;" alt= "전자 산란">
 </p>
 <p align= "center">전자 산란</p>
 <p style="font-size: 10px; color: gray; text-align: center;">

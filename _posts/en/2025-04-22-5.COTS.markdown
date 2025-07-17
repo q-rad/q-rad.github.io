@@ -37,7 +37,7 @@ In conclusion, while COTS components can play a key role in enhancing the speed 
 A careful approach that balances opportunity and risk is essential for successful space missions.
 
 <p align="center"> 
-  <img src="/assets/Articles/COTS2.jpg" alt="COTS" style="width: 100%; max-width: 400px;">
+  <img src="/assets/Articles/COTS2.webp" alt="COTS" style="width: 100%; max-width: 400px;">
 </p>
 
 ---

@@ -17,7 +17,7 @@ In the U.S., various radiation evaluations using lasers are conducted in NASA-af
 The official guideline document, NASA/TM–20205011579, outlines recommendations for the use of COTS EEE parts in NASA missions. It explicitly mentions laser-based evaluation as one of the key methods for SEE assessment. This document lists picosecond laser evaluation, heavy ion and proton testing, and Cf-252 screening among its suggested SEE evaluation techniques. Notably, laser-based radiation hardness testing is presented before traditional radiation sources, indicating its efficiency in COTS component evaluations.
 
 <p align="center">
-  <img src="/assets/Articles/적용근거.png" style="width: 100%; max-width: 700px;" alt="Recommendations on Use of Commercial-Off-The-Shelf (COTS) Electrical, Electronic, and Electromechanical (EEE) Parts for NASA Missions">
+  <img src="/assets/Articles/적용근거.webp" style="width: 100%; max-width: 700px;" alt="Recommendations on Use of Commercial-Off-The-Shelf (COTS) Electrical, Electronic, and Electromechanical (EEE) Parts for NASA Missions">
 </p>
 <p align="center">Recommendations on Use of Commercial-Off-The-Shelf (COTS) Electrical, Electronic, and Electromechanical (EEE) Parts for NASA Missions</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
@@ -29,7 +29,7 @@ Additionally, the MEAL (Mission, Environment, Application, Lifetime) guidelines 
 Laser evaluation is highly effective in the early-stage identification of circuit vulnerabilities and is recommended for use in radiation hardness design studies or complex high-density circuit assessments.
 
 <p align="center">
-  <img src="/assets/Articles/적용근거1.png" style="width: 100%; max-width: 700px;" alt="Guidelines for Verification Strategies to Minimize RISK Based on Mission Environment, Application, and Lifetime (MEAL)">
+  <img src="/assets/Articles/적용근거1.webp" style="width: 100%; max-width: 700px;" alt="Guidelines for Verification Strategies to Minimize RISK Based on Mission Environment, Application, and Lifetime (MEAL)">
 </p>
 <p align="center">Guidelines for Verification Strategies to Minimize RISK Based on Mission Environment, Application, and Lifetime (MEAL)</p>
 <p style="font-size: 10px; color: gray; text-align: center;">

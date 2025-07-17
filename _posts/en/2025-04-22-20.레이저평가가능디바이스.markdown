@@ -21,14 +21,14 @@ It is recommended to review actual cases conducted by us to determine whether ev
 Packages with structures like the image below are generally easy to de-capsulate from both front and back, making preprocessing for evaluation easy.
 
 <p align= "center">
-<img src="/assets/Articles/평가가능소자.png" style="width: 100%; max-width: 600px;" alt= "lead-frame type package">
+<img src="/assets/Articles/평가가능소자.webp" style="width: 100%; max-width: 600px;" alt= "lead-frame type package">
 </p>
 <p align= "center">Example of an evaluatable package type</p>
 
 However, even within these package types, evaluation may be restricted depending on the presence or form of the lead frame (as shown below).
 
 <p align= "center">
-<img src="/assets/Articles/메모리1.png" style="width: 100%; max-width: 300px;" alt= "De-capsulated TSSOP device">
+<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt= "De-capsulated TSSOP device">
 </p>
 <p align= "center">De-capsulated TSSOP device</p>
 
@@ -37,7 +37,7 @@ However, even within these package types, evaluation may be restricted depending
 For packages like BGA, where the entire underside of the chip is mounted onto the PCB using solder balls, only top-side de-capsulation is possible, making back-side evaluation virtually impossible.
 
 <p align= "center">
-<img src="/assets/Articles/평가불가능소자.png" style="width: 100%; max-width: 400px;" alt= "Substrate type package">
+<img src="/assets/Articles/평가불가능소자.webp" style="width: 100%; max-width: 400px;" alt= "Substrate type package">
 </p>
 <p align= "center">Example of a non-evaluatable package type (1)</p>
 
@@ -45,7 +45,7 @@ For BGA packages that only allow top-side de-capsulation, if the device has more
 Since a single device may be manufactured in various packaging forms, even if laser-based evaluation is difficult for a specific package structure, it may be effectively evaluated by selecting a more suitable package type with the same chip.
 
 <p align= "center">
-<img src="/assets/Articles/평가불가능소자2.png" style="width: 100%; max-width: 500px;" alt= "Substrate type package">
+<img src="/assets/Articles/평가불가능소자2.webp" style="width: 100%; max-width: 500px;" alt= "Substrate type package">
 </p>
 <p align= "center">Example of a non-evaluatable package type (2)</p>
 
@@ -59,7 +59,7 @@ Front-side evaluation was restricted due to the metal layer, and although lead f
 However, partial evaluation was performed through areas between the lead frames where the adhesive was removed, and potential SEE (Single Event Effects) were identified.
 
 <p align= "center">
-<img src="/assets/Articles/메모리1.png" style="width: 100%; max-width: 300px;" alt= "Memory">
+<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
 </p>
 <p align= "center">Memory (TSSOP) back side</p>
 
@@ -68,7 +68,7 @@ However, partial evaluation was performed through areas between the lead frames 
 The initially received device was a BGA-type memory, but a TSSOP (Thin Shrink Small Outline Package) version of the same device was secured. De-capsulation was possible only on the back side, and evaluation was successfully performed excluding the front.
 
 <p align= "center">
-<img src="/assets/Articles/메모리2.png" style="width: 100%; max-width: 300px;" alt= "Memory">
+<img src="/assets/Articles/메모리2.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
 </p>
 <p align= "center">Memory (TSSOP) back side</p>
 
@@ -77,7 +77,7 @@ The initially received device was a BGA-type memory, but a TSSOP (Thin Shrink Sm
 Although BGA (Ball Grid Array) packages are generally difficult to evaluate, this device, while front-side evaluation was restricted due to the metal layer, was easily evaluated on the back side thanks to the use of a flip-chip process.
 
 <p align= "center">
-<img src="/assets/Articles/메모리3.png" style="width: 100%; max-width: 300px;" alt= "Memory">
+<img src="/assets/Articles/메모리3.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
 </p>
 <p align= "center">Memory (BGA) back side</p>
 
@@ -86,7 +86,7 @@ Although BGA (Ball Grid Array) packages are generally difficult to evaluate, thi
 The lead frame covered the entire back of the chip, requiring removal. With detailed X-ray images and cooperation with the chip manufacturer, removable areas were identified. The lead frame was precisely removed without damaging the connection, enabling evaluation of over 90% of the chip area on the back side. The front side was restricted due to the metal layer.
 
 <p align= "center">
-<img src="/assets/Articles/메모리4.png" style="width: 100%; max-width: 300px;" alt= "Memory">
+<img src="/assets/Articles/메모리4.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
 </p>
 <p align= "center">Memory (TSSOP) back side</p>
 
@@ -95,7 +95,7 @@ The lead frame covered the entire back of the chip, requiring removal. With deta
 As a simple-structured SOIC-8 (Small Outline Integrated Circuit) device, the Op-Amp was easily de-capsulated and evaluated on both the front and back sides.
 
 <p align= "center">
-<img src="/assets/Articles/amp.png" style="width: 100%; max-width: 300px;" alt= "op-amp">
+<img src="/assets/Articles/amp.webp" style="width: 100%; max-width: 300px;" alt= "op-amp">
 </p>
 <p align= "center">Op-Amp (SOIC) front (left), back (right)</p>
 
@@ -104,7 +104,7 @@ As a simple-structured SOIC-8 (Small Outline Integrated Circuit) device, the Op-
 The ADC was also a simple DIP (Dual In-line Package) type device and was easily de-capsulated and evaluated from both sides.
 
 <p align= "center">
-<img src="/assets/Articles/adc.png" style="width: 100%; max-width: 300px;" alt= "adc">
+<img src="/assets/Articles/adc.webp" style="width: 100%; max-width: 300px;" alt= "adc">
 </p>
 <p align= "center">ADC (PDIP) front (left), back (right)</p>
 
@@ -113,7 +113,7 @@ The ADC was also a simple DIP (Dual In-line Package) type device and was easily 
 For Digital Isolators, de-capsulation on the front side caused the internal coil structure to unravel, so selective de-capsulation was performed to avoid affecting the coil. Although the back side had lead frames connected to multiple pins, partial removal was carried out within a safe range to enable evaluation from both front and back sides.
 
 <p align= "center">
-<img src="/assets/Articles/isolator.png" style="width: 100%; max-width: 300px;" alt= "isolator">
+<img src="/assets/Articles/isolator.webp" style="width: 100%; max-width: 300px;" alt= "isolator">
 </p>
 <p align= "center">Digital Isolator (SOIC) front (left), back (right)</p>
 

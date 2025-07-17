@@ -28,7 +28,7 @@ Radiation test infrastructure not only strengthens the foundation of the space i
 > KOMAC, located in Gyeongju, offers proton irradiation at 20MeV and 100MeV. The table below shows the specifications of the proton accelerator.
 
 <p align="center"> 
-  <img src="/assets/Articles/양성자과학연구단.png" alt="KOMAC 100MeV Proton Accelerator" style="width: 40%;">
+  <img src="/assets/Articles/양성자과학연구단.webp" alt="KOMAC 100MeV Proton Accelerator" style="width: 40%;">
 </p>
 
 <div align="center"> 
@@ -61,7 +61,7 @@ Radiation test infrastructure not only strengthens the foundation of the space i
 > Located in Nowon-gu, Seoul, KIRAMS provides 20–45MeV proton beams using the MC-50 Cyclotron. A cyclotron accelerates particles near the speed of light by circular motion in a magnetic field. The following table outlines the specifications.
 
 <p align="center"> 
-  <img src="/assets/Articles/KIRAMS.png" alt="KIRAMS MC-50 Cyclotron" style="width: 40%;">
+  <img src="/assets/Articles/KIRAMS.webp" alt="KIRAMS MC-50 Cyclotron" style="width: 40%;">
 </p>
 
 <div align="center"> 

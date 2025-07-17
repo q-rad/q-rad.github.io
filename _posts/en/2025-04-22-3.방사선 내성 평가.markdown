@@ -29,7 +29,7 @@ In space or high-altitude environments, high-energy particles and radiation (pro
 
 <div style="overflow: hidden;">
   <!-- Image -->
-  <img src="/assets/Articles/space2.png" style="float: right; margin: 10px 0 20px 20px; width: 100%; max-width: 400px;">
+  <img src="/assets/Articles/space2.jpg" style="float: right; margin: 10px 0 20px 20px; width: 100%; max-width: 400px;">
 
   <!-- Text -->
   <p>

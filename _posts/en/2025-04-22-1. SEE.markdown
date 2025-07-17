@@ -19,7 +19,7 @@ SEE (Single Event Effect) occurs when radiation (protons, neutrons, heavy ions, 
 SEE manifests in various phenomena within semiconductor devices. One such manifestation is the Single Event Upset (SEU), often referred to as a "soft error." SEU is a temporary logical error that changes the stable logic state of circuits with bi-stable functions such as latches, flip-flops, or memory cells due to a single particle-induced upset. For instance, an SEU in a memory cell may change a stored logic value from '0' to '1' or vice versa. However, rewriting the value as '0' or '1' returns the system to normal operation, thus classifying it as a soft error. <br/>
 
 <p align="center"> 
-  <img src="/assets/Articles/SEE체계도.png" alt= "SEE structure diagram">
+  <img src="/assets/Articles/SEE체계도.webp" alt= "SEE structure diagram">
 </p>
 
 <div align="center"> 
@@ -52,7 +52,7 @@ SCU (Single Cell Upset)
 This is an SEU that affects only a single cell or logic bit (latch, flip-flop, etc.), as opposed to an MCU.
 
 <p align="center"> 
-  <img src="/assets/Articles/SCU.png">
+  <img src="/assets/Articles/SCU.webp">
 </p>
 <div align="center"> 
 <h5>SCU</h5>
@@ -78,7 +78,7 @@ MCU (Multi-Cell Upset)
 </summary>
 An event that simultaneously flips multiple cells (e.g., memory cells or flip-flops) in an integrated circuit. These cells are often physically adjacent but may not be logically adjacent depending on layout and routing.
 <p align="center"> 
-  <img src="/assets/Articles/MCU.png">
+  <img src="/assets/Articles/MCU.webp">
 </p>
 <div align="center"> 
 <h5>MCU</h5>

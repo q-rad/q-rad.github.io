@@ -28,7 +28,7 @@ order: 1001
 
 <div style="overflow: hidden;">
   <!-- 이미지 -->
-  <img src="/assets/Articles/space2.jpg" style="float: right; margin: 10px 0 20px 20px; width: 100%; max-width: 400px;">
+  <img src="/assets/Articles/space2.jpg" style="float: right; margin: 10px 0 20px 20px; width: 100%; max-width: 400px;" alt= "방사선 내성 평가(Radiation hardness)">
 
   <!-- 텍스트 -->
   <p>

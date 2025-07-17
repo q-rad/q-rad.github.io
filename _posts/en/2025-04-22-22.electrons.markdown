@@ -29,7 +29,7 @@ When an incident electron interacts with the nucleus and slows down, it can emit
 This phenomenon results in a continuous energy spectrum, and the maximum energy of emitted photons depends on the kinetic energy of the incident electron.
 
 <p align= "center">
-<img src="/assets/Articles/전자산란.png" style="width: 100%; max-width: 500px;" alt= "Electron Scattering">
+<img src="/assets/Articles/전자산란.webp" style="width: 100%; max-width: 500px;" alt= "Electron Scattering">
 </p>
 <p align= "center">Electron Scattering</p>
 <p style="font-size: 10px; color: gray; text-align: center;">

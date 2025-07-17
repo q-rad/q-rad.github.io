@@ -25,12 +25,12 @@ DD는 다음과 같은 네 가지 주요 메커니즘을 통해 발생합니다.
 4. 고에너지 2차 입자의 정지 및 포논 상호작용(Energetic secondary particles stop): 에너지를 잃고 정지한 고에너지 2차 입자가 포논과 상호작용하며 인접 원자들의 진동을 증폭시켜 국지적 온도 상승 효과를 일으킵니다.
 
 <p align= "center">
-<img src="/assets/Articles/DD.png" style="width: 100%; max-width: 500px;" alt= "Displacement Damage(변위손상)">
+<img src="/assets/Articles/DD.webp" style="width: 100%; max-width: 500px;" alt= "Displacement Damage(변위손상)">
 </p>
 <p align= "center">Displacement Damage - 핵 탄성 반응</p>
 
 <p align= "center">
-<img src="/assets/Articles/전자산란.png" style="width: 100%; max-width: 500px;" alt= "전자 산란">
+<img src="/assets/Articles/전자산란.webp" style="width: 100%; max-width: 500px;" alt= "전자 산란">
 </p>
 <p align= "center">전자 산란</p>
 <p style="font-size: 10px; color: gray; text-align: center;">

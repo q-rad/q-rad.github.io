@@ -18,7 +18,7 @@ Even a small region of silicon penetrated by a heavy ion can experience a sudden
 As ions pass through, the generated charge is distributed cylindrically, with lengths ranging from tens to hundreds of microns and radii in the nanometer range. If this occurs in deep substrate areas or metal layers without circuits, it may not pose a problem. However, if it affects layers with sensitive circuits, the resulting charge can disrupt the circuit and cause malfunctions.
 
 <p align="center"> 
-  <img src="/assets/Articles/LET.png" alt= "Generation of electron-hole pairs by charged particle in semiconductor" style="width: 70%;">
+  <img src="/assets/Articles/LET.webp" alt= "Generation of electron-hole pairs by charged particle in semiconductor" style="width: 70%;">
 </p>
 
 <!-- Image Caption -->

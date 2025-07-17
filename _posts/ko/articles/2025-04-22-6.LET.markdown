@@ -16,7 +16,7 @@ LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에�
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Articles/LET.png" alt= "전하를 띤 입자에 의한 전자-전공 쌍 생성 과정" style="width: 70%;">
+  <img src="/assets/Articles/LET.webp" alt= "전하를 띤 입자에 의한 전자-전공 쌍 생성 과정" style="width: 70%;">
 </p>
 
 <!-- 이미지 설명 -->

@@ -25,7 +25,7 @@ Because photons carry no charge, they do not cause the same interactions as char
 
 Below are the three primary mechanisms by which photons transfer energy:
 
-<p align="center"> <img src="/assets/Articles/선스펙트럼.png" alt="Diagram illustrating the electromagnetic spectrum" style="width: 40%;"> </p>
+<p align="center"> <img src="/assets/Articles/선스펙트럼.webp" alt="Diagram illustrating the electromagnetic spectrum" style="width: 40%;"> </p>
 <!-- Image description -->
 <div align="center">
 <h5>Diagram illustrating the electromagnetic spectrum</h5>

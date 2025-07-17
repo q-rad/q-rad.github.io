@@ -26,7 +26,7 @@ QRT가 보유한 레이저 장비는 650nm에서 1650nm에 이르는 광범위�
 하단의 이미지와 같은 방식의 패키지는 일반적으로 전/후면 모두 De-capsulation(패키징의 제거)이 용이하기에 평가를 위한 전처리에 수월합니다. 
 
 <p align= "center">
-<img src="/assets/Articles/평가가능소자.png" style="width: 100%; max-width: 600px;" alt= "lead-frame type package">
+<img src="/assets/Articles/평가가능소자.webp" style="width: 100%; max-width: 600px;" alt= "lead-frame type package">
 </p>
 <p align= "center">평가 가능 한 패키지 타입의 예</p>
 
@@ -34,7 +34,7 @@ QRT가 보유한 레이저 장비는 650nm에서 1650nm에 이르는 광범위�
 하지만 상위의 패키지 타입이라도 리드프레임의 여부 또는 형태에 따라서 평가가 제한될 수 있습니다. (아래 예시의 경우)
 
 <p align= "center">
-<img src="/assets/Articles/메모리1.png" style="width: 100%; max-width: 300px;" alt= "De-capsulation 된 TSSOP 소자">
+<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt= "De-capsulation 된 TSSOP 소자">
 </p>
 <p align= "center">De-capsulation 된 TSSOP소자</p>
 
@@ -46,7 +46,7 @@ QRT가 보유한 레이저 장비는 650nm에서 1650nm에 이르는 광범위�
 BGA와 같이 칩 하부 전면이 솔더볼을 통해 PCB에 실장되는 패키지 구조에서는, 칩 상부를 통한 De-capsulation만이 가능하며, 하부를 통한 평가는 사실상 불가능합니다.
 
 <p align= "center">
-<img src="/assets/Articles/평가불가능소자.png" style="width: 100%; max-width: 400px;" alt= "Sub-Strate type package">
+<img src="/assets/Articles/평가불가능소자.webp" style="width: 100%; max-width: 400px;" alt= "Sub-Strate type package">
 </p>
 <p align= "center">평가 불가능 한 패키지 타입의 예 (1)</p>
 
@@ -54,7 +54,7 @@ BGA와 같이 칩 하부 전면이 솔더볼을 통해 PCB에 실장되는 패�
 BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 Metal층이 3 layer 이상(메모리, 프로세서 등 복잡한 소자)이면 레이저로 평가가 불가능할 가능성이 높습니다. 하지만 이 경우에도 Flip-Chip 방식의 패키징일 경우 칩 하부를 통한 평가가 가능합니다.
 <br>하나의 소자가 단일 패키지 형태가 아닌 다양한 패키징 형태로 생산되는 경우가 많기 때문에, 특정 패키지 타입의 구조적 제약으로 인해 레이저 기반 평가가 어려울 경우에도, 동일한 칩이 적용된 보다 적합한 패키지 타입을 선택함으로써 효과적인 평가가 가능합니다.
 <p align= "center">
-<img src="/assets/Articles/평가불가능소자2.png" style="width: 100%; max-width: 500px;" alt= "Sub-Strate type package">
+<img src="/assets/Articles/평가불가능소자2.webp" style="width: 100%; max-width: 500px;" alt= "Sub-Strate type package">
 </p>
 <p align= "center">평가 불가능 한 패키지 타입의 예 (2)</p>
 
@@ -70,7 +70,7 @@ BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 M
 다만 Lead Frame 사이의 접착제가 제거된 부분으로 일부분 평가가 가능하였고, SEE(Single Event Effects) 발생 가능성을 예측하였습니다.
 
 <p align= "center">
-<img src="/assets/Articles/메모리1.png" style="width: 100%; max-width: 300px;" alt= "메모리">
+<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt= "메모리">
 </p>
 <p align= "center">Memory(TSSOP) 후면</p>
 
@@ -78,7 +78,7 @@ BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 M
 처음 들어온 소자는 BGA 타입의 메모리 소자였지만, 같은 소자의 TSSOP(Thin Shrink Small Outline Package) 타입을 확보하여 후면에 대해서만 De-capsulation이 가능하였으며, 이를 바탕으로 전면을 제외한 후면의 평가를 성공적으로 수행하였습니다.
 
 <p align= "center">
-<img src="/assets/Articles/메모리2.png" style="width: 100%; max-width: 300px;" alt= "메모리">
+<img src="/assets/Articles/메모리2.webp" style="width: 100%; max-width: 300px;" alt= "메모리">
 </p>
 <p align= "center">Memory(TSSOP) 후면</p>
 
@@ -86,7 +86,7 @@ BGA처럼 칩 상부를 통한 De-capsulation만 가능한 경우에 소자의 M
 BGA(Ball Grid Array) 패키지는 일반적인 평가 접근이 어려운 구조이나, 해당 소자는 Metal Layer로 인해 전면은 평가가 제한되었지만, 후면은 Flip-Chip 공정이 적용되어 있어 손쉽게 평가 수행이 가능하였습니다.
 
 <p align= "center">
-<img src="/assets/Articles/메모리3.png" style="width: 100%; max-width: 300px;" alt= "메모리">
+<img src="/assets/Articles/메모리3.webp" style="width: 100%; max-width: 300px;" alt= "메모리">
 </p>
 <p align= "center">Memory(BGA) 후면</p>
 
@@ -94,7 +94,7 @@ BGA(Ball Grid Array) 패키지는 일반적인 평가 접근이 어려운 구조
 Lead Frame이 칩 후면부 전체를 덮고 있는 형태라서 제거가 필요하였습니다. 칩 제작 업체와 정밀하게 촬영한 엑스레이를 통해서 제거 가능한 Lead Frame 영역을 확인하였고, Lead Frame과의 연결에 손상이 적게 정밀하게 제거함으로써 후면 기준 전체 칩 면적의 90% 이상에 대해 평가가 가능하였습니다. 전면은 Metal Layer로 인해 평가가 제한되었습니다.
 
 <p align= "center">
-<img src="/assets/Articles/메모리4.png" style="width: 100%; max-width: 300px;" alt= "메모리">
+<img src="/assets/Articles/메모리4.webp" style="width: 100%; max-width: 300px;" alt= "메모리">
 </p>
 <p align= "center">Memory(TSSOP) 후면</p>
 
@@ -102,7 +102,7 @@ Lead Frame이 칩 후면부 전체를 덮고 있는 형태라서 제거가 필�
 Op-Amp는 일반적인 SOIC-8(Small Outline Integrated Circuit) 패키지로 구성된 단순한 구조의 소자이므로, 전/후면 모두 비교적 수월하게 De-capsulation 및 평가를 수행할 수 있었습니다.
 
 <p align= "center">
-<img src="/assets/Articles/amp.png" style="width: 100%; max-width: 300px;" alt= "op-amp">
+<img src="/assets/Articles/amp.webp" style="width: 100%; max-width: 300px;" alt= "op-amp">
 </p>
 <p align= "center">Op-Amp (SOIC) 전면(좌),후면(우)</p>
 
@@ -110,7 +110,7 @@ Op-Amp는 일반적인 SOIC-8(Small Outline Integrated Circuit) 패키지로 구
 ADC 또한 구조가 단순한 DIP(Dual In-line Package) 타입 소자로, 전/후면 모두 De-capsulation 및 평가 과정이 비교적 수월하게 진행되었습니다.
 
 <p align= "center">
-<img src="/assets/Articles/adc.png" style="width: 100%; max-width: 300px;" alt= "adc">
+<img src="/assets/Articles/adc.webp" style="width: 100%; max-width: 300px;" alt= "adc">
 </p>
 <p align= "center">ADC (PDIP) 전면(좌),후면(우)</p>
 
@@ -118,7 +118,7 @@ ADC 또한 구조가 단순한 DIP(Dual In-line Package) 타입 소자로, 전/�
 Digital Isolator의 경우, 전면 De-capsulation 시 내부 코일 구조가 풀리는 문제가 있어, 코일을 제외한 영역에 대해 선택적으로 De-capsulation을 진행하였습니다. 후면은 Lead Frame이 다수의 핀들과 연결되어 있어 일반적인 방식으로는 제거가 어려웠으나, 소자의 정상 동작에 영향을 주지 않는 범위 내에서 Lead Frame을 국부적으로 제거함으로써 전/후면 모두 평가를 가능하게 하였습니다."
 
 <p align= "center">
-<img src="/assets/Articles/isolator.png" style="width: 100%; max-width: 300px;" alt= "isolator">
+<img src="/assets/Articles/isolator.webp" style="width: 100%; max-width: 300px;" alt= "isolator">
 </p>
 <p align= "center">Digital Isolator (SOIC) 전면(좌),후면(우)</p>
 

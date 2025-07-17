@@ -15,7 +15,7 @@ order: 2004
 NASA/TM–20205011579 문서는 NASA 임무에서 COTS EEE parts(상용 전자 부품)를 사용할 때의 권장사항을 기술한 공식 지침입니다. COTS에 대한 SEE(단일 이벤트 효과) 평가 시 Laser 평가를 주요 평가 방법 중 하나로 명시하고 있습니다. 해당 문서에서는 SEE 평가 항목으로 피코초 레이저 평가, 중이온 및 양성자 평가, 그리고 Cf-252 스크리닝 등을 제시하고 있으며, Laser를 활용한 방사선 내성 평가는 방사선 소스들 보다 앞서서 기술 될 정도로 COTS를 평가하는 데 있어서 효율적인 평가 방법 중 하나 입니다.
  
 <p align= "center">
-<img src="/assets/Articles/적용근거.png" style="width: 100%; max-width: 700px;" alt= "Recommendations on Use of 
+<img src="/assets/Articles/적용근거.webp" style="width: 100%; max-width: 700px;" alt= "Recommendations on Use of 
 Commercial-Off-The-Shelf (COTS) <br>Electrical,
 Electronic, and Electromechanical (EEE) Parts 
 for NASA Missions">
@@ -36,7 +36,7 @@ for NASA Missions</p>
 <br>
 
 <p align= "center">
-<img src="/assets/Articles/적용근거1.png" style="width: 100%; max-width: 700px;" alt= "Guidelines for Verification Strategies to 
+<img src="/assets/Articles/적용근거1.webp" style="width: 100%; max-width: 700px;" alt= "Guidelines for Verification Strategies to 
 Minimize RISK Based On  
 Mission Environment, -Application and  –Lifetime (MEAL)">
 </p>

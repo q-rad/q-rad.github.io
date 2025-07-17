@@ -29,7 +29,7 @@ Furthermore, GEO is situated in a region with reduced geomagnetic shielding, mak
 
 <br>
 <p align="center"> 
-  <img src="/assets/Articles/leogeo.png" alt= "LEO satellite (left) and GEO satellite (right)" style="width: 70%;">
+  <img src="/assets/Articles/leogeo.webp" alt= "LEO satellite (left) and GEO satellite (right)" style="width: 70%;">
 </p>
 
 <!-- Image Caption -->
@@ -43,7 +43,7 @@ Geostationary Transfer Orbit (GTO) is an intermediate elliptical orbit used to p
 This transition typically uses a Hohmann transfer, which is known to be one of the most fuel-efficient orbital maneuvers.
 
 <p align="center"> 
-  <img src="/assets/Articles/gto.png" alt= "Geostationary transfer orbit" style="width: 50%;">
+  <img src="/assets/Articles/gto.webp" alt= "Geostationary transfer orbit" style="width: 50%;">
 </p>
 
 <!-- Image Caption -->

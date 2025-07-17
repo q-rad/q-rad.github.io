@@ -15,7 +15,7 @@ The number of laser evaluations on COTS devices increased significantly over the
 Laser technology is already being used worldwide as an alternative source to evaluate COTS. This is likely because laser testing can be performed at a relatively low cost.
 
 <p align="center"> 
-  <img src="/assets/Articles/COTS NSSC.png" style="width: 80%; max-width: 450px;" alt="2020-2022 COTS Devices for Laser test in Chinese Institute">
+  <img src="/assets/Articles/COTS NSSC.webp" style="width: 80%; max-width: 450px;" alt="2020-2022 COTS Devices for Laser test in Chinese Institute">
 </p>
 <p align="center"> 2020-2022 COTS Devices for Laser Test in Chinese Institute </p>
 
@@ -29,11 +29,11 @@ In particular, the high proportion of Laser + Heavy Ion usage suggests that a pr
 <table align="center" style="border: none; border-collapse: collapse; width: 100%;">
   <tr>
     <td align="center" style="border: none; width: 50%;">
-      <img src="/assets/Articles/NRNU MEPhI SPELS.png" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt="Actual rate of conducted test in NRNU(2015)">
+      <img src="/assets/Articles/NRNU MEPhI SPELS.webp" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt="Actual rate of conducted test in NRNU(2015)">
       <div style="margin-top: 10px;">Actual rate of conducted tests in NRNU (2015)</div>
     </td>
     <td align="center" style="border: none; width: 50%;">
-      <img src="/assets/Articles/NRNU MEPhI SPELS 2.png" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt="Laser tests fraction during last three years">
+      <img src="/assets/Articles/NRNU MEPhI SPELS 2.webp" style="height: auto; max-height: 350px; width: 100%; max-width: 450px;" alt="Laser tests fraction during last three years">
       <div style="margin-top: 10px;">Laser test fraction over the past three years at NRNU</div>
     </td>
   </tr>

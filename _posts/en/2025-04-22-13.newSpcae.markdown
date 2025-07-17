@@ -10,7 +10,7 @@ order: 3000
 lang: en
 ---
 
-<img src="/assets/Articles/newSpace.png" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 300px;">
+<img src="/assets/Articles/newSpace.webp" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 300px;">
 
 There was a time when space was considered the exclusive domain of nations.  
 During the Cold War, intense competition between the U.S. and the Soviet Union shaped space development into a government-led endeavor requiring astronomical budgets, long development timelines, and strict certification procedures.  

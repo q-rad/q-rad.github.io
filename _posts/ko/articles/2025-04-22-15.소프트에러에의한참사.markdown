@@ -17,7 +17,7 @@ order: 1006
 사고의 원인이 되는 장비의 소프트 오류율은 3/0.128 = 23.44 FIT로 오류 수정의 기능이 없는 메모리의 경우 운항 고도인 37,000피트에서 소프트 오류율이 수천 배 더 높기 때문에 잘못 예측된 값입니다. 따라서 실 환경에서 일어나는 "글리치(Glitch, 작은 문제)" 비율은 일반적으로 훨씬 더 높습니다. 이 소프트 오류율을 바탕으로 한 여러 복합적인 처방이 사고를 방지할 수 있었으나 부정확한 소프트 오류율로 인해 사고를 피하지 못하였습니다.
   <!-- 이미지 -->
 <p align= "center">
-<img src="/assets/Articles/콴타스72편의피해모습.png" style="width: 100%; max-width: 400px;" alt= "콴타스 72편의 피해 모습">
+<img src="/assets/Articles/콴타스72편의피해모습.webp" style="width: 100%; max-width: 400px;" alt= "콴타스 72편의 피해 모습">
 </p>
 <p align= "center">콴타스 72편의 피해 모습</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
@@ -31,7 +31,7 @@ order: 1006
 
   <p>'T'사의 자동차에서 일어난 급발진은 많은 사상자와 재산 피해를 가져왔습니다. 미국 나사의 연구기관중 가장 선진 기술을 보유한 미국 JPL(Jet Propulsion Laboratory)에서 원인 규명을 위한 조사를 시작하였습니다. 아래 그림은 그 당시 일반 국민들의 궁금증과 두려움을 잠재우기 위한 목적으로 JPL에서 발간한 내용으로 소프트에러가 우리의 안전과 재산에 영향을 미칠 수 있다는 내용을 담고 있습니다.</p>
 <p align= "center">
-<img src="/assets/Articles/급발진.png" style= "width: 100%; max-width: 400px;" alt= "T사 자동차의 급발진">
+<img src="/assets/Articles/급발진.webp" style= "width: 100%; max-width: 400px;" alt= "T사 자동차의 급발진">
 </p>
 <p align= "center">'T'사 자동차의 급발진</p>
    <p style="font-size: 10px; color: gray; text-align: center;">
