@@ -36,7 +36,7 @@ The presentations by Mr. Deok-Hong Min of KAI and Dr. Hyuk-Jae Lee of QRT were p
 > He pointed out that current heavy ion facilities are severely limited compared to demand, making alternatives essential. In this context, he emphasized that laser-based testing enables domestic measurement and evaluation without the need for radioactive sources, providing a simple and accessible method for identifying semiconductor vulnerabilities.
 
 <p align="center">
-<img src="/assets/Articles/큐알티.png" style="width: 100%; max-width: 700px;" alt="Dr. Hyuk-Jae Lee presents on QRT's heavy ion alternative laser test technology">
+<img src="/assets/Articles/큐알티.webp" style="width: 100%; max-width: 700px;" alt="Dr. Hyuk-Jae Lee presents on QRT's heavy ion alternative laser test technology">
 </p>
 <p style="font-size: 10px; color: gray; text-align: center;">
   Dr. Hyuk-Jae Lee presenting on QRT's alternative heavy ion source development
@@ -45,7 +45,7 @@ The presentations by Mr. Deok-Hong Min of KAI and Dr. Hyuk-Jae Lee of QRT were p
 <br>
 
 <p align="center">
-<img src="/assets/Articles/우주항공청.png" style="width: 100%; max-width: 700px;" alt="Director Hoon Park presents Aerospace Agency R&D Strategy">
+<img src="/assets/Articles/우주항공청.webp" style="width: 100%; max-width: 700px;" alt="Director Hoon Park presents Aerospace Agency R&D Strategy">
 </p>
 
 <p style="font-size: 10px; color: gray; text-align: center;">

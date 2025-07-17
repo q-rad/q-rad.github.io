@@ -15,24 +15,18 @@ order: 3003
 With the growing involvement of the private sector in the space industry, Commercial Off-The-Shelf (COTS) products are gaining attention as an alternative for space system development.  
 Unlike traditional space-grade components that are expensive and take long development times, COTS components are mass-produced in the commercial market, offering various advantages such as cost reduction, shorter development time, and rapid adoption of the latest technologies.  
 These characteristics make them particularly attractive for startups and small research institutions.
-
+<br>
 In terms of cost, COTS components benefit from economies of scale, reducing overall system costs.  
 Regarding development time, using already verified products significantly shortens the time required for design, manufacturing, and testing.  
 Another major advantage is the ability to quickly apply high-performance technologies that evolve rapidly in the commercial sector to space systems.  
 However, despite these advantages, utilizing COTS components comes with important challenges related to reliability, quality, and environmental resistance.
-
-<br/>
-
+<br>
 Since COTS components are designed for terrestrial environments, they may degrade or fail when exposed to extreme temperatures, radiation, and vacuum in space.  
 The lack of quality certification and guaranteed long-term durability can pose significant risks to space missions.
-
 <br/>
-
 To mitigate these risks, thorough testing and screening are essential, along with system-level redundancy, fault-tolerant design, and protective measures such as radiation shielding and thermal control.  
 An integrated approach across the entire system—not just at the component level—is necessary.
-
 <br/>
-
 In conclusion, while COTS components can play a key role in enhancing the speed and cost-efficiency of space development, their use must be supported by systematic verification and complementary strategies.  
 A careful approach that balances opportunity and risk is essential for successful space missions.
 

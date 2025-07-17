@@ -35,7 +35,7 @@ lang: ko
 
 
 <p align= "center">
-<img src="/assets/Articles/큐알티.png" style="width: 100%; max-width: 700px;" alt= "QRT 이혁재 박사님의 중이온 대체 소스 기술개발 현황">
+<img src="/assets/Articles/큐알티.webp" style="width: 100%; max-width: 700px;" alt= "QRT 이혁재 박사님의 중이온 대체 소스 기술개발 현황">
 </p>
 <p style="font-size: 10px; color: gray; text-align: center;">
   QRT 이혁재 박사님의 중이온 대체 소스 기술개발 현황
@@ -44,7 +44,7 @@ lang: ko
 <br>
 
 <p align= "center">
-<img src="/assets/Articles/우주항공청.png" style="width: 100%; max-width: 700px;" alt="우주항공청 박훤 임무지원단장님의 우주항공청 R&D전략">
+<img src="/assets/Articles/우주항공청.webp" style="width: 100%; max-width: 700px;" alt="우주항공청 박훤 임무지원단장님의 우주항공청 R&D전략">
 </p>
 
 <p style="font-size: 10px; color: gray; text-align: center;">

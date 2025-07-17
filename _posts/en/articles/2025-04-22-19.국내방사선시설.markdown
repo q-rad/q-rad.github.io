@@ -92,7 +92,7 @@ Radiation test infrastructure not only strengthens the foundation of the space i
 > Located in Jeongeup, ARTI provides gamma irradiation facilities from 0.5kCi up to 470kCi. Using gamma rays from Co<sup>60</sup>, ARTI provides precision irradiation services for agriculture, aerospace, and basic science applications.
 
 <p align="center"> 
-  <img src="/assets/Articles/ARTI.png" alt="ARTI Low-Dose Gamma Irradiation Facility" style="width: 40%;">
+  <img src="/assets/Articles/ARTI.webp" alt="ARTI Low-Dose Gamma Irradiation Facility" style="width: 40%;">
 </p>
 
 <div align="center"> 
