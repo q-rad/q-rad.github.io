@@ -36,7 +36,8 @@ date_format: "" #"%Y-%M-%D"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+  - jekyll-sitemap
+  
 category_dir: category/
 manuals_dir: manuals/
 tag_dir: tag/
