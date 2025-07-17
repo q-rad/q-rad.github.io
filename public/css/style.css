@@ -421,12 +421,22 @@ table td {
 		flex-direction: column;
 	}
 
-	.sidebar {
+	.sidebar { 
+		position: fixed;
+		width: 100%;
+		background-color: transparent;
 		font-size: 0.65em;
 		flex: 0 0 auto;
 		flex-flow: row nowrap;
 		height: auto;
+		transition: background-color 0.4s ease, color 0.4s ease;
 	}
+
+	/* 스크롤 시 바뀔 상태 */
+.sidebar.scrolled {
+  background-color: #222;
+}
+
 
 	.sidebar-nav {
 		margin: 5px;
@@ -998,9 +1008,7 @@ table td {
 /* 햄버거 버튼 (모바일 전용, 오른쪽 상단 고정) */
 .hamburger {
   display: none;
-  position: fixed;
-  top: 16px;
-  right: 16px;
+  padding-left: 5%;
   z-index: 10001;
   background: none;
   border: none;
