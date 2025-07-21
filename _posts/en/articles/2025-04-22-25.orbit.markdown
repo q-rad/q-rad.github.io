@@ -1,98 +1,125 @@
 ---
 layout: post
-title: Radiation Assessment for Satellite Orbits (LEO, GEO)
-description: Compares radiation environments across LEO, GEO, and GTO orbits, including key sources like trapped particles, solar flares, and cosmic rays. Explains evaluation criteria such as TID and SEE, shielding requirements, and mission-specific considerations.
+title: Satellite Orbits (LEO, GEO) and Radiation Assessment
+description: This article compares and analyzes space radiation environments and radiation hardness evaluation criteria (TID, SEE, GCR, SPE, etc.) for various orbits such as LEO, GEO, and GTO. It also provides a detailed explanation of dominant radiation sources per orbit and the necessity of shielding.
 date: 2025-03-11 00:00:00 +0900
 category: article
+lang: en
 permalink: en/article/:title.html
 sub_category: Space Environment & Space-Grade Electronics
 order: 3006
-lang: en
 ---
 
 # LEO (Low Earth Orbit)
-LEO is an orbit located at an altitude of approximately 2,000 km or less above Earth's surface, positioned between the Earth's atmosphere and the Van Allen belts. While LEO is less affected by Solar Protons and Galactic Cosmic Rays (GCR), it is significantly influenced by trapped radiation in the Van Allen belts.
-
-This orbit is widely used in fields such as communications, weather observation, and scientific exploration, and the majority of currently operating satellites are located here. Due to its proximity to Earth, it enables high-resolution imaging, with mission durations typically ranging from 2 to 5 years. The International Space Station (ISS), for example, is in LEO and orbits Earth about 15.7 times per day at a speed of 27,744 km/h.
-
-Because the radiation environment is relatively mild, even Commercial Off-The-Shelf (COTS) components can be used, making it suitable for mega-constellations through cost-effective mass deployment.
+LEO refers to an orbit formed below an altitude of approximately 2,000 km above Earth's surface, situated between the atmosphere and the Van Allen belts.  
+This orbit is relatively less affected by solar protons and galactic cosmic rays (GCR), but significantly influenced by trapped radiation from the Van Allen belts.  
+LEO is widely used for telecommunications, weather observation, and scientific missions, and the majority of currently operating satellites are located in this region.  
+Due to its proximity to Earth, high-resolution imaging is possible, and mission durations typically range from 2 to 5 years.  
+For example, the International Space Station (ISS) is in LEO, orbiting the Earth approximately 15.7 times per day at about 27,744 km/h.  
+Since the radiation environment is relatively benign, it is possible to use Commercial Off-The-Shelf (COTS) components, making LEO well-suited for low-cost, large-scale satellite constellations.
 
 ### VLEO (Very Low Earth Orbit)
-VLEO refers to very low Earth orbit, located approximately 180–400 km above the Earth. Its proximity enables ultra-high-resolution imaging and low communication latency. However, atmospheric drag causes high fuel consumption and shorter satellite lifespans. There is virtually no trapped radiation in this region, and the main radiation source is solar protons.
+VLEO lies at an altitude of approximately 180–400 km.  
+Its close proximity to Earth allows for ultra-high-resolution imaging and reduced communication latency.  
+However, atmospheric drag causes high propellant consumption and short mission lifetimes.  
+Trapped radiation is nearly absent in this region, with solar protons being the dominant radiation source.
 
-# GEO (Geostationary Orbit)
-GEO is positioned approximately 35,786 km above the Earth's surface. A satellite in GEO orbits the Earth at the same rotational speed, appearing stationary from the ground. This orbit lies above the equator and completes one orbit per day.
+# MEO (Medium Earth Orbit)
+MEO spans altitudes from approximately 2,000 km to 35,786 km.  
+Orbital periods range from 2 to 24 hours, with most satellites in this region orbiting every 10–12 hours.  
+Compared to GEO, MEO offers lower latency and broader coverage than LEO with fewer satellites.  
+However, it lies within the Van Allen radiation belts, leading to greater radiation exposure.  
+Radiation-hardened design is essential in this environment.  
+Navigation satellites such as GPS and Galileo operate in MEO.
 
-It is ideal for applications requiring continuous ground observation, such as communications, broadcasting, and weather satellites. Ground antennas can be fixed in one direction, offering stable operation. However, due to the high altitude, it suffers from greater signal latency and cannot effectively observe polar regions. Launching to GEO is also more expensive.
+# GEO (Geostationary Earth Orbit)
+GEO lies at an altitude of approximately 35,786 km, where satellites revolve at the same angular speed as Earth’s rotation, appearing stationary from the ground.  
+It is located above the equator and completes one orbit per day.  
+This makes GEO ideal for continuous observation missions such as telecommunications, broadcasting, and weather satellites.  
+Ground station antennas can be fixed in one direction for consistent coverage.  
+However, high altitude results in significant signal latency and limits polar coverage. Launch costs are also higher.  
+GEO is more exposed to high-energy particles due to reduced geomagnetic protection compared to LEO.  
 
-Furthermore, GEO is situated in a region with reduced geomagnetic shielding, making it more exposed to high-energy particles compared to LEO.
+There are two main methods by which satellites enter GEO:  
+The first is chemical propulsion, where the satellite is launched into GTO (Geostationary Transfer Orbit), and then performs a single high-thrust burn at apogee to circularize into GEO.  
+The second is electric propulsion, where the satellite enters GTO and then gradually raises its orbit using low-thrust engines over several months.  
+During this period, the satellite completes hundreds of GTO orbits before reaching GEO altitude.  
+Historically, chemical propulsion was dominant due to fast orbit insertion, but electric propulsion is now increasingly favored for its lower launch mass and cost efficiency.
 
 <br>
 <p align="center"> 
-  <img src="/assets/Articles/leogeo.webp" alt= "LEO satellite (left) and GEO satellite (right)" style="width: 70%;">
+  <img src="/assets/Articles/leogeo.webp" alt= "Van Allen belt (purple region) and Earth orbits" style="width: 70%;">
 </p>
 
-<!-- Image Caption -->
+<!-- Image caption -->
 <div align="center"> 
-<h5>LEO satellite (left) and GEO satellite (right)</h5>
+<h5>Van Allen belt (purple region) and Earth orbits</h5>
 </div>
 
-# GTO (Geostationary Transfer Orbit)
-Geostationary Transfer Orbit (GTO) is an intermediate elliptical orbit used to place satellites into GEO. Its perigee lies at LEO altitude, while its apogee reaches approximately 35,786 km. Launch vehicles inject the satellite into the perigee of the GTO, and the satellite uses its own propulsion system at the apogee to circularize its orbit into GEO.
+### GTO (Geostationary Transfer Orbit)
+Geostationary Transfer Orbit (GTO) is an intermediate elliptical orbit used to transfer satellites to GEO.  
+Its perigee lies near LEO altitude, while its apogee reaches the GEO altitude of 35,786 km.  
+The launch vehicle delivers the satellite to GTO’s perigee.  
+Then, the satellite’s onboard propulsion performs a burn at apogee to circularize into GEO.  
+This transfer typically uses a **Hohmann transfer**, known for fuel efficiency.  
+In the diagram below, the yellow ellipse represents GTO, and the solid yellow line is the satellite trajectory.
 
-This transition typically uses a Hohmann transfer, which is known to be one of the most fuel-efficient orbital maneuvers.
-
+<br>
 <p align="center"> 
   <img src="/assets/Articles/gto.webp" alt= "Geostationary transfer orbit" style="width: 50%;">
 </p>
 
-<!-- Image Caption -->
+<!-- Image caption -->
 <div align="center"> 
 <h5>Geostationary transfer orbit</h5>
 </div>
 
-# Radiation Hardness Evaluation by Orbit
+# Radiation Assessment by Orbit
 
-LEO is strongly influenced by shielding effects from the Van Allen belts, which significantly reduce the impact of Solar Particle Events (SPE) and Galactic Cosmic Rays (GCR). The belts act like a cyclotron, trapping and accelerating particles, increasing their energy to levels harmful to semiconductors.
+LEO benefits significantly from the shielding effect of the Van Allen belts.  
+They reduce exposure to Solar Particle Events (SPE) and greatly attenuate galactic cosmic rays (GCR).  
+The belts act like a cyclotron, accelerating and trapping particles, increasing their energy beyond that of solar wind particles—potentially enough to disrupt electronics.  
 
-GEO, on the other hand, is vulnerable to solar flares. Although it lies outside the Van Allen belts, it still receives some geomagnetic shielding. The sunward side of the magnetosphere extends up to about 65,000 km, meaning GEO is still within its influence. However, trapped particles from the belts have little impact at GEO altitudes.
+GEO, in contrast, is vulnerable to high radiation, especially during solar flares.  
+Though GEO is outside the Van Allen belts, it still resides within the magnetosphere (~65,000 km), and transits through the belts during GTO transfers expose satellites to high radiation levels.  
+Trapped particles have minimal influence at GEO altitude.
 
 <br>
 
 <div align="center">
 
-| Category                         | **LEO (Low Earth Orbit)**                                                   | **GEO (Geosynchronous Orbit)**                               |
-|----------------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------|
-| **Main Radiation Source**        | - Trapped particles (protons/electrons)<br>- Van Allen belts               | - Solar Flares (SPE)<br>- Galactic Cosmic Rays (GCR)        |
-| **Trapped Particle Effects**     | Significant (especially when crossing SAA or polar regions)<br>→ Possible SEE | Minimal (outside Van Allen belts)                           |
-| **Solar Proton Events (SPE)**    | Low impact due to magnetospheric shielding<br>(SAA/polar regions affected) | Primary radiation source during flares (>10 MeV particles)  |
-| **GCR**                          | Very low due to geomagnetic shielding                                       | Over 6× stronger than LEO                                    |
-| **TID (Total Ionizing Dose)**    | - LEO-Zero: ~136 Rad<br>- LEO-ISS: ~430 Rad<br>- LEO-Polar: ~333 Rad       | - GEO: ~5,930 Rad<br>- GTO: ~59,630 Rad (highest)           |
-| **SEE Causes**                   | Trapped protons/electrons (especially in SAA)                               | Solar flares, GCR → high-energy particle collisions         |
-| **LET Influence**                | - Proton LET: 0.1–50 MeV range<br>- TID dominant factor                     | - Proton LET: 10–100+ MeV<br>- SEE is the main concern       |
-| **Shielding Requirements**       | Moderate (basic packaging may suffice)                                      | High (≥5 mm Al recommended)                                  |
-| **Application Examples**         | ISS, CubeSat, Earth observation satellites                                  | Communication/weather satellites, military GEO satellites     |
+| Item                             | **LEO (Low Earth Orbit)**                                               | **GEO (Geostationary Orbit)**                            |
+|----------------------------------|------------------------------------------------------------------------|----------------------------------------------------------|
+| **Primary Radiation Sources**    | - Trapped particles (protons/electrons)<br>- Van Allen belts           | - Solar flares (SPE)<br>- Galactic cosmic rays (GCR)     |
+| **Trapped Particle Impact**      | High (especially during SAA or polar crossings)<br>→ Can induce SEE     | Negligible (outside Van Allen belts)                     |
+| **SPE (Solar Proton Events)**    | Mitigated by geomagnetic shielding<br>(except polar/SAA)               | Major threat (10 MeV+ particles during flares)           |
+| **GCR Flux**                     | Very low due to magnetosphere                                          | 6× higher than in LEO                                     |
+| **TID (Total Ionizing Dose)**    | - LEO-Zero: ~136 rad<br>- LEO-ISS: ~430 rad<br>- LEO-Polar: ~333 rad   | - GEO: ~5,930 rad<br>- GTO: ~59,630 rad (highest)        |
+| **SEE Sources**                 | Trapped protons/electrons (esp. SAA)                                   | Solar flare, GCR → high-energy particle hits             |
+| **LET Impact**                  | - Protons: 0.1–50 MeV<br>- TID dominates                               | - Protons: 10–100 MeV+<br>- SEE is the primary concern    |
+| **Shielding Requirements**      | Moderate (basic packaging sufficient)                                  | High (≥5 mm aluminum recommended)                         |
+| **Typical Applications**        | ISS, CubeSats, Earth observation satellites                            | Communications, geostationary weather, military satellites |
 
 </div>
 
 <br>
 <br>
 
-**Reference**  
->Dalehite, K. A., & Xapsos, M. A. (2022). Mission Radiation Environment Modeling and Analysis (NASA STI/TP-20220016301). NASA Goddard Space Flight Center.
+**References**  
+>Dalehite, K. A., & Xapsos, M. A. (2022). *Mission Radiation Environment Modeling and Analysis (NASA STI/TP-20220016301)*. NASA Goddard Space Flight Center.
 
 <br>
 
 -------------------------------------
 
-<br/> <!-- line break -->
+<br/> <!-- Line break -->
 
-**Related Articles**
-- [Energy Transfer Mechanism of Photon](/en/article/21.photons.html)
-- [Energy Transfer Mechanism of Electron](/en/article/22.electrons.html)
-- [Energy Transfer Mechanism of Proton and Neutron](/en/article/23.Nucleons.html)
-- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
-- [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
-- [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
-- [What is DD (Displacement Damage)?](/en/article/18.DD.html)
-- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+**Related Articles**  
+- [Photon Energy Transfer Mechanism](/en/article/21.photons.html)  
+- [Electron Energy Transfer Mechanism](/en/article/22.electrons.html)  
+- [Proton and Neutron Energy Transfer Mechanism](/en/article/23.Nucleons.html)  
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)  
+- [What is TID (Total Ionizing Dose)?](/en/article/7.TID.html)  
+- [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)  
+- [What is Displacement Damage (DD)?](/en/article/18.DD.html)  
+- [Radiation Hardness Evaluation](/en/article/3.방사선-내성-평가.html)

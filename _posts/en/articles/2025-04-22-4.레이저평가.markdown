@@ -46,7 +46,7 @@ This makes it possible to identify and mitigate radiation vulnerabilities from t
 </table>
 
 ## QRT's Laser Evaluation Technology
-QRT is the only domestic company with many years of experience in performing laser-based radiation evaluation.  
+QRT is the only Korean company with many years of experience in performing laser-based radiation evaluation.  
 Using a femtosecond pulsed laser system, QRT possesses multipurpose laser evaluation technology capable of implementing both Single Photon Absorption (SPA) and Two Photon Absorption (TPA) methods.  
 QRT provides services for radiation hardness alternative evaluations of semiconductors using lasers, as well as radiation-tolerant semiconductor design validation.
 

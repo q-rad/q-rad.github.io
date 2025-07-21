@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is LET (Linear Energy Transfer)?
-description: LET (Linear Energy Transfer) measures the energy loss per unit distance of a particle traveling through material, crucial for understanding radiation effects in semiconductors.
+description: LET represents the energy loss per unit path length as a particle travels through matter. It is a key metric in evaluating how radiation affects semiconductor devices.
 date: 2025-03-25 00:00:00 +0900
 category: article
 lang: en
@@ -12,39 +12,32 @@ order: 1003
 
 # LET (Linear Energy Transfer)
 
-LET refers to the energy loss per unit path length of a particle as it traverses a material.  
-The unit of LET is MeV·cm<sup>2</sup>/mg, and the energy loss per unit length of the path (MeV/cm) is normalized by the density of the target material (mg/cm<sup>3</sup>).  
-This allows LET to be quoted independently of the specific target material.
+LET (Linear Energy Transfer) refers to the energy lost by a particle per unit path length as it passes through a material. The standard unit of LET is MeV·cm<sup>2</sup>/mg, which normalizes the energy loss (in MeV/cm) by the target material’s density (mg/cm<sup>3</sup>), allowing the value to be independent of the specific material.
 
-Ionization loss is a very important process in semiconductor devices, and the characteristics of this ionization process can be represented by LET — the energy accumulated per unit path length as the particle penetrates the target material.  
-Here, energy loss refers to the energy of the particle being dissipated as LET and accumulated in the target material.
+Ionization loss is a critical process in semiconductor devices, and LET is used to quantify the energy deposited per unit path length during this ionization process. This deposited energy represents the particle’s energy being transferred to the material as it slows down and interacts with atomic electrons.
 
-In general, LET can also be expressed in terms of energy per distance, such as MeV·cm<sup>-1</sup>, eV·nm<sup>-1</sup>, or keV·nm<sup>-1</sup>.  
-However, since the energy lost is proportional to the density of the material being penetrated, it is more useful to divide the linear energy transfer value by the density of the material.
+In general, LET can also be expressed in other units such as MeV·cm<sup>-1</sup>, eV·nm<sup>-1</sup>, or keV·nm<sup>-1</sup>. However, since energy loss scales with the density of the material, it is often more useful to normalize LET by that density. According to several JEDEC standards, LET is commonly reported in [MeV·cm<sup>2</sup>/mg], derived by dividing the energy loss (MeV/cm) by material density (mg/cm<sup>3</sup>), making it easier to compare across different environments.
 
-According to various JEDEC standards, LET is typically expressed in units of MeV·cm<sup>2</sup>/mg.  
-This value is calculated by dividing MeV·cm<sup>-1</sup> by the material density in mg/cm<sup>3</sup>.  
-Thus, LET normalized by the density of the target material is represented in units of MeV·cm<sup>2</sup>/mg.
+The following graph shows the depth-wise distribution of LET. It illustrates how a 5.49 MeV alpha particle traveling through air gradually increases its energy deposition until near the end of its path, where the rate of energy transfer rises sharply before dropping to zero — a characteristic known as the **Bragg Peak**. This peak represents the point where LET reaches its maximum.
 
-<!-- Centered Image -->
+<!-- Centered image -->
 <p align="center"> 
-  <img src="/assets/Articles/LET.webp" alt="Electron-hole pair generation by charged particles" style="width: 70%;">
+  <img src="/assets/Articles/Bragg curve.webp" alt="Bragg curve of 5.49 MeV alpha particles in air." style="width: 70%;">
 </p>
 
-<!-- Image Caption -->
+<!-- Image caption -->
 <div align="center"> 
-<h5>Process of electron-hole pair generation by charged particles</h5>
+<h5>Bragg curve of 5.49 MeV alpha particles in air.</h5>
 </div>
 
----
-
-<br/>
+-------------------------------------
+<br/> <!-- line break -->
 
 **Related Articles**
 - [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
 - [What is a Heavy Ion Beam?](/en/article/10.중이온.html)
-- [Domestic Radiation Evaluation Facilities](/en/article/19.국내방사선시설.html)
+- [Korean Radiation Test Facilities](/en/article/19.국내방사선시설.html)
 - [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
 - [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
 - [What is DD (Displacement Damage)?](/en/article/18.DD.html)
-- [Laser Evaluation](/en/article/4.레이저평가.html)
+- [Laser-Based Radiation Evaluation](/en/article/4.레이저평가.html)

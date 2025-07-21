@@ -42,7 +42,7 @@ For radiation particles, multiplying the LET (Linear Energy Transfer) of the par
 **Related Articles**
 - [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
 - [What is a Heavy Ion Beam?](/en/article/10.중이온.html)
-- [Domestic Radiation Evaluation Facilities](/en/article/19.국내방사선시설.html)
+- [Korean Radiation Evaluation Facilities](/en/article/19.국내방사선시설.html)
 - [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
 - [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
 - [What is DD (Displacement Damage)?](/en/article/18.DD.html)

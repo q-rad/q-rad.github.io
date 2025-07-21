@@ -183,10 +183,8 @@ Similar to SEL, this occurs when avalanche multiplication triggers a parasitic p
 
 **Related Articles**
 
-* [Radiation Hardness Test](/en/article/3.radiation-hardness-test.html)
-* [Laser Evaluation](/en/article/4.laser-evaluation.html)
-* [What is LET (Linear Energy Transfer)?](/en/article/6.let.html)
-* [Domestic Radiation Test Facilities](/en/article/19.domestic-radiation-facilities.html)
-* [What is TID (Total Ionizing Dose effect)?](/en/article/7.tid.html)
-* [What is LET (Linear Energy Transfer)?](/en/article/6.let.html)
-* [What is DD (Displacement Damage)?](/en/article/18.dd.html)
+- [SPA vs TPA](/en/article/2.SPA-와-TPA.html)
+- [Why Laser Evaluation is Necessary (Cost Perspective)](/en/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)
+- [Global Trends in Laser Evaluation](/en/article/9.레이저평가-세계동향.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+- [Laser Evaluation Based on NASA Documents](/en/article/17.레이저-평가-적용-근거.html)

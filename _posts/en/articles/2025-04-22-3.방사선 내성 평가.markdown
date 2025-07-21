@@ -50,7 +50,7 @@ In space or high-altitude environments, high-energy particles and radiation (pro
 <br/>
 
 **Related Articles**
-- [Domestic Radiation Test Facilities](/en/article/19.국내방사선시설.html)
+- [Korean Radiation Test Facilities](/en/article/19.국내방사선시설.html)
 - [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
 - [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
 - [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)

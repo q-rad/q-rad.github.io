@@ -19,6 +19,89 @@
 		</svg></a></li>
 	{%- endif -%}
 </div>
+
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+		<!-- 👤 아이콘 추가된 About 제목 -->
+		<li class="nav-title">
+			<i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i> About
+		</li>
+
+		<!-- Home 항목 먼저 -->
+		<li>
+			<a class="nav-item" href="/">Home</a>
+		</li>
+
+		<!-- About LASER2COTS만 먼저 표시 -->
+		<li>
+			<a id="about-laser2cots-link" class="nav-item" href="/about/">About LASER2COTS</a>
+		</li>
+
+		<script>
+			document.addEventListener('DOMContentLoaded', () => {
+				const currentLang = localStorage.getItem('lang') || 'ko';
+				const aboutLink = document.getElementById('about-laser2cots-link');
+				if (!aboutLink) return;
+
+				aboutLink.href = currentLang === 'en' ? '/en/about/' : '/ko/about/';
+			});
+		</script>
+
+
+
+
+		<!-- QRT homepage -->
+		<li>
+			<a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
+				QRT homepage
+			</a>
+		</li>
+	</ul>
+</div>
+
+
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+		<!-- 📘 아이콘 추가된 제목 -->
+		<li class="nav-title">
+			<i class="fa-solid fa-book" style="margin-right: 6px;"></i>
+			QRT - LITE Manual
+		</li>
+		<li>
+			<!-- _includes/manual.html -->
+			<a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">
+				<span class="name">KOR</span>
+				<!--span class="badge">{{ site.manuals | size }}</span-->
+			</a>
+		</li>
+	</ul>
+</div>
+
+
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+		<!-- 🗂️ 아이콘 추가 -->
+		<li class="nav-title">
+			<i class="fa-solid fa-layer-group" style="margin-right: 6px;"></i>
+			contents
+		</li>
+
+		{% for category in site.categories %}
+		{% assign post_count = category | last | size %}
+		{% assign half_count = post_count | divided_by: 2 %}
+		<li>
+			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
+				<span class="name">{{ category | first }}</span>
+				<span class="badge">{{ half_count }}</span>
+			</a>
+		</li>
+		{% endfor %}
+	</ul>
+</div>
+
+
 <!-- 언어 선택 버튼 (데스크탑 전용) -->
 <div id="lang-switch" style="text-align: center; margin: 10px 0;">
 	<span id="lang-kr" class="lang-toggle active-lang" style="cursor: pointer; margin-right: 8px;">KR</span>
@@ -121,85 +204,7 @@
 	});
 </script>
 
-<div class="sidebar-item sidebar-nav">
-	<ul class="nav">
-		<!-- 👤 아이콘 추가된 About 제목 -->
-		<li class="nav-title">
-			<i class="fa-solid fa-circle-user" style="margin-right: 6px;"></i> About
-		</li>
 
-		<!-- Home 항목 먼저 -->
-		<li>
-			<a class="nav-item" href="/">Home</a>
-		</li>
-
-		<!-- About LASER2COTS만 먼저 표시 -->
-		<li>
-			<a id="about-laser2cots-link" class="nav-item" href="/about/">About LASER2COTS</a>
-		</li>
-
-		<script>
-			document.addEventListener('DOMContentLoaded', () => {
-				const currentLang = localStorage.getItem('lang') || 'ko';
-				const aboutLink = document.getElementById('about-laser2cots-link');
-				if (!aboutLink) return;
-
-				aboutLink.href = currentLang === 'en' ? '/en/about/' : '/ko/about/';
-			});
-		</script>
-
-
-
-
-		<!-- QRT homepage -->
-		<li>
-			<a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
-				QRT homepage
-			</a>
-		</li>
-	</ul>
-</div>
-
-
-
-<div class="sidebar-item sidebar-nav">
-	<ul class="nav">
-		<!-- 📘 아이콘 추가된 제목 -->
-		<li class="nav-title">
-			<i class="fa-solid fa-book" style="margin-right: 6px;"></i>
-			QRT - LITE Manual
-		</li>
-		<li>
-			<!-- _includes/manual.html -->
-			<a class="nav-item" href="{{ root_url }}/{{ site.manuals_dir }}#lite_kor">
-				<span class="name">KOR</span>
-				<!--span class="badge">{{ site.manuals | size }}</span-->
-			</a>
-		</li>
-	</ul>
-</div>
-
-
-<div class="sidebar-item sidebar-nav">
-	<ul class="nav">
-		<!-- 🗂️ 아이콘 추가 -->
-		<li class="nav-title">
-			<i class="fa-solid fa-layer-group" style="margin-right: 6px;"></i>
-			contents
-		</li>
-
-		{% for category in site.categories %}
-		{% assign post_count = category | last | size %}
-		{% assign half_count = post_count | divided_by: 2 %}
-		<li>
-			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-				<span class="name">{{ category | first }}</span>
-				<span class="badge">{{ half_count }}</span>
-			</a>
-		</li>
-		{% endfor %}
-	</ul>
-</div>
 
 <!-- 검색 -->
 <!-- 🔹 검색창 외 영역 클릭용 오버레이 -->

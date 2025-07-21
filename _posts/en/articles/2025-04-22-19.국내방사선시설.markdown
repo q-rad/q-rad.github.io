@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Domestic Radiation Test Facilities
+title: Korean Radiation Test Facilities
 description: This post summarizes South Korea's radiation testing infrastructure, including proton and gamma facilities such as KOMAC, KIRAMS, and ARTI. It also covers the current lack of heavy ion accelerators and future plans like RAON and KIST initiatives.
 date: 2025-03-13 00:00:00 +0900
 category: article
@@ -105,7 +105,7 @@ Radiation test infrastructure not only strengthens the foundation of the space i
 
 # Heavy Ion Accelerators
 
-Currently, Korea does not have domestic heavy ion accelerator infrastructure suitable for SEE (Single Event Effect) testing of semiconductors. As a result, overseas facilities are required for space and radiation environment reliability tests.
+Currently, Korea does not have Korean heavy ion accelerator infrastructure suitable for SEE (Single Event Effect) testing of semiconductors. As a result, overseas facilities are required for space and radiation environment reliability tests.
 
 To address this, the Korea Institute of Science and Technology (KIST) is pursuing heavy ion accelerator development. Additionally, the RAON accelerator by IBS (Institute for Basic Science) is Korea’s first large-scale heavy ion accelerator being developed for both nuclear physics and practical applications like SEE evaluation.
 
@@ -113,7 +113,7 @@ Once these projects are completed, independent SEE testing in Korea will be poss
 
 # QRT Radiation Hardness Evaluation Services
 
-QRT provides customized radiation hardness evaluation services using various domestic and international radiation facilities.<br>
+QRT provides customized radiation hardness evaluation services using various Korean and international radiation facilities.<br>
 Please contact us via **[this link](https://www.qrtkr.com/kr/customer/inquiry.php)** for more details.
 
 ---
