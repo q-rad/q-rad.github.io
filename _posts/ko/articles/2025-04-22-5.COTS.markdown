@@ -22,6 +22,11 @@ order: 3003
   <img src="/assets/Articles/COTS2.webp" alt= "COTS" style="width: 100%; max-width: 400px;">
 </p>
  
+
+QRT에서는 상용 부품(COTS)의 우주 환경 적용을 위한 Up-Screening 서비스를 제공하고 있습니다.
+서비스에 대한 자세한 문의는 [문의하기](https://www.qrtkr.com/kr/customer/inquiry.php) 페이지를 통해 접수해 주시기 바랍니다.
+
+
 -------------------------------------
 <br/> <!-- 한줄 띄기 -->
 
