@@ -30,6 +30,9 @@ Since the 2000s, the rise of large-scale data centers and high-density memory ha
 <p align= "center">
 <img src="/assets/Articles/Satellite.webp" style="width: 100%; max-width: 500px;" alt= "Satellite">
 </p>
+<div align="center"> 
+<h5>View of the damaged Solar Maximum Mission Satellite from the 41-C Challenger</h5>
+</div>
 
 ### References
 

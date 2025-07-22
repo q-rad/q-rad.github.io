@@ -30,7 +30,9 @@ SEE 개념의 기원은 1950년대 미국의 지상 핵실험에까지 거슬러
 <p align= "center">
 <img src="/assets/Articles/Satellite.webp" style="width: 100%; max-width: 500px;" alt= "Satellite ">
 </p>
-
+<div align="center"> 
+<h5>View of the damaged Solar Maximum Mission Satellite from the 41-C Challenger</h5>
+</div>
 
 참고문헌
 >[1] D. Binder, E. C. Smith, and A. B. Holman, "Satellite anomalies from galactic cosmic rays," IEEE Transactions on Nuclear Science, vol. NS-22, no. 6, pp. 2675–2680, Dec. 1975. doi: 10.1109/TNS.1975.4328188
