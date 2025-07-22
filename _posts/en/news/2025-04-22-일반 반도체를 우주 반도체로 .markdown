@@ -12,7 +12,17 @@ lang: en
 
 <p style="color: #666666">April 17, 2024</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0eppDZ0qxQU?si=SsS26bN9nF9jJ6sS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="https://www.youtube.com/embed/0eppDZ0qxQU?si=SsS26bN9nF9jJ6sS"
+    title="YouTube video player" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
+</div>
 <br>
 
 <p style="font-size:23px"><b>Dr. Hyukjae Lee of QRT Discusses ‘Up-Screen Technology and QRT’s Challenge’</b></p>

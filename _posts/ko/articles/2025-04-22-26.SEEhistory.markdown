@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SEU는 어떻게 밝혀졌는가? 방사선이 전자 회로에 끼친 영향의 역사
-description: Single Event Effects(SEE)의 역사적 기원을 1950년대 핵실험부터 1979년 중이온 실험까지 시간 순으로 분석하고, 각 사건의 과학적 배경과 수치를 IEEE 논문 기반으로 검증한 기술 아카이브입니다.
+description: 단일 이벤트 업셋(SEU)의 역사적 기원을 1950년대 핵실험부터 2000년대 위성 시대까지 연대순으로 정리한 기술 아카이브입니다. SEE 개념의 형성과 과학적 입증 과정, 핵심 논문 기반 수치를 함께 소개합니다.
 category: article
 lang: ko
 permalink: ko/article/:title.html
@@ -13,48 +13,23 @@ order: 3006
 
 
 ### 1950년대: 최초의 이상 현상 보고
-SEE 개념의 기원은 1950년대 미국의 지상 핵실험에까지 거슬러 올라갑니다. 1954년부터 1957년까지 진행된 고출력 핵실험(예: Operation Castle)에서, 폭발과 직접 관련 없는 여러 전자 장비에서 이상 신호가 다수 관찰되었습니다. 이때의 이상 현상들은 방사선에 의한 영향으로 의심되었지만, 당시에는 이들을 체계적으로 분석할 수 있는 도구나 개념이 부족했습니다.<br>
+SEE 개념의 기원은 1950년대 미국의 지상 핵실험에까지 거슬러 올라갑니다. 1954년부터 1957년까지 진행된 고출력 핵실험(예: Operation Castle)에서, 폭발과 직접 관련 없는 여러 전자 장비에서 이상 신호가 다수 관찰되었습니다. 이때의 이상 현상들은 방사선에 의한 영향으로 의심되었지만, 당시에는 이들을 체계적으로 분석할 수 있는 도구나 개념이 부족했습니다.
 이러한 초기 관찰은 이후 SEE 개념의 정립에 중요한 배경이 되었습니다. 특히 핵실험 당시의 고속 계측 장비들이 soft error를 자주 겪었다는 기록은, 후대 연구에서 SEU 현상의 초기 징후로 해석됩니다.
 
 ### 1960년대: 우주 전자장비에서의 오류 증가
-우주 탐사가 본격화되던 1960년대에는, 지구 궤도를 도는 위성과 우주선에 탑재된 전자장비에서 설명되지 않는 오류가 빈번히 발생했습니다. NASA와 Hughes 등 주요 항공우주 기관들은 이러한 오류가 내부 설계 결함인지 외부 입자 영향인지에 대해 분석을 시도했지만, 명확한 원인 분석에는 실패했습니다.<br>
+우주 탐사가 본격화되던 1960년대에는, 지구 궤도를 도는 위성과 우주선에 탑재된 전자장비에서 설명되지 않는 오류가 빈번히 발생했습니다. NASA와 Hughes 등 주요 항공우주 기관들은 이러한 오류가 내부 설계 결함인지 외부 입자 영향인지에 대해 분석을 시도했지만, 명확한 원인 분석에는 실패했습니다.
 이 시기의 보고된 오류들은 SEU 개념의 등장으로 비로소 과학적으로 설명 가능해졌으며, 후대 연구의 실험적 토대가 되었습니다.
 
-### 1972년: Hughes 위성 통신 중단 사건
-SEE가 학술적으로 처음 주목을 받은 계기는 1972년의 Hughes 위성 통신 장애 사건입니다. 해당 위성은 지상 관제와의 통신이 정확히 96초간 완전히 끊겼다가 자동 복구되는 이상 현상을 겪었습니다. 이후 이 사건을 분석한 Dr. Edward C. Smith, Al Holman, Dr. Dan Binder는 그 원인을 고에너지 입자에 의한 SEU로 추정했고, 이 개념을 정식으로 체계화했습니다.<br>
-이 사건은 단순한 이상 신호가 아닌, 시스템 차원의 기능 정지로 이어진 사례였기 때문에 당시로서는 매우 심각한 현상으로 받아들여졌습니다.
+### 1970년대 ~ 2000년: SEE 개념의 정립과 실험적 기반 확립
+1970년대는 단일 이벤트 업셋(SEU)이라는 용어가 처음 등장하고 과학적으로 정립된 시기였습니다. 1972년 휴즈 위성 이상 현상을 계기로 고에너지 입자에 의한 회로 오류가 주목받았고, 1975년 첫 SEU 논문에서 수치적으로 입증되었습니다. 이후 Cray‑1의 지상 오류, α-입자 기인 SEU, 중이온 실험 등을 통해 SEE가 지상에서도 발생함이 확인되었고, ‘SEU’라는 용어가 본격적으로 학계와 산업계에 확산되었습니다.
 
-### 1975년: 첫 SEU 과학 논문과 수치 발표
-1975년, 위의 연구진은 해당 사건을 분석한 논문을 발표했습니다.
->Binder, D.; Smith, E. C.; Holman, A. B. (1975). "Satellite Anomalies from Galactic Cosmic Rays", IEEE Transactions on Nuclear Science, NS‑22(6): 2675–2680.
-
-이 논문은 SEE, 특히 SEU 현상을 설명하는 세계 최초의 학술 논문으로 간주됩니다. 논문에서 이들은 다음과 같은 수치를 제시했습니다.
-
-- 예측 SEU율: 3.1 × 10⁻³ SEU/transistor/year
-- 관측된 실제 SEU율: 1.5 × 10⁻³ SEU/transistor/year
-
-두 수치의 차이가 약 2배 이내로 일치하며, 이는 실리콘 기반 트랜지스터 회로에서의 SEU 발생 가능성을 수학적으로 예측 가능함을 보여주는 첫 사례였습니다.
+### 2000년대 ~: 대규모 시스템과 위성 시대의 SEE 대응 전략
+2000년대 이후 대규모 데이터센터의 확산과 메모리 집적도의 증가로 인해 지상 환경에서도 소프트 에러 발생 가능성이 높아졌습니다. 동시에 우주 관측 및 민간 위성 사업의 급증으로, 우주 환경에서의 SEE(단일 이벤트 효과)에 대한 관심이 크게 증가하였습니다. 최근에는 연간 수천 기 이상의 인공위성이 발사되고 있으며, 이에 따라 SEE에 강인한 반도체 소자의 선별과 신뢰성 평가가 핵심 이슈로 부상하고 있습니다 .
 
 
-
-### 1976년: Cray‑1에서 지상 SEU 첫 관측
-SEE는 단지 우주 환경에 국한되지 않습니다. 1976년, 미국 Los Alamos 국립연구소에서 운용된 슈퍼컴퓨터 Cray‑1에서 지상에서 발생한 SEU가 최초로 기록되었습니다. 관측 내용은 25주간 4Kbit SRAM 모듈에서 25주간 152건의 패리티 오류가 발생하였습니다. 
-이는 우주가 아닌 지구 해수면 조건에서도 대기 중성자(cosmic ray spallation)가 SEU를 유발할 수 있음을 최초로 입증한 사례로, SEE 연구의 지평을 넓힌 중요한 사건이었습니다.
-
-
-
-### 1978년: 패키징 알파 입자에 의한 SEU 증명
-메모리 소자의 패키징 재질 자체에서 SEU가 발생할 수 있다는 사실은 1978년, T.C. May와 M.H. Woods의 연구를 통해 처음 제시되었습니다. 이들은 고속 메모리에서 관측된 소프트 에러의 상당수가, 패키징 소재에 포함된 미량의 방사성 핵종(주로 우라늄, 토륨)에서 방출된 α-입자에 의해 발생하였고 DRAM에서 검출된 오류율은 입자 플럭스와 상관관계를 보인다는 결론을 도출하였습니다.
-이는 방사선 차폐 외에도 반도체 제조 공정 및 재료 선택이 SEU에 미치는 영향을 처음으로 밝힌 연구였습니다.
-
-
-
-
-### 1979년: 우주선과 중이온 실험을 통한 SEU 모델 완성
-James F. Ziegler와 W. A. Lanford는 1979년, 우주선 입자가 해수면에서도 메모리 오류를 유발할 수 있는 이론적 모델을 완성했습니다. 같은 해, Lawrence Berkeley National Laboratory에서는 88‑inch 사이클로트론을 사용한 중이온 기반 SEE 실험이 최초로 수행되었습니다.
-Ziegler는 이후 IBM Journal 논문(1996)에서 SEE를 유발하는 우주선 중성자의 평균 플럭스를 약 13.5 n/cm²/s (at sea level, New York 기준)으로 제시하였습니다.
-
-
+<p align= "center">
+<img src="/assets/Articles/Satellite.webp" style="width: 100%; max-width: 500px;" alt= "Satellite ">
+</p>
 
 
 참고문헌
@@ -68,6 +43,9 @@ Ziegler는 이후 IBM Journal 논문(1996)에서 SEE를 유발하는 우주선 �
 
 >[5] LBNL, "First heavy ion SEE experiment conducted at 88-Inch Cyclotron," Lawrence Berkeley National Laboratory, Berkeley, CA, USA, 1979. [Online]. Available: https://en.wikipedia.org/wiki/Single-event_upset
 
+>[6] M. Baze, “Single Event Effects (SEE) Tutorial,” Auburn University, presented at the Single Event Effects Conference, 2011. [Online]. Available: https://eng.auburn.edu
+
+>[7] D. Alexander et al., “System-Level SEE Characterization and Modeling,” NASA Electronic Parts and Packaging (NEPP) Workshop, 2017. [Online]. Available: https://nepp.nasa.gov
 
 -------------------------------------
 
@@ -76,11 +54,10 @@ Ziegler는 이후 IBM Journal 논문(1996)에서 SEE를 유발하는 우주선 �
 <br/> <!-- 한줄 띄기 -->
 
 **관련 글**
-- [광자(Photon)의 에너지 전달 메커니즘](/ko/article/21.photons.html)
-- [전자(Electron)의 에너지 전달 메커니즘](/ko/article/22.electrons.html)
-- [양성자(Proton)와 중성자(Neutron)의 에너지 전달 메커니즘](/ko/article/23.Nucleons.html)
+- [Up-Screening](/ko/article/12.upScreening.html)
 - [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
 - [TID(Total Ionizing Dose effect)란?](/ko/article/7.TID.html)
 - [LET(Liner Energy Transfer)란?](/ko/article/6.LET.html)
 - [DD (Displacement Damage)란?](/ko/article/18.DD.html)
 - [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)
+- [레이저 평가](/ko/article/4.레이저평가.html)
