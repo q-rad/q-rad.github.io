@@ -6,7 +6,7 @@ category: article
 lang: en
 permalink: en/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 3006
+order: 2014
 ---
 
 **Single Event Effects (SEE)** refer to temporary or permanent malfunctions caused by radiation such as cosmic rays, alpha particles, or high-energy ions striking semiconductor devices. SEE can manifest in various forms—from soft errors like Single Event Upsets (SEU) to destructive failures. The concept gradually formed from the mid-20th century, with experimental evidence supporting the theory emerging over time. This post outlines the historical development of SEE, especially SEU, based on scientific data and peer-reviewed publications.

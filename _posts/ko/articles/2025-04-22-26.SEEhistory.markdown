@@ -6,7 +6,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 3006
+order: 2014
 ---
 
 **Single Event Effects(SEE)**는 우주선, 알파 입자, 또는 고에너지 이온과 같은 방사선이 소자에 충돌할 때 발생하는 일시적 또는 영구적 이상 현상을 말합니다. SEE는 단일 이벤트 업셋(Single Event Upset, SEU)부터 장치 파괴에 이르는 다양한 형태로 나타날 수 있으며, 그 개념은 20세기 중반부터 점진적으로 형성되어 왔습니다. 이 글에서는 SEE의 형성과 발전 과정, 특히 SEU에 대한 최초의 실험적 증거와 수치를 기반으로 한 역사적 흐름을 기술하였습니다.
