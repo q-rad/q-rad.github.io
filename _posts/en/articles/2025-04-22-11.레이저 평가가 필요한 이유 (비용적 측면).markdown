@@ -10,23 +10,30 @@ order: 2003
 lang: en
 ---
 
-When using Commercial-Off-The-Shelf (COTS) components in space environments, **up-screening** procedures to ensure high reliability are essential.  
-These procedures include mechanical, electrical, environmental tests, and especially **radiation hardness evaluation**.
+# Why Laser Evaluation is Necessary – A Cost Perspective
 
-However, when analyzing the cost of each major item in up-screening, the **SEE (Single Event Effect)** test—particularly the heavy ion-based evaluation—accounts for a disproportionately large portion of the total cost.
+When deploying Commercial-Off-The-Shelf (COTS) components in space systems, **up-screening** procedures are essential to ensure their reliability.  
+These include mechanical, electrical, and environmental tests—and most critically, **radiation hardness evaluations**.
 
-<p align="center"> <img src="/assets/Articles/cost.webp" style="width: 80%; max-width: 500px;"/> </p>
+Among all up-screening steps, the **Single Event Effect (SEE)** test—particularly when using heavy ion beams—accounts for a disproportionately large portion of the total cost.
 
-As shown in the graph, heavy ion-based SEE tests dominate the overall up-screening cost, requiring significantly more budget compared to other evaluation categories such as TID (Total Ionizing Dose), DPA (Destructive Physical Analysis), and CA (Construction Analysis).  
-While COTS components have the advantage of being cheaper than space-grade parts in terms of initial purchase price, the cost of SEE testing during up-screening can sometimes match or even exceed the price of space-grade components.
+<p align="center">
+  <img src="/assets/Articles/cost.webp" style="width: 80%; max-width: 500px;" alt="SEE Cost Comparison">
+</p>
 
-<p align="center"> <img src="/assets/Articles/costComparison.webp" style="width: 80%; max-width: 500px;"/> </p>
+As shown in the chart, heavy ion-based SEE testing dominates the cost structure, far exceeding that of other evaluation categories such as TID (Total Ionizing Dose), DPA (Destructive Physical Analysis), and CA (Construction Analysis).  
+While COTS components offer a lower initial purchase price compared to space-grade parts, the cost of heavy ion SEE testing during up-screening can often match—or even exceed—the cost of using certified space-grade components.
 
-As this graph illustrates, evaluation using heavy ions incurs substantial cost even for a single test. Compared to this, laser-based testing for the same component is about **four times cheaper**.  
-This cost issue essentially negates the cost-saving benefits of using COTS parts, making them inefficient in some cases when compared to certified space-grade components.
+<p align="center">
+  <img src="/assets/Articles/costComparison.webp" style="width: 80%; max-width: 500px;" alt="Laser vs Heavy Ion Evaluation Cost">
+</p>
 
-To solve this issue, many are now proposing to **replace heavy ion tests with laser-based SEE evaluations**.  
-In the up-screening process required to apply COTS components to space systems, radiation hardness evaluation—particularly heavy ion-based SEE tests—has a major impact on the total cost structure.
+This graph illustrates the stark contrast: SEE testing with heavy ions incurs substantial costs even for a single evaluation.  
+In comparison, **laser-based testing** of the same component is approximately **four times more cost-effective**.  
+This undermines the expected cost savings of COTS usage, making the overall approach less efficient in some scenarios.
+
+To address this issue, many experts advocate for **replacing heavy ion tests with laser-based SEE evaluations**.  
+Given that radiation hardness testing—especially SEE evaluation—is one of the most expensive components of the up-screening process, laser testing presents a compelling alternative that preserves reliability while drastically reducing cost.
 
 ---
 

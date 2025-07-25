@@ -12,13 +12,13 @@ order: 1003
 
 # LET (Linear Energy Transfer)
 
-LET (Linear Energy Transfer) refers to the energy lost by a particle per unit path length as it passes through a material. The standard unit of LET is MeV·cm<sup>2</sup>/mg, which normalizes the energy loss (in MeV/cm) by the target material’s density (mg/cm<sup>3</sup>), allowing the value to be independent of the specific material.
+Linear Energy Transfer (LET) refers to the amount of energy a particle loses per unit distance as it travels through a material. The standard unit of LET is MeV·cm<sup>2</sup>/mg, which normalizes the energy loss (MeV/cm) by the material’s density (mg/cm<sup>3</sup>), making the value independent of the specific medium.
 
-Ionization loss is a critical process in semiconductor devices, and LET is used to quantify the energy deposited per unit path length during this ionization process. This deposited energy represents the particle’s energy being transferred to the material as it slows down and interacts with atomic electrons.
+Ionization loss is a critical mechanism in semiconductor devices, and LET quantifies the energy deposited per unit path length during this process. As the particle slows down and interacts with atomic electrons, this deposited energy is transferred to the material.
 
-In general, LET can also be expressed in other units such as MeV·cm<sup>-1</sup>, eV·nm<sup>-1</sup>, or keV·nm<sup>-1</sup>. However, since energy loss scales with the density of the material, it is often more useful to normalize LET by that density. According to several JEDEC standards, LET is commonly reported in [MeV·cm<sup>2</sup>/mg], derived by dividing the energy loss (MeV/cm) by material density (mg/cm<sup>3</sup>), making it easier to compare across different environments.
+Although LET can also be expressed in units like MeV·cm<sup>-1</sup>, eV·nm<sup>-1</sup>, or keV·nm<sup>-1</sup>, normalizing by density—yielding units of MeV·cm<sup>2</sup>/mg—is generally more practical. This allows LET values to be compared across different materials and environments. In fact, several JEDEC standards define LET in this normalized form to ensure consistency and cross-material comparability.
 
-The following graph shows the depth-wise distribution of LET. It illustrates how a 5.49 MeV alpha particle traveling through air gradually increases its energy deposition until near the end of its path, where the rate of energy transfer rises sharply before dropping to zero — a characteristic known as the **Bragg Peak**. This peak represents the point where LET reaches its maximum.
+The graph below shows the depth-dependent LET distribution of a 5.49 MeV alpha particle traveling through air. As the particle progresses, its energy deposition gradually increases, reaching a sharp peak near the end of its path before dropping to zero. This characteristic behavior is known as the **Bragg Peak**, which represents the point of maximum energy transfer.
 
 <!-- Centered image -->
 <p align="center"> 
@@ -30,8 +30,9 @@ The following graph shows the depth-wise distribution of LET. It illustrates how
 <h5>Bragg curve of 5.49 MeV alpha particles in air.</h5>
 </div>
 
--------------------------------------
-<br/> <!-- line break -->
+---
+
+<br/>
 
 **Related Articles**
 - [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

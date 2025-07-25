@@ -10,116 +10,124 @@ order: 2006
 lang: en
 ---
 
-The laser equipment owned by QRT supports a wide wavelength band ranging from 650nm to 1650nm. This enables laser-based evaluation of various semiconductor materials such as Si (Silicon), GaN (Gallium Nitride), SiC (Silicon Carbide), and devices such as memory, processors, and analog components. <br>
-However, for special packages with 3D stack structures like HBM (High Bandwidth Memory), the stacked structure obstructs laser penetration, making complete evaluation impossible. <br>
-Even excluding such special cases, evaluation feasibility may be limited depending on the structural characteristics of some package types. A mandatory preprocessing step for laser evaluation is the de-capsulation process that removes the Epoxy Mold Compound from the device. This process must be accurately performed to ensure the precision and reliability of the laser evaluation. <br>
-Simple-structured devices (e.g., Amplifiers, ADCs, Digital Isolators) can be evaluated from both the front and back sides. However, for highly integrated complex devices such as FPGA, MCU, SRAM, and DRAM, only back-side evaluation is possible due to the laser’s inability to penetrate the metal layer. <br>
-It is recommended to review actual cases conducted by us to determine whether evaluation is possible or not for specific cases.
+QRT's laser evaluation system supports a wide wavelength range from 650 nm to 1650 nm, enabling radiation testing of a variety of semiconductor materials such as silicon (Si), gallium nitride (GaN), silicon carbide (SiC), and devices including memory, processors, and analog components.  
+However, in special 3D-stacked packages such as HBM (High Bandwidth Memory), the stacked structure prevents laser penetration, making complete evaluation impossible.  
+Even outside such cases, evaluation feasibility may be restricted depending on the structural characteristics of the package.
+
+A key prerequisite for laser evaluation is **decapsulation**—removal of the epoxy mold compound from the device. This must be done precisely to maintain accuracy and reliability.  
+Devices with simple structures (e.g., amplifiers, ADCs, digital isolators) can typically be evaluated from both front and back sides.  
+However, highly integrated devices such as FPGAs, MCUs, SRAMs, and DRAMs usually require back-side-only evaluation, as the front-side metal layers block laser penetration.  
+To determine if evaluation is feasible for a given case, it's best to refer to previously tested examples.
 
 # Evaluatable Package Types
 
-Packages with structures like the image below are generally easy to de-capsulate from both front and back, making preprocessing for evaluation easy.
+Packages with structures like the one below are generally straightforward to decapsulate from both sides, making them suitable for evaluation.
 
-<p align= "center">
-<img src="/assets/Articles/평가가능소자.webp" style="width: 100%; max-width: 600px;" alt= "lead-frame type package">
+<p align="center">
+<img src="/assets/Articles/평가가능소자.webp" style="width: 100%; max-width: 600px;" alt="lead-frame type package">
 </p>
-<p align= "center">Example of an evaluatable package type</p>
+<p align="center">Example of an evaluatable package type</p>
 
-However, even within these package types, evaluation may be restricted depending on the presence or form of the lead frame (as shown below).
+Even within these types, evaluation feasibility may vary depending on the shape and placement of the lead frame.
 
-<p align= "center">
-<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt= "De-capsulated TSSOP device">
+<p align="center">
+<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt="De-capsulated TSSOP device">
 </p>
-<p align= "center">De-capsulated TSSOP device</p>
+<p align="center">De-capsulated TSSOP device</p>
 
 # Non-Evaluatable Package Types
 
-For packages like BGA, where the entire underside of the chip is mounted onto the PCB using solder balls, only top-side de-capsulation is possible, making back-side evaluation virtually impossible.
+In packages like BGA, the bottom of the chip is fully bonded to the PCB via solder balls, allowing only top-side decapsulation. This generally makes back-side evaluation impossible.
 
-<p align= "center">
-<img src="/assets/Articles/평가불가능소자.webp" style="width: 100%; max-width: 400px;" alt= "Substrate type package">
+<p align="center">
+<img src="/assets/Articles/평가불가능소자.webp" style="width: 100%; max-width: 400px;" alt="Substrate type package">
 </p>
-<p align= "center">Example of a non-evaluatable package type (1)</p>
+<p align="center">Example of a non-evaluatable package type (1)</p>
 
-For BGA packages that only allow top-side de-capsulation, if the device has more than three metal layers (e.g., memory, processor), it is likely not evaluatable using a laser. However, in flip-chip packages, evaluation from the chip's underside may be possible.<br>
-Since a single device may be manufactured in various packaging forms, even if laser-based evaluation is difficult for a specific package structure, it may be effectively evaluated by selecting a more suitable package type with the same chip.
+For BGA packages where only the top side can be decapsulated, laser evaluation is often not possible for devices with more than three metal layers (e.g., memory, processors).  
+However, in some flip-chip BGA packages, the laser can access the underside of the chip, making evaluation feasible.  
+Because the same chip can be packaged in multiple formats, switching to a more laser-compatible package type can sometimes enable successful evaluation.
 
-<p align= "center">
-<img src="/assets/Articles/평가불가능소자2.webp" style="width: 100%; max-width: 500px;" alt= "Substrate type package">
+<p align="center">
+<img src="/assets/Articles/평가불가능소자2_en.webp" style="width: 100%; max-width: 500px;" alt="Substrate type package">
 </p>
-<p align= "center">Example of a non-evaluatable package type (2)</p>
+<p align="center">Example of a non-evaluatable package type (2)</p>
 
-# Preprocessing of Semiconductor Devices for Radiation Hardness Laser Evaluation
+# Preprocessing for Laser Radiation Hardness Testing
 
-The explanations above may not provide enough clarity to determine whether a particular device is evaluatable by laser. In most cases, X-ray imaging is used to identify internal structures in advance and determine evaluation feasibility. Below are several evaluation cases conducted by QRT. These examples may help you get an idea of what devices are likely evaluatable. <br>
+The examples above may not offer a definitive answer on whether a specific device is evaluatable.  
+In most cases, **X-ray imaging** is used to inspect internal structures beforehand. Below are actual evaluation cases from QRT that may help you assess feasibility in similar situations.
 
-### TSSOP Type Package (Memory, lead frame removal impossible)
+### TSSOP Package (Memory, lead frame removal not possible)
 
-Front-side evaluation was restricted due to the metal layer, and although lead frame removal was necessary for back-side evaluation, it was impossible due to the lead frame being connected to multiple pins as confirmed via X-ray.<br>
-However, partial evaluation was performed through areas between the lead frames where the adhesive was removed, and potential SEE (Single Event Effects) were identified.
+Front-side evaluation was blocked by the metal layer. X-ray imaging revealed that the lead frame was connected to multiple pins, preventing back-side frame removal.  
+However, partial evaluation was performed through exposed areas between lead frames, and potential SEE (Single Event Effects) were successfully detected.
 
-<p align= "center">
-<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
+<p align="center">
+<img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt="Memory">
 </p>
-<p align= "center">Memory (TSSOP) back side</p>
+<p align="center">Memory (TSSOP) back side</p>
 
-### BGA & TSSOP Type Package (Memory)
+### BGA & TSSOP Packages (Memory)
 
-The initially received device was a BGA-type memory, but a TSSOP (Thin Shrink Small Outline Package) version of the same device was secured. De-capsulation was possible only on the back side, and evaluation was successfully performed excluding the front.
+The original device was in BGA form, but a TSSOP version was acquired. Only back-side decapsulation was possible, and evaluation was conducted successfully from that side.
 
-<p align= "center">
-<img src="/assets/Articles/메모리2.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
+<p align="center">
+<img src="/assets/Articles/메모리2.webp" style="width: 100%; max-width: 300px;" alt="Memory">
 </p>
-<p align= "center">Memory (TSSOP) back side</p>
+<p align="center">Memory (TSSOP) back side</p>
 
-### BGA Type Package (Memory)
+### BGA Package (Memory)
 
-Although BGA (Ball Grid Array) packages are generally difficult to evaluate, this device, while front-side evaluation was restricted due to the metal layer, was easily evaluated on the back side thanks to the use of a flip-chip process.
+Although BGA packages are generally difficult to evaluate, this particular flip-chip device allowed back-side laser access, enabling successful evaluation.  
+Front-side access was still restricted due to the metal layer.
 
-<p align= "center">
-<img src="/assets/Articles/메모리3.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
+<p align="center">
+<img src="/assets/Articles/메모리3.webp" style="width: 100%; max-width: 300px;" alt="Memory">
 </p>
-<p align= "center">Memory (BGA) back side</p>
+<p align="center">Memory (BGA) back side</p>
 
-### TSSOP Type Package (Memory)
+### TSSOP Package (Memory)
 
-The lead frame covered the entire back of the chip, requiring removal. With detailed X-ray images and cooperation with the chip manufacturer, removable areas were identified. The lead frame was precisely removed without damaging the connection, enabling evaluation of over 90% of the chip area on the back side. The front side was restricted due to the metal layer.
+The lead frame fully covered the back of the chip, requiring precise removal. Using detailed X-ray imaging and with support from the manufacturer, removable sections were identified.  
+Frame removal was performed successfully, exposing over 90% of the back-side die area for evaluation. Front-side evaluation remained blocked by the metal layer.
 
-<p align= "center">
-<img src="/assets/Articles/메모리4.webp" style="width: 100%; max-width: 300px;" alt= "Memory">
+<p align="center">
+<img src="/assets/Articles/메모리4.webp" style="width: 100%; max-width: 300px;" alt="Memory">
 </p>
-<p align= "center">Memory (TSSOP) back side</p>
+<p align="center">Memory (TSSOP) back side</p>
 
-### SOIC-8 Type Package (Op-Amp)
+### SOIC-8 Package (Op-Amp)
 
-As a simple-structured SOIC-8 (Small Outline Integrated Circuit) device, the Op-Amp was easily de-capsulated and evaluated on both the front and back sides.
+This simple SOIC-8 device was easily decapsulated and evaluated from both front and back.
 
-<p align= "center">
-<img src="/assets/Articles/amp.webp" style="width: 100%; max-width: 300px;" alt= "op-amp">
+<p align="center">
+<img src="/assets/Articles/amp.webp" style="width: 100%; max-width: 300px;" alt="op-amp">
 </p>
-<p align= "center">Op-Amp (SOIC) front (left), back (right)</p>
+<p align="center">Op-Amp (SOIC) front (left), back (right)</p>
 
-### PDIP Type Package (ADC)
+### PDIP Package (ADC)
 
-The ADC was also a simple DIP (Dual In-line Package) type device and was easily de-capsulated and evaluated from both sides.
+The ADC, housed in a basic DIP package, was also easily decapsulated and evaluated on both sides.
 
-<p align= "center">
-<img src="/assets/Articles/adc.webp" style="width: 100%; max-width: 300px;" alt= "adc">
+<p align="center">
+<img src="/assets/Articles/adc.webp" style="width: 100%; max-width: 300px;" alt="adc">
 </p>
-<p align= "center">ADC (PDIP) front (left), back (right)</p>
+<p align="center">ADC (PDIP) front (left), back (right)</p>
 
-### SOIC-8 Type Package (Digital Isolator, lead frame removal impossible)
+### SOIC-8 Package (Digital Isolator, partial lead frame removal)
 
-For Digital Isolators, de-capsulation on the front side caused the internal coil structure to unravel, so selective de-capsulation was performed to avoid affecting the coil. Although the back side had lead frames connected to multiple pins, partial removal was carried out within a safe range to enable evaluation from both front and back sides.
+For the digital isolator, full front-side decapsulation caused damage to the internal coil. Selective decapsulation was performed to avoid interference with the coil.  
+The back-side lead frame was connected to multiple pins, but careful partial removal enabled evaluation from both sides.
 
-<p align= "center">
-<img src="/assets/Articles/isolator.webp" style="width: 100%; max-width: 300px;" alt= "isolator">
+<p align="center">
+<img src="/assets/Articles/isolator.webp" style="width: 100%; max-width: 300px;" alt="isolator">
 </p>
-<p align= "center">Digital Isolator (SOIC) front (left), back (right)</p>
+<p align="center">Digital Isolator (SOIC) front (left), back (right)</p>
 
 ---
 
-<br/> <!-- Line break -->
+<br/>
 
 **Related Articles**
 

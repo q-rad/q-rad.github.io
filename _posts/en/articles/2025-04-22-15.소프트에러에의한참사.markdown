@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Accidents Caused by Soft Errors
 description: This article examines real-world incidents caused by soft errors, including the Qantas Flight 72 emergency descent and a sudden acceleration case involving a 'T' brand vehicle. It highlights how Single Event Upsets (SEE) due to radiation can impact system reliability.
@@ -13,44 +12,48 @@ lang: en
 
 # Airbus A330-303 (Qantas Flight 72) Incident
 
-In October 2008, Airbus A330-303 (Qantas Flight 72) was cruising at an altitude of 37,000 feet on autopilot en route from Singapore to Perth, Western Australia. Suddenly, the Inertial Reference System (monitoring the aircraft's pitch, roll, and bank) began outputting incorrect values. As a result, the aircraft erroneously judged that it was entering a stall and responded to incorrect "angle of attack" data, prompting the flight computer to automatically command the nose down.
-This dramatic and sudden pitch change injured one-third of the passengers and over three-quarters of the crew.
-This failure mode had only been observed three times in over 128 million hours of unit operation and still met the reliability and undetected fault rate specifications of the aircraft manufacturer (which later redesigned the algorithm to prevent similar incidents).
-The soft error rate of the equipment responsible was calculated as 3/0.128 = 23.44 FIT. However, at the cruising altitude of 37,000 feet, the soft error rate for unprotected memory is several thousand times higher, meaning this figure was vastly underestimated. Therefore, the real-world "glitch" rate is typically much higher. Multiple countermeasures based on this soft error rate could have prevented the accident, but due to the inaccurate prediction, it was not avoided.
+In October 2008, Qantas Flight 72 (Airbus A330-303) was cruising at 37,000 feet on autopilot en route from Singapore to Perth, Western Australia. Suddenly, the aircraft’s Inertial Reference System (IRS)—which monitors pitch, roll, and yaw—began outputting erroneous data.  
+As a result, the flight control computer mistakenly believed the aircraft was entering a stall and, in response to incorrect angle-of-attack (AOA) values, automatically commanded a nose-down maneuver.
 
-<!-- Image -->
+This sudden and uncommanded pitch change injured over one-third of the passengers and more than three-quarters of the crew.
 
-<p align= "center">
-<img src="/assets/Articles/콴타스72편의피해모습.webp" style="width: 100%; max-width: 400px;" alt="Damage from Qantas Flight 72">
+Although this specific failure mode had only occurred three times in over 128 million flight hours, it still fell within the aircraft manufacturer’s allowable fault rate. The algorithm was later redesigned to prevent recurrence.
+
+The soft error rate of the responsible unit was calculated as 3 / 0.128 = 23.44 FIT. However, at a cruising altitude of 37,000 feet, the actual soft error rate for unprotected memory is several thousand times higher—meaning this estimate severely underestimated real-world conditions.  
+If a more accurate soft error model had been applied, the incident might have been prevented through additional countermeasures.
+
+<p align="center">
+  <img src="/assets/Articles/콴타스72편의피해모습.webp" style="width: 100%; max-width: 400px;" alt="Damage from Qantas Flight 72">
 </p>
-<p align= "center">Damage from Qantas Flight 72</p>
+<p align="center">Damage from Qantas Flight 72</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
-  Source: Bureau, Australian Transport Safety. "In-Flight Upset--154km West of Learmonth, WA, 7 October 2008, VH-QPA, Airbus A330-303; 2011." Page 169
+  Source: Bureau, Australian Transport Safety. "In-Flight Upset – 154 km West of Learmonth, WA, 7 October 2008, VH-QPA, Airbus A330-303; 2011." Page 169
 </p>
 
 ---
 
 # Sudden Acceleration in Automobiles
 
-<p>Sudden acceleration incidents in 'T' brand vehicles caused many casualties and property damage. NASA's Jet Propulsion Laboratory (JPL), known for its advanced technology, initiated an investigation. The image below was published by JPL to help allay public fear and curiosity, illustrating that soft errors can indeed impact our safety and property.</p>
-<p align= "center">
-<img src="/assets/Articles/급발진.webp" style= "width: 100%; max-width: 400px;" alt="Sudden Acceleration in T Brand Vehicles">
+Sudden acceleration incidents involving a well-known 'T' brand automobile resulted in numerous injuries and property damage. In response, NASA’s Jet Propulsion Laboratory (JPL)—a world-renowned research institution—conducted a detailed investigation.
+
+<p align="center">
+  <img src="/assets/Articles/급발진.webp" style="width: 100%; max-width: 400px;" alt="Sudden Acceleration in T Brand Vehicles">
 </p>
-<p align= "center">Sudden Acceleration in 'T' Brand Vehicles</p>
+<p align="center">Sudden Acceleration in 'T' Brand Vehicles</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
   Image Source: NASA
 </p>
 
-<p>
-  Between 2010 and 2011, JPL questioned whether soft errors might cause sudden acceleration, asking, "Do spacecraft experience sudden acceleration?" The case was ultimately closed not by JPL, but by Carnegie Mellon University. They concluded that a "single-bit upset" was the cause and provided supporting analysis and experimental data. The final report noted that even though the memory components involved had error-correcting code (ECC) applied, in reality, they were not protected against such upsets.
-</p>
+Between 2010 and 2011, JPL explored the possibility that soft errors might have caused the unintended acceleration, asking, “Can cosmic rays cause sudden unintended acceleration in cars?”  
+Ultimately, the case was closed not by JPL, but by Carnegie Mellon University, which concluded that a single-bit upset (SBU) was the root cause. They supported this conclusion with analytical and experimental data.
+
+The final report emphasized that while error-correcting code (ECC) was applied to the memory modules in question, it did not effectively protect the system from all radiation-induced faults—demonstrating a critical gap in system-level fault tolerance.
 
 ---
 
 <br/>
 
 **Related Articles**
-
-* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
-* [Laser Evaluation](/en/article/4.레이저평가.html)
-* [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
+- [Laser Evaluation](/en/article/4.레이저평가.html)
+- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)

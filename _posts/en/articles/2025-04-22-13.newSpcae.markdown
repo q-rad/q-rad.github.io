@@ -12,42 +12,39 @@ lang: en
 
 <img src="/assets/Articles/newSpace.webp" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 300px;">
 
-There was a time when space was considered the exclusive domain of nations.  
-During the Cold War, intense competition between the U.S. and the Soviet Union shaped space development into a government-led endeavor requiring astronomical budgets, long development timelines, and strict certification procedures.  
-However, in the 21st century, the landscape of the space industry began to change dramatically.  
+There was a time when space exploration was the exclusive domain of nation-states.  
+During the Cold War, fierce competition between the U.S. and the Soviet Union made space development a government-driven endeavor—characterized by massive budgets, long development timelines, and rigid certification processes.  
+However, the 21st century has seen a dramatic shift in this landscape.
 
-The key driver of this transformation is **"New Space"**.
+The driving force behind this transformation is known as **“New Space.”**
 
 <div align="center">
 
-|               | Old Space                             | New Space                                           |
-|---------------|----------------------------------------|-----------------------------------------------------|
-| Leading Entity | Government agencies (NASA, ESA, DoD)  | Private companies (SpaceX, Blue Origin, Planet Labs) |
-| Development Approach | Conservative, verification-first         | Practical, risk-taking                              |
-| Development Cycle | Years to decades                     | Months to ~2 years                                  |
-| Cost           | Hundreds of billions                   | Tens to hundreds of millions                        |
-| Tech Strategy  | Space-certified components              | COTS, commercial tech conversion                    |
-| Launch Strategy| One-time use rockets                   | Reusability, mass deployment of small satellites    |
+|                 | Old Space                                 | New Space                                                |
+|-----------------|--------------------------------------------|-----------------------------------------------------------|
+| Leading Entity  | Government agencies (NASA, ESA, DoD)       | Private companies (SpaceX, Blue Origin, Planet Labs)      |
+| Development Style | Conservative, verification-first          | Agile, risk-tolerant, iterative                            |
+| Development Timeline | Years to decades                      | Months to ~2 years                                        |
+| Cost Structure   | Hundreds of billions                      | Tens to hundreds of millions                              |
+| Technology Approach | Fully space-qualified components        | COTS and commercial tech adapted for space use            |
+| Launch Strategy  | One-time-use rockets                      | Reusable launch vehicles, mass deployment of smallsats    |
 
 </div>
 
-Unlike the traditional government-led Old Space model, New Space represents a new approach where private companies innovate and expand the space market.  
-Key features of New Space include low cost, fast development, proactive use of commercial technology, vertical integration, and consumer-focused service models.  
-This shift is expanding space from a realm of science and defense into an industry and consumer service sector.
+Unlike the traditional Old Space model, which was led by national space agencies, New Space represents a paradigm shift toward private-sector innovation and market-driven expansion.  
+Key characteristics of New Space include reduced costs, accelerated development cycles, use of commercial technology, vertical integration, and consumer-oriented service models.  
+This shift is transforming space from a government-only scientific and defense domain into a competitive commercial industry.
 
-Moving away from the days when NASA and ESA monopolized all technology development, private companies such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab are now independently handling satellite manufacturing, launch, ground station operations, and service delivery.  
-They are making space more accessible by reusing launch vehicles or deploying dozens to hundreds of satellites simultaneously in low Earth orbit (LEO)—something unimaginable in the past.
+Private companies such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab are now independently handling end-to-end space operations—from satellite manufacturing and launch to ground station management and service delivery.  
+They are democratizing space access through reusable launch vehicles and large-scale deployment of satellites in Low Earth Orbit (LEO), feats previously thought unimaginable.
 
-Traditionally, space systems depended on expensive **space-grade parts**, but New Space companies are designing systems based on **COTS (Commercial-Off-The-Shelf)** components.  
-This strategy is based on the practical belief that as long as radiation tolerance is ensured, commercial technology can be viable in space environments.
+Traditionally, space systems relied on expensive **space-grade components**, but New Space companies are increasingly designing systems using **COTS (Commercial-Off-The-Shelf)** technologies.  
+This practical approach is built on the belief that commercial-grade hardware can perform reliably in space if its radiation tolerance is properly validated.
 
-For example, SpaceX has drastically reduced launch costs to one-tenth of previous levels through reusability of its Falcon 9 rocket.  
-Meanwhile, small launch vehicle companies like Rocket Lab are successfully pioneering dedicated markets for small satellites.  
-These innovations are creating new entry points into the space industry for startups and SMEs alike.
+For example, SpaceX has lowered launch costs to just a fraction of historical levels through the reusability of its Falcon 9 rocket.  
+Meanwhile, small launch providers like Rocket Lab are pioneering dedicated services for small satellites, opening new opportunities for startups and small-to-medium enterprises (SMEs) to enter the space industry.
 
-<br/>
-
--------------------------------------
+---
 
 <br/>
 

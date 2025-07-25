@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Korean Radiation Test Facilities
 description: This post summarizes South Korea's radiation testing infrastructure, including proton and gamma facilities such as KOMAC, KIRAMS, and ARTI. It also covers the current lack of heavy ion accelerators and future plans like RAON and KIST initiatives.
@@ -11,45 +10,45 @@ sub_category: Radiation Effects & Hardness Test
 order: 1010
 ---
 
-Evaluating soft errors or single event phenomena occurring in high-altitude or outer atmospheric space should focus primarily on heavy ions and protons, which are particles observed in the space environment. Generally, space radiation testing is based on heavy ion and TID evaluations, with proton testing recommended as a secondary option.<br>
+Evaluating soft errors or single event phenomena in high-altitude and space environments primarily requires testing with heavy ions and protons, as these are the main particles encountered in space. In general, space radiation tests focus on heavy ion and TID (Total Ionizing Dose) evaluations, with proton testing considered a complementary method.
 
-Another essential evaluation in space radiation testing is the Total Ionizing Dose (TID) effect caused by charged particles. Although this can be caused by protons and heavy ions, it is commonly and efficiently evaluated using gamma rays. <br>
+Another key evaluation method is the assessment of TID effects, which are caused by charged particles. Although both protons and heavy ions can cause TID, gamma rays are commonly and efficiently used to simulate these effects.
 
-Recently, the demand for electronic components exposed to radiation environments in advanced industries such as space, defense, nuclear, and medical sectors has increased rapidly. In the space sector in particular, electronic components mounted on satellites and launch vehicles are continuously exposed to space radiation, making it essential to verify that these components operate reliably in such environments. <br>
+Recently, the demand for radiation-tolerant electronic components has grown significantly across advanced sectors such as space, defense, nuclear energy, and medical industries. In the space sector especially, electronic components used in satellites and launch vehicles are constantly exposed to radiation, making it essential to verify their reliable performance under such conditions.
 
-Radiation evaluation infrastructure is a key foundation for securing technology sovereignty in Korea’s independent development and potential export of space components. As private-led independent space development projects advance, the demand for highly reliable electronic components is increasing. <br>
+Radiation evaluation infrastructure is a vital foundation for ensuring technological independence in Korea’s development and potential export of space-grade components. As private-sector space development initiatives continue to expand, the need for high-reliability electronic components also increases.
 
-Radiation test infrastructure not only strengthens the foundation of the space industry but is also a strategic asset for Korea to lead the future technological race in space. Below is a summary of Korea's major radiation evaluation facilities.
+This infrastructure not only supports the growth of the domestic space industry but also serves as a strategic asset in positioning Korea for leadership in the future space technology race. The following is an overview of Korea’s major radiation evaluation facilities.
 
 # Proton Accelerators
 
 ### KOMAC – Korea Multi-purpose Accelerator Complex (Gyeongju, Gyeongbuk)
 
-> KOMAC, located in Gyeongju, offers proton irradiation at 20MeV and 100MeV. The table below shows the specifications of the proton accelerator.
+KOMAC, located in Gyeongju, offers proton irradiation at 20 MeV and 100 MeV. The table below summarizes the specifications of its proton accelerator.
 
 <p align="center"> 
   <img src="/assets/Articles/양성자과학연구단.webp" alt="KOMAC 100MeV Proton Accelerator" style="width: 40%;">
 </p>
 
 <div align="center"> 
-<h5>KOMAC 100MeV Proton Accelerator</h5>
+<h5>KOMAC 100 MeV Proton Accelerator</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
+<div align="center" style="font-size: 10px; color: gray;">
   Image source: KOMAC Official Website<br>
   https://komac.kaeri.re.kr/komac/img/sub/inst01_01.png
 </div>
 
 <div align="center">
 
-|          Category         |    20MeV    |    100MeV    |
-| :-----------------------: | :---------: | :----------: |
-|       Energy \[MeV]       |      20     |      100     |
-|     Peak Current (mA)     |  0.1 \~ 20  |   0.1 \~ 20  |
-|     Max Beam Duty (%)     |      24     |       8      |
-|     Avg Current \[mA]     |  0.1 \~ 4.8 |  0.1 \~ 1.6  |
-|     Pulse Length \[ms]    | 0.02 \~ 2.0 | 0.05 \~ 1.33 |
-| Max Repetition Rate \[Hz] |     120     |      60      |
-|    Max Beam Power \[kW]   |      96     |      160     |
+|         Category         |   20 MeV    |   100 MeV    |
+|:------------------------:|:-----------:|:------------:|
+|     Energy [MeV]         |     20      |     100      |
+|   Peak Current [mA]      | 0.1 ~ 20    |  0.1 ~ 20    |
+| Max Beam Duty [%]        |     24      |      8       |
+|   Average Current [mA]   | 0.1 ~ 4.8   |  0.1 ~ 1.6   |
+|  Pulse Length [ms]       | 0.02 ~ 2.0  | 0.05 ~ 1.33  |
+| Max Repetition Rate [Hz] |    120      |     60       |
+| Max Beam Power [kW]      |     96      |    160       |
 
 </div>
 <div align="center"> 
@@ -58,27 +57,27 @@ Radiation test infrastructure not only strengthens the foundation of the space i
 
 ### KIRAMS – Korea Institute of Radiological & Medical Sciences (Nowon-gu, Seoul)
 
-> Located in Nowon-gu, Seoul, KIRAMS provides 20–45MeV proton beams using the MC-50 Cyclotron. A cyclotron accelerates particles near the speed of light by circular motion in a magnetic field. The following table outlines the specifications.
+Located in Nowon-gu, Seoul, KIRAMS operates a 20–45 MeV proton beam system using the MC-50 cyclotron. A cyclotron accelerates particles by spinning them in a magnetic field at high speeds. The table below shows its key specifications.
 
 <p align="center"> 
   <img src="/assets/Articles/KIRAMS.webp" alt="KIRAMS MC-50 Cyclotron" style="width: 40%;">
 </p>
 
 <div align="center"> 
-<h5>KIRAMS 50MeV Particle Accelerator</h5>
+<h5>KIRAMS 50 MeV Particle Accelerator</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
+<div align="center" style="font-size: 10px; color: gray;">
   Image source: KIRAMS Official Website<br>
   https://www.kirams.re.kr/common/front/rirams/images/sub/img_equip_02.png
 </div>
 
 <div align="center">
 
-|   Particle  |     Energy     |   Current   | Max Irradiation Area |
-| :---------: | :------------: | :---------: | :------------------: |
-|    Proton   | 20MeV \~ 40MeV | 1nA \~ 20uA |       2cm x 2cm      |
-|   Deuteron  |    \~ 45MeV    |      -      |      30cm x 30cm     |
-| Alpha (4HE) | 25MeV \~ 45MeV |   \~200nA   |       2cm x 2cm      |
+|    Particle    |     Energy     |   Current    | Max Irradiation Area |
+|:--------------:|:--------------:|:------------:|:--------------------:|
+|     Proton     | 20 ~ 40 MeV    | 1 nA ~ 20 μA |      2 cm × 2 cm     |
+|    Deuteron    | up to 45 MeV   |      -       |     30 cm × 30 cm    |
+|  Alpha (⁴He)   | 25 ~ 45 MeV    | up to 200 nA |      2 cm × 2 cm     |
 
 </div>
 <div align="center"> 
@@ -89,7 +88,7 @@ Radiation test infrastructure not only strengthens the foundation of the space i
 
 ### ARTI – Advanced Radiation Technology Institute (Jeongeup, Jeonbuk)
 
-> Located in Jeongeup, ARTI provides gamma irradiation facilities from 0.5kCi up to 470kCi. Using gamma rays from Co<sup>60</sup>, ARTI provides precision irradiation services for agriculture, aerospace, and basic science applications.
+Located in Jeongeup, ARTI offers gamma irradiation services with facilities ranging from 0.5 kCi to 470 kCi. Using gamma rays from Co-60 sources, ARTI supports precise irradiation for sectors including agriculture, aerospace, and basic science.
 
 <p align="center"> 
   <img src="/assets/Articles/ARTI.webp" alt="ARTI Low-Dose Gamma Irradiation Facility" style="width: 40%;">
@@ -98,23 +97,23 @@ Radiation test infrastructure not only strengthens the foundation of the space i
 <div align="center"> 
 <h5>ARTI Low-Dose Gamma Irradiation Facility</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
+<div align="center" style="font-size: 10px; color: gray;">
   Image source: ARTI Official Website<br>
   https://www.kaeri.re.kr/resources/images/arti/contents/facility_02.jpg
 </div>
 
 # Heavy Ion Accelerators
 
-Currently, Korea does not have Korean heavy ion accelerator infrastructure suitable for SEE (Single Event Effect) testing of semiconductors. As a result, overseas facilities are required for space and radiation environment reliability tests.
+Currently, South Korea lacks a domestic heavy ion accelerator infrastructure suitable for semiconductor SEE (Single Event Effect) testing. As a result, overseas facilities must be used for radiation testing related to space environments.
 
-To address this, the Korea Institute of Science and Technology (KIST) is pursuing heavy ion accelerator development. Additionally, the RAON accelerator by IBS (Institute for Basic Science) is Korea’s first large-scale heavy ion accelerator being developed for both nuclear physics and practical applications like SEE evaluation.
+To address this, the Korea Institute of Science and Technology (KIST) is pursuing the development of a heavy ion accelerator. In addition, the RAON accelerator being developed by the Institute for Basic Science (IBS) will be Korea’s first large-scale heavy ion accelerator, designed for both nuclear physics research and practical applications such as SEE evaluation.
 
-Once these projects are completed, independent SEE testing in Korea will be possible.
+Once these facilities are operational, Korea will be able to independently conduct SEE testing domestically.
 
 # QRT Radiation Hardness Evaluation Services
 
-QRT provides customized radiation hardness evaluation services using various Korean and international radiation facilities.<br>
-Please contact us via **[this link](https://www.qrtkr.com/kr/customer/inquiry.php)** for more details.
+QRT provides customized radiation hardness evaluation services in collaboration with both domestic and international facilities.  
+Please contact us through [this inquiry link](https://www.qrtkr.com/kr/customer/inquiry.php) for more information.
 
 ---
 

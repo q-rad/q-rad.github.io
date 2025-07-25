@@ -1,5 +1,4 @@
 ---
-
 layout: post
 title: Overview of Key Simulators for Radiation Effects Evaluation in Semiconductors
 description: A technical guide comparing major simulation tools (TCAD, FLUKA, Geant4, CHALICE, OMERE) used in analyzing radiation effects on semiconductors. Includes applications and features for SEE, TID, LET, and DD evaluations.
@@ -12,93 +11,98 @@ order: 2015
 
 # [TCAD](https://www.synopsys.com/manufacturing/tcad.html) - Synopsys
 
-Synopsys TCAD is a commercial software suite widely used for simulating semiconductor device behavior and fabrication processes. It provides physical-based models to simulate radiation effects such as electron-hole pair generation, charge transport, and trap creation under high-energy ion impact. It is particularly effective for evaluating SEU/SET based on LET and for assessing TID effects.
-Through transient simulation, TCAD accurately models time-dependent current density, voltage anomalies, and transistor parameter shifts. It is often used to quantitatively predict radiation effects prior to experimental SEE testing.
+Synopsys TCAD is a widely used commercial software suite for simulating semiconductor device behavior and fabrication processes. It offers physics-based models to analyze radiation effects such as electron-hole pair generation, charge transport, and trap formation from high-energy ion interactions. The tool is especially effective for evaluating SEU/SET based on LET, as well as TID effects.
 
-<p align= "center">
-<img src="/assets/Articles/synopsysTCAD.webp" style="width: 100%; max-width: 500px;" alt= "synopsysTCAD">
+Using transient simulation, TCAD can model time-dependent current density, voltage transients, and parameter shifts in transistors, enabling quantitative predictions before experimental SEE testing.
+
+<p align="center">
+<img src="/assets/Articles/synopsysTCAD.webp" style="width: 100%; max-width: 500px;" alt="synopsysTCAD">
 </p>
 <div align="center">
 <h5>Synopsys - TCAD</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
+<div align="center" style="font-size: 10px; color: gray;">
 Image Source: © Synopsys Inc. / SIMDET 2021 School Presentation (2021)
 </div>
 
 # [FLUKA](https://fluka.cern/) - CERN, INFN
 
-FLUKA is a general-purpose Monte Carlo simulation code for accurate modeling of particle transport and interaction with matter. It is freely available for non-commercial use and is applied across fields such as high-energy physics, medical physics, and space radiation analysis.
-FLUKA is ideal for radiation shielding, dose estimation, energy deposition tracking, and particle shower simulation. It excels in 3D simulation using DICOM medical imaging and can model complex space radiation interactions.
+FLUKA is a general-purpose Monte Carlo simulation code designed for precise modeling of particle transport and interactions with matter. Freely available for non-commercial use, it is employed in high-energy physics, medical physics, and space radiation research.
+
+FLUKA excels in radiation shielding analysis, dose estimation, energy deposition tracking, and particle shower modeling. It also supports 3D simulation using DICOM medical imaging, making it suitable for complex space radiation scenarios.
 
 <p align="center">
-  <img src="/assets/Articles/fluka.webp" alt= "FLUKA" style="width: 40%;">
+<img src="/assets/Articles/fluka.webp" alt="FLUKA" style="width: 40%;">
 </p>
 
 <div align="center">
 <h5>DICOM 3D voxel irradiation with 200 MeV proton beam</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
-  Image Source: CERN / flair.cern
+<div align="center" style="font-size: 10px; color: gray;">
+Image Source: CERN / flair.cern
 </div>
 
 # [Geant4](https://geant4.web.cern.ch/) - CERN
 
-Geant4 is an open-source C++ simulation toolkit developed by CERN for modeling particle interactions with matter. It offers extensive flexibility in physics model configuration, enabling detailed simulations across a wide energy range.
-Widely used in medical imaging, radiotherapy, space radiation studies, and detector design, Geant4 allows users to define custom scenarios and track secondary particle paths, energy deposition, and charge generation. It is especially effective for simulating SEE phenomena in detectors and semiconductor devices.
+Geant4 is an open-source C++ simulation toolkit developed by CERN for modeling particle interactions with matter. It offers highly flexible physics model configurations across a wide energy range.
+
+Geant4 is widely used in applications such as medical imaging, radiotherapy, space radiation analysis, and detector design. Users can customize experimental conditions and track secondary particle paths, energy deposition, and charge generation. It is particularly effective in simulating SEE phenomena in detectors and semiconductor components.
 
 <p align="center">
-  <img src="/assets/Articles/geant4.webp" alt= "geant4" style="width: 40%;">
+<img src="/assets/Articles/geant4.webp" alt="geant4" style="width: 40%;">
 </p>
 
 <div align="center">
-<h5>A 20-GeV-positron-induced shower in a longitudinally unsegmented fiber calorimeter</h5>
+<h5>A 20-GeV positron-induced shower in a longitudinally unsegmented fiber calorimeter</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
-  Image Source: © CERN / EP News — https://ep-news.web.cern.ch
+<div align="center" style="font-size: 10px; color: gray;">
+Image Source: © CERN / EP News — https://ep-news.web.cern.ch
 </div>
 
 # [CHALICE](https://nanohub.org/resources/chalice) - US Naval Research Laboratory
 
-CHALICE is a pulsed-laser simulator developed by the U.S. Naval Research Laboratory (NRL), designed to precisely calculate 2D/3D charge density distributions generated during SEE experiments.
-By inputting laser parameters such as wavelength, pulse width, and absorption coefficient, users can simulate charge deposition in sensitive volumes (SV), carrier distributions, and energy penetration depth. It also enables calculation of laser-equivalent LET (<sub>L</sub>), offering a useful method to model SEE using optical injection.
+CHALICE is a pulsed-laser simulator developed by the U.S. Naval Research Laboratory (NRL) to calculate 2D/3D charge density distributions during SEE experiments.
+
+By inputting laser parameters such as wavelength, pulse width, and absorption coefficient, CHALICE can simulate charge deposition in sensitive volumes, carrier transport, and energy penetration depth. It also supports calculation of LET<sub>L</sub> (laser-equivalent LET), making it a useful tool for optical SEE modeling.
 
 <p align="center">
-  <img src="/assets/Articles/chalice.webp" alt= "chalice" style="width: 40%;">
+<img src="/assets/Articles/chalice.webp" alt="chalice" style="width: 40%;">
 </p>
 
 <div align="center">
-<h5>2-D Carrier Density Distribution</h5>
+<h5>2D Carrier Density Distribution</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
-  Image Source: Chalice User Manual, Rev 1.0. nanoHUB.org, https://nanohub.org/resources/41038
+<div align="center" style="font-size: 10px; color: gray;">
+Image Source: Chalice User Manual, Rev 1.0. nanoHUB.org, https://nanohub.org/resources/41038
 </div>
 
 # [OMERE](https://www.trad.fr/en/space/omere-software/) - TRAD
 
-OMERE is a freeware platform developed by TRAD (France) for predicting radiation effects on semiconductor components under space conditions. It supports SEE, TID, DD, and solar cell degradation analysis based on particle fluxes.
-The tool includes multiple space radiation environment models such as AE8/AP8, CREME96, ISO 15390, etc. Users can define LEO, MEO, GEO, and lunar orbits, solar cycles, magnetosphere structures, and shielding effects to generate realistic simulations. OMERE is also used for part screening and mission-specific radiation reliability assessments.
+OMERE is a freeware tool developed by TRAD (France) to estimate radiation effects on semiconductor components in space. It supports SEE, TID, DD, and solar cell degradation analysis based on particle fluxes.
+
+The platform includes models such as AE8/AP8, CREME96, ISO 15390, and allows users to define mission-specific parameters including orbit type (LEO, MEO, GEO, lunar), solar cycles, magnetosphere, and shielding to simulate realistic space conditions. OMERE is widely used for radiation reliability assessment and component screening.
 
 <p align="center">
-  <img src="/assets/Articles/omere.webp" alt= "omere" style="width: 40%;">
+<img src="/assets/Articles/omere.webp" alt="omere" style="width: 40%;">
 </p>
 
 <div align="center">
-<h5>2-D Carrier Density Distribution</h5>
+<h5>OMERE Simulation Interface</h5>
 </div>
-<div align="center" style="font-size: 10px; color: gray; ">
-  Image Source: Chalice User Manual, Rev 1.0. nanoHUB.org, https://nanohub.org/resources/41038
+<div align="center" style="font-size: 10px; color: gray;">
+Image Source: TRAD / OMERE Documentation
 </div>
 
---------
+---
 
-<br/> <!-- Line break -->
+<br>
 
 **Related Articles**
 
-* [Up-Screening](/en/article/12.upScreening.html)
-* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
-* [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
-* [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
-* [What is DD (Displacement Damage)?](/en/article/18.DD.html)
-* [Radiation Hardness Evaluation](/en/article/3.방사선-내성-평가.html)
-* [Laser Evaluation](/en/article/4.레이저평가.html)
+* [Up-Screening](/en/article/12.upScreening.html)  
+* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)  
+* [What is TID (Total Ionizing Dose Effect)?](/en/article/7.TID.html)  
+* [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)  
+* [What is DD (Displacement Damage)?](/en/article/18.DD.html)  
+* [Radiation Hardness Evaluation](/en/article/3.방사선-내성-평가.html)  
+* [Laser Evaluation](/en/article/4.레이저평가.html)  

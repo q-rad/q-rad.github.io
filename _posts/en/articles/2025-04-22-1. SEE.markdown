@@ -12,11 +12,15 @@ order: 1002
 
 # SEE (Single Event Effect)
 
-SEE (Single Event Effect) occurs when radiation (protons, neutrons, heavy ions, gamma rays, etc.) passes through a semiconductor and ionizes the medium, causing operational errors in the circuit. The electron-hole pairs generated through the ionization process can reach the sensitive region of the semiconductor, and if the quantity is sufficient to change the operational state, errors occur. SEE is generally a non-destructive and transient error, which can be resolved by resetting the value or power.
+A Single Event Effect (SEE) occurs when radiation—such as protons, neutrons, heavy ions, or gamma rays—passes through a semiconductor and ionizes the material, leading to operational errors in the circuit.
+Electron-hole pairs generated through the ionization process may reach the sensitive region of the semiconductor, and if the charge is sufficient to alter the logic state, an error can occur.
+SEE is typically a non-destructive and transient phenomenon that can be resolved by resetting the system or cycling the power.
 
 # Effects and Types of SEE
 
-SEE manifests in various phenomena within semiconductor devices. One such manifestation is the Single Event Upset (SEU), often referred to as a "soft error." SEU is a temporary logical error that changes the stable logic state of circuits with bi-stable functions such as latches, flip-flops, or memory cells due to a single particle-induced upset. For instance, an SEU in a memory cell may change a stored logic value from '0' to '1' or vice versa. However, rewriting the value as '0' or '1' returns the system to normal operation, thus classifying it as a soft error. <br/>
+Single Event Effects (SEE) can manifest in various ways within semiconductor devices. One common manifestation is the Single Event Upset (SEU), often referred to as a "soft error."
+An SEU is a temporary logical fault that alters the stable logic state of circuits with bistable elements, such as latches, flip-flops, or memory cells, due to the impact of a single energetic particle.
+For example, an SEU in a memory cell may flip a stored logic value from '0' to '1' or vice versa. However, simply rewriting the value restores normal system operation, which is why SEUs are classified as soft errors. <br/>
 
 <p align="center"> 
   <img src="/assets/Articles/SEE체계도.webp" alt= "SEE structure diagram">
@@ -38,7 +42,7 @@ SEU (Single Event Upset)
 </h4>
 </summary>
 
-This occurs when a single logic or information bit is upset. If the affected bits are physically adjacent or multiplexed into different words, it may manifest as a multi-bit upset. SEU refers to changes in logic values of storage circuits such as memory devices, latches, and registers. <br/>
+A Single Event Upset (SEU) occurs when a single logic or information bit is flipped. If adjacent bits are affected simultaneously—either physically or logically—it may result in a multi-bit upset (MBU). SEUs involve changes in the logic state of storage elements such as memory cells, latches, or registers. <br/>
 
 </details>
 
@@ -49,7 +53,7 @@ SCU (Single Cell Upset)
 </h4>
 </summary>
 
-This is an SEU that affects only a single cell or logic bit (latch, flip-flop, etc.), as opposed to an MCU.
+A Single Cell Upset (SCU) is a form of SEU that affects only a single memory cell or logic element (e.g., latch, flip-flop), unlike an MCU which affects multiple cells.
 
 <p align="center"> 
   <img src="/assets/Articles/SCU.webp">
@@ -66,7 +70,7 @@ This is an SEU that affects only a single cell or logic bit (latch, flip-flop, e
 MBU (Multi-Bit Upset)
 </h4>
 </summary>
-A single event that causes multiple upsets within the same logic word (e.g., frame/column/sector in FPGAs). It can also lead to multiple single-bit upsets across adjacent words.
+A Multi-Bit Upset (MBU) occurs when a single event causes multiple bit upsets within the same logic word (e.g., frame, column, or sector in FPGAs). It may also result in multiple single-bit upsets across adjacent words.
 <br/>
 </details>
 
@@ -76,7 +80,7 @@ A single event that causes multiple upsets within the same logic word (e.g., fra
 MCU (Multi-Cell Upset)
 </h4>
 </summary>
-An event that simultaneously flips multiple cells (e.g., memory cells or flip-flops) in an integrated circuit. These cells are often physically adjacent but may not be logically adjacent depending on layout and routing.
+A Multi-Cell Upset (MCU) refers to a single event that simultaneously flips multiple physically adjacent cells, such as memory bits or flip-flops, in an integrated circuit.
 <p align="center"> 
   <img src="/assets/Articles/MCU.webp">
 </p>
@@ -92,7 +96,7 @@ An event that simultaneously flips multiple cells (e.g., memory cells or flip-fl
 SED (Single Event Disturb)
 </h4>
 </summary>
-A temporary instability in SRAM cells that may eventually return to a stable state. This condition is associated with SEU characteristics but may also result in soft errors if the unstable state lasts long enough to be read. SED appears as a voltage spike due to ion-induced charge separation at junctions. It is similar to SET but distinct in affecting stored states in logic elements.
+A Single Event Disturb (SED) is a temporary instability in an SRAM cell that may eventually return to a stable state. It shares characteristics with SEUs, but may result in soft errors if the disturbance persists long enough to be read. SEDs appear as voltage transients due to ion-induced charge separation and are conceptually similar to SETs, but affect stored states.
 <br/>
 </details>
 
@@ -102,7 +106,7 @@ A temporary instability in SRAM cells that may eventually return to a stable sta
 SEFI (Single Event Functional Interrupt)
 </h4>
 </summary>
-A SEE that causes a component to malfunction (reset, lock-up) in a detectable way without permanent damage. SEFIs are often related to SBU/MBU in control bits or registers and are recoverable through reset or power cycling. Unlike SELs, SEFIs do not typically cause high current. They may result in error bursts or long functional outages.
+A Single Event Functional Interrupt (SEFI) is a type of SEE that disrupts system operation—such as by causing a reset or lock-up—without permanent damage. SEFIs often result from control bit upsets and can be recovered by reset or power cycling. Unlike SELs, SEFIs typically do not involve excessive current.
 <br/>
 </details>
 
@@ -112,7 +116,7 @@ A SEE that causes a component to malfunction (reset, lock-up) in a detectable wa
 SET (Single Event Transient)
 </h4>
 </summary>
-A short-lived impulse generated by a SEE in a combinational logic output gate. If latched during an active clock edge, it can propagate as an error. SET propagation can be suppressed by logical, temporal, or electrical masking. In ASICs, more than 90% of SETs are masked, with only 10% potentially resulting in upsets. Larger ASICs increase SET occurrence exponentially. Analog SETs (ASETs) may generate spurious signals, affecting digital logic.
+A Single Event Transient (SET) is a brief voltage glitch generated by a SEE in combinational logic. If latched during a clock edge, it may propagate as an error. Most SETs are suppressed by masking mechanisms, and only a small fraction result in actual upsets. In analog circuits, Analog SETs (ASETs) can produce spurious signals that affect digital logic.
 <br/>
 </details>
 
@@ -124,7 +128,7 @@ A short-lived impulse generated by a SEE in a combinational logic output gate. I
 SEL (Single Event Latch-up)
 </h4>
 </summary>
-A high-current abnormal state triggered by parasitic thyristor activation, persisting until power is reset. SEL can result in overheating or localized metal fusing. Micro-SELs are usually non-destructive and harder to detect due to small current increases.
+A Single Event Latch-up (SEL) is a high-current state caused by the triggering of a parasitic thyristor structure. This condition persists until power is cycled and may lead to localized heating or damage. Micro-SELs may be non-destructive and difficult to detect.
 <br/>
 </details>
 
@@ -134,7 +138,7 @@ A high-current abnormal state triggered by parasitic thyristor activation, persi
 SEHE (Single Event Hard Error)
 </h4>
 </summary>
-A hard error caused by a single radiation strike, highlighting irreversible damage such as substrate destruction beyond the scope of SEU.
+A Single Event Hard Error (SEHE) refers to irreversible damage caused by a single radiation strike, such as dielectric or substrate breakdown, beyond typical SEU recovery mechanisms.
 <br/>
 </details>
 
@@ -144,7 +148,7 @@ A hard error caused by a single radiation strike, highlighting irreversible dama
 SEGR (Single Event Gate Rupture)
 </h4>
 </summary>
-A failure event in MOSFETs caused by particle impact, damaging the gate oxide and increasing leakage currents, leading to device failure.
+A Single Event Gate Rupture (SEGR) is a destructive event in a MOSFET where particle impact damages the gate oxide, resulting in increased leakage current and potential device failure.
 <br/>
 </details>
 
@@ -154,7 +158,7 @@ A failure event in MOSFETs caused by particle impact, damaging the gate oxide an
 SEDR (Single Event Dielectric Rupture)
 </h4>
 </summary>
-A breakdown of dielectric material induced by radiation. Though observed in tests, SEDR has not been reported in space missions and is largely of academic interest.
+A Single Event Dielectric Rupture (SEDR) involves the breakdown of dielectric material due to radiation. While observed in ground testing, SEDR has not yet been reported in space missions and remains mostly academic.
 <br/>
 </details>
 
@@ -164,7 +168,7 @@ A breakdown of dielectric material induced by radiation. Though observed in test
 SEB (Single Event Burn-out)
 </h4>
 </summary>
-A destructive high-current state in power transistors caused by a single particle impact. It may lead to permanent failure and tends to occur less frequently at higher temperatures.
+A Single Event Burn-out (SEB) is a destructive high-current state triggered in power transistors by a single particle strike. It may lead to permanent damage and tends to occur less frequently at elevated temperatures.
 <br/>
 </details>
 
@@ -174,7 +178,7 @@ A destructive high-current state in power transistors caused by a single particl
 SESB (Single Event Snap-Back)
 </h4>
 </summary>
-Similar to SEL, this occurs when avalanche multiplication triggers a parasitic path in the affected transistor, which remains conducting until reset.
+A Single Event Snap-Back (SESB) is similar to SEL and occurs when avalanche multiplication activates a parasitic conduction path in a transistor, which remains active until the power is cycled.
 </details>
 
 ---

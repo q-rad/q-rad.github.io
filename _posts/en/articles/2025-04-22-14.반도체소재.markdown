@@ -10,8 +10,10 @@ order: 2008
 lang: en
 ---
 
-During laser radiation evaluation, the absorption mechanism varies depending on the substrate material used in the semiconductor device and the wavelength of the laser.  
-The following table summarizes the differences in possible photon absorption mechanisms by semiconductor material under the wavelengths used by QRT.
+# Comparison of Band Gaps and Optical Absorption Mechanisms of Semiconductor Substrates
+
+During laser-based radiation evaluation, the absorption mechanism varies depending on both the semiconductor substrate material and the wavelength of the incident laser.  
+The table below summarizes the optical absorption mechanisms of various semiconductor materials under laser wavelengths commonly used by QRT.
 
 <div align="center"> 
 <h5>Comparison of Optical Properties of Si, GaAs, SiC, and GaN Substrates</h5>
@@ -19,30 +21,34 @@ The following table summarizes the differences in possible photon absorption mec
 
 <div align="center">
 
-| Substrate | Band Gap | 1064nm~1260nm | 620nm |
-|-----------|----------|---------------|-------|
-| Si        | 1.12eV   | SPA/TPA       | SPA   |
-| GaAs      | 1.42eV   | TPA           | SPA   |
-| SiC       | 3.23eV   | MPA           | TPA   |
-| GaN       | 3.42eV   | MPA           | TPA   |
+| Substrate | Band Gap | 1064nm–1260nm | 620nm |
+|-----------|----------|----------------|--------|
+| Si        | 1.12 eV  | SPA / TPA      | SPA    |
+| GaAs      | 1.42 eV  | TPA            | SPA    |
+| SiC       | 3.23 eV  | MPA            | TPA    |
+| GaN       | 3.42 eV  | MPA            | TPA    |
 
 <p align="center" style="color: #666666; font-size:15px;">
-SPA: single photon absorption,  
-TPA: two photon absorption,  
-MPA: multiple photon absorption  
+SPA: single-photon absorption  
+TPA: two-photon absorption  
+MPA: multiphoton absorption  
 </p>
 
 </div>
 
-Among semiconductor materials, **silicon (Si)** has a relatively small band gap, allowing evaluation using single photon absorption (SPA) mechanisms with relatively long wavelengths such as 1064nm.  
-In contrast, **GaAs (Gallium Arsenide)**, **SiC (Silicon Carbide)**, and **GaN (Gallium Nitride)**, which are commonly used in power semiconductor devices, have wide band gaps and thus cannot be evaluated via SPA at the same wavelength.  
+---
 
-For instance, a laser with a wavelength of 630nm has photon energy of about 2eV, so in materials with a larger band gap, **two-photon absorption (TPA)** mechanisms—where two photons are simultaneously absorbed—are required to excite an electron above the band gap.
+Among the materials listed, silicon (Si) has the smallest band gap, allowing evaluation via single-photon absorption (SPA) even with longer wavelengths such as 1064nm.  
+In contrast, wide band gap materials like GaAs (Gallium Arsenide), SiC (Silicon Carbide), and GaN (Gallium Nitride) cannot be excited via SPA at the same wavelengths, and therefore require higher-order nonlinear absorption mechanisms.
 
-To perform laser evaluations on such a variety of materials, QRT possesses laser irradiation equipment capable of covering a **broad wavelength range from 630nm to 1700nm**, and implementing ultrashort pulse widths of at least **200 fs**.  
-This enables flexible radiation hardness evaluations tailored to different semiconductor devices.
+For example, a laser wavelength of 630nm corresponds to a photon energy of approximately 2 eV.  
+In materials where the band gap exceeds this energy, two-photon absorption (TPA)—in which two photons are absorbed simultaneously—is required to promote an electron across the band gap.  
+For even wider band gap materials, multiphoton absorption (MPA) may be necessary, depending on the energy required.
 
--------------------------------------
+To support evaluation across a wide range of semiconductor devices, QRT is equipped with ultrafast pulsed laser systems that cover a broad wavelength spectrum from 630nm to 1700nm, and offer pulse durations as short as 200 femtoseconds.  
+This enables precise and flexible radiation hardness evaluations tailored to the specific optical and material characteristics of the device under test.
+
+---
 
 <br/>
 

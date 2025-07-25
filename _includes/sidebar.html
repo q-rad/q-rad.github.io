@@ -113,8 +113,14 @@
 	function updatePageLanguage(lang) {
 		// 문의하기 버튼 텍스트 변경
 		const contactText = document.getElementById('contact-text');
+		const contactLink = document.querySelector('#contactBtn a');
 		if (contactText) {
 			contactText.textContent = lang === 'en' ? 'Contact Us\u00A0' : '문의하기\u00A0';
+		}
+		if (contactLink) {
+			contactLink.href = lang === 'en'
+				? 'https://www.qrtkr.com/en/customer/inquiry.php'
+				: 'https://www.qrtkr.com/kr/customer/inquiry.php';
 		}
 
 		const aboutLink = document.getElementById('about-laser2cots-link');

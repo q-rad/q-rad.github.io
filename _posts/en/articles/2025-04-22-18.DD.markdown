@@ -12,37 +12,37 @@ lang: en
 
 # DD (Displacement Damage)
 
-Displacement Damage (DD) occurs within the bulk of semiconductors and, unlike surface- or interface-limited Total Ionizing Dose (TID), affects the entire volume of a device. This type of volumetric damage alters the electrical, optical, and thermal properties of semiconductors, potentially leading to performance degradation or functional failure.
+Displacement Damage (DD) refers to damage that occurs throughout the bulk of semiconductor materials. Unlike Total Ionizing Dose (TID), which mainly affects surface and interface regions, DD impacts the entire volume of a device. This volumetric damage can alter electrical, optical, and thermal properties, potentially leading to performance degradation or even failure.
 
-For example, if damage occurs in the active layers of devices, such as the channel region of MOSFETs or the base region of BJTs, it can lead to increased recombination rates, decreased carrier mobility, and reduced switching speed, all of which contribute to significant degradation.
+If DD occurs in the active regions of a device—such as the channel of a MOSFET or the base region of a BJT—it can result in increased recombination, reduced carrier mobility, and slower switching speeds. These effects degrade overall device performance and reliability.
 
-Radiation types that typically cause DD include high-energy electrons, protons, neutrons, and high-energy photons such as gamma rays and X-rays that generate secondary electrons.
+Radiation types that typically induce DD include high-energy electrons, protons, neutrons, and high-energy photons (such as gamma rays and X-rays) that produce secondary particles.
 
-DD occurs via four main mechanisms:
+DD is primarily caused by the following four mechanisms:
 
-1. **Coulomb Scattering**: Charged particles (e.g., protons) interact electrostatically with silicon atoms, transferring kinetic energy and causing trajectory deviations. This effect is prominent at proton energies below 10 MeV.
+1. Coulomb scattering: Charged particles, such as protons, interact electrostatically with silicon atoms. Kinetic energy is transferred, deflecting the trajectories of atoms and causing localized disruptions. This is particularly significant at proton energies below 10 MeV.
 
-2. **Nuclear Elastic Scattering**: Incident particles (e.g., protons, neutrons) elastically collide with silicon nuclei, generating recoil silicon atoms. This leads to vacancy and interstitial defects.
+2. Nuclear elastic scattering: Incident particles like protons or neutrons collide elastically with silicon nuclei, producing recoil silicon atoms. These recoils generate vacancy and interstitial defects within the crystal lattice.
 
-3. **Nuclear Inelastic Scattering**: Energy from the incident particle excites the silicon nucleus, which subsequently decays, emitting nuclear recoils or secondary particles, leading to further displacement.
+3. Nuclear inelastic scattering: The energy from incoming particles excites the silicon nucleus, which subsequently decays by emitting secondary particles or recoils. These emissions further displace atoms, contributing to structural damage.
 
-4. **Stopping of Energetic Secondary Particles and Phonon Interaction**: When energetic secondary particles lose energy and stop, they interact with phonons, amplifying the vibration of surrounding atoms and locally increasing temperature.
+4. Energy loss of secondary particles and phonon interactions: As energetic secondary particles slow down and stop, they interact with phonons in the material. This increases local atomic vibrations and temperature, leading to additional displacement and disruption.
 
 <p align="center">
   <img src="/assets/Articles/DD.webp" style="width: 100%; max-width: 500px;" alt="Displacement Damage">
 </p>
-<p align="center">Displacement Damage – Nuclear Elastic Interaction</p>
+<p align="center">Displacement damage – nuclear elastic interaction</p>
 
 <p align="center">
   <img src="/assets/Articles/전자산란.webp" style="width: 100%; max-width: 500px;" alt="Electron Scattering">
 </p>
-<p align="center">Electron Scattering</p>
+<p align="center">Electron scattering</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
 Image source: [Electron-beam interaction and transmission with sample - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Electron-beam_interaction_and_transmission_with_sample.jpg)  
 Author: Zephyris / CC BY-SA 3.0
 </p>
 
--------------------------------------
+---
 
 <br/>
 

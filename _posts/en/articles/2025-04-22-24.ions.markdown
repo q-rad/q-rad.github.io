@@ -11,14 +11,15 @@ lang: en
 ---
 
 # Ion
-An ion is an atomic nucleus that has lost electrons and carries a positive charge. When ions are incident on a material, they ionize electrons (removal of electrons due to electric force), which leads to the creation of electron-hole pairs. Compared to other particles, ions deliver more energy to the material and generate more charge.
 
-Even a small region of silicon penetrated by a heavy ion can experience a sudden and massive injection of charge in a short time. Ions pass through sensitive areas in silicon within tens of femtoseconds and come to a stop within less than one picosecond—much faster than the typical response time of semiconductor devices.
+An ion is an atomic nucleus that has lost electrons and carries a positive charge. When ions strike a material, they ionize atoms by removing electrons through electric interactions, generating electron-hole pairs. Compared to other radiation types, ions deposit more energy in the material and produce more charge.
 
-As ions pass through, the generated charge is distributed cylindrically, with lengths ranging from tens to hundreds of microns and radii in the nanometer range. If this occurs in deep substrate areas or metal layers without circuits, it may not pose a problem. However, if it affects layers with sensitive circuits, the resulting charge can disrupt the circuit and cause malfunctions.
+Even a small volume of silicon penetrated by a heavy ion can experience an intense burst of charge in a very short time. Ions travel through sensitive regions of silicon within tens of femtoseconds and come to a stop in less than a picosecond—much faster than the response time of typical semiconductor devices.
+
+As an ion passes through, the generated charge forms a cylindrical distribution along its path, with lengths ranging from tens to hundreds of microns and radii on the nanometer scale. If this occurs in non-critical areas such as deep substrate layers or metal regions without active circuitry, it may not cause problems. However, if the ion traverses sensitive circuit regions, the deposited charge can disturb the operation and trigger malfunctions.
 
 <p align="center"> 
-  <img src="/assets/Articles/LET.webp" alt= "Generation of electron-hole pairs by charged particle in semiconductor" style="width: 70%;">
+  <img src="/assets/Articles/LET.webp" alt="Generation of electron-hole pairs by charged particle in semiconductor" style="width: 70%;">
 </p>
 
 <!-- Image Caption -->
@@ -27,15 +28,15 @@ As ions pass through, the generated charge is distributed cylindrically, with le
 </div>
 <br>
 
-In low-voltage circuits, the resulting electron-hole pairs can lead to unwanted voltages or currents, causing digital circuits to exhibit data errors or analog circuits to output abnormal signals. In CMOS circuits, if charges are injected into areas where two wells are close together, it can create an unintended current path, leading to excessive current flow and a malfunction called “latch-up.”
+In low-voltage circuits, the generated electron-hole pairs can induce unwanted voltage or current levels, resulting in data errors in digital circuits or abnormal output in analog circuits. In CMOS devices, if the charge is deposited between closely spaced wells, it may form an unintended current path, leading to excessive current flow—a condition known as “latch-up.”
 
-In high-voltage or power devices, heavy ions can damage semiconductor junctions or gate oxide layers, leading to permanent failures.
+In high-voltage or power semiconductor devices, heavy ions can physically damage the junctions or gate oxides, potentially causing permanent failure.
 
-Heavy ions are primarily found in space, especially cosmic rays from outside the solar system. These ions have such high energy that they can easily penetrate semiconductor packages and generate substantial charge. This makes heavy ions a major cause of Single Event Effects (SEE) in space, and SEE testing of space-grade components is typically conducted using heavy ions.
+Heavy ions are primarily found in space, particularly as part of galactic cosmic rays originating outside the solar system. These ions carry extremely high energy, enabling them to easily penetrate semiconductor packages and generate substantial charge. For this reason, heavy ions are a major cause of Single Event Effects (SEE) in space, and SEE testing for space-grade components is typically performed using heavy ions.
 
-However, heavy ions are not common—even in space—and are often not abundant enough to cause significant Total Ionizing Dose (TID) or Displacement Damage (DD). Additionally, since ions are easily absorbed by the Earth's atmosphere, they have minimal impact at ground level.
+However, even in space, heavy ions are relatively rare and generally do not contribute significantly to Total Ionizing Dose (TID) or Displacement Damage (DD). On Earth, heavy ions are effectively blocked by the atmosphere and thus pose little risk to ground-based electronics.
 
--------------------------------------
+---
 
 <br/> <!-- line break -->
 

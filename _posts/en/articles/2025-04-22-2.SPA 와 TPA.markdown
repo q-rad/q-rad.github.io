@@ -10,7 +10,7 @@ sub_category: Laser-Based SEE Evaluation
 order: 2002
 ---
 
-Both SPA and TPA lasers can effectively reproduce error phenomena caused by heavy ion irradiation. Most upset phenomena can be qualitatively reproduced. This is because the location, depth, and energy of the reaction can be independently controlled, making it suitable for diagnosing single event upsets and analyzing the causes and failure mechanisms of charge depletion due to the upset.
+Both SPA and TPA lasers can effectively replicate error phenomena caused by heavy ion irradiation. Most upset events can be qualitatively reproduced, as the location, depth, and energy of the interaction can be independently controlled. This makes them suitable for diagnosing single-event upsets and analyzing the causes and failure mechanisms related to charge depletion due to these upsets.
 
 <p align="center"> 
   <img src="/assets/Articles/SPATPA.webp" style="max-width: 40%;" alt="Single Photon Absorption & Two Photon Absorption">
@@ -23,7 +23,7 @@ Both SPA and TPA lasers can effectively reproduce error phenomena caused by heav
 
 # SPA (Single Photon Absorption)
 
-This is a linear absorption process where a single photon is absorbed by the semiconductor, creating an electron-hole pair. When the energy of the incident photon is equal to or greater than the bandgap of the material, the electron in the valence band 'jumps' to the conduction band, thereby generating an electron-hole pair.
+This is a linear absorption process in which a single photon is absorbed by the semiconductor, generating an electron-hole pair. When the energy of the incident photon is equal to or greater than the material’s bandgap, an electron in the valence band is excited to the conduction band, resulting in the creation of an electron-hole pair.
 
 <!-- Centered Image -->
 <p align="center"> 
@@ -37,8 +37,8 @@ This is a linear absorption process where a single photon is absorbed by the sem
 
 # TPA (Two Photon Absorption)
 
-With a short pulse (~200 fs) of photons with energy less than the bandgap, a non-linear absorption occurs in which two photons are absorbed probabilistically, creating electron-hole pairs.  
-TPA lasers can reproduce and evaluate most single event upsets caused by radiation particles in semiconductors through the generation of electron-hole pairs. It is possible to determine the failure mechanism, critical energy, and the location of the sensitive volume.
+With a short pulse (~200 fs) of photons whose energy is lower than the bandgap, a nonlinear absorption process occurs in which two photons are simultaneously absorbed with a certain probability, generating electron-hole pairs.
+TPA lasers can reproduce and evaluate most single-event upsets in semiconductors caused by radiation particles through this two-photon-induced carrier generation. This enables the identification of the failure mechanism, critical energy, and the location of the sensitive volume.
 
 <div align="center">
 

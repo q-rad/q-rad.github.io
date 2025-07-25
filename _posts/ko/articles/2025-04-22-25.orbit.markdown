@@ -71,7 +71,7 @@ Geostationary Transfer Orbit(GTO)은 위성을 정지궤도(GEO: Geostationary E
 # 궤도 별 방사선 내성 평가 항목
 
 LEO 궤도는 밴 앨런대의 차폐 효과에 크게 영향을 받습니다. 밴 앨런대는 태양 입자 이벤트(Solar Particle Events, SPE)의 영향을 현저히 줄이며, 은하우주선(Galactic Cosmic Rays, GCR)의 비율도 크게 낮춥니다.
-밴 앨런대는 사이클로트론(cyclotron)처럼 작용하여, 입자들을 포획하고 집중시켜 입사 방사선의 에너지를 증가시킵니다. 이로 인해 트랩된 입자(trapped particles)는 태양풍(solar wind)보다 더 높은 에너지를 가지게 되며, 이는 반도체에 문제를 일으킬 수 있는 수준입니다.<br>
+트랩된 입자(trapped particles)는 태양풍(solar wind)보다 더 높은 에너지를 가지게 되며, 이는 반도체에 문제를 일으킬 수 있는 수준입니다.<br>
 GEO 궤도는 특히 태양 플레어(solar flare) 발생 시 높은 방사선 위험에 노출됩니다. GEO는 밴 앨런대(Van Allen belts) 바깥에 위치하지만, 여전히 어느 정도의 자기권 차폐(shielding)의 영향을 받습니다.
 또한 GEO로 위성이 가기 위해선 GTO를 이용하여 진입하는데 이 때, 밴 앨런대를 통과하기 때문에
 비교적 많은 방사선을 받게 됩니다.
