@@ -113,7 +113,7 @@ Once these facilities are operational, Korea will be able to independently condu
 # QRT Radiation Hardness Evaluation Services
 
 QRT provides customized radiation hardness evaluation services in collaboration with both domestic and international facilities.  
-Please contact us through [this inquiry link](https://www.qrtkr.com/kr/customer/inquiry.php) for more information.
+Please contact us through [this inquiry link](https://www.qrtkr.com/en/customer/inquiry.php) for more information.
 
 ---
 

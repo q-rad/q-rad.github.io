@@ -58,7 +58,7 @@ We provide services for alternative radiation hardness testing of semiconductors
 QRT's evaluation system features a high-precision XYZ stage controllable at the nanometer level, enabling precise laser targeting at specific coordinates on a semiconductor chip.  
 This allows for detailed mapping of Single Event Effects (SEE), effectively identifying **Sensitive Areas** within the circuit layout.
 
-**[→ Contact QRT for laser evaluation or facility rental](https://www.qrtkr.com/kr/customer/inquiry.php)**
+**[→ Contact QRT for laser evaluation or facility rental](https://www.qrtkr.com/en/customer/inquiry.php)**
 
 ---
 
