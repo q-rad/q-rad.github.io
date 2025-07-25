@@ -13,6 +13,18 @@ lang: ko
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//_6l7bhIXtJw' frameborder='0' allowfullscreen></iframe></div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "우주 반도체 테스트, 중이온 가속기 없이도 가능하다?",
+  "description": "QRT 이혁재 박사가 우주 반도체 평가 기술을 소개합니다.",
+  "thumbnailUrl": "https://img.youtube.com/vi/_6l7bhIXtJw/maxresdefault.jpg",
+  "uploadDate": "2025-04-29",
+  "contentUrl": "https://www.youtube.com/watch?v=_6l7bhIXtJw",
+  "embedUrl": "https://www.youtube.com/embed/_6l7bhIXtJw"
+}
+</script>
 
 <br>
 

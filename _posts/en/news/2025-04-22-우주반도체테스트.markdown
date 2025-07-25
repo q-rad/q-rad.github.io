@@ -13,6 +13,20 @@ lang: en
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//_6l7bhIXtJw' frameborder='0' allowfullscreen></iframe></div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Space Semiconductor Testing Without a Heavy Ion Accelerator?",
+  "description": "Dr. Hyukjae Lee from QRT introduces advanced space semiconductor evaluation methods including laser-based alternatives.",
+  "thumbnailUrl": "https://img.youtube.com/vi/_6l7bhIXtJw/maxresdefault.jpg",
+  "uploadDate": "2025-04-29",
+  "contentUrl": "https://www.youtube.com/watch?v=_6l7bhIXtJw",
+  "embedUrl": "https://www.youtube.com/embed/_6l7bhIXtJw"
+}
+</script>
+
+
 <br>
 
 <p style="font-size:23px"> <b>Dr. Hyukjae Lee of QRT Discusses ‘Advanced Space Semiconductor Reliability Evaluation Technology’</b></p>

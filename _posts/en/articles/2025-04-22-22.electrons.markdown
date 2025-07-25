@@ -17,21 +17,20 @@ Electrons incident on a material are negatively charged and interact with electr
 ### Electron–Electron Interaction
 
 Because both particles carry negative charge, a strong repulsive force acts when an incident electron approaches another electron. This causes the incoming electron to deviate from its trajectory, while the target electron typically remains in its orbital path. 
-
+<br>
 The incident electron may also transfer energy to the target electron, exciting it to a higher energy level. If the target electron is ejected, a vacancy is created and subsequently filled by an outer electron, emitting a photon in the process. 
-
+<br>
 In high atomic number (Z) elements, this photon is typically an X-ray, similar to the characteristic X-rays observed in the photoelectric effect. In low-Z elements, visible light photons may be emitted, as in fluorescent lighting.
-
+<br>
 In some cases, the ejected target electron has enough energy to become a free electron capable of ionizing other atoms, leading to a chain reaction. These energetic secondary electrons are referred to as delta-rays.
 
 ### Electron–Nucleus Interaction
 
-When a negatively charged electron approaches a positively charged nucleus, it experiences an attractive force that causes it to slow down and change direction. Because the nucleus is much heavier than the electron, its movement is negligible during this interaction.
-
+When a negatively charged electron approaches a positively charged nucleus, it experiences an attractive force that causes it to slow down and change direction. Because the nucleus is much heavier than the electron, its movement is negligible during this interaction.<br>
 In some cases, the incident electron transfers enough energy to displace the nucleus, causing what is known as [Displacement Damage](/en/article/18.DD.html). However, most of the electron's energy is used to cause ionization.
-
+<br>
 As the electron decelerates due to interaction with the nucleus, it may emit a photon—a process known as bremsstrahlung or braking radiation. The closer the electron passes to the nucleus, the greater the deceleration and the higher the energy of the emitted photon.
-
+<br>
 This interaction produces a continuous energy spectrum, and the maximum energy of emitted photons corresponds to the kinetic energy of the incident electron.
 
 <p align="center">
@@ -44,9 +43,8 @@ Author: Zephyris / CC BY-SA 3.0
 </p>
 
 Most semiconductor devices are enclosed in opaque materials (plastic, ceramic, metal, etc.), which require incident electrons to have energies above approximately 300 keV to penetrate the package and reach the internal die.
-
-In industrial and medical applications, beta particles from electron beams or radioactive materials typically have energies ranging from 0.01 to 4 MeV. These high-energy electrons can penetrate the outer layers and impact the internal circuitry.
-
+<br>
+In industrial and medical applications, beta particles from electron beams or radioactive materials typically have energies ranging from 0.01 to 4 MeV. These high-energy electrons can penetrate the outer layers and impact the internal circuitry.<br>
 On Earth, the flux of high-energy electrons is generally too low to cause serious reliability issues for semiconductors. However, in space environments—particularly in the [Van Allen Radiation Belts](/en/article/16.지구의-자기장과-방사선대의-관계.html)—the electron flux is significantly higher. Electrons in the 0.1–10 MeV range are common and can easily penetrate semiconductor packaging, contributing to effects such as [Total Ionizing Dose (TID)](/en/article/7.TID.html).
 
 ---

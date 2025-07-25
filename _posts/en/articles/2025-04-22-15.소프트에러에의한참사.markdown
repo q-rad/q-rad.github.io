@@ -14,11 +14,10 @@ lang: en
 
 In October 2008, Qantas Flight 72 (Airbus A330-303) was cruising at 37,000 feet on autopilot en route from Singapore to Perth, Western Australia. Suddenly, the aircraft’s Inertial Reference System (IRS)—which monitors pitch, roll, and yaw—began outputting erroneous data.  
 As a result, the flight control computer mistakenly believed the aircraft was entering a stall and, in response to incorrect angle-of-attack (AOA) values, automatically commanded a nose-down maneuver.
-
+<br>
 This sudden and uncommanded pitch change injured over one-third of the passengers and more than three-quarters of the crew.
-
 Although this specific failure mode had only occurred three times in over 128 million flight hours, it still fell within the aircraft manufacturer’s allowable fault rate. The algorithm was later redesigned to prevent recurrence.
-
+<br>
 The soft error rate of the responsible unit was calculated as 3 / 0.128 = 23.44 FIT. However, at a cruising altitude of 37,000 feet, the actual soft error rate for unprotected memory is several thousand times higher—meaning this estimate severely underestimated real-world conditions.  
 If a more accurate soft error model had been applied, the incident might have been prevented through additional countermeasures.
 
@@ -46,7 +45,7 @@ Sudden acceleration incidents involving a well-known 'T' brand automobile result
 
 Between 2010 and 2011, JPL explored the possibility that soft errors might have caused the unintended acceleration, asking, “Can cosmic rays cause sudden unintended acceleration in cars?”  
 Ultimately, the case was closed not by JPL, but by Carnegie Mellon University, which concluded that a single-bit upset (SBU) was the root cause. They supported this conclusion with analytical and experimental data.
-
+<br>
 The final report emphasized that while error-correcting code (ECC) was applied to the memory modules in question, it did not effectively protect the system from all radiation-induced faults—demonstrating a critical gap in system-level fault tolerance.
 
 ---

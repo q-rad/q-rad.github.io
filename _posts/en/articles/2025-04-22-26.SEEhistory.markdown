@@ -22,7 +22,7 @@ As the space race accelerated in the 1960s, sporadic faults became common in sat
 ### 1970s to 2000: Conceptualization and Experimental Verification
 
 The term Single Event Upset (SEU) was coined in the 1970s and gained scientific recognition. In 1972, a 96-second communication blackout on a Hughes satellite drew attention to the potential impact of high-energy particles. By 1975, the first quantitative study on SEUs was published, mathematically characterizing such upsets. Further studies followed, including the 1976 Cray‑1 soft error incident on Earth and discoveries linking alpha particles from packaging materials to SEUs.
-
+<br>
 A major milestone came in 1979 with the first heavy ion SEE experiments at Lawrence Berkeley National Laboratory (LBNL), confirming that SEEs could be replicated in a controlled environment. These developments helped establish SEE as a critical concern not only in space, but also in terrestrial systems.
 
 ### 2000s and Beyond: Large-Scale Systems and the Satellite Boom

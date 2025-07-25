@@ -59,7 +59,7 @@ There are two main transfer methods to reach GEO:
 
 GTO is an elliptical orbit with a perigee near LEO altitude and an apogee at GEO altitude.  
 It serves as an intermediate stage for delivering satellites to GEO.  
-The launch vehicle injects the satellite into GTO, and the satellite's propulsion system performs a burn at apogee to circularize the orbit.  
+The launch vehicle injects the satellite into GTO, and the satellite's propulsion system performs a burn at apogee to circularize the orbit.  <br>
 This is commonly achieved via a **Hohmann transfer**, which is fuel-efficient.  
 In the diagram below, the yellow ellipse represents the GTO trajectory.
 
@@ -74,7 +74,7 @@ In the diagram below, the yellow ellipse represents the GTO trajectory.
 
 LEO benefits from Earth's magnetic shielding and the Van Allen belts, which reduce exposure to solar particle events (SPE) and significantly attenuate GCR.  
 However, trapped radiation, especially over the SAA and polar regions, remains a major source of single event effects (SEE).  
-
+<br>
 In contrast, GEO lies outside the inner Van Allen belts but within the magnetosphere (~65,000 km).  
 During GTO transfer, satellites pass through regions of intense trapped radiation.  
 Although trapped particles are minimal at GEO altitude, the orbit remains vulnerable to SPE and GCR, especially during solar maximum periods.

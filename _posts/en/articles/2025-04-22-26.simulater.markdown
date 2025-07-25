@@ -12,7 +12,7 @@ order: 2015
 # [TCAD](https://www.synopsys.com/manufacturing/tcad.html) - Synopsys
 
 Synopsys TCAD is a widely used commercial software suite for simulating semiconductor device behavior and fabrication processes. It offers physics-based models to analyze radiation effects such as electron-hole pair generation, charge transport, and trap formation from high-energy ion interactions. The tool is especially effective for evaluating SEU/SET based on LET, as well as TID effects.
-
+<br>
 Using transient simulation, TCAD can model time-dependent current density, voltage transients, and parameter shifts in transistors, enabling quantitative predictions before experimental SEE testing.
 
 <p align="center">
@@ -28,7 +28,7 @@ Image Source: © Synopsys Inc. / SIMDET 2021 School Presentation (2021)
 # [FLUKA](https://fluka.cern/) - CERN, INFN
 
 FLUKA is a general-purpose Monte Carlo simulation code designed for precise modeling of particle transport and interactions with matter. Freely available for non-commercial use, it is employed in high-energy physics, medical physics, and space radiation research.
-
+<br>
 FLUKA excels in radiation shielding analysis, dose estimation, energy deposition tracking, and particle shower modeling. It also supports 3D simulation using DICOM medical imaging, making it suitable for complex space radiation scenarios.
 
 <p align="center">
@@ -45,7 +45,7 @@ Image Source: CERN / flair.cern
 # [Geant4](https://geant4.web.cern.ch/) - CERN
 
 Geant4 is an open-source C++ simulation toolkit developed by CERN for modeling particle interactions with matter. It offers highly flexible physics model configurations across a wide energy range.
-
+<br>
 Geant4 is widely used in applications such as medical imaging, radiotherapy, space radiation analysis, and detector design. Users can customize experimental conditions and track secondary particle paths, energy deposition, and charge generation. It is particularly effective in simulating SEE phenomena in detectors and semiconductor components.
 
 <p align="center">
@@ -62,7 +62,7 @@ Image Source: © CERN / EP News — https://ep-news.web.cern.ch
 # [CHALICE](https://nanohub.org/resources/chalice) - US Naval Research Laboratory
 
 CHALICE is a pulsed-laser simulator developed by the U.S. Naval Research Laboratory (NRL) to calculate 2D/3D charge density distributions during SEE experiments.
-
+<br>
 By inputting laser parameters such as wavelength, pulse width, and absorption coefficient, CHALICE can simulate charge deposition in sensitive volumes, carrier transport, and energy penetration depth. It also supports calculation of LET<sub>L</sub> (laser-equivalent LET), making it a useful tool for optical SEE modeling.
 
 <p align="center">
@@ -79,7 +79,7 @@ Image Source: Chalice User Manual, Rev 1.0. nanoHUB.org, https://nanohub.org/res
 # [OMERE](https://www.trad.fr/en/space/omere-software/) - TRAD
 
 OMERE is a freeware tool developed by TRAD (France) to estimate radiation effects on semiconductor components in space. It supports SEE, TID, DD, and solar cell degradation analysis based on particle fluxes.
-
+<br>
 The platform includes models such as AE8/AP8, CREME96, ISO 15390, and allows users to define mission-specific parameters including orbit type (LEO, MEO, GEO, lunar), solar cycles, magnetosphere, and shielding to simulate realistic space conditions. OMERE is widely used for radiation reliability assessment and component screening.
 
 <p align="center">

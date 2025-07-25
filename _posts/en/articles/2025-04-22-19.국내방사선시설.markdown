@@ -11,13 +11,13 @@ order: 1010
 ---
 
 Evaluating soft errors or single event phenomena in high-altitude and space environments primarily requires testing with heavy ions and protons, as these are the main particles encountered in space. In general, space radiation tests focus on heavy ion and TID (Total Ionizing Dose) evaluations, with proton testing considered a complementary method.
-
+<br>
 Another key evaluation method is the assessment of TID effects, which are caused by charged particles. Although both protons and heavy ions can cause TID, gamma rays are commonly and efficiently used to simulate these effects.
-
+<br>
 Recently, the demand for radiation-tolerant electronic components has grown significantly across advanced sectors such as space, defense, nuclear energy, and medical industries. In the space sector especially, electronic components used in satellites and launch vehicles are constantly exposed to radiation, making it essential to verify their reliable performance under such conditions.
-
+<br>
 Radiation evaluation infrastructure is a vital foundation for ensuring technological independence in Korea’s development and potential export of space-grade components. As private-sector space development initiatives continue to expand, the need for high-reliability electronic components also increases.
-
+<br>
 This infrastructure not only supports the growth of the domestic space industry but also serves as a strategic asset in positioning Korea for leadership in the future space technology race. The following is an overview of Korea’s major radiation evaluation facilities.
 
 # Proton Accelerators
@@ -105,11 +105,10 @@ Located in Jeongeup, ARTI offers gamma irradiation services with facilities rang
 # Heavy Ion Accelerators
 
 Currently, South Korea lacks a domestic heavy ion accelerator infrastructure suitable for semiconductor SEE (Single Event Effect) testing. As a result, overseas facilities must be used for radiation testing related to space environments.
-
+<br>
 To address this, the Korea Institute of Science and Technology (KIST) is pursuing the development of a heavy ion accelerator. In addition, the RAON accelerator being developed by the Institute for Basic Science (IBS) will be Korea’s first large-scale heavy ion accelerator, designed for both nuclear physics research and practical applications such as SEE evaluation.
-
 Once these facilities are operational, Korea will be able to independently conduct SEE testing domestically.
-
+<br>
 # QRT Radiation Hardness Evaluation Services
 
 QRT provides customized radiation hardness evaluation services in collaboration with both domestic and international facilities.  
