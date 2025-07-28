@@ -401,7 +401,7 @@
 		<li>
 			<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
 				<span class="name">{{ category | first }}</span>
-				<span class="badge">{{ category | last | size }}</span>
+				<span class="badge">{{ category[1].size | divided_by: 2 }}</span>
 			</a>
 		</li>
 		{% endfor %}

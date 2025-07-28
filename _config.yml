@@ -51,9 +51,6 @@ kramdown:
   hard_wrap: false
 
 collections:
-  custom_posts:
-    output: true
-    permalink: /_custom_posts/:path/
   manuals:
     output: true
     permalink: /manuals/:path/
