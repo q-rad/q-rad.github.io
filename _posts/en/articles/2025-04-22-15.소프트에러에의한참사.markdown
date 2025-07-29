@@ -48,11 +48,42 @@ Ultimately, the case was closed not by JPL, but by Carnegie Mellon University, w
 <br>
 The final report emphasized that while error-correcting code (ECC) was applied to the memory modules in question, it did not effectively protect the system from all radiation-induced faults—demonstrating a critical gap in system-level fault tolerance.
 
----
 
-<br/>
+<!-- 관련 글 자동화 -->
+{% assign current_order = page.order | plus: 0 %}
 
-**Related Articles**
-- [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
-- [Laser Evaluation](/en/article/4.레이저평가.html)
-- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+{% assign candidates = site.posts 
+  | where: "sub_category", page.sub_category 
+  | where: "lang", page.lang 
+  | where_exp: "item", "item.url != page.url" 
+%}
+
+{% assign closest_posts = "" | split: "" %}
+
+{% for offset in (1..1000) %}
+  {% assign up = current_order | plus: offset %}
+  {% assign down = current_order | minus: offset %}
+
+  {% for post in candidates %}
+    {% if post.order == up or post.order == down %}
+      {% assign closest_posts = closest_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if closest_posts.size >= 7 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign related_posts = closest_posts | slice: 0, 7 %}
+
+{% if related_posts.size > 0 %}
+  <hr>
+  <br>
+  <h3>Related Articles</h3>
+  <ul>
+    {% for post in related_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}

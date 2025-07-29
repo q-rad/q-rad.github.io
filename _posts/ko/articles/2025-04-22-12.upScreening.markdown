@@ -101,12 +101,41 @@ QRT에서는 DPA, CA, Radiation Hardness (TID, SEE) 등 컨설팅을 포함한 �
 
 
 
--------------------------------------
-<br/> <!-- 한줄 띄기 -->
 
-**관련 글**
-- [Space Product Assurance(우주 제품 보증)란?](/ko/article/8.-EEE.html)
-- [국내 방사선 평가 시설](/ko/article/19.국내방사선시설.html)
-- [중이온 빔이란?](/ko/article/10.중이온.html)
-- [COTS(Commercial off-the-shelf)](/ko/article/5.COTS.html)
-- [레이저 평가가 필요한 이유 (비용적 측면)](/ko/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)
+{% assign current_order = page.order | plus: 0 %}
+
+{% assign candidates = site.posts 
+  | where: "sub_category", page.sub_category 
+  | where: "lang", page.lang 
+  | where_exp: "item", "item.url != page.url" 
+%}
+
+{% assign closest_posts = "" | split: "" %}
+
+{% for offset in (1..1000) %}
+  {% assign up = current_order | plus: offset %}
+  {% assign down = current_order | minus: offset %}
+
+  {% for post in candidates %}
+    {% if post.order == up or post.order == down %}
+      {% assign closest_posts = closest_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if closest_posts.size >= 7 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign related_posts = closest_posts | slice: 0, 7 %}
+
+{% if related_posts.size > 0 %}
+  <hr>
+  <br>
+  <h3>관련 글</h3>
+  <ul>
+    {% for post in related_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}

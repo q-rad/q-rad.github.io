@@ -35,13 +35,41 @@ This undermines the expected cost savings of COTS usage, making the overall appr
 To address this issue, many experts advocate for replacing heavy ion tests with laser-based SEE evaluations.  
 Given that radiation hardness testing—especially SEE evaluation—is one of the most expensive components of the up-screening process, laser testing presents a compelling alternative that preserves reliability while drastically reducing cost.
 
----
+<!-- 관련 글 자동화 -->
+{% assign current_order = page.order | plus: 0 %}
 
-<br/>
+{% assign candidates = site.posts 
+  | where: "sub_category", page.sub_category 
+  | where: "lang", page.lang 
+  | where_exp: "item", "item.url != page.url" 
+%}
 
-**Related Articles**
-- [Laser Evaluation](/en/article/4.레이저평가.html)
-- [Laser Evaluation Based on NASA Documentation](/en/article/17.레이저-평가-적용-근거.html)
-- [What is a Heavy Ion Beam?](/en/article/10.중이온.html)
-- [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
-- [Up-Screening](/en/article/12.upScreening.html)
+{% assign closest_posts = "" | split: "" %}
+
+{% for offset in (1..1000) %}
+  {% assign up = current_order | plus: offset %}
+  {% assign down = current_order | minus: offset %}
+
+  {% for post in candidates %}
+    {% if post.order == up or post.order == down %}
+      {% assign closest_posts = closest_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if closest_posts.size >= 7 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign related_posts = closest_posts | slice: 0, 7 %}
+
+{% if related_posts.size > 0 %}
+  <hr>
+  <br>
+  <h3>Related Articles</h3>
+  <ul>
+    {% for post in related_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}

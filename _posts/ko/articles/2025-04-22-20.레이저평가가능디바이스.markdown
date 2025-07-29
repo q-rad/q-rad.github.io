@@ -124,16 +124,41 @@ Digital Isolator의 경우, 전면 De-capsulation 시 내부 코일 구조가 �
 
 
 
--------------------------------------
 
+{% assign current_order = page.order | plus: 0 %}
 
+{% assign candidates = site.posts 
+  | where: "sub_category", page.sub_category 
+  | where: "lang", page.lang 
+  | where_exp: "item", "item.url != page.url" 
+%}
 
-<br/> <!-- 한줄 띄기 -->
+{% assign closest_posts = "" | split: "" %}
 
-**관련 글**
-- [레이저 평가](/ko/article/4.레이저평가.html)
-- [레이저평가의 글로벌동향](/ko/article/9.레이저평가-세계동향.html)
-- [SEE (Single Event Effect)란?](/ko/article/1.-SEE.html)
-- [SPA vs TPA](/ko/article/2.SPA-와-TPA.html)
-- [레이저 평가가 필요한 이유 (비용적 측면)](/ko/article/11.레이저-평가가-필요한-이유-(비용적-측면).html)
-- [방사선 내성 평가(Radiation Hardness Test)](/ko/article/3.방사선-내성-평가.html)
+{% for offset in (1..1000) %}
+  {% assign up = current_order | plus: offset %}
+  {% assign down = current_order | minus: offset %}
+
+  {% for post in candidates %}
+    {% if post.order == up or post.order == down %}
+      {% assign closest_posts = closest_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if closest_posts.size >= 7 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign related_posts = closest_posts | slice: 0, 7 %}
+
+{% if related_posts.size > 0 %}
+  <hr>
+  <br>
+  <h3>관련 글</h3>
+  <ul>
+    {% for post in related_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}

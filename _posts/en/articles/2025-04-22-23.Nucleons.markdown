@@ -61,17 +61,42 @@ The image below summarizes four typical outcomes following an inelastic nuclear 
 </p>
 <p align= "center">Four phenomena observed in an excited nucleus after an inelastic nuclear reaction</p>
 
----
 
-<br/>
+<!-- 관련 글 자동화 -->
+{% assign current_order = page.order | plus: 0 %}
 
-**Related Articles**
+{% assign candidates = site.posts 
+  | where: "sub_category", page.sub_category 
+  | where: "lang", page.lang 
+  | where_exp: "item", "item.url != page.url" 
+%}
 
-* [Energy Transfer Mechanism of Photons](/en/article/21.photons.html)
-* [Energy Transfer Mechanism of Electrons](/en/article/22.electrons.html)
-* [Energy Transfer Mechanism of Ions](/en/article/24.ions.html)
-* [What is SEE (Single Event Effect)?](/en/article/1.-SEE.html)
-* [What is TID (Total Ionizing Dose effect)?](/en/article/7.TID.html)
-* [What is LET (Linear Energy Transfer)?](/en/article/6.LET.html)
-* [What is DD (Displacement Damage)?](/en/article/18.DD.html)
-* [Radiation Hardness Test](/en/article/3.방사선-내성-평가.html)
+{% assign closest_posts = "" | split: "" %}
+
+{% for offset in (1..1000) %}
+  {% assign up = current_order | plus: offset %}
+  {% assign down = current_order | minus: offset %}
+
+  {% for post in candidates %}
+    {% if post.order == up or post.order == down %}
+      {% assign closest_posts = closest_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if closest_posts.size >= 7 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign related_posts = closest_posts | slice: 0, 7 %}
+
+{% if related_posts.size > 0 %}
+  <hr>
+  <br>
+  <h3>Related Articles</h3>
+  <ul>
+    {% for post in related_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
