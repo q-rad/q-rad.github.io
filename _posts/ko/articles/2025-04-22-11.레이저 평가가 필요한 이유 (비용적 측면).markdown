@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Laser-Based SEE Evaluation
-order: 2003
+order: 1003
 ---
 
 상용 부품(COTS, Commercial-Off-The-Shelf)을 우주 환경에서 활용하고자 할 경우, 높은 신뢰성을 확보하기 위한 Up-screening 절차가 필수적으로 요구됩니다. 이 절차에는 기계적, 전기적, 환경적 시험뿐만 아니라, 특히 **방사선 내성(Radiation Hardness)**에 대한 정밀한 평가가 포함됩니다.<br>

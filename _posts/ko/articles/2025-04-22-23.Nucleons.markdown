@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 2008
+order: 2011
 ---
 # Neutron(중성자)
 중성자는 전하를 띠고 있지 않기 때문에 전기적인 힘이 작용하지 않습니다.

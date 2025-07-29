@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Laser-Based SEE Evaluation
-order: 2005
+order: 1005
 ---
 
 이 그래프는 중국의 한 기관이 2020년부터 2022년까지 상용 기성품(COTS Devices)에 대해 수행한 레이저 테스트 건수를 보여줍니다.

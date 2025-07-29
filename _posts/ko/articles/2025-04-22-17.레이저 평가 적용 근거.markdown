@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Laser-Based SEE Evaluation
-order: 2004
+order: 1004
 ---
 
 레이저를 활용한 SEE(단일 이벤트 효과) 평가는 반도체의 방사선 내성을 분석하는 데 있어 중이온 빔을 대체할 수 있는 유용한 대체 평가 방법입니다. 현재 미국, 중국, 러시아 등 여러 국가에서 활발히 활용되고 있으며, 그중에서 미국의 적용 사례를 보겠습니다.<br>

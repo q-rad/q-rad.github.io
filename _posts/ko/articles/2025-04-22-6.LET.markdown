@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 1003
+order: 2003
 ---
 # LET (Liner Energy Transfer) - 선형 에너지 전달
 LET는 입자가 재료를 통과할 때 입자의 단위 경로 길이당 에너지 손실을 말합니다. LET의 단위는 MeV cm<sup>2</sup>/mg이고 경로의 단위 길이당 에너지 손실(MeV/cm)은 표적 물질의 밀도(mg/cm<sup>3</sup>)로 정규화되어 LET는 표적과 독립적으로 인용될 수 있습니다.<br>

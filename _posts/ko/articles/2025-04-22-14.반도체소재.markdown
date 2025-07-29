@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Laser-Based SEE Evaluation
-order: 2008
+order: 1007
 ---
 레이저 내방사선 평가 시, 반도체 소자는 사용되는 소재 마다 레이저 파장에 따른 흡수 메커니즘이 달라집니다.
 다음 표는 QRT에서 사용하는 파장에서, 반도체 소재 별로 다양한 레이저 파장에서 발생 가능한 광자 흡수 메커니즘의 차이를 정리한 것입니다

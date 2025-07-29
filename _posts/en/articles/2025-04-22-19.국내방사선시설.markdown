@@ -7,7 +7,7 @@ category: article
 lang: en
 permalink: en/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 1010
+order: 2008
 ---
 
 Evaluating soft errors or single event phenomena in high-altitude and space environments primarily requires testing with heavy ions and protons, as these are the main particles encountered in space. In general, space radiation tests focus on heavy ion and TID (Total Ionizing Dose) evaluations, with proton testing considered a complementary method.

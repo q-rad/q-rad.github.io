@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 1010
+order: 2008
 ---
 
 고고도(High Altitude)나 대기권 밖의 우주에서 발생하는 소프트 오류나 단일 이벤트 현상의 평가는 우주 환경에서 관찰되는 중이온, 양성자 이 두 가지의 입자를 중심으로 평가가 이루어져야 합니다. 일반적으로 우주 방사선 평가는 중이온 평가와 TID 평가를 기준으로 하고 양성자 평가를 차선으로 권장합니다.<br>

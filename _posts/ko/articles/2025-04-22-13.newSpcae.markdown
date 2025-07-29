@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Space Environment & Space-Grade Electronics
-order: 3000
+order: 2001
 ---
 <img src="/assets/Articles/newSpace.webp" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 300px;">
 

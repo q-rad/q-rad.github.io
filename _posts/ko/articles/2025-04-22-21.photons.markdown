@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 2006
+order: 2009
 ---
 # 광자(Photon)
 광자는 전자기 에너지의 기본 캐리어로, 낮은 에너지에서 높은 에너지, 긴 파장에서 짧은 파장에 이르기까지 전자기 스펙트럼 전체를 아우릅니다. 여기에는 라디오파, 마이크로파, 가시광선, 자외선, X선, 감마선이 포함됩니다.

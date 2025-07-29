@@ -6,7 +6,7 @@ date: 2025-03-19 00:00:00 +0900
 category: article
 permalink: en/article/:title.html
 sub_category: Space Environment & Space-Grade Electronics
-order: 3001
+order: 3002
 lang: en
 ---
 

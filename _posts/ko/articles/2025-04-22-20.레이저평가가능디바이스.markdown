@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Laser-Based SEE Evaluation
-order: 2006
+order: 1006
 ---
 
 QRT가 보유한 레이저 장비는 650nm에서 1650nm에 이르는 광범위한 파장 대역을 지원하며, 이를 통해 Si(Silicon), GaN(Gallium Nitride), SiC(Silicon Carbide) 등 주요 반도체 소재는 물론, 메모리, 프로세서, 아날로그 소자 등 다양한 디바이스에 대한 레이저 기반 평가가 가능합니다.

@@ -7,7 +7,7 @@ category: article
 lang: en
 permalink: en/article/:title.html
 sub_category: Laser-Based SEE Evaluation
-order: 2001
+order: 1001
 ---
 
 # Semiconductor Radiation Hardness Laser Evaluation (Laser Test)

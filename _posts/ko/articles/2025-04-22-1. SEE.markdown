@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 1002
+order: 2002
 ---
 # SEE (Single Event Effect) - 단일 이벤트 효과
 SEE (Single Event Effect)는 방사선(양성자, 중성자, 중이온, 감마선 등) 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.

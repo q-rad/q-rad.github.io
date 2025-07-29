@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Space Environment & Space-Grade Electronics
-order: 3002
+order: 3003
 ---
 # Space Product Assurance - EEE (Electrical, Electronic and Electromechanical) components
 EEE Components는 Electrical(전기), Electronic(전자), Electromechanical(전자기계) 부품을 아우르는 포괄적인 용어로, 우주 산업에서 필수적으로 사용되는 모든 핵심 부품을 지칭합니다.

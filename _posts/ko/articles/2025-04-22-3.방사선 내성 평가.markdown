@@ -7,7 +7,7 @@ category: article
 lang: ko
 permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
-order: 1001
+order: 2001
 ---
 # 방사선 내성 평가(Radiation Hardness Test)
 일반적으로 방사선 내성 평가는 빔 가속 시설에서 이뤄집니다.
