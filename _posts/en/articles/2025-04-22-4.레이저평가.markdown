@@ -22,11 +22,11 @@ It simulates the effects of space radiation on semiconductor devices, providing 
 Lasers can deliver extremely high energy to a highly localized area within an extremely short duration, inducing electromagnetic responses comparable to those caused by actual particle collisions.  
 SEE evaluations are typically conducted at [heavy ion beam](/en/article/10.중이온.html) accelerator facilities.  
 However, such facilities have several limitations, including high operational costs, restricted accessibility, and limited capability for precise vulnerability analysis.
-
+<br>
 The greatest advantage of laser testing is the reduction in experimental cost and turnaround time.  
 Traditional radiation tests using particle accelerators are expensive and often difficult to schedule due to limited availability.  
 In contrast, laser-based equipment is relatively inexpensive, can be installed and operated in laboratory environments, and supports rapid iterative testing.
-
+<br>
 Additionally, lasers offer extremely high spatial accuracy, enabling precise targeting of specific regions within semiconductor devices and facilitating in-depth analysis of vulnerable areas.  
 This allows potential weaknesses to be identified and mitigated from the early stages of design.
 

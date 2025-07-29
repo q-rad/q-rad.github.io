@@ -28,7 +28,7 @@ A major milestone came in 1979 with the first heavy ion SEE experiments at Lawre
 ### 2000s and Beyond: Large-Scale Systems and the Satellite Boom
 
 From the early 2000s, the proliferation of large-scale data centers and high-density semiconductor devices increased the frequency of soft errors even at sea level. Meanwhile, the growth of the commercial space sector brought renewed focus on the radiation resilience of electronic systems.
-
+<br>
 With thousands of satellites launched annually, the need to evaluate and qualify components for radiation environments has become essential. Radiation hardness assurance is now a key part of space electronics design.
 
 <p align="center">

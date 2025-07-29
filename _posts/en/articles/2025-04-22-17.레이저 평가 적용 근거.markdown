@@ -11,9 +11,9 @@ lang: en
 ---
 
 Laser-based SEE (Single Event Effect) evaluation has emerged as a practical alternative to heavy ion beam testing for assessing the radiation hardness of semiconductor devices. It is actively used in countries such as the United States, China, and Russia—most notably within NASA and its affiliated research institutions.
-
+<br>
 In the U.S., various NASA-affiliated labs conduct laser-based radiation evaluations. This method is gaining traction due to its rapid testing capabilities and precise vulnerability localization. Laser systems can accurately identify sensitive regions within circuits, allowing engineers to detect and mitigate SEE risks early in the design phase.
-
+<br>
 One key reference is the official guideline NASA/TM–20205011579, which provides recommendations for the use of COTS EEE parts in NASA missions. The document explicitly lists laser-based SEE testing among its recommended evaluation methods. It includes picosecond laser testing, heavy ion and proton testing, and Cf-252 screening.  
 Notably, laser testing appears ahead of traditional radiation sources in the list—highlighting its growing significance in COTS component evaluations.
 
@@ -27,7 +27,7 @@ Notably, laser testing appears ahead of traditional radiation sources in the lis
 
 Another important reference is the MEAL (Mission, Environment, Application, Lifetime) guideline (NASA/TM–2018-220074), which also recognizes laser-based SEE evaluation as a viable radiation test method.  
 The document emphasizes the cost-effectiveness and reduced evaluation time of laser testing compared to traditional heavy ion or proton beam testing. It also highlights how laser-based testing provides complementary insight that enhances and refines the results of conventional methods.
-
+<br>
 Laser evaluation proves especially valuable in early-stage circuit assessments, radiation-hardness design studies, and testing of densely packed logic devices, where precise fault localization is essential.
 
 <p align="center">

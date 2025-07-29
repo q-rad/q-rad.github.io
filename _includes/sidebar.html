@@ -111,6 +111,26 @@
 
 <script>
 	function updatePageLanguage(lang) {
+
+		// 기존 함수 안에 다음 코드 추가:
+		const newsItems = document.querySelectorAll('.news-item');
+		let visibleCount = 0;
+
+		newsItems.forEach(item => {
+			const itemLang = item.getAttribute('data-lang') || 'ko';
+			const shouldShow = itemLang === lang && visibleCount < 5;
+			item.style.display = shouldShow ? 'block' : 'none';
+			if (shouldShow) visibleCount++;
+		});
+
+		// 뉴스 더보기 버튼 텍스트 및 링크도 변경
+		const newsMoreBtn = document.getElementById('news-more-button');
+		if (newsMoreBtn) {
+			newsMoreBtn.href = lang === 'en' ? '/en/category/#news' : '/category/#news';
+			newsMoreBtn.textContent = lang === 'en' ? 'See More News' : '더 많은 뉴스 보기';
+		}
+
+
 		// 문의하기 버튼 텍스트 변경
 		const contactText = document.getElementById('contact-text');
 		const contactLink = document.querySelector('#contactBtn a');

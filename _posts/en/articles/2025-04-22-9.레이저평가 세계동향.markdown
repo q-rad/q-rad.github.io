@@ -24,11 +24,11 @@ Laser technology is increasingly being adopted worldwide as a viable alternative
 In Russia, heavy ion testing remains the dominant method for Single Event Effect (SEE) evaluation.  
 However, the combined use of lasers and heavy ions, as well as laser-only approaches, is steadily gaining importance.  
 This shift reflects a strategic emphasis on flexibility and cost-effectiveness in radiation hardness assurance for modern electronic components.
-
+<br>
 While the overall number of SEE evaluations continues to rise, the proportion of laser-based tests is also increasing.  
 The growing adoption of laser techniques in Russia highlights an evolving strategy focused on improving evaluation speed and efficiency.  
 In many cases, lasers are now used not merely as a supplementary tool, but as a core component of SEE evaluation workflows.
-
+<br>
 Of particular note is the increasing use of a **Laser + Heavy Ion** testing methodology.  
 This approach often involves preliminary screening with laser systems, followed by confirmatory testing with heavy ions—optimizing both test throughput and cost-efficiency.
 

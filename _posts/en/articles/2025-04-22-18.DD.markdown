@@ -13,11 +13,11 @@ lang: en
 # DD (Displacement Damage)
 
 Displacement Damage (DD) refers to damage that occurs throughout the bulk of semiconductor materials. Unlike Total Ionizing Dose (TID), which mainly affects surface and interface regions, DD impacts the entire volume of a device. This volumetric damage can alter electrical, optical, and thermal properties, potentially leading to performance degradation or even failure.
-
+<br>
 If DD occurs in the active regions of a device—such as the channel of a MOSFET or the base region of a BJT—it can result in increased recombination, reduced carrier mobility, and slower switching speeds. These effects degrade overall device performance and reliability.
-
+<br>
 Radiation types that typically induce DD include high-energy electrons, protons, neutrons, and high-energy photons (such as gamma rays and X-rays) that produce secondary particles.
-
+<br><br>
 DD is primarily caused by the following four mechanisms:
 
 1. Coulomb scattering: Charged particles, such as protons, interact electrostatically with silicon atoms. Kinetic energy is transferred, deflecting the trajectories of atoms and causing localized disruptions. This is particularly significant at proton energies below 10 MeV.

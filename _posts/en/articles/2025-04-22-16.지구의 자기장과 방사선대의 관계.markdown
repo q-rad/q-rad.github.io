@@ -12,7 +12,7 @@ lang: en
 
 When charged particles from space are captured in ionized regions such as the Van Allen radiation belts, they spiral along magnetic field lines, bouncing between the Earth’s poles. Positively and negatively charged particles drift in opposite directions, gradually migrating longitudinally.  
 This motion contributes to a weakening of the magnetic field over the South Atlantic Ocean, known as the South Atlantic Anomaly (SAA)—a region particularly problematic for satellites and space missions in low Earth orbit (LEO).
-
+<br>
 The Van Allen belts primarily consist of electrons in the outer belt and protons and electrons in the inner belt.  
 As explained in space weather studies, the level of radiation exposure experienced by spacecraft depends significantly on orbital altitude, solar activity, and shielding design. Moreover, radiation dose can vary for different components depending on their physical location within the satellite and the materials surrounding them.
 
@@ -33,7 +33,7 @@ They were first discovered in 1958 with the launch of the United States’ first
 
 The belts are named after Dr. James Van Allen, a physicist at the University of Iowa. His radiation detection experiment—equipped with a Geiger counter and a tape recorder—was onboard Explorer 1, which launched on January 31, 1958.  
 Following missions such as Explorer 3, Explorer 4, and Pioneer 3 provided further confirmation of these belts and helped characterize their structure.
-
+<br>
 Although the term "Van Allen Belts" is specific to Earth, similar radiation belts have been identified around other magnetized planets, such as Jupiter and Saturn.
 
 ---

@@ -6,6 +6,7 @@ date: 2024-04-17 00:01:00 +0900
 category: news
 permalink: ko/news/:title.html
 lang: ko
+image: https://img.youtube.com/vi/0eppDZ0qxQU/maxresdefault.jpg
 ---
 
 # 일반 반도체를 우주 반도체로 쓰는 기술 '업스크린'

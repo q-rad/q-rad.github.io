@@ -14,7 +14,7 @@ lang: en
 
 When deploying Commercial-Off-The-Shelf (COTS) components in space systems, up-screening procedures are essential to ensure their reliability.  
 These include mechanical, electrical, and environmental tests—and most critically, radiation hardness evaluations.
-
+<br>
 Among all up-screening steps, the Single Event Effect (SEE) test—particularly when using heavy ion beams—accounts for a disproportionately large portion of the total cost.
 
 <p align="center">
@@ -31,7 +31,7 @@ While COTS components offer a lower initial purchase price compared to space-gra
 This graph illustrates the stark contrast: SEE testing with heavy ions incurs substantial costs even for a single evaluation.  
 In comparison, laser-based testing of the same component is approximately four times more cost-effective.  
 This undermines the expected cost savings of COTS usage, making the overall approach less efficient in some scenarios.
-
+<br>
 To address this issue, many experts advocate for replacing heavy ion tests with laser-based SEE evaluations.  
 Given that radiation hardness testing—especially SEE evaluation—is one of the most expensive components of the up-screening process, laser testing presents a compelling alternative that preserves reliability while drastically reducing cost.
 

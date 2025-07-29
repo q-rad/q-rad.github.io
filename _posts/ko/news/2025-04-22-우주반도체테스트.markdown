@@ -6,6 +6,7 @@ date: 2025-04-29 00:01:00 +0900
 category: news
 permalink: ko/news/:title.html
 lang: ko
+image: https://img.youtube.com/vi/_6l7bhIXtJw/maxresdefault.jpg
 ---
 
 # 우주 반도체 테스트, 중이온 가속기 없이도 가능하다?

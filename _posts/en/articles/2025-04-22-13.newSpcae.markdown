@@ -15,7 +15,7 @@ lang: en
 There was a time when space exploration was the exclusive domain of nation-states.  
 During the Cold War, fierce competition between the U.S. and the Soviet Union made space development a government-driven endeavor—characterized by massive budgets, long development timelines, and rigid certification processes.  
 However, the 21st century has seen a dramatic shift in this landscape.
-
+<br>
 The driving force behind this transformation is known as **“New Space.”**
 
 <div align="center">
@@ -34,13 +34,13 @@ The driving force behind this transformation is known as **“New Space.”**
 Unlike the traditional Old Space model, which was led by national space agencies, New Space represents a paradigm shift toward private-sector innovation and market-driven expansion.  
 Key characteristics of New Space include reduced costs, accelerated development cycles, use of commercial technology, vertical integration, and consumer-oriented service models.  
 This shift is transforming space from a government-only scientific and defense domain into a competitive commercial industry.
-
+<br>
 Private companies such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab are now independently handling end-to-end space operations—from satellite manufacturing and launch to ground station management and service delivery.  
 They are democratizing space access through reusable launch vehicles and large-scale deployment of satellites in Low Earth Orbit (LEO), feats previously thought unimaginable.
-
+<br>
 Traditionally, space systems relied on expensive **space-grade components**, but New Space companies are increasingly designing systems using **COTS (Commercial-Off-The-Shelf)** technologies.  
 This practical approach is built on the belief that commercial-grade hardware can perform reliably in space if its radiation tolerance is properly validated.
-
+<br>
 For example, SpaceX has lowered launch costs to just a fraction of historical levels through the reusability of its Falcon 9 rocket.  
 Meanwhile, small launch providers like Rocket Lab are pioneering dedicated services for small satellites, opening new opportunities for startups and small-to-medium enterprises (SMEs) to enter the space industry.
 

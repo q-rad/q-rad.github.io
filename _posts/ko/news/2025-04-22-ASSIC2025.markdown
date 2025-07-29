@@ -6,6 +6,7 @@ date: 2025-05-14 00:00:00 +0900
 category: news
 permalink: ko/news/:title.html
 lang: ko
+image: assets\Articles\ASSIC2025.webp
 ---
 
 <a href="https://yelec.kr/product/assic2025/" height="5" width="10" target="_blank">

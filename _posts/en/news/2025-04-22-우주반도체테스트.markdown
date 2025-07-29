@@ -6,6 +6,7 @@ date: 2025-04-29 00:01:00 +0900
 category: news
 permalink: en/news/:title.html
 lang: en
+image: https://img.youtube.com/vi/_6l7bhIXtJw/maxresdefault.jpg
 ---
 
 # Space Semiconductor Testing Without a Heavy Ion Accelerator?

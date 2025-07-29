@@ -36,15 +36,15 @@ MPA: multiphoton absorption
 
 </div>
 
----
+<br>
 
 Among the materials listed, silicon (Si) has the smallest band gap, allowing evaluation via single-photon absorption (SPA) even with longer wavelengths such as 1064nm.  
 In contrast, wide band gap materials like GaAs (Gallium Arsenide), SiC (Silicon Carbide), and GaN (Gallium Nitride) cannot be excited via SPA at the same wavelengths, and therefore require higher-order nonlinear absorption mechanisms.
-
+<br>
 For example, a laser wavelength of 630nm corresponds to a photon energy of approximately 2 eV.  
 In materials where the band gap exceeds this energy, two-photon absorption (TPA)—in which two photons are absorbed simultaneously—is required to promote an electron across the band gap.  
 For even wider band gap materials, multiphoton absorption (MPA) may be necessary, depending on the energy required.
-
+<br>
 To support evaluation across a wide range of semiconductor devices, QRT is equipped with ultrafast pulsed laser systems that cover a broad wavelength spectrum from 630nm to 1700nm, and offer pulse durations as short as 200 femtoseconds.  
 This enables precise and flexible radiation hardness evaluations tailored to the specific optical and material characteristics of the device under test.
 

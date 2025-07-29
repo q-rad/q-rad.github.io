@@ -6,6 +6,7 @@ date: 2024-04-17 00:01:00 +0900
 category: news
 permalink: en/news/:title.html
 lang: en
+image: https://img.youtube.com/vi/0eppDZ0qxQU/maxresdefault.jpg
 ---
 
 # 'Up-Screen': Transforming Commercial Semiconductors into Space-Grade Devices

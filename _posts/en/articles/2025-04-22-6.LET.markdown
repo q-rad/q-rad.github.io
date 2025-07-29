@@ -13,11 +13,11 @@ order: 1003
 # LET (Linear Energy Transfer)
 
 Linear Energy Transfer (LET) refers to the amount of energy a particle loses per unit distance as it travels through a material. The standard unit of LET is MeV·cm<sup>2</sup>/mg, which normalizes the energy loss (MeV/cm) by the material’s density (mg/cm<sup>3</sup>), making the value independent of the specific medium.
-
+<br>
 Ionization loss is a critical mechanism in semiconductor devices, and LET quantifies the energy deposited per unit path length during this process. As the particle slows down and interacts with atomic electrons, this deposited energy is transferred to the material.
-
+<br>
 Although LET can also be expressed in units like MeV·cm<sup>-1</sup>, eV·nm<sup>-1</sup>, or keV·nm<sup>-1</sup>, normalizing by density—yielding units of MeV·cm<sup>2</sup>/mg—is generally more practical. This allows LET values to be compared across different materials and environments. In fact, several JEDEC standards define LET in this normalized form to ensure consistency and cross-material comparability.
-
+<br>
 The graph below shows the depth-dependent LET distribution of a 5.49 MeV alpha particle traveling through air. As the particle progresses, its energy deposition gradually increases, reaching a sharp peak near the end of its path before dropping to zero. This characteristic behavior is known as the **Bragg Peak**, which represents the point of maximum energy transfer.
 
 <!-- Centered image -->
