@@ -18,7 +18,7 @@ order: 1007
 
 <div align="center">
 
-| Substrate | Band Gap | 1064nm~1260nm   | 620nm |
+| Substrate | Band Gap | 1064nm~1260nm   | 630nm |
 |-----------|----------|-----------|-------|
 | Si        | 1.12eV   | SPA/TPA   | SPA   |
 | GaAs      | 1.42eV   | TPA       | SPA   |

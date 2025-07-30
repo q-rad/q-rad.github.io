@@ -21,7 +21,7 @@ The table below summarizes the optical absorption mechanisms of various semicond
 
 <div align="center">
 
-| Substrate | Band Gap | 1064nm–1260nm | 620nm |
+| Substrate | Band Gap | 1064nm–1260nm | 630nm |
 |-----------|----------|----------------|--------|
 | Si        | 1.12 eV  | SPA / TPA      | SPA    |
 | GaAs      | 1.42 eV  | TPA            | SPA    |
