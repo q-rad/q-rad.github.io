@@ -89,7 +89,17 @@ ESA 우주 임무 등급은 보증 수준과 위험 간의 상이한 균형(trad
 -----------------------------------
 
 # QRT Up-screen Service
-QRT에서는 DPA, CA, Radiation Hardness (TID, SEE) 등 컨설팅을 포함한 전체적인 업스크린 서비스를 수행하고 있습니다.
+QRT는 다음과 같은 항목을 포함한 포괄적인 업스크리닝(Up-Screening) 서비스를 제공합니다.
+
+- DPA (Destructive Physical Analysis)
+- CA (Construction analysis)
+- Total Ionizing Dose (TID), Displacement Damage (DD), Single Event Effects (SEE)의 평가
+- Pulsed Laser SEE Test
+- 임무 수준 및 적용 환경에 최적화된 기술 컨설팅
+- 고객 요구에 최적화된 평가용 보드 제작 및 시험 대행 서비스
+
+QRT는 DPA (Destructive Physical Analysis), CA (Construction analysis), 방사선 내성 평가(TID, SEE)를 포함한 포괄적인 업스크린(Up-screen) 서비스를 제공합니다.
+평가뿐만 아니라 전문 컨설팅까지 포함하여, 고객의 요구에 맞춘 종합적인 품질 검증 솔루션을 제공합니다.
 
 [※ QRT에 Up-Screen 문의하기](https://www.qrtkr.com/kr/customer/inquiry.php)
 

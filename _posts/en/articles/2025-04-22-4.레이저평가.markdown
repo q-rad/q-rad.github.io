@@ -53,10 +53,34 @@ QRT is the only company in Korea with extensive experience in laser-based radiat
 Using a femtosecond pulsed laser system, QRT offers versatile evaluation capabilities supporting both Single Photon Absorption (SPA) and Two Photon Absorption (TPA) methods.  
 We provide services for alternative radiation hardness testing of semiconductors and design validation of radiation-tolerant semiconductor devices.
 
-## Sensitive Area Analysis
+
+
+### Sensitive Area Analysis
 
 QRT's evaluation system features a high-precision XYZ stage controllable at the nanometer level, enabling precise laser targeting at specific coordinates on a semiconductor chip.  
 This allows for detailed mapping of Single Event Effects (SEE), effectively identifying **Sensitive Areas** within the circuit layout.
+
+
+## QRT Laser Lab Access Service
+QRT offers rental access to its laser evaluation facilities.
+With user-friendly software, you can conduct tests more easily and efficiently.
+Detailed manuals for the laser system are available in the [QRT-Lite Manual](/manuals/#lite_kor).
+
+
+<div align="center">
+
+| Parameter |   Min   |   Max   |
+|:---------:|:-------:|:-------:|
+| Wavelength      | 630 nm  | 1700 nm |
+| Pulse Width    | 200 fs  |    –    |
+| Freq.    |  1 Hz   |  1 kHz  |
+| Energy    | 30 pJ   | 30 nJ   |
+
+</div>
+
+<div align="center"> 
+<h5>QRT Laser Spec.</h5>
+</div>
 
 **[→ Contact QRT for laser evaluation or facility rental](https://www.qrtkr.com/en/customer/inquiry.php)**
 

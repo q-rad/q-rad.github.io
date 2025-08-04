@@ -91,10 +91,13 @@ The choice of component class depends on mission objectives, constraints, and ri
 
 QRT provides comprehensive Up-Screening services, including:
 
-- Radiation Hardness Evaluation (SEE, TID)  
-- Destructive Physical Analysis (DPA) 
-- Construction Analysis (CA)
+- DPA (Destructive Physical Analysis)
+- CA (Construction analysis)
+- Total Ionizing Dose (TID), Displacement Damage (DD), and Single Event Effects (SEE) radiation testing.
+- Pulsed Laser SEE Test
 - Technical consulting tailored to your mission level and target environment.
+- Design and evaluation of custom test boards optimized for customer requirements
+Customer-specific test board development and delegated testing services
 
 [→ Contact QRT for Up-Screening Services](https://www.qrtkr.com/en/customer/inquiry.php)
 

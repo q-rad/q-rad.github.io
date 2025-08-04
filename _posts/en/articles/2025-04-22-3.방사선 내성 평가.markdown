@@ -47,6 +47,18 @@ In space or high-altitude environments, high-energy particles and radiation—su
 </div>
 
 
+# QRT Radiation Hardness Evaluation Services
+QRT provides the following radiation evaluation services:
+
+- Evaluation of Total Ionizing Dose (TID), Displacement Damage (DD), and Single Event Effects (SEE)
+
+- Pulsed Laser SEE Testing
+
+- Design and fabrication of customized test boards tailored to customer requirements
+
+[※ Contact QRT for Radiation Evaluation Services](https://www.qrtkr.com/en/customer/inquiry.php)
+
+
 <!-- 관련 글 자동화 -->
 {% assign current_order = page.order | plus: 0 %}
 
