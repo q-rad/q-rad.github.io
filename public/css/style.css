@@ -122,7 +122,7 @@ code {
 }
 
 .sidebar-brand>a {
-	font-size: 300%;
+
 	font-family: 'Gelasio';
 	color: #fff;
 }
@@ -342,6 +342,18 @@ footer {
 	font-family: 'Ubuntu';
 }
 
+.sidebar-logo img {
+	height: 180px;
+	max-width: 100%;
+	margin-left: 0;
+	margin-right: auto;
+	display: block;
+	object-fit: contain;
+	/* 이미지 비율 유지 */
+	/* object-fit: cover; */
+	/* 이미지 비율 유지하면서 잘라냄 */
+}
+
 .sidebar-footer {
 	margin-top: 80px;
 	font-size: 0.75em;
@@ -422,16 +434,41 @@ table td {
 	}
 
 	.sidebar {
+		flex: 0 0 100%;
 		position: sticky;
-
 		top: 0;
 		width: 100%;
-		font-size: 0.65em;
-		flex: 0 0 auto;
+		height: 30px;
+		/* 고정 높이 */
+		padding: 0;
+		/* 내부 여백 제거 */
+		display: flex;
+		/* 플렉스 컨테이너 */
+		align-items: center;
+		/* 세로 중앙 정렬 */
 		flex-flow: row nowrap;
-		height: auto;
+		font-size: 0.65em;
 		transition: opacity 0.4s ease;
 	}
+
+	.sidebar-item.sidebar-header {
+		display: flex;
+		align-items: center;
+		/* 세로 중앙 */
+		justify-content: flex-start;
+		width: 100%;
+		margin: 0;
+		padding: 18px 10px;
+		/* 좌우 적당한 여백 */
+		gap: 8px;
+		/* 로고/텍스트 간격 */
+	}
+
+	.sidebar-brand {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;           /* 커지지 않음 */
+  }
 
 	/* 스크롤 시 바뀔 상태 */
 	.sidebar.scrolled {
@@ -458,12 +495,21 @@ table td {
 		display: none;
 	}
 
-	.sidebar-logo img {
-		height: 60px !important;
-		width: 60px !important;
-		max-width: 100%;
 
-	}
+	.sidebar-logo {
+    display: flex;
+    align-items: center;      /* 세로 중앙 */
+    justify-content: flex-start;
+    padding-left: 12px;       /* 왼쪽 살짝 여백 */
+    flex: 0 0 auto;           /* 로고 영역이 불필요하게 커지지 않게 */
+  }
+
+	.sidebar-logo img {
+    height: 32px;             /* 살짝 키워도 OK */
+    width: auto;
+    display: block;
+    object-fit: contain;
+  }
 
 	.post-title {
 		font-size: 1.5em;
@@ -1349,7 +1395,7 @@ table td {
 	font-size: 0.95em;
 	border: 1px solid #ccc;
 	background-color: #fff;
-	color: rgba(34,34,34,0.7);
+	color: rgba(34, 34, 34, 0.7);
 	border-radius: 10px;
 	cursor: pointer;
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -1408,7 +1454,8 @@ table td {
 	flex: 0 1 40%;
 	align-items: center;
 	display: flex;
-  flex-direction: column; /* 이미지와 텍스트 수직 정렬 */
+	flex-direction: column;
+	/* 이미지와 텍스트 수직 정렬 */
 }
 
 .image-section img {
@@ -1649,9 +1696,12 @@ table td {
 	line-height: 1.6;
 	color: #2b2b2b;
 	margin: 0;
-	text-align: left;        /* 왼쪽 정렬 */
-  word-break: keep-all;    /* 단어 중간에 줄바꿈 금지 */
-  overflow-wrap: break-word; /* 긴 단어 줄바꿈 처리 */
+	text-align: left;
+	/* 왼쪽 정렬 */
+	word-break: keep-all;
+	/* 단어 중간에 줄바꿈 금지 */
+	overflow-wrap: break-word;
+	/* 긴 단어 줄바꿈 처리 */
 }
 
 /* ===== 데스크탑(와이드) 스타일 ===== */
@@ -1713,4 +1763,3 @@ table td {
 		font-size: 1rem;
 	}
 }
-
