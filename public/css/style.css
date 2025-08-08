@@ -626,7 +626,7 @@ table td {
 	flex-wrap: wrap;
 	gap: 20px;
 	justify-content: center;
-	margin-top: 40px; 
+	margin-top: 40px;
 	margin-bottom: 40px;
 }
 
@@ -635,6 +635,7 @@ table td {
 		margin-top: 30px;
 	}
 }
+
 .gallery-item {
 	position: relative;
 	width: 30%;
@@ -717,11 +718,11 @@ table td {
 	}
 
 	.gallery-container {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
-	justify-content: center;
-}
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+	}
 }
 
 .label-center {
@@ -1151,87 +1152,561 @@ table td {
 		margin-bottom: 0px;
 	}
 }
+
 .news-section {
-  margin: 40px 20px 0;
-  padding: 0 5%;
+	margin: 40px 20px 0;
+	padding: 0 5%;
 }
 
 .news-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4개 꽉 차게 */
-  gap: 20px;
-  margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	/* 4개 꽉 차게 */
+	gap: 20px;
+	margin-top: 20px;
 }
 
 
 /* 태블릿: 768px 이하일 때 2열 */
 @media (max-width: 768px) {
-  .news-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+	.news-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 
 /* 모바일: 480px 이하일 때 1열 */
 @media (max-width: 480px) {
-  .news-list {
-    grid-template-columns: 1fr;
-  }
+	.news-list {
+		grid-template-columns: 1fr;
+	}
 }
 
 .news-item {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #eee;
-  border-radius: 8px;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  transition: box-shadow 0.2s, background-color 0.2s, color 0.2s;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #eee;
+	border-radius: 8px;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	transition: box-shadow 0.2s, background-color 0.2s, color 0.2s;
 }
 
 .news-item:hover {
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  color: #E42044;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	color: #E42044;
 }
+
 .news-item:hover .news-date {
-  color: #E42044;
+	color: #E42044;
 }
 
 .news-meta {
-  padding: 16px;
+	padding: 16px;
 }
 
 .news-title {
-  display: block;
-  font-size: 16px;
-  font-weight: bold;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+	display: block;
+	font-size: 16px;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .news-date {
-  display: block;
-  margin-top: 6px;
-  color: #777;
-  font-size: 14px;
+	display: block;
+	margin-top: 6px;
+	color: #777;
+	font-size: 14px;
 }
 
 
 .news-thumbnail {
-  width: 100%;
-  height: 180px;
-  overflow: hidden;
+	width: 100%;
+	height: 180px;
+	overflow: hidden;
 }
 
 .news-thumbnail img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
 }
 
 .news-more {
-  text-align: center;
-  margin-top: 30px;
+	text-align: center;
+	margin-top: 30px;
 }
+
+.upscreen {
+	padding: 70px 20px;
+	background-image: url("https://www.qrtkr.com/images/main/main_visual_01.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.laser {
+	padding: 70px 20px;
+	background-image: url("https://www.qrtkr.com/images/main/main_history_bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.upscreen h1,
+.laser h1 {
+	font-size: 2.4em;
+	color: #fff;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	margin-top: 0px;
+}
+
+.upscreen p,
+.laser p {
+	text-align: center;
+	font-size: 1.1em;
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.what_is_upscreen {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.what_is_upscreen h1 {
+	font-size: 1.8em;
+	color: #202020;
+}
+
+.what_is_upscreen p {
+	text-align: center;
+	font-size: 1.1em;
+	word-break: keep-all;
+	/* 단어 중간에서 끊지 않음 */
+	overflow-wrap: break-word;
+	/* 긴 단어는 다음 줄로 넘김 */
+	white-space: normal;
+
+}
+
+.upscreen_process {
+	margin-top: 20px;
+}
+
+.upscreen_process h1,
+.laser-eval h1,
+.laser-key h1,
+.laser-spec h1 {
+	font-size: 1.8em;
+	color: #202020;
+}
+
+.upscreen_process p,
+.laser-eval p,
+.laser-key p,
+.laser-spec p {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.upscreen_process h2,
+.laser-eval h2,
+.laser-spec h2 {
+	font-size: 1.5em;
+	color: #E0002A;
+	display: inline-block;
+}
+
+.upscreen_process h3,
+.laser-eval h3,
+.laser-key h3,
+.laser-spec h3 {
+	font-size: 1.2em;
+	color: #202020;
+	display: inline-block;
+}
+
+.tab-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 16px;
+	margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+.tab-btn {
+	flex: 1 1 180px;
+	/* 최소 180px, 필요시 늘어남 */
+	max-width: 250px;
+	text-align: center;
+	padding: 16px 16px;
+	font-size: 0.95em;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+	transition: all 0.3s ease;
+	white-space: nowrap;
+}
+
+.tab-btn.active {
+	border-color: #E0002A;
+	color: #E0002A;
+	background-color: transparent;
+	box-shadow: 0 4px 10px rgba(255, 0, 0, 0.1);
+}
+
+.tab-btn:hover {
+	border-color: #E0002A;
+	color: #E0002A;
+}
+
+
+.tab-content {
+	display: none;
+}
+
+.tab-content.active {
+	display: block;
+}
+
+.tab-subtitle {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	color: #202020;
+}
+
+/* 이미지 + 텍스트 나란히 */
+.content-row {
+	display: flex;
+	align-items: flex-start;
+	gap: 24px;
+	flex-wrap: wrap;
+}
+
+.text-section {
+	flex: 0 1 45%;
+	min-width: 240px;
+	margin-bottom: 10px;
+	line-height: 1.6;
+	overflow-wrap: break-word;
+	/* 줄바꿈 필요 시 줄 넘김 */
+	word-break: normal;
+	/* 단어 단위로 줄바꿈 */
+	white-space: normal;
+}
+
+.image-section {
+	flex: 0 1 40%;
+}
+
+.image-section img {
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.image-link {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	color: #007bff;
+	text-decoration: none;
+}
+
+.highlight {
+	background-color: rgba(255, 0, 0, 0.1);
+	/* 연한 반투명 빨간색 */
+	padding: 2px 6px;
+	font-weight: bold;
+}
+
+
+.laser_highlight {
+	background-color: rgba(251, 255, 0, 0.1);
+	padding: 2px 6px;
+	font-weight: bold;
+}
+
+.qrt-button-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+.qrt-button {
+	padding: 12px 24px;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #E0002A;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.qrt-button:hover {
+	background-color: #b90022;
+	transform: translateY(-2px);
+}
+
+/* 컨테이너: 모바일 가로 스크롤 보호 */
+.qrt-table-wrap {
+	max-width: 720px;
+	margin: 20px auto;
+	padding: 0 8px;
+	overflow-x: auto;
+}
+
+/* 테이블 기본 */
+.qrt-table {
+	width: 100%;
+	border-collapse: collapse;
+	background: #fff;
+	color: #202020;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+	border-radius: 12px;
+	overflow: hidden;
+	/* 라운드 적용 */
+	font-size: 0.95rem;
+}
+
+/* 캡션 */
+.qrt-table caption {
+	caption-side: top;
+	font-weight: 700;
+	padding: 14px 16px 6px;
+	text-align: center;
+}
+
+/* 헤더 */
+.qrt-table thead th {
+	padding: 12px 14px;
+	font-weight: 600;
+	text-align: center;
+	border-bottom: 2px solid #E0002A;
+	/* QRT 레드 언더라인 */
+	background: #fff;
+	white-space: nowrap;
+}
+
+/* 바디 */
+.qrt-table tbody td {
+	padding: 12px 14px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+
+/* 줄무늬(가독성) */
+.qrt-table tbody tr:nth-child(even) {
+	background: #fafafa;
+}
+
+/* 마지막 줄 보더 제거(옵션) */
+.qrt-table tbody tr:last-child td {
+	border-bottom: none;
+}
+
+/* 좁은 화면 대응 */
+@media (max-width: 480px) {
+	.qrt-table {
+		font-size: 0.9rem;
+	}
+
+	.qrt-table thead th,
+	.qrt-table tbody td {
+		padding: 10px 12px;
+	}
+}
+
+
+@media (max-width: 768px) {
+
+	.upscreen h1,
+	.laser h1 {
+		font-size: 1.4em;
+	}
+
+	.upscreen p,
+	.laser p {
+		font-size: 1em;
+		word-break: keep-all;
+		/* 단어 중간에서 끊지 않음 */
+		overflow-wrap: break-word;
+		/* 긴 단어는 다음 줄로 넘김 */
+		white-space: normal;
+	}
+
+	.content-row {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.text-section,
+	.image-section {
+		flex: 1 1 100%;
+		max-width: 100%;
+		overflow-wrap: break-word;
+		/* 줄바꿈 필요 시 줄 넘김 */
+		word-break: normal;
+		/* 단어 단위로 줄바꿈 */
+		white-space: normal;
+	}
+
+	.image-section img {
+		max-width: 90%;
+	}
+
+	.tab-btn {
+		flex: 0 0 calc(50% - 12px);
+		/* 좌우 간격 고려해서 50%보다 살짝 작게 */
+		white-space: normal;
+		/* 줄바꿈 허용 */
+		padding: 0px 16px;
+		height: 50px;
+	}
+
+}
+
+
+/* ===== 기본(모바일 우선) 스타일 ===== */
+.laser-key {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 24px 16px;
+}
+
+.laser-key h2 {
+	text-align: center;
+	color: #E0002A;
+	margin-bottom: 16px;
+	font-size: 1.35rem;
+}
+
+/* 리스트: 모바일 1열 카드형 */
+.benefit-list {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 20px;
+}
+
+/* 각 항목 카드 */
+.benefit-item {
+	display: flex;
+	flex-direction: column;
+	/* 아이콘 위, 텍스트 아래 */
+	align-items: center;
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+	padding: 20px 18px;
+	margin-bottom: 0px;
+}
+
+/* 아이콘(원형 배경) */
+.benefit-icon {
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	background: #f1f4f8;
+	/* 연한 원형 배경 */
+	color: #E0002A;
+	/* 아이콘 컬러 */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 28px;
+	/* Font Awesome 아이콘 크기 */
+	margin-bottom: 12px;
+	flex: 0 0 auto;
+}
+
+.benefit-content {
+	text-align: center;
+}
+
+.benefit-content .tab-subtitle {
+	margin: 6px 0 8px;
+	font-size: 1.05rem;
+	font-weight: 700;
+}
+
+.benefit-content p {
+	line-height: 1.6;
+	color: #2b2b2b;
+	margin: 0;
+	text-align: left;        /* 왼쪽 정렬 */
+  word-break: keep-all;    /* 단어 중간에 줄바꿈 금지 */
+  overflow-wrap: break-word; /* 긴 단어 줄바꿈 처리 */
+}
+
+/* ===== 데스크탑(와이드) 스타일 ===== */
+@media (min-width: 992px) {
+	.laser-key {
+		padding: 32px 24px;
+	}
+
+	.laser-key h2 {
+		font-size: 1.6rem;
+		margin-bottom: 20px;
+	}
+
+	/* 2열 그리드 */
+	.benefit-list {
+		grid-template-columns: 1fr 1fr;
+		gap: 28px 36px;
+	}
+
+	/* 아이콘 좌측, 텍스트 우측 가로 정렬 */
+	.benefit-item {
+		flex-direction: row;
+		align-items: flex-start;
+		background: transparent;
+		/* 두 번째 예시처럼 배경/그림자 최소화 */
+		box-shadow: none;
+		padding: 0;
+	}
+
+	.benefit-icon {
+		margin-right: 16px;
+		/* 아이콘과 본문 간격 */
+		margin-bottom: 0;
+		width: 64px;
+		height: 64px;
+		font-size: 26px;
+		background: #eef2f7;
+	}
+
+	.benefit-content {
+		text-align: left;
+	}
+
+	.benefit-content .tab-subtitle {
+		font-size: 1.1rem;
+		margin: 4px 0 6px;
+	}
+}
+
+/* ===== 아주 작은 화면 보완 (선택) ===== */
+@media (max-width: 360px) {
+	.benefit-icon {
+		width: 60px;
+		height: 60px;
+		font-size: 24px;
+	}
+
+	.benefit-content .tab-subtitle {
+		font-size: 1rem;
+	}
+}
+
