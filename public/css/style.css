@@ -506,7 +506,7 @@ table td {
 
 	.sidebar-logo img {
     height: 32px;             /* 살짝 키워도 OK */
-    width: auto;
+    max-width: 100%;
     display: block;
     object-fit: contain;
   }
@@ -1304,7 +1304,7 @@ table td {
 .laser h1 {
 	font-size: 2.4em;
 	color: #fff;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+	font-weight: 900;
 	margin-top: 0px;
 }
 
