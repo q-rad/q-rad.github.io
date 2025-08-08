@@ -465,10 +465,11 @@ table td {
 	}
 
 	.sidebar-brand {
-    display: flex;
-    align-items: center;
-    flex: 0 0 auto;           /* 커지지 않음 */
-  }
+		display: flex;
+		align-items: center;
+		flex: 0 0 auto;
+		/* 커지지 않음 */
+	}
 
 	/* 스크롤 시 바뀔 상태 */
 	.sidebar.scrolled {
@@ -497,19 +498,25 @@ table td {
 
 
 	.sidebar-logo {
-    display: flex;
-    align-items: center;      /* 세로 중앙 */
-    justify-content: flex-start;
-    padding-left: 12px;       /* 왼쪽 살짝 여백 */
-    flex: 0 0 auto;           /* 로고 영역이 불필요하게 커지지 않게 */
-  }
+		display: flex;
+		align-items: center;
+		/* 세로 중앙 */
+		justify-content: flex-start;
+		padding-left: 12px;
+		/* 왼쪽 살짝 여백 */
+		flex: 0 0 auto;
+		/* 로고 영역이 불필요하게 커지지 않게 */
+	}
 
 	.sidebar-logo img {
-    height: 32px;             /* 살짝 키워도 OK */
-    max-width: 100%;
-    display: block;
-    object-fit: contain;
-  }
+		height: 32px !important;
+		/* 살짝 키워도 OK */
+		width: auto !important;
+		/* 비율 유지 */
+		max-width: 100%;
+		display: block;
+		object-fit: contain;
+	}
 
 	.post-title {
 		font-size: 1.5em;
