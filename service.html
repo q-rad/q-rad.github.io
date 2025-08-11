@@ -68,11 +68,10 @@ permalink: /ko/upscreen.html
 
   <div class="tab-section">
     <div class="tab-buttons">
-      <button class="tab-btn active" data-tab="tab1">Construction Analysis</button>
-      <button class="tab-btn" data-tab="tab2">Physical Test</button>
+      <button class="tab-btn active" data-tab="tab1">CA / DPA</button>
+      <button class="tab-btn" data-tab="tab2">Mechanical Test</button>
       <button class="tab-btn" data-tab="tab3">Reliability Test</button>
-      <button class="tab-btn" data-tab="tab4">Destructive Physical Analysis</button>
-      <button class="tab-btn" data-tab="tab5">Radiation Test</button>
+      <button class="tab-btn" data-tab="tab4">Radiation Test</button>
     </div>
 
     <!-- Construction Analysis Tab -->
@@ -121,10 +120,10 @@ permalink: /ko/upscreen.html
           </div>
         </div>
         <br>
-        <h3 class="tab-subtitle">Initial Electrical Test</h3>
+        <h3 class="tab-subtitle">Electrical Test</h3>
         <div class="content-row">
           <div class="text-section">
-            Initial Electrical Test은 부품의 신뢰성 시험에 앞서, 기능 및 전기적 특성이 정상인지 검증하는 기초적이고 필수적인 절차입니다.
+            Electrical Test은 부품의 신뢰성 시험 전후로, 기능 및 전기적 특성이 정상인지 검증하는 기초적이고 필수적인 절차입니다.
             이 시험은 25°C 조건에서 모든 부품에 대해 전수로 수행되며, 일부 항목은 정량 측정값을 기록하여 후속 시험 결과와 비교합니다.
           </div>
           <div class="image-section">
@@ -134,9 +133,100 @@ permalink: /ko/upscreen.html
             </a>
           </div>
         </div>
+        <h3 class="tab-subtitle">Internal Visual Inspection</h3>
+        <div class="content-row">
+          <div class="text-section">
+            Internal Visual Inspection은 전자 부품의 내부 구조(Die, Bonding, Leadframe 등)를 직접 관찰하여 제조 품질과 
+            이상 유무를 확인하는 파괴 검사(Destructive Analysis)의 한 형태입니다.
+             일반적으로 DPA (Destructive Physical Analysis)의 핵심 절차 중 하나로 포함되며, 신뢰성과 위조품 판별 등을 위해 수행됩니다.
+             내부 구조 확인을 위해서 내부의 wire와 bonding pad에 damage 없이 반도체 Die를 보호하고 있는 합성 봉지제의 일부, 혹은 완전히 제거하는데 사용되는 시편 전처리가 필요합니다.
+             QRT에서는 EMC 뿐만 아니라 glass 재질이나 금속 재질의 device에 대한 de-capsulation도 서비스 되고 있습니다.
+          </div>
+          <div class="image-section">
+            <img src="/assets/service/decapsulation.webp" alt="QRT De-capsulation">
+            <a href="https://www.qrtkr.com/kr/analysis/sample/decapsulation.php" target="_blank" class="image-link">
+              <span>De-capsulation at QRT</span>
+            </a>
+          </div>
+        </div>
+        <br>
+        <h3 class="tab-subtitle">Die & Bond shear test</h3>
+        <div class="content-row">
+          <div class="text-section">
+            제품의 접합부가 제조, 취급, 시험, 운송 및 최종 사용 조건 사이에 발생 할 수 있는 물리적인 전단 응력에 대한 내구성을 평가 하기 위함입니다.
+             와이어 볼 전단, 인장(Wire bond shear, pull) 시험은 IC 칩의 에폭시를 제거하는 DECAP 공정 후 진행됩니다. 솔더 볼 전단(Solder Ball Shear) 시험은 플립 칩을 제외한 모든 표면 실장 형 패키지에 적용 되며 PCB에 실장 되기 전 단계에 진행됩니다. 
+            각 솔더볼 개별적으로 전단 되어야 하며, 전단 응력 및 고장 유형의 데이터를 수집 하고 분석합니다.
+          </div>
+          <div class="image-section">
+            <img src="/assets/service/bond.webp" alt="QRT Bonding system">
+            <a href="https://www.qrtkr.com/kr/reliability/experiment/bonding.php" target="_blank" class="image-link">
+              <span>Bonding Test System at QRT</span>
+            </a>
+          </div>
+        </div>
+        <br>
+        <h3 class="tab-subtitle">SEM inspection</h3>
+        <div class="content-row">
+          <div class="text-section">
+            SEM Inspection은 "Scanning Electron Microscopy" 검사를 의미하며,
+             DPA(Destructive Physical Analysis) 또는 품질 보증 분석 절차에서 사용되는 고해상도 이미지 분석 방법입니다. 
+             여기에는 칩과 패키지 리드 간 연결된 금속 와이어의 상태를 확인. 크랙, 누락, 오염 여부 검사,칩 표면을 보호하는 절연막(Glassivation layer)의 완전성 확인,
+             또한 칩 내부의 회로 간 금속 연결 상태를 확인하고 금속 패턴의 균열, 변형, 공극(porosity) 등을 분석합니다
+          </div>
+          <div class="image-section">
+            <img src="/assets/service/sem.webp" alt="QRT C-SAM">
+            <a href="https://www.qrtkr.com/kr/analysis/structural/sem.php" target="_blank" class="image-link">
+              <span>SEM/EDS Analysis at QRT</span>
+            </a>
+          </div>
+        </div>
+        <br>
+        <h3 class="tab-subtitle">Glassivation integrity</h3>
+        <div class="content-row">
+          <div class="text-section">
+            반도체 소자의 금속 배선 위에 형성된 유전체 보호막(glassivation layer)의 품질을 확인하는 시험입니다.
+             화학 식각(chemical etching)을 통해 메탈층이 손상되지 않고 정상적으로 노출되는지를 확인함으로써, 
+            보호막의 손상 여부와 식각 조건의 적합성을 검증합니다.
+          </div>
+          <div class="image-section">
+            <img src="/assets/service/tem.webp" alt="QRT TEM/EDS/EELS Analysis">
+            <a href="https://www.qrtkr.com/kr/analysis/structural/tem.php" target="_blank" class="image-link">
+              <span>TEM/EDS/EELS Analysis at QRT</span>
+            </a>
+          </div>
+        </div>
+        <br>
+        <h3 class="tab-subtitle">Lead finish analysis and pure tin identification </h3>
+        <div class="content-row">
+          <div class="text-section">
+            Lead Finish Analysis and Pure Tin Identification는 전자 부품의 리드(lead) 표면 마감 재질을 식별하고, RoHS 준수 여부를 평가하는 절차입니다.
+            부품의 리드에 적용된 금속층(도금 재질)이 어떤 금속으로 구성되어 있는지 분석합니다. 일반적으로 Sn (주석), Pb (납), Ni (니켈), Au (금), Cu (구리) 등이 조합되어 사용됩니다.
+            순수 주석 도금은 시간 경과에 따라 필라멘트성 주석 결정(Tin whisker)이 자라나 회로 단락을 유발할 수 있어, 신뢰성 요구가 높은 우주/항공/국방 분야에서 기피됩니다. 따라서 RoHS 기반의 무연 공정에서 순수 주석 여부 식별은 매우 중요합니다.
+          </div>
+          <div class="image-section">
+            <img src="/assets/service/whisker.webp" alt="Tin Whisker Acceptance at QRT">
+            <a href="https://www.qrtkr.com/kr/reliability/experiment/whisker.php" target="_blank" class="image-link">
+              <span>Tin Whisker Acceptance at QRT</span>
+            </a>
+          </div>
+        </div>
+
+        <h3 class="tab-subtitle">PIND (Particle Impact Noise Detection) Test</h3>
+        <div class="content-row">
+          <div class="text-section">
+            밀폐형 캐비티 패키지(금속캔, 세라믹 DIP/CLCC, 헤르메틱 BGA 등) 
+            내부에 생긴 이물질(금속/세라믹 파편)을 검출하는 시험입니다.
+            시편에 진동/충격 펄스를 노출시켜 내부 이물이 케이스 벽과 부딪힐 때 나오는 음향/진동 신호를 트랜스듀서로 측정하여
+            이상 유무를 판단합니다.
+          </div>
+          <div class="image-section">
+              <span>현재 전용 설비 도입 준비 중으로, 상용 시험 서비스는 향후 오픈 예정입니다.</span>
+            </a>
+          </div>
+        </div>
       </div>
 
-      <!-- Physical Tests Tab -->
+      <!-- Mechanical Tests Tab -->
 
       <div id="tab2" class="tab-content">
         <h3 class="tab-subtitle">Mechanical Shocks</h3>
@@ -180,6 +270,35 @@ permalink: /ko/upscreen.html
             <img src="/assets/service/Constant Acceleration.webp" alt="QRT Constant Acceleration">
             <a href="https://www.qrtkr.com/kr/reliability/experiment/acceleration.php" target="_blank" class="image-link">
               <span>Constant Acceleration at QRT</span>
+            </a>
+          </div>
+        </div>
+        <h3 class="tab-subtitle">Thermal Shock</h3>
+        <div class="content-row">
+          <div class="text-section">
+            TS (Thermal shock)는 1) 제품이 고온과 저온조건을 견딜 수 있는지, 그리고 2) 고온과 저온에 반복적으로 노출 시켰을 때 어떤 영향을 받는지 평가하는 시험입니다. 
+            반복적인 thermo mechanical 부하를 원인으로 발생하는 불량은 피로불량 (fatigue failure)에 속하며, TC는 이런 피로불량을 가속하는 시험입니다. 시험절차는, 
+            시료를 TC용 chamber에 장착하고 규정된 수준의 고온과 저온에 반복해서 노출시키는 과정으로 이루어집니다. 
+            온도사이클(TC)는 열전달 매개체로 Air를 사용하고 TS는 Liquid를 사용한다는 점이 다릅니다.
+          </div>
+          <div class="image-section">
+            <img src="/assets/service/Thermal Shock.webp" alt="QRT Thermal Shock">
+            <a href="https://www.qrtkr.com/kr/reliability/experiment/thermal.php" target="_blank" class="image-link">
+              <span>Thermal Shock at QRT</span>
+            </a>
+          </div>
+        </div>
+        <h3 class="tab-subtitle">Seal Test</h3>
+        <div class="content-row">
+          <div class="text-section">
+            우주·항공·방위 등 고신뢰 환경에서 반도체가 오래, 안정적으로 동작하려면 패키지 내부로 수분·오염원이 스며들지 않도록 완전한 밀봉(Hermeticity) 이 보장되어야 합니다.
+            Seal Test는 바로 이 밀봉 품질을 정량적으로 검증하는 핵심 절차입니다.
+            Seal Test는 먼저 액침/가열·가압 등으로 큰 누설을 신속히 걸러낸 뒤(Gross Leak),
+             헬륨 질량분석(He-MS) 으로 허용누설한계(L_R) 를 기준 삼아 보이지 않는 수준의 미세누설까지 정밀 측정(Fine Leak)합니다.
+            시험 조건은 패키지 내부 부피, 요구 신뢰성 등 고객 미션 요건에 맞춰 산정하며, 로트당 최소 10개 샘플을 기준으로 진행합니다.
+          </div>
+          <div class="image-section">
+              <span>현재 전용 설비 도입 준비 중으로, 상용 시험 서비스는 향후 오픈 예정입니다.</span>
             </a>
           </div>
         </div>
@@ -270,92 +389,9 @@ permalink: /ko/upscreen.html
 
 
 
-      <!-- Destructive Physical Analysis Tab -->
+      <!-- Radiation Tests Tab -->
 
       <div id="tab4" class="tab-content">
-        <h3 class="tab-subtitle">Internal Visual Inspection</h3>
-        <div class="content-row">
-          <div class="text-section">
-            Internal Visual Inspection은 전자 부품의 내부 구조(Die, Bonding, Leadframe 등)를 직접 관찰하여 제조 품질과 
-            이상 유무를 확인하는 파괴 검사(Destructive Analysis)의 한 형태입니다.
-             일반적으로 DPA (Destructive Physical Analysis)의 핵심 절차 중 하나로 포함되며, 신뢰성과 위조품 판별 등을 위해 수행됩니다.
-             내부 구조 확인을 위해서 내부의 wire와 bonding pad에 damage 없이 반도체 Die를 보호하고 있는 합성 봉지제의 일부, 혹은 완전히 제거하는데 사용되는 시편 전처리가 필요합니다.
-             QRT에서는 EMC 뿐만 아니라 glass 재질이나 금속 재질의 device에 대한 de-capsulation도 서비스 되고 있습니다.
-          </div>
-          <div class="image-section">
-            <img src="/assets/service/decapsulation.webp" alt="QRT De-capsulation">
-            <a href="https://www.qrtkr.com/kr/analysis/sample/decapsulation.php" target="_blank" class="image-link">
-              <span>De-capsulation at QRT</span>
-            </a>
-          </div>
-        </div>
-        <br>
-        <h3 class="tab-subtitle">Die & Bond shear test</h3>
-        <div class="content-row">
-          <div class="text-section">
-            제품의 접합부가 제조, 취급, 시험, 운송 및 최종 사용 조건 사이에 발생 할 수 있는 물리적인 전단 응력에 대한 내구성을 평가 하기 위함입니다.
-             와이어 볼 전단, 인장(Wire bond shear, pull) 시험은 IC 칩의 에폭시를 제거하는 DECAP 공정 후 진행됩니다. 솔더 볼 전단(Solder Ball Shear) 시험은 플립 칩을 제외한 모든 표면 실장 형 패키지에 적용 되며 PCB에 실장 되기 전 단계에 진행됩니다. 
-            각 솔더볼 개별적으로 전단 되어야 하며, 전단 응력 및 고장 유형의 데이터를 수집 하고 분석합니다.
-          </div>
-          <div class="image-section">
-            <img src="/assets/service/bond.webp" alt="QRT Bonding system">
-            <a href="https://www.qrtkr.com/kr/reliability/experiment/bonding.php" target="_blank" class="image-link">
-              <span>Bonding Test System at QRT</span>
-            </a>
-          </div>
-        </div>
-        <br>
-        <h3 class="tab-subtitle">SEM inspection</h3>
-        <div class="content-row">
-          <div class="text-section">
-            SEM Inspection은 "Scanning Electron Microscopy" 검사를 의미하며,
-             DPA(Destructive Physical Analysis) 또는 품질 보증 분석 절차에서 사용되는 고해상도 이미지 분석 방법입니다. 
-             여기에는 칩과 패키지 리드 간 연결된 금속 와이어의 상태를 확인. 크랙, 누락, 오염 여부 검사,칩 표면을 보호하는 절연막(Glassivation layer)의 완전성 확인,
-             또한 칩 내부의 회로 간 금속 연결 상태를 확인하고 금속 패턴의 균열, 변형, 공극(porosity) 등을 분석합니다
-          </div>
-          <div class="image-section">
-            <img src="/assets/service/sem.webp" alt="QRT C-SAM">
-            <a href="https://www.qrtkr.com/kr/analysis/structural/sem.php" target="_blank" class="image-link">
-              <span>SEM/EDS Analysis at QRT</span>
-            </a>
-          </div>
-        </div>
-        <br>
-        <h3 class="tab-subtitle">Glassivation integrity</h3>
-        <div class="content-row">
-          <div class="text-section">
-            반도체 소자의 금속 배선 위에 형성된 유전체 보호막(glassivation layer)의 품질을 확인하는 시험입니다.
-             화학 식각(chemical etching)을 통해 메탈층이 손상되지 않고 정상적으로 노출되는지를 확인함으로써, 
-            보호막의 손상 여부와 식각 조건의 적합성을 검증합니다.
-          </div>
-          <div class="image-section">
-            <img src="/assets/service/tem.webp" alt="QRT TEM/EDS/EELS Analysis">
-            <a href="https://www.qrtkr.com/kr/analysis/structural/tem.php" target="_blank" class="image-link">
-              <span>TEM/EDS/EELS Analysis at QRT</span>
-            </a>
-          </div>
-        </div>
-        <br>
-        <h3 class="tab-subtitle">Lead finish analysis and pure tin identification </h3>
-        <div class="content-row">
-          <div class="text-section">
-            Lead Finish Analysis and Pure Tin Identification는 전자 부품의 리드(lead) 표면 마감 재질을 식별하고, RoHS 준수 여부를 평가하는 절차입니다.
-            부품의 리드에 적용된 금속층(도금 재질)이 어떤 금속으로 구성되어 있는지 분석합니다. 일반적으로 Sn (주석), Pb (납), Ni (니켈), Au (금), Cu (구리) 등이 조합되어 사용됩니다.
-            순수 주석 도금은 시간 경과에 따라 필라멘트성 주석 결정(Tin whisker)이 자라나 회로 단락을 유발할 수 있어, 신뢰성 요구가 높은 우주/항공/국방 분야에서 기피됩니다. 따라서 RoHS 기반의 무연 공정에서 순수 주석 여부 식별은 매우 중요합니다.
-          </div>
-          <div class="image-section">
-            <img src="/assets/service/whisker.webp" alt="Tin Whisker Acceptance at QRT">
-            <a href="https://www.qrtkr.com/kr/reliability/experiment/whisker.php" target="_blank" class="image-link">
-              <span>Tin Whisker Acceptance at QRT</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <div id="tab5" class="tab-content">
         
         
         <h3 class="tab-subtitle">Total Ionizing Dose</h3>
