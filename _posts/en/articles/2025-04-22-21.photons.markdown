@@ -12,16 +12,11 @@ lang: en
 
 # Photon
 
-A photon is the basic unit of electromagnetic energy, spanning the entire electromagnetic spectrum—from low to high energy and long to short wavelengths. This includes radio waves, microwaves, visible light, ultraviolet radiation, X-rays, and gamma rays.
-<br>
-Most electronic devices are enclosed in opaque packaging (e.g., plastic, ceramic, or metal), so photons in the visible light range generally pose little to no concern. However, high-energy photons such as X-rays and gamma rays can penetrate these materials and potentially affect device operation.
-<br>
-In both terrestrial and space environments, the direct impact of X-rays and gamma rays is typically considered less significant than other types of radiation.
-<br>
-In industrial and medical applications, however, X-rays and gamma rays are the primary radiation sources, with energies typically ranging from 10 keV to 1,000 keV. Within this range, the photoelectric effect is the dominant mechanism for generating charge, though Compton scattering also plays a role.
-<br>
-Because photons are electrically neutral, they do not interact in the same way as charged particles with electrons or atomic nuclei.
-Below are the three main mechanisms by which photons transfer energy:
+A photon is the basic quantum of electromagnetic energy, spanning the entire electromagnetic spectrum—from low to high energies and from long to short wavelengths. This includes radio waves, microwaves, visible light, ultraviolet radiation, X-rays, and gamma rays.<br>
+Most electronic devices are enclosed in opaque packaging (e.g., plastic, ceramic, or metal), so photons in the visible range generally pose little concern. However, high-energy photons such as X-rays and gamma rays can penetrate these materials and affect device operation.<br>
+For space electronics, charged particles (protons, heavy ions, electrons, neutrons) are usually the dominant concern; nevertheless, in industrial and medical settings X-rays and gamma rays are primary radiation sources, typically spanning ~10 keV to 1,000 keV. <br>
+In this range, the photoelectric effect tends to dominate at lower energies and in high-Z materials, while Compton scattering becomes increasingly important at intermediate energies; above ~1.022 MeV, pair production can dominate.
+Because photons are electrically neutral, their interactions with matter differ from those of charged particles. The three principal photon–matter interaction mechanisms are summarized below.
 
 <p align="center"> 
   <img src="/assets/Articles/선스펙트럼.webp" alt="Diagram illustrating the electromagnetic spectrum" style="width: 40%;">
@@ -38,23 +33,19 @@ Below are the three main mechanisms by which photons transfer energy:
 
 ### 1. Photoelectric Effect
 
-When a photon strikes a semiconductor and has sufficient energy to liberate an electron from the valence band or from a bound atomic state, the photon’s energy is transferred to the electron, producing a photoelectron and leaving behind a positively charged hole. This is known as the photoelectric effect.
-<br>
-Photons ranging from visible light to X-rays (up to around 100 keV) can excite tightly bound inner-shell electrons. When an inner-shell electron is ejected, the resulting vacancy is filled by an outer-shell electron, often emitting characteristic X-rays in the process. These emissions are element-specific.
-<br>
-The photoelectric effect is an inelastic interaction, where the photon’s energy is proportional to its frequency. If the photon energy is too low to generate an electron-hole pair, the photon passes through the material—this is referred to as transparency.
+When a photon with sufficient energy interacts with a semiconductor, it can liberate an electron from the valence band (or from a bound atomic state), producing a photoelectron and leaving behind a positively charged hole.
+In the X-ray regime (tens to hundreds of keV), inner-shell electrons can be ejected; subsequent relaxation of outer-shell electrons may emit characteristic X-rays that are element-specific. <br>
+In the visible/UV range, photons primarily excite valence-band electrons into the conduction band, generating electron–hole pairs.
+The photoelectric effect is an inelastic interaction in which the photon’s energy is absorbed. If the photon energy is too low to generate an electron–hole pair, the material is effectively transparent at that wavelength.
 
 ### 2. Compton Scattering
 
-In Compton scattering, a photon collides with an electron and transfers part of its energy, producing a lower-energy scattered photon and a recoil electron. Depending on the energy transferred, the electron may be excited to a higher state or completely freed, allowing it to interact with other atoms or electrons.
+In Compton scattering, a photon transfers part of its energy to an electron, producing a lower-energy scattered photon and a recoil electron. Depending on the transferred energy, the electron may be excited to a higher state or fully freed, after which it can further interact and generate additional ionization.
 
 ### 3. Pair Production
 
-Pair production is a key mechanism for gamma-ray energy loss and occurs when a high-energy photon interacts with an atomic nucleus to produce an electron-positron pair.
-<br>
-For this process to occur, the photon’s energy must exceed the combined rest mass energy of an electron and a positron. Any additional energy becomes kinetic energy shared by the two particles.
-<br>
-If the photon’s energy is below this threshold, pair production cannot take place. The likelihood of pair production increases with both photon energy and the atomic number of the material.
+Pair production is a key high-energy gamma-ray loss mechanism. A photon interacting in the field of an atomic nucleus can transform into an electron–positron pair, provided the photon energy exceeds the combined rest-mass energy of the pair (> 1.022 MeV). Any excess energy appears as kinetic energy shared by the particles.
+The probability of pair production increases with photon energy and with the atomic number (Z) of the material; below the threshold, the process cannot occur.
 
 
 <!-- 관련 글 자동화 -->

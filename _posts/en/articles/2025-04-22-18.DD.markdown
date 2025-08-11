@@ -12,21 +12,21 @@ lang: en
 
 # DD (Displacement Damage)
 
-Displacement Damage (DD) refers to damage that occurs throughout the bulk of semiconductor materials. Unlike Total Ionizing Dose (TID), which mainly affects surface and interface regions, DD impacts the entire volume of a device. This volumetric damage can alter electrical, optical, and thermal properties, potentially leading to performance degradation or even failure.
+Displacement damage (DD) is damage that occurs throughout the bulk of a semiconductor. Unlike total ionizing dose (TID), which primarily affects surface and interface regions, DD impacts the entire device volume. This volumetric damage can alter electrical, optical, and thermal properties, leading to performance degradation or even failure.
 <br>
-If DD occurs in the active regions of a device—such as the channel of a MOSFET or the base region of a BJT—it can result in increased recombination, reduced carrier mobility, and slower switching speeds. These effects degrade overall device performance and reliability.
+If DD occurs in active regions—such as the channel of a MOSFET or the base region of a BJT—it can increase recombination, reduce carrier mobility, and slow switching speeds. These effects degrade overall device performance and reliability.
 <br>
-Radiation types that typically induce DD include high-energy electrons, protons, neutrons, and high-energy photons (such as gamma rays and X-rays) that produce secondary particles.
+Radiation that typically induces DD includes high-energy electrons, protons, and neutrons, as well as high-energy photons (e.g., gamma rays and X-rays) that generate secondary particles.
 <br><br>
-DD is primarily caused by the following four mechanisms:
+DD arises primarily from the following four mechanisms:
 
-1. Coulomb scattering: Charged particles, such as protons, interact electrostatically with silicon atoms. Kinetic energy is transferred, deflecting the trajectories of atoms and causing localized disruptions. This is particularly significant at proton energies below 10 MeV.
+1. Coulomb scattering: Charged particles (e.g., protons) interact electrostatically with lattice atoms, transferring kinetic energy that deflects atomic trajectories and creates localized disruptions. This is especially significant for proton energies below ~10 MeV.
 
-2. Nuclear elastic scattering: Incident particles like protons or neutrons collide elastically with silicon nuclei, producing recoil silicon atoms. These recoils generate vacancy and interstitial defects within the crystal lattice.
+2. Nuclear elastic scattering: Incident particles such as protons or neutrons collide elastically with silicon nuclei, producing recoil silicon atoms. These recoils generate vacancy and interstitial defects within the crystal lattice.
 
-3. Nuclear inelastic scattering: The energy from incoming particles excites the silicon nucleus, which subsequently decays by emitting secondary particles or recoils. These emissions further displace atoms, contributing to structural damage.
+3. Nuclear inelastic scattering: Energy from the incoming particle excites the silicon nucleus, which subsequently decays by emitting secondary particles or recoils. These emissions further displace atoms and contribute to structural damage.
 
-4. Energy loss of secondary particles and phonon interactions: As energetic secondary particles slow down and stop, they interact with phonons in the material. This increases local atomic vibrations and temperature, leading to additional displacement and disruption.
+4. Energy loss of secondary particles and phonon interactions: As energetic secondary particles slow and stop, they interact with phonons in the material. The resulting local lattice vibrations and heating promote additional atomic displacements and disorder.
 
 <p align="center">
   <img src="/assets/Articles/DD.webp" style="width: 100%; max-width: 500px;" alt="Displacement Damage">

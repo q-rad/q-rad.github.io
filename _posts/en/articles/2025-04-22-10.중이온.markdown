@@ -12,9 +12,9 @@ lang: en
 
 # What is a Heavy Ion Beam?
 
-The diagram below illustrates various types of radiation particles and compares their relative masses.  
-Assuming the mass of a proton or neutron is 1, the relative mass of an electron is approximately 1⁄1,840.  
-While the electron is shown disproportionately large for visual clarity, the illustration effectively conveys the vast difference in mass between electrons and nucleons.
+The diagram below shows several types of radiation particles and compares their relative masses.
+Taking the mass of a proton or neutron as 1, the electron’s relative mass is approximately 1/1,836.
+Although the electron is drawn disproportionately large for clarity, the illustration conveys the orders-of-magnitude difference between electrons and nucleons.
 
 <table align="center" style="border: none; border-collapse: collapse;">
   <tr>
@@ -28,19 +28,18 @@ While the electron is shown disproportionately large for visual clarity, the ill
 Source: Medical Excellence JAPAN
 </p> 
 
-The nucleus of a helium atom is known as an alpha particle.  
-Particles lighter than or equal to helium are typically referred to simply as **particles**, while nuclei of elements heavier than carbon are categorized as **heavy ions**.
+The nucleus of a helium atom is called an alpha particle.
+In radiation-effects work, heavy ions generally refer to ions heavier than helium (atomic number Z ≥ 3), while electrons, protons, and helium nuclei are treated separately.
 <br>
-Radiation in space is emitted either as electromagnetic waves or as particles.  
-When radiation consists of particles heavier than electrons, it is called a **particle beam**.  
-If these particles are heavier than helium nuclei, the beam is specifically referred to as a **heavy ion beam**.
+Radiation in space appears either as electromagnetic waves or as particles.
+A particle beam is a collimated stream of accelerated particles (e.g., electrons, protons, ions, or neutrons).
+When the beam consists of ions heavier than helium, it is specifically termed a heavy-ion beam.
 <br>
-As illustrated in the comparison table, general-purpose particle accelerators typically handle particles ranging from electrons to helium or carbon.  
-In contrast, **heavy ion accelerators** are designed to accelerate ions from helium up to heavier elements such as xenon (Xe).
+As a rule of thumb, general-purpose accelerators commonly handle particles such as electrons, protons, and light ions (e.g., helium or carbon).
+By contrast, heavy-ion accelerators are designed to accelerate ions from helium up to much heavier species such as xenon (Xe).
 <br>
-Because neutrons carry no electric charge, they cannot be directly accelerated by electromagnetic fields.  
-Instead, neutrons are typically produced through nuclear reactions—such as by bombarding a target with accelerated protons or electrons to induce nuclear spallation.  
-In addition, neutrons produced from nuclear reactions or nuclear reactors are also used.
+Because neutrons carry no electric charge, they cannot be directly accelerated by electromagnetic fields.
+Instead, neutron beams are typically produced via nuclear reactions—for example, by bombarding a target with accelerated protons or electrons to induce spallation—or obtained from research reactors.
 
 
 <!-- 관련 글 자동화 -->

@@ -12,26 +12,20 @@ lang: en
 
 # Electron
 
-Electrons incident on a material are negatively charged and interact with electrons or atomic nuclei in the material via electric forces. During these interactions, the path of the incident electron may change, and in some cases, photons are emitted.
+Incident electrons carry negative charge and interact with bound electrons and atomic nuclei in materials via the Coulomb force. Through these interactions, the electron’s path can be deflected; energy may be deposited as excitation or ionization; and in some cases photons are emitted.
 
 ### Electron–Electron Interaction
 
-Because both particles carry negative charge, a strong repulsive force acts when an incident electron approaches another electron. This causes the incoming electron to deviate from its trajectory, while the target electron typically remains in its orbital path. 
-<br>
-The incident electron may also transfer energy to the target electron, exciting it to a higher energy level. If the target electron is ejected, a vacancy is created and subsequently filled by an outer electron, emitting a photon in the process. 
-<br>
-In high atomic number (Z) elements, this photon is typically an X-ray, similar to the characteristic X-rays observed in the photoelectric effect. In low-Z elements, visible light photons may be emitted, as in fluorescent lighting.
-<br>
-In some cases, the ejected target electron has enough energy to become a free electron capable of ionizing other atoms, leading to a chain reaction. These energetic secondary electrons are referred to as delta-rays.
+Because both particles are negatively charged, a strong repulsive (Coulomb) force acts when an incident electron approaches a bound electron. This deflects the incoming electron, while the target electron generally remains bound unless sufficient energy is transferred.<br>
+The incident electron can excite the target electron to a higher energy level or ionize it. If an inner-shell electron is ejected, a vacancy is created and subsequently filled by an outer electron, often emitting characteristic radiation during de-excitation. In low-Z materials this may appear in the visible/UV range; in higher-Z materials, X-ray emission is more likely.<br>
+If the ejected electron retains enough kinetic energy to cause further ionization, it becomes a secondary energetic electron—commonly called a delta ray.
 
 ### Electron–Nucleus Interaction
 
-When a negatively charged electron approaches a positively charged nucleus, it experiences an attractive force that causes it to slow down and change direction. Because the nucleus is much heavier than the electron, its movement is negligible during this interaction.<br>
-In some cases, the incident electron transfers enough energy to displace the nucleus, causing what is known as [Displacement Damage](/en/article/18.DD.html). However, most of the electron's energy is used to cause ionization.
-<br>
-As the electron decelerates due to interaction with the nucleus, it may emit a photon—a process known as bremsstrahlung or braking radiation. The closer the electron passes to the nucleus, the greater the deceleration and the higher the energy of the emitted photon.
-<br>
-This interaction produces a continuous energy spectrum, and the maximum energy of emitted photons corresponds to the kinetic energy of the incident electron.
+As a negatively charged electron passes near a positively charged nucleus, it experiences an attractive force that slows and deflects it. Because the nucleus (and thus the atom) is much more massive, its motion is usually small.
+If sufficient energy is transferred to an atom, it can be displaced from its lattice site, producing [Displacement Damage](/en/article/18.DD.html). <br>
+However, for most energies relevant to electronics, ionization is the dominant energy-loss process.
+When an electron is rapidly decelerated in the nuclear field, it can emit a photon—bremsstrahlung (“braking radiation”). The closer the approach, the greater the deceleration and the higher the photon energy. Bremsstrahlung forms a continuous spectrum whose upper cutoff is the kinetic energy of the incident electron.
 
 <p align="center">
   <img src="/assets/Articles/전자산란.webp" style="width: 100%; max-width: 500px;" alt="Electron Scattering">
@@ -42,10 +36,9 @@ Image source: [Electron-beam interaction and transmission with sample - Wikimedi
 Author: Zephyris / CC BY-SA 3.0
 </p>
 
-Most semiconductor devices are enclosed in opaque materials (plastic, ceramic, metal, etc.), which require incident electrons to have energies above approximately 300 keV to penetrate the package and reach the internal die.
-<br>
-In industrial and medical applications, beta particles from electron beams or radioactive materials typically have energies ranging from 0.01 to 4 MeV. These high-energy electrons can penetrate the outer layers and impact the internal circuitry.<br>
-On Earth, the flux of high-energy electrons is generally too low to cause serious reliability issues for semiconductors. However, in space environments—particularly in the [Van Allen Radiation Belts](/en/article/16.지구의-자기장과-방사선대의-관계.html)—the electron flux is significantly higher. Electrons in the 0.1–10 MeV range are common and can easily penetrate semiconductor packaging, contributing to effects such as [Total Ionizing Dose (TID)](/en/article/7.TID.html).
+Most semiconductor devices are enclosed in opaque packages (plastic, ceramic, metal, etc.), so incident electrons typically need energies on the order of a few hundred keV or more to penetrate the package and reach the die.
+In industrial and medical applications, beta particles from electron beams or radioactive sources often span ~0.01–4 MeV; such electrons can penetrate outer layers and affect internal circuitry.<br>
+At ground level, the flux of high-energy electrons is generally too low to dominate semiconductor reliability concerns. In space—especially within the [Van Allen Radiation Belts](/en/article/16.지구의-자기장과-방사선대의-관계.html)—electron fluxes are much higher. Electrons in the ~0.1–10 MeV range are common and can readily penetrate packaging, contributing to effects such as [Total Ionizing Dose (TID)](/en/article/7.TID.html).
 
 
 <!-- 관련 글 자동화 -->

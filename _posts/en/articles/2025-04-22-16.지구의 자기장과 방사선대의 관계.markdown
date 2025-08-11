@@ -10,18 +10,18 @@ order: 3005
 lang: en
 ---
 
-When charged particles from space are captured in ionized regions such as the Van Allen radiation belts, they spiral along magnetic field lines, bouncing between the Earth’s poles. Positively and negatively charged particles drift in opposite directions, gradually migrating longitudinally.  
-This motion contributes to a weakening of the magnetic field over the South Atlantic Ocean, known as the South Atlantic Anomaly (SAA)—a region particularly problematic for satellites and space missions in low Earth orbit (LEO).
+When charged particles from space are trapped in Earth’s magnetosphere—in the Van Allen radiation belts—they spiral along magnetic field lines and bounce (mirror) between the poles. Positively and negatively charged particles drift azimuthally in opposite directions, slowly migrating longitudinally.
+This drift, together with the offset and tilt of Earth’s magnetic dipole, produces an asymmetric field that is comparatively weak over the South Atlantic, creating the South Atlantic Anomaly (SAA)—a region particularly problematic for satellites and missions in Low Earth Orbit (LEO).
 <br>
-The Van Allen belts primarily consist of electrons in the outer belt and protons and electrons in the inner belt.  
-As explained in space weather studies, the level of radiation exposure experienced by spacecraft depends significantly on orbital altitude, solar activity, and shielding design. Moreover, radiation dose can vary for different components depending on their physical location within the satellite and the materials surrounding them.
+The Van Allen belts consist mainly of electrons in the outer belt, and protons with electrons in the inner belt.
+Space-weather conditions, orbital altitude, and shielding design strongly influence the radiation environment encountered by spacecraft. Dose can also vary across components depending on their location within the satellite and the surrounding materials.
 
 ---
 
 # Van Allen Radiation Belt
 
-The Van Allen Radiation Belts are large, stable toroidal zones of high-energy charged particles trapped by the Earth's magnetic field, extending up to about 10 Earth radii.  
-They were first discovered in 1958 with the launch of the United States’ first satellite, Explorer 1. Later studies by the Van Allen Probes (launched in 2012) even revealed that a third, temporary radiation belt may occasionally form under certain conditions.
+The Van Allen radiation belts are toroidal regions of high-energy charged particles trapped by Earth’s magnetic field, extending to roughly 10 Earth radii.
+They were first identified in 1958 with the launch of the United States’ first satellite, Explorer 1. Subsequent missions—culminating in the Van Allen Probes (launched in 2012)—have even observed a third, temporary belt forming under certain conditions.
 
 <p align="center">
   <img src="/assets/Articles/밴앨런이온대.webp" style="width: 100%; max-width: 400px;" alt="Van Allen Belt">
@@ -31,10 +31,10 @@ They were first discovered in 1958 with the launch of the United States’ first
   Source: Doopedia
 </p>
 
-The belts are named after Dr. James Van Allen, a physicist at the University of Iowa. His radiation detection experiment—equipped with a Geiger counter and a tape recorder—was onboard Explorer 1, which launched on January 31, 1958.  
-Following missions such as Explorer 3, Explorer 4, and Pioneer 3 provided further confirmation of these belts and helped characterize their structure.
+The belts are named after Dr. James Van Allen of the University of Iowa. His radiation-detection package—featuring a Geiger counter and tape recorder—flew on Explorer 1, launched on January 31, 1958.
+Follow-on missions such as Explorer 3, Explorer 4, and Pioneer 3 confirmed the belts and helped characterize their structure.
 <br>
-Although the term "Van Allen Belts" is specific to Earth, similar radiation belts have been identified around other magnetized planets, such as Jupiter and Saturn.
+Although the term “Van Allen belts” refers specifically to Earth, analogous radiation belts have been observed around other magnetized planets such as Jupiter and Saturn.
 
 
 <!-- 관련 글 자동화 -->

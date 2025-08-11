@@ -10,14 +10,14 @@ order: 1006
 lang: en
 ---
 
-QRT's laser evaluation system supports a wide wavelength range from 650 nm to 1650 nm, enabling radiation testing of a variety of semiconductor materials such as silicon (Si), gallium nitride (GaN), silicon carbide (SiC), and devices including memory, processors, and analog components.  
-However, in special 3D-stacked packages such as HBM (High Bandwidth Memory), the stacked structure prevents laser penetration, making complete evaluation impossible.  
-Even outside such cases, evaluation feasibility may be restricted depending on the structural characteristics of the package.
+QRT’s laser evaluation system supports a wide wavelength range from 650 nm to 1650 nm, enabling radiation testing of a variety of semiconductor materials—such as silicon (Si), gallium nitride (GaN), and silicon carbide (SiC)—and device types including memories, processors, and analog components.
+However, for certain 3D-stacked packages such as HBM (High Bandwidth Memory), the stacked architecture prevents sufficient laser access to the die, making complete evaluation infeasible.
+Even outside such cases, feasibility can be constrained by the package’s structural characteristics.
 <br>
-A key prerequisite for laser evaluation is **decapsulation**—removal of the epoxy mold compound from the device. This must be done precisely to maintain accuracy and reliability.  
-Devices with simple structures (e.g., amplifiers, ADCs, digital isolators) can typically be evaluated from both front and back sides.  
-However, highly integrated devices such as FPGAs, MCUs, SRAMs, and DRAMs usually require back-side-only evaluation, as the front-side metal layers block laser penetration.  
-To determine if evaluation is feasible for a given case, it's best to refer to previously tested examples.
+A key prerequisite for laser evaluation is decapsulation—removal of the epoxy mold compound from the package. This must be performed with high precision to preserve test accuracy and reliability.
+Devices with simple structures (e.g., amplifiers, ADCs, digital isolators) can typically be evaluated from both the front side and back side.
+By contrast, highly integrated devices such as FPGAs, MCUs, SRAMs, and DRAMs generally require back-side-only evaluation because front-side metal stacks block laser penetration.
+To determine feasibility in a specific case, it is best to consult prior case studies with similar structures.
 
 # Evaluatable Package Types
 
@@ -44,9 +44,9 @@ In packages like BGA, the bottom of the chip is fully bonded to the PCB via sold
 </p>
 <p align="center">Example of a non-evaluatable package type (1)</p>
 
-For BGA packages where only the top side can be decapsulated, laser evaluation is often not possible for devices with more than three metal layers (e.g., memory, processors).  
-However, in some flip-chip BGA packages, the laser can access the underside of the chip, making evaluation feasible.  
-Because the same chip can be packaged in multiple formats, switching to a more laser-compatible package type can sometimes enable successful evaluation.
+For BGAs where only the top side can be decapsulated, laser evaluation is often impractical for devices with more than three metal layers (e.g., memories, processors).
+However, some flip-chip BGA packages allow laser access from the underside of the die, enabling evaluation.
+Because the same silicon can be offered in multiple package options, migrating to a more laser-compatible package may make evaluation feasible.
 
 <p align="center">
 <img src="/assets/Articles/평가불가능소자2_en.webp" style="width: 100%; max-width: 500px;" alt="Substrate type package">
@@ -55,13 +55,13 @@ Because the same chip can be packaged in multiple formats, switching to a more l
 
 # Preprocessing for Laser Radiation Hardness Testing
 
-The examples above may not offer a definitive answer on whether a specific device is evaluatable.  
-In most cases, **X-ray imaging** is used to inspect internal structures beforehand. Below are actual evaluation cases from QRT that may help you assess feasibility in similar situations.
+The examples above may not provide a definitive answer for every device.
+In most cases, X-ray imaging is used beforehand to inspect internal structures. Below are actual QRT case studies to help assess feasibility in similar situations.
 
 ### TSSOP Package (Memory, lead frame removal not possible)
 
-Front-side evaluation was blocked by the metal layer. X-ray imaging revealed that the lead frame was connected to multiple pins, preventing back-side frame removal.  
-However, partial evaluation was performed through exposed areas between lead frames, and potential SEE (Single Event Effects) were successfully detected.
+Front-side evaluation was blocked by the front-side metal stack. X-ray imaging showed the lead frame was tied to multiple pins, preventing back-side frame removal.
+Even so, partial evaluation was carried out through gaps between lead-frame features, and potential SEE (Single Event Effects) were successfully detected.
 
 <p align="center">
 <img src="/assets/Articles/메모리1.webp" style="width: 100%; max-width: 300px;" alt="Memory">

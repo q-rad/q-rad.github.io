@@ -12,42 +12,41 @@ order: 3006
 
 # LEO (Low Earth Orbit)
 
-LEO refers to an orbit below approximately 2,000 km altitude, situated between Earth's atmosphere and the inner Van Allen belts.  
-This region is relatively less affected by solar protons and galactic cosmic rays (GCR) but is significantly influenced by trapped radiation, especially during South Atlantic Anomaly (SAA) or polar passes.  
-LEO is widely used for telecommunications, weather monitoring, and scientific research missions. Most currently operating satellites are located in this orbit.  
-Due to its proximity to Earth, it enables high-resolution imaging and shorter communication latency. Mission durations typically range from 2 to 5 years.  
-For example, the International Space Station (ISS) orbits at this altitude, circling the Earth about 15.7 times per day at a speed of 27,744 km/h.  
-Because the radiation environment is comparatively mild, Commercial Off-The-Shelf (COTS) components can often be used, making LEO ideal for low-cost, large-scale satellite constellations.
+LEO refers to orbits below approximately 2,000 km in altitude, situated between Earth’s upper atmosphere and the inner Van Allen belt region.
+This regime is comparatively less affected by solar protons and galactic cosmic rays (GCR) but is strongly influenced by trapped radiation—especially during South Atlantic Anomaly (SAA) transits and polar passes.
+LEO is widely used for telecommunications, weather monitoring, and scientific missions. Most satellites in operation today are in LEO.
+Thanks to the proximity to Earth, it enables high-resolution imaging and low communication latency. Typical mission durations range from 2 to 5 years.
+For example, the International Space Station (ISS) orbits in LEO, circling Earth about 15.7 times per day at ~27,744 km/h.
+Because the radiation environment is relatively mild, Commercial-Off-The-Shelf (COTS) components are often viable—when paired with appropriate screening and mitigation.
 
 ### VLEO (Very Low Earth Orbit)
 
-VLEO lies between 180–400 km altitude.  
-Its proximity to Earth enables ultra-high-resolution imaging and minimal latency.  
-However, atmospheric drag is substantial, resulting in high fuel consumption and shorter operational lifespans.  
-Trapped radiation is minimal, with solar protons being the primary radiation concern.
+VLEO lies roughly between 180–400 km altitude.
+Its closeness to Earth allows ultra-high-resolution imaging and minimal latency.
+However, atmospheric drag is significant, driving higher propellant usage and shorter lifetimes.
+Trapped radiation is low; solar proton events are the primary radiation concern.
 
 # MEO (Medium Earth Orbit)
 
-MEO extends from 2,000 km to 35,786 km in altitude.  
-Satellites in this region typically have orbital periods between 2 and 24 hours. Most operate in the 10–12 hour range.  
-MEO offers a balance between LEO's low latency and GEO's broad coverage, requiring fewer satellites for global reach.  
-However, it intersects the Van Allen belts, exposing satellites to higher radiation levels.  
-Radiation-hardened components and shielding are essential.  
-Examples include navigation constellations such as GPS, Galileo, and GLONASS.
+MEO spans ~2,000 km to 35,786 km.
+Satellites here typically have orbital periods between ~2 and 24 hours (many navigation systems operate near 12 hours).
+MEO balances LEO’s low latency with GEO’s broad coverage, requiring fewer spacecraft for global service.
+However, it intersects the Van Allen belts, subjecting satellites to higher radiation levels.
+Radiation-hardened parts and shielding are essential.
+Examples include GPS, Galileo, and GLONASS constellations.
 
 # GEO (Geostationary Earth Orbit)
 
-GEO is located at approximately 35,786 km altitude, where a satellite's orbital period matches Earth's rotation.  
-Satellites in GEO appear stationary when observed from the ground, making them ideal for communications, broadcasting, and weather observation.  
-This orbit allows fixed ground antennas and constant coverage of designated regions.  
-However, the high altitude results in longer signal delays and limited coverage near the poles. Launch costs are also higher.  
-GEO is outside the Van Allen belts but still within the magnetosphere, making it susceptible to high-energy particles during solar events.
+GEO is at ~35,786 km altitude, where a satellite’s orbital period matches Earth’s rotation.
+Spacecraft appear fixed in the sky, ideal for communications, broadcasting, and weather missions.
+This allows fixed ground antennas and continuous regional coverage.
+Trade-offs include longer signal delay, poorer polar coverage, and higher launch energy.
+GEO sits outside the inner belt yet within the outer-belt environment of the magnetosphere, so it is susceptible to relativistic electrons and to solar-event-driven particle enhancements.
 
 There are two main transfer methods to reach GEO:
 
-1. **Chemical propulsion**: The satellite is launched into a Geostationary Transfer Orbit (GTO), then performs a high-thrust burn at apogee to circularize into GEO.
-2. **Electric propulsion**: The satellite is placed in GTO and gradually raises its orbit over several months using low-thrust engines. This method reduces launch mass and cost.
-
+1. **Chemical propulsion**: Inject to Geostationary Transfer Orbit (GTO), then perform a high-thrust apogee burn to circularize into GEO.
+2. **Electric propulsion**: Start in GTO, then slowly raise and circularize over months with low-thrust engines—reducing launch mass and cost.
 <p align="center"> 
   <img src="/assets/Articles/leogeo.webp" alt="Van Allen belt (purple region) and Earth orbits" style="width: 70%;">
 </p>
@@ -57,11 +56,10 @@ There are two main transfer methods to reach GEO:
 
 ### GTO (Geostationary Transfer Orbit)
 
-GTO is an elliptical orbit with a perigee near LEO altitude and an apogee at GEO altitude.  
-It serves as an intermediate stage for delivering satellites to GEO.  
-The launch vehicle injects the satellite into GTO, and the satellite's propulsion system performs a burn at apogee to circularize the orbit.  <br>
-This is commonly achieved via a **Hohmann transfer**, which is fuel-efficient.  
-In the diagram below, the yellow ellipse represents the GTO trajectory.
+GTO is an elliptical orbit with perigee near LEO altitude and apogee at GEO altitude.
+The launch vehicle inserts the satellite into GTO; the spacecraft then executes an apogee maneuver to circularize. <br>
+A Hohmann transfer is commonly employed for fuel-efficient insertion.
+In the figure below, the yellow ellipse is the GTO trajectory.
 
 <p align="center"> 
   <img src="/assets/Articles/gto.webp" alt="Geostationary transfer orbit" style="width: 50%;">
@@ -72,12 +70,12 @@ In the diagram below, the yellow ellipse represents the GTO trajectory.
 
 # Radiation Assessment by Orbit
 
-LEO benefits from Earth's magnetic shielding and the Van Allen belts, which reduce exposure to solar particle events (SPE) and significantly attenuate GCR.  
-However, trapped radiation, especially over the SAA and polar regions, remains a major source of single event effects (SEE).  
+LEO benefits from geomagnetic shielding and the Van Allen belts, which reduce exposure to solar particle events (SPE) and substantially attenuate GCR.
+However, trapped radiation—especially over the SAA and at high latitudes—remains a key driver of single-event effects (SEE).
 <br>
-In contrast, GEO lies outside the inner Van Allen belts but within the magnetosphere (~65,000 km).  
-During GTO transfer, satellites pass through regions of intense trapped radiation.  
-Although trapped particles are minimal at GEO altitude, the orbit remains vulnerable to SPE and GCR, especially during solar maximum periods.
+By contrast, GEO lies outside the inner belt but within the magnetosphere and near/within the outer-belt environment.
+During GTO transfer, spacecraft traverse intense trapped-radiation regions.
+At GEO altitude, trapped protons are minimal, but relativistic electrons, SPE, and GCR dominate the risk picture, particularly near solar maximum.
 
 <div align="center">
 

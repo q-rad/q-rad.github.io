@@ -12,11 +12,11 @@ lang: en
 
 # Space Product Assurance – EEE (Electrical, Electronic, and Electromechanical) Components
 
-EEE components refer to Electrical, Electronic, and Electromechanical parts, which are essential to the development and operation of space systems.  
-These components play a critical role in the performance and reliability of satellites, spacecraft, and launch vehicles, and must operate reliably under harsh space conditions.  
-Space Product Assurance encompasses a comprehensive set of activities and procedures aimed at ensuring the quality, reliability, and safety of EEE components for mission success.
+EEE components are electrical, electronic, and electromechanical parts that are essential to the development and operation of space systems.
+These components play a critical role in the performance and reliability of satellites, spacecraft, and launch vehicles, and they must operate reliably under harsh space conditions.
+Space Product Assurance comprises a comprehensive set of activities and processes to ensure the quality, reliability, and safety of EEE components for mission success.
 <br>
-The following are globally recognized standards used for the qualification and management of space-grade EEE components (also referred to as space semiconductors):
+The following are globally recognized standards used for the qualification and management of space-grade EEE components:
 
 - <a href="https://ecss.nl/" target="_blank">**ECSS**</a> (European Cooperation for Space Standardization):  
   A formal set of international space standards developed by ESA (European Space Agency), European national space agencies, and industry partners to ensure quality, reliability, safety, and cost efficiency in space projects.

@@ -12,19 +12,19 @@ lang: en
 
 # Up-Screening – Ensuring Reliability of COTS for Space Applications
 
-In high-reliability sectors such as space, aerospace, and defense, the quality of each component directly impacts overall system performance and mission success.  
-However, relying solely on space-grade components is often limited by cost, availability, and technical constraints.  
-As a result, the use of Commercial-Off-The-Shelf (COTS) components has become increasingly common.  
-To ensure these components are suitable for mission-critical applications, a process known as **Up-Screening** is applied.
+In high-reliability sectors such as space, aerospace, and defense, the quality of each component directly affects overall system performance and mission success.
+However, relying solely on space-grade components is often limited by cost, availability, and technical constraints.
+As a result, the use of commercial off-the-shelf (COTS) components has become increasingly common.
+To ensure these components are suitable for mission-critical applications, a process known as Up-Screening is applied.
 
 ## What is Up-Screening?
 
-Up-screening is the process of performing additional qualification tests on non–space-grade components (e.g., COTS, automotive-grade) to assess their suitability for use in high-reliability environments.  
+Up-screening is the process of performing additional qualification tests on non-space-grade components (e.g., COTS, automotive-grade) to assess their suitability for use in high-reliability environments.
 It goes beyond basic functional testing to evaluate characteristics such as temperature tolerance, electrical performance, aging behavior, and failure rates—aligned with space mission quality requirements.
 
 ---
 
-The table below is an excerpt from NASA’s EEE-INST-002 document, which outlines component-level test matrices.  
+The table below is an excerpt from NASA’s EEE-INST-002 that outlines component-level test matrices.
 Test requirements vary by mission criticality, classified into Levels 1 through 3.
 
 <p align="center"> 
@@ -38,9 +38,9 @@ Test requirements vary by mission criticality, classified into Levels 1 through 
 <h4 style="display:inline-block">Level 1</h4>
 </summary>
 
-Represents the highest reliability and lowest acceptable risk.  
-Active components must undergo **radiation hardness evaluation**, and if no existing data is available, dedicated **radiation testing** is required.  
-Typical mission duration: **over 5 years**.
+Represents the highest reliability and lowest acceptable risk.
+Active components must undergo radiation-hardness evaluation and, if no applicable data exist, dedicated radiation testing is required.
+Typical mission duration: over 5 years.
 </details>
 
 <details>
@@ -48,9 +48,9 @@ Typical mission duration: **over 5 years**.
 <h4 style="display:inline-block">Level 2</h4>
 </summary>
 
-Applies to missions with moderate reliability requirements, balancing performance, cost, and risk.  
-Radiation hardness should be reviewed, and testing is required in the absence of supporting data.  
-Typical mission duration: **1 to 5 years**.
+Applies to missions with moderate reliability requirements that balance performance, cost, and risk.
+Radiation hardness should be reviewed, and testing is required in the absence of supporting data.
+Typical mission duration: 1 to 5 years.
 </details>
 
 <details>
@@ -58,16 +58,16 @@ Typical mission duration: **1 to 5 years**.
 <h4 style="display:inline-block">Level 3</h4>
 </summary>
 
-Includes components with higher or unknown risk due to lack of formal screening or qualification.  
-These parts often lack reliable data or flight heritage, and process variations between lots can invalidate prior test data.  
-Commonly used in CubeSats or low-cost experimental missions.  
-Radiation review and testing are required if data is unavailable.  
-Typical mission duration: **less than 1–2 years**.
+Includes components with higher or unknown risk due to limited screening or qualification.
+These parts often lack reliable data or flight heritage, and lot-to-lot process variation can invalidate prior results.
+Commonly used in CubeSats or low-cost experimental missions.
+Radiation review and testing are required if data are unavailable.
+Typical mission duration: less than 2 years.
 </details>
 
 ---
 
-The European Space Agency (ESA) defines Class 1 through Class 3 categories, offering guidance on supplementing up-screening when using AEC-Q qualified components.  
+The European Space Agency (ESA) defines Class 1 through Class 3 categories and provides guidance on supplementing up-screening when using AEC-Q–qualified components.
 <div style="font-size: 11px; color: gray; text-align: left;">
   *AEC-Q: A qualification standard for automotive-grade electronic components.
 </div>
@@ -82,8 +82,10 @@ ESA’s classification reflects different assurance and risk trade-offs:
 - **Class 2**: Balanced assurance level and cost.
 - **Class 3**: Lowest assurance, highest risk. Lowest upfront cost.
 
-Total cost of ownership (TCO) differences can be mitigated through additional engineering and validation.  
+Total cost of ownership (TCO) differences can be mitigated through additional engineering and validation.
 The choice of component class depends on mission objectives, constraints, and risk tolerance.
+
+
 
 ---
 

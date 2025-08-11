@@ -12,8 +12,8 @@ lang: en
 
 # Comparison of Band Gaps and Optical Absorption Mechanisms of Semiconductor Substrates
 
-During laser-based radiation evaluation, the absorption mechanism varies depending on both the semiconductor substrate material and the wavelength of the incident laser.  
-The table below summarizes the optical absorption mechanisms of various semiconductor materials under laser wavelengths commonly used by QRT.
+In laser-based radiation evaluation, the optical absorption mechanism depends on both the semiconductor substrate material and the wavelength of the incident laser.
+The table below summarizes optical absorption mechanisms for common substrates at laser wavelengths frequently used by QRT.
 
 <div align="center"> 
 <h5>Comparison of Optical Properties of Si, GaAs, SiC, and GaN Substrates</h5>
@@ -38,15 +38,15 @@ MPA: multiphoton absorption
 
 <br>
 
-Among the materials listed, silicon (Si) has the smallest band gap, allowing evaluation via single-photon absorption (SPA) even with longer wavelengths such as 1064nm.  
-In contrast, wide band gap materials like GaAs (Gallium Arsenide), SiC (Silicon Carbide), and GaN (Gallium Nitride) cannot be excited via SPA at the same wavelengths, and therefore require higher-order nonlinear absorption mechanisms.
+Among the materials listed, silicon (Si) has the smallest band gap, so wavelengths near 1064 nm can be absorbed via single-photon absorption (SPA).
+By contrast, GaAs requires two-photon absorption (TPA) in the 1064–1260 nm range, while wide-band-gap materials such as SiC and GaN require higher-order nonlinear absorption at those wavelengths.
 <br>
-For example, a laser wavelength of 630nm corresponds to a photon energy of approximately 2 eV.  
-In materials where the band gap exceeds this energy, two-photon absorption (TPA)—in which two photons are absorbed simultaneously—is required to promote an electron across the band gap.  
-For even wider band gap materials, multiphoton absorption (MPA) may be necessary, depending on the energy required.
+For example, a wavelength of 630 nm corresponds to a photon energy of ~1.97 eV.
+In materials where the band gap exceeds this energy, TPA—where two photons are absorbed nearly simultaneously—is required to promote an electron across the band gap.
+For even wider band-gap materials and/or longer wavelengths, multiphoton absorption (MPA) may be necessary.
 <br>
-To support evaluation across a wide range of semiconductor devices, QRT is equipped with ultrafast pulsed laser systems that cover a broad wavelength spectrum from 630nm to 1700nm, and offer pulse durations as short as 200 femtoseconds.  
-This enables precise and flexible radiation hardness evaluations tailored to the specific optical and material characteristics of the device under test.
+To support evaluation across a wide range of semiconductor devices, QRT operates ultrafast pulsed-laser systems covering 630–1700 nm with pulse durations as short as 200 fs.
+This enables precise, flexible radiation-effects evaluations tailored to the optical and material characteristics of each device under test.
 
 
 <!-- 관련 글 자동화 -->
