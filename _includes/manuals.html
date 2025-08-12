@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manuals</title>
 </head>
+
 <body>
     <article class="post">
         <header class="post-header home">
             <div class="post-title">
                 <span id="category-name"></span>
+            </div>
+            <div id="manual-lang-note" role="note" style="display:none;margin-top:8px;padding:10px 12px;border-radius:6px;
+              background:#fff8e1;border:1px solid #ffe0a1;color:#644a00;font-size:0.95rem;">
+                The manual is currently available only in Korean.
             </div>
         </header>
         <div class="fade-in">
@@ -19,35 +25,38 @@
                     {%- assign sorted_manuals = site.manuals | sort: "order" -%}
                     {%- assign previous_hundreds = 0 -%}
                     {%- for manual in sorted_manuals -%}
-                        {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%}
-                        {%- if previous_hundreds != current_hundreds and forloop.index != 1 -%}
-                            <hr>
-                        {%- endif -%}
+                    {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%}
+                    {%- if previous_hundreds != current_hundreds and forloop.index != 1 -%}
+                    <hr>
+                    {%- endif -%}
 
-                        {%- assign thousands = manual.order | modulo: 10000 | divided_by: 1000 | floor -%}
-                        {%- assign hundreds = manual.order | modulo: 1000 | divided_by: 100 | floor -%}
-                        {%- assign tens = manual.order | modulo: 100 | divided_by: 10 | floor -%}
-                        {%- assign ones = manual.order | modulo: 10 -%}
+                    {%- assign thousands = manual.order | modulo: 10000 | divided_by: 1000 | floor -%}
+                    {%- assign hundreds = manual.order | modulo: 1000 | divided_by: 100 | floor -%}
+                    {%- assign tens = manual.order | modulo: 100 | divided_by: 10 | floor -%}
+                    {%- assign ones = manual.order | modulo: 10 -%}
 
-                        {%- if hundreds == 0 and tens == 0 and ones == 0 -%}
-                            <!-- 1000, 2000 등 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.8em; font-weight: bold;padding-left: 0px;">
+                    {%- if hundreds == 0 and tens == 0 and ones == 0 -%}
+                    <!-- 1000, 2000 등 -->
+                    <li class="post-list-item post-category-{{ manual.categories }}"
+                        style="font-size: 1.8em; font-weight: bold;padding-left: 0px;">
                         {%- elsif tens == 0 and ones == 0 -%}
-                            <!-- 1100, 1200 등 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.5em; font-weight: 600; padding-left: 20px;">
+                        <!-- 1100, 1200 등 -->
+                    <li class="post-list-item post-category-{{ manual.categories }}"
+                        style="font-size: 1.5em; font-weight: 600; padding-left: 20px;">
                         {%- elsif ones == 0 -%}
-                            <!-- 1110, 1210 등 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}" style="font-size: 1.2em; font-weight: 500; padding-left: 40px;">
+                        <!-- 1110, 1210 등 -->
+                    <li class="post-list-item post-category-{{ manual.categories }}"
+                        style="font-size: 1.2em; font-weight: 500; padding-left: 40px;">
                         {%- else -%}
-                            <!-- 기본 -->
-                            <li class="post-list-item post-category-{{ manual.categories }}" style="padding-left: 60px;">
+                        <!-- 기본 -->
+                    <li class="post-list-item post-category-{{ manual.categories }}" style="padding-left: 60px;">
                         {%- endif -%}
-                            <a class="post-link" href="{{ manual.url | relative_url }}" >
-                                {{ manual.title | escape }}
-                            </a>
-                        </li>
+                        <a class="post-link" href="{{ manual.url | relative_url }}">
+                            {{ manual.title | escape }}
+                        </a>
+                    </li>
 
-                        {%- assign previous_hundreds = current_hundreds -%}
+                    {%- assign previous_hundreds = current_hundreds -%}
                     {%- endfor -%}
                 </ul>
                 {%- else -%}
@@ -79,7 +88,17 @@
                     }
                 });
             }
+            // 영어(en)일 때만 경고 배너 노출
+            const manualNote = document.getElementById('manual-lang-note');
+            if (manualNote) {
+                const isEnglish =
+                    (localStorage.getItem('lang') === 'en') ||
+                    window.location.pathname.startsWith('/en/');
+                manualNote.style.display = isEnglish ? 'block' : 'none';
+            }
+            
         });
     </script>
 </body>
+
 </html>
