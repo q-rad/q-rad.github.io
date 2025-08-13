@@ -1495,7 +1495,6 @@ table td {
 .image-link:hover,
 .image-link:focus {
   color: #E0002A;                        /* 텍스트 컬러 강조 */
-  transform: translateY(-1px);           /* 살짝 떠오르는 효과 */
 }
 .image-link:hover::after,
 .image-link:focus::after {
