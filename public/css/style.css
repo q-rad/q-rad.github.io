@@ -592,22 +592,6 @@ table td {
 	position: relative;
 }
 
-.more-button {
-	display: inline-block;
-	padding: 10px 25px;
-	background: linear-gradient(120deg, #ef8009, #E42044);
-	color: white;
-	border-radius: 30px;
-	font-size: 15px;
-	font-weight: bold;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	transition: all 0.3s ease;
-}
-
-.more-button:hover {
-	background: linear-gradient(120deg, #dd6100, #c71c3e);
-	transform: translateY(-2px);
-}
 
 /* 🔝 최상단 버튼 스타일 - 기존 스타일 덮어쓰기 및 개선 */
 #scrollTopBtn {
@@ -1466,31 +1450,72 @@ table td {
 	white-space: normal;
 }
 
+/* 그대로 사용 */
 .image-section {
-	flex: 0 1 40%;
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	/* 이미지와 텍스트 수직 정렬 */
+  flex: 0 1 40%;
+  align-items: center;
+  display: flex;
+  flex-direction: column; /* 이미지와 텍스트 수직 정렬 */
 }
 
 .image-section img {
-	width: 100%;
-	height: auto;
-	border: 1px solid #ccc;
-	border-radius: 4px;
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
+/* ↓↓↓ 이 부분만 교체/추가 ↓↓↓ */
 .image-link {
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	color: #007bff;
-	text-decoration: none;
+  display: block;            /* 기존 레이아웃 유지 */
+  text-align: center;        /* 기존 정렬 유지 */
+  margin-top: 10px;          /* 기존 간격 유지 */
+  position: relative;        /* 언더라인 애니메이션용 */
+  padding: 8px 12px;         /* 캡션 영역 가독성 */
+  color: #0a66c2;            /* 기본 텍스트(가독성 높은 다크그레이) */
+  transition: color .25s ease, transform .15s ease;
+  text-decoration: underline;
 }
+
+/* 브랜드 그라디언트 언더라인 (#fa6400 → #E0002A) */
+.image-link::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: 6px;
+  height: 2px;
+  background: linear-gradient(90deg, #fa6400, #E0002A);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform .35s ease;
+}
+
+/* 호버/포커스 시 강조 */
+.image-link:hover,
+.image-link:focus {
+  color: #E0002A;                        /* 텍스트 컬러 강조 */
+  transform: translateY(-1px);           /* 살짝 떠오르는 효과 */
+}
+.image-link:hover::after,
+.image-link:focus::after {
+  transform: scaleX(1);
+}
+
+/* 접근성 포커스 링 */
+.image-link:focus-visible {
+  outline: 3px solid rgba(224,0,42,.3);
+  outline-offset: 3px;
+}
+
+/* 방문 후 컬러 통일(디자인 유지) */
+.image-link:visited {
+  color: #0a66c2;
+}
+
 
 .highlight {
-	background-color: rgba(255, 0, 0, 0.1);
+	background: linear-gradient(transparent 75%, rgba(224, 0, 42, .50) 0);
 	/* 연한 반투명 빨간색 */
 	padding: 2px 6px;
 	font-weight: bold;
@@ -1498,34 +1523,68 @@ table td {
 
 
 .laser_highlight {
-	background-color: rgba(251, 255, 0, 0.1);
+	background: linear-gradient(transparent 75%, rgba(224, 0, 42, .60) 0);
 	padding: 2px 6px;
 	font-weight: bold;
 }
 
 .qrt-button-wrapper {
-	display: flex;
-	justify-content: center;
-	margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
 }
 
+/* CTA 링크 효과 (그라디언트 테두리 + 채워지는 배경) */
 .qrt-button {
-	padding: 12px 24px;
-	font-size: 1em;
-	font-weight: bold;
-	color: #fff;
-	background-color: #E0002A;
-	border: none;
-	border-radius: 8px;
-	text-decoration: none;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-	transition: background-color 0.3s ease, transform 0.2s ease;
+  /* 기존 사이즈/타이포 유지 */
+  padding: 10px 24px;
+  font-size: 1em;
+  font-weight: bold;
+
+  /* 브랜드 컬러 */
+  --brand1: #fa6400;
+  --brand2: #E0002A;
+
+  color: var(--brand2);
+  background: transparent;
+
+  /* 🔹 그라디언트 테두리 */
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg, var(--brand1), var(--brand2)) 1;
+
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,.10);
+
+  /* 애니메이션/상태 */
+  position: relative;
+  overflow: hidden;
+  transition: color .3s ease, transform .15s ease;
+  will-change: transform;
 }
 
-.qrt-button:hover {
-	background-color: #b90022;
-	transform: translateY(-2px);
+/* 좌→우 채워지는 그라디언트 배경 */
+.qrt-button::before {
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(90deg, var(--brand1) 0%, var(--brand2) 100%);
+  transform: translateX(-100%);
+  transition: transform .35s ease;
+  z-index: -1;
 }
+
+/* hover 시 배경 채우고 텍스트 반전 */
+.qrt-button:hover { color: #fff; }
+.qrt-button:hover::before { transform: translateX(0); }
+
+/* 접근성 포커스 */
+.qrt-button:focus-visible {
+  outline: 3px solid rgba(224,0,42,.35);
+  outline-offset: 3px;
+}
+
+/* 클릭 피드백 */
+.qrt-button:active { transform: scale(.98); }
+
 
 /* 컨테이너: 모바일 가로 스크롤 보호 */
 .qrt-table-wrap {
@@ -1778,4 +1837,82 @@ table td {
 	.benefit-content .tab-subtitle {
 		font-size: 1rem;
 	}
+}
+
+/* 간단한 커스텀 변수(선택): 인라인 style로 덮어씀 */
+.white-hr{
+  --hr-height: 2px;         /* 선 두께 */
+  --hr-color:  #fff;        /* 선 색상 */
+  --hr-bg:     #fff;        /* 가운데 라벨 뒤 배경색(컨테이너 색과 맞추세요) */
+
+  border: 0;
+  position: relative;
+  display: block;
+  height: var(--hr-height);
+  margin: 2em 0;
+  color: var(--hr-color);    /* currentColor로 사용됨 */
+  overflow: visible;
+}
+
+/* 중앙이 진하게 보이는 그라데이션 라인 */
+.white-hr::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: var(--hr-height);
+  background: linear-gradient(to right, transparent, currentColor, transparent);
+}
+
+/* data-content가 있을 때 가운데 라벨 출력 */
+.white-hr[data-content]::after{
+  content: attr(data-content);
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 .9rem;
+  background: var(--hr-bg);
+  color: currentColor;
+  font: italic 600 1.8rem/1 Georgia, "Times New Roman", serif;
+  white-space: nowrap;
+}
+
+/* 간단한 커스텀 변수(선택): 인라인 style로 덮어씀 */
+.gray-hr{
+  --hr-height: 2px;         /* 선 두께 */
+  --hr-color:  #ddd;        /* 선 색상 */
+  --hr-bg:     #fff;        /* 가운데 라벨 뒤 배경색(컨테이너 색과 맞추세요) */
+
+  border: 0;
+  position: relative;
+  display: block;
+  height: var(--hr-height);
+  margin: 2em 0;
+  color: var(--hr-color);    /* currentColor로 사용됨 */
+  overflow: visible;
+}
+
+/* 중앙이 진하게 보이는 그라데이션 라인 */
+.gray-hr::before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: var(--hr-height);
+  background: linear-gradient(to right, transparent, currentColor, transparent);
+}
+
+/* data-content가 있을 때 가운데 라벨 출력 */
+.gray-hr[data-content]::after{
+  content: attr(data-content);
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 .9rem;
+  background: var(--hr-bg);
+  color: currentColor;
+  font: italic 600 1.8rem/1 Georgia, "Times New Roman", serif;
+  white-space: nowrap;
 }
