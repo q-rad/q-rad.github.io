@@ -1,5 +1,3 @@
-@import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
-@import url('https://fonts.googleapis.com/css?family=Gelasio|Kulim+Park|Nanum+Myeongjo|Nanum+Gothic|Noto+Sans|Noto+Sans+KR|Roboto&display=swap');
 @import url(syntax/monokai.css);
 
 :root {
@@ -24,13 +22,17 @@
 	--danger: #dc3545;
 	--light: #f8f9fa;
 	--dark: #343a40;
+	--qrt-red: #E0002A;
+	--qrt-orange: #fa6400;
+	--ink: #222;
+	--muted: #666;
+	--line: #eee;
+	--card: #fff;
 	--breakpoint-xs: 0;
 	--breakpoint-sm: 576px;
 	--breakpoint-md: 768px;
 	--breakpoint-lg: 992px;
 	--breakpoint-xl: 1200px;
-	--font-family-sans-serif: "Roboto", "Nanum Gothic";
-	--font-family-serif: "Nanum Myeongjo";
 }
 
 * {
@@ -180,6 +182,16 @@ ul.post-list {
 	margin-left: 0;
 }
 
+.post-list > li::marker{
+  color: var(--qrt-red);
+  font-size: .9em;
+}
+
+.post-list > li:hover{
+  transform: translateY(-2px);
+}
+
+
 .post-list>li {}
 
 .post-list>li:hover .post-link {
@@ -192,8 +204,24 @@ ul.post-list {
 .post-link {
 	margin-left: 10px;
 	font-size: 110%;
-	color: #333;
-	transition: color 0.3s;
+	color: #333333;
+	text-decoration: none;
+  text-underline-offset: 3px;
+	transition: color .2s ease, text-decoration-color .2s ease
+
+}
+
+@media (max-width: 480px) {
+	.post-link {
+		font-size: 90%;
+	}
+}
+
+.post-list > li:hover .post-link{
+  color: var(--qrt-red);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--qrt-red);
 }
 
 #contact-list li .fa,
@@ -269,8 +297,8 @@ article img {
 }
 
 blockquote {
-	color: #828282;
-	border-left: 4px solid #ccc;
+	color: #333333;
+	border-left: 4px solid var(--qrt-orange);
 	padding-left: 10px;
 	margin: 0;
 	margin-bottom: 15px;
@@ -531,6 +559,7 @@ table td {
 
 #typing-text {
 	cursor: default;
+	text-shadow: 0 2px 6px rgba(0,0,0,.35);
 }
 
 .float-button-container {
@@ -694,6 +723,7 @@ table td {
 }
 
 
+
 .gallery-item:hover img {
 	transform: scale(1.05);
 }
@@ -767,9 +797,10 @@ table td {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: rgba(255, 255, 255, 0.85);
+	background-color: rgba(255,255,255,.92);
 	color: #000;
 	padding: 8px 16px;
+	border: 1px solid rgba(0,0,0,.06);
 	border-radius: 6px;
 	font-weight: bold;
 	font-size: 1.2rem;
@@ -778,6 +809,8 @@ table td {
 	transition: opacity 0.3s ease;
 	white-space: nowrap;
 	font-family: Arial;
+	box-shadow: 0 10px 24px rgba(0,0,0,.12);
+
 }
 
 /* 마우스 올리면 텍스트 사라지게 */
@@ -1011,9 +1044,9 @@ table td {
 	display: block;
 	/* ✅ 글자 너비만큼만 박스 생성 */
 	color: #111;
-
+	display: flex; align-items: center; gap: .5rem;
 	margin: 0px;
-	padding-left: 10px;
+
 	/* 좌측 여백 */
 	padding-right: 10px;
 	/* 우측 여백 */
@@ -1024,6 +1057,13 @@ table td {
 	position: relative;
 }
 
+.subcat-title::before {
+	content: '';
+	width: 6px;
+	height: 1.1em;
+	border-radius: 4px;
+	background: linear-gradient(var(--qrt-orange), var(--qrt-red));
+}
 
 .hover-icon {
 	transition: all 0.3s ease;
@@ -1226,11 +1266,13 @@ table td {
 	overflow: hidden;
 	text-decoration: none;
 	color: inherit;
-	transition: box-shadow 0.2s, background-color 0.2s, color 0.2s;
+	transition: box-shadow 0.2s, background-color 0.2s, color 0.2s, transform .18s ease;
+	transform: translateY(0);
 }
 
 .news-item:hover {
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+	transform: translateY(-3px);
+	box-shadow: 0 10px 24px rgba(0,0,0,.08);
 	color: #E42044;
 }
 
@@ -1265,7 +1307,12 @@ table td {
 	overflow: hidden;
 }
 
+
+
+.news-item:hover .news-thumbnail img{ transform: scale(1.03); }
+
 .news-thumbnail img {
+	transition: transform .35s ease;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -1452,64 +1499,73 @@ table td {
 
 /* 그대로 사용 */
 .image-section {
-  flex: 0 1 40%;
-  align-items: center;
-  display: flex;
-  flex-direction: column; /* 이미지와 텍스트 수직 정렬 */
+	flex: 0 1 40%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	/* 이미지와 텍스트 수직 정렬 */
 }
 
 .image-section img {
-  width: 100%;
-  height: auto;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+	border-radius: 4px;
 }
 
 /* ↓↓↓ 이 부분만 교체/추가 ↓↓↓ */
 .image-link {
-  display: block;            /* 기존 레이아웃 유지 */
-  text-align: center;        /* 기존 정렬 유지 */
-  margin-top: 10px;          /* 기존 간격 유지 */
-  position: relative;        /* 언더라인 애니메이션용 */
-  padding: 8px 12px;         /* 캡션 영역 가독성 */
-  color: #0a66c2;            /* 기본 텍스트(가독성 높은 다크그레이) */
-  transition: color .25s ease, transform .15s ease;
-  text-decoration: underline;
+	display: block;
+	/* 기존 레이아웃 유지 */
+	text-align: center;
+	/* 기존 정렬 유지 */
+	margin-top: 10px;
+	/* 기존 간격 유지 */
+	position: relative;
+	/* 언더라인 애니메이션용 */
+	padding: 8px 12px;
+	/* 캡션 영역 가독성 */
+	color: #0a66c2;
+	/* 기본 텍스트(가독성 높은 다크그레이) */
+	transition: color .25s ease, transform .15s ease;
+	text-decoration: underline;
 }
 
 /* 브랜드 그라디언트 언더라인 (#fa6400 → #E0002A) */
 .image-link::after {
-  content: "";
-  position: absolute;
-  left: 12px;
-  right: 12px;
-  bottom: 6px;
-  height: 2px;
-  background: linear-gradient(90deg, #fa6400, #E0002A);
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform .35s ease;
+	content: "";
+	position: absolute;
+	left: 12px;
+	right: 12px;
+	bottom: 6px;
+	height: 2px;
+	background: linear-gradient(90deg, #fa6400, #E0002A);
+	transform: scaleX(0);
+	transform-origin: center;
+	transition: transform .35s ease;
 }
 
 /* 호버/포커스 시 강조 */
 .image-link:hover,
 .image-link:focus {
-  color: #E0002A;                        /* 텍스트 컬러 강조 */
+	color: #E0002A;
+	/* 텍스트 컬러 강조 */
 }
+
 .image-link:hover::after,
 .image-link:focus::after {
-  transform: scaleX(1);
+	transform: scaleX(1);
 }
 
 /* 접근성 포커스 링 */
 .image-link:focus-visible {
-  outline: 3px solid rgba(224,0,42,.3);
-  outline-offset: 3px;
+	outline: 3px solid rgba(224, 0, 42, .3);
+	outline-offset: 3px;
 }
 
 /* 방문 후 컬러 통일(디자인 유지) */
 .image-link:visited {
-  color: #0a66c2;
+	color: #0a66c2;
 }
 
 
@@ -1528,61 +1584,69 @@ table td {
 }
 
 .qrt-button-wrapper {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
+	display: flex;
+	justify-content: center;
+	margin-top: 16px;
 }
 
 /* CTA 링크 효과 (그라디언트 테두리 + 채워지는 배경) */
 .qrt-button {
-  /* 기존 사이즈/타이포 유지 */
-  padding: 10px 24px;
-  font-size: 1em;
-  font-weight: bold;
+	/* 기존 사이즈/타이포 유지 */
+	padding: 10px 24px;
+	font-size: 1em;
+	font-weight: bold;
 
-  /* 브랜드 컬러 */
-  --brand1: #fa6400;
-  --brand2: #E0002A;
+	/* 브랜드 컬러 */
+	--brand1: #fa6400;
+	--brand2: #E0002A;
 
-  color: var(--brand2);
-  background: transparent;
+	color: var(--brand2);
+	background: transparent;
 
-  /* 🔹 그라디언트 테두리 */
-  border: 2px solid transparent;
-  border-image: linear-gradient(90deg, var(--brand1), var(--brand2)) 1;
+	/* 🔹 그라디언트 테두리 */
+	border: 2px solid transparent;
+	border-image: linear-gradient(90deg, var(--brand1), var(--brand2)) 1;
 
-  text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,.10);
+	text-decoration: none;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .10);
 
-  /* 애니메이션/상태 */
-  position: relative;
-  overflow: hidden;
-  transition: color .3s ease, transform .15s ease;
-  will-change: transform;
+	/* 애니메이션/상태 */
+	position: relative;
+	overflow: hidden;
+	transition: color .3s ease, transform .15s ease;
+	will-change: transform;
 }
 
 /* 좌→우 채워지는 그라디언트 배경 */
 .qrt-button::before {
-  content: "";
-  position: absolute; inset: 0;
-  background: linear-gradient(90deg, var(--brand1) 0%, var(--brand2) 100%);
-  transform: translateX(-100%);
-  transition: transform .35s ease;
-  z-index: -1;
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(90deg, var(--brand1) 0%, var(--brand2) 100%);
+	transform: translateX(-100%);
+	transition: transform .35s ease;
+	z-index: -1;
 }
 
 /* hover 시 배경 채우고 텍스트 반전 */
-.qrt-button:hover { color: #fff; }
-.qrt-button:hover::before { transform: translateX(0); }
+.qrt-button:hover {
+	color: #fff;
+}
+
+.qrt-button:hover::before {
+	transform: translateX(0);
+}
 
 /* 접근성 포커스 */
 .qrt-button:focus-visible {
-  outline: 3px solid rgba(224,0,42,.35);
-  outline-offset: 3px;
+	outline: 3px solid rgba(224, 0, 42, .35);
+	outline-offset: 3px;
 }
 
 /* 클릭 피드백 */
-.qrt-button:active { transform: scale(.98); }
+.qrt-button:active {
+	transform: scale(.98);
+}
 
 
 /* 컨테이너: 모바일 가로 스크롤 보호 */
@@ -1839,79 +1903,91 @@ table td {
 }
 
 /* 간단한 커스텀 변수(선택): 인라인 style로 덮어씀 */
-.white-hr{
-  --hr-height: 2px;         /* 선 두께 */
-  --hr-color:  #fff;        /* 선 색상 */
-  --hr-bg:     #fff;        /* 가운데 라벨 뒤 배경색(컨테이너 색과 맞추세요) */
+.white-hr {
+	--hr-height: 2px;
+	/* 선 두께 */
+	--hr-color: #fff;
+	/* 선 색상 */
+	--hr-bg: #fff;
+	/* 가운데 라벨 뒤 배경색(컨테이너 색과 맞추세요) */
 
-  border: 0;
-  position: relative;
-  display: block;
-  height: var(--hr-height);
-  margin: 2em 0;
-  color: var(--hr-color);    /* currentColor로 사용됨 */
-  overflow: visible;
+	border: 0;
+	position: relative;
+	display: block;
+	height: var(--hr-height);
+	margin: 2em 0;
+	color: var(--hr-color);
+	/* currentColor로 사용됨 */
+	overflow: visible;
 }
 
 /* 중앙이 진하게 보이는 그라데이션 라인 */
-.white-hr::before{
-  content: "";
-  position: absolute;
-  left: 0; right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: var(--hr-height);
-  background: linear-gradient(to right, transparent, currentColor, transparent);
+.white-hr::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	height: var(--hr-height);
+	background: linear-gradient(to right, transparent, currentColor, transparent);
 }
 
 /* data-content가 있을 때 가운데 라벨 출력 */
-.white-hr[data-content]::after{
-  content: attr(data-content);
-  position: absolute;
-  left: 50%; top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0 .9rem;
-  background: var(--hr-bg);
-  color: currentColor;
-  font: italic 600 1.8rem/1 Georgia, "Times New Roman", serif;
-  white-space: nowrap;
+.white-hr[data-content]::after {
+	content: attr(data-content);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0 .9rem;
+	background: var(--hr-bg);
+	color: currentColor;
+	font: italic 600 1.8rem/1 Georgia, "Times New Roman", serif;
+	white-space: nowrap;
 }
 
 /* 간단한 커스텀 변수(선택): 인라인 style로 덮어씀 */
-.gray-hr{
-  --hr-height: 2px;         /* 선 두께 */
-  --hr-color:  #ddd;        /* 선 색상 */
-  --hr-bg:     #fff;        /* 가운데 라벨 뒤 배경색(컨테이너 색과 맞추세요) */
+.gray-hr {
+	--hr-height: 2px;
+	/* 선 두께 */
+	--hr-color: #ccc;
+	/* 선 색상 */
+	--hr-bg: #fff;
+	/* 가운데 라벨 뒤 배경색(컨테이너 색과 맞추세요) */
 
-  border: 0;
-  position: relative;
-  display: block;
-  height: var(--hr-height);
-  margin: 2em 0;
-  color: var(--hr-color);    /* currentColor로 사용됨 */
-  overflow: visible;
+	border: 0;
+	position: relative;
+	display: block;
+	height: var(--hr-height);
+	margin: 2em 0;
+	color: var(--hr-color);
+	/* currentColor로 사용됨 */
+	overflow: visible;
 }
 
 /* 중앙이 진하게 보이는 그라데이션 라인 */
-.gray-hr::before{
-  content: "";
-  position: absolute;
-  left: 0; right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: var(--hr-height);
-  background: linear-gradient(to right, transparent, currentColor, transparent);
+.gray-hr::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	height: var(--hr-height);
+	background: linear-gradient(to right, transparent, currentColor, transparent);
 }
 
 /* data-content가 있을 때 가운데 라벨 출력 */
-.gray-hr[data-content]::after{
-  content: attr(data-content);
-  position: absolute;
-  left: 50%; top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0 .9rem;
-  background: var(--hr-bg);
-  color: currentColor;
-  font: italic 600 1.8rem/1 Georgia, "Times New Roman", serif;
-  white-space: nowrap;
+.gray-hr[data-content]::after {
+	content: attr(data-content);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0 .9rem;
+	background: var(--hr-bg);
+	color: currentColor;
+	font: italic 600 1.8rem/1 Georgia, "Times New Roman", serif;
+	white-space: nowrap;
 }

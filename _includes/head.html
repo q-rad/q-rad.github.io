@@ -13,4 +13,13 @@
 	{%- endif -%}
 	{% seo %}
 	<link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+	<!-- 1) 폰트 서버와 미리 연결 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<!-- 2) 필요한 폰트만 로드 + FOUT 방지 -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap"
+		rel="stylesheet">
+
 </head>
