@@ -103,6 +103,16 @@ code {
 	padding: 0px 20px;
 }
 
+
+.sidebar, .sidebar a, .nav-title, a.nav-item {
+  font-family: "Inter", "Noto Sans", "Noto Sans KR", "Segoe UI",
+               "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+
 .sidebar {
 	/*position: fixed;*/
 	display: flex;
@@ -124,7 +134,7 @@ code {
 }
 
 .sidebar-brand>a {
-	font-family: "naton-sans";
+	font-family: "Noto Sans", "Noto Sans KR", Arial, sans-serif;
 	color: #fff;
 }
 
