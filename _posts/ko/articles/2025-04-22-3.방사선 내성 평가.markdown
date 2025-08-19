@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 방사선 내성 평가(Radiation Hardness Test)
+title: 방사선 내성 평가(Radiation Hardness Test); 내방사선 평가
 description: 방사선 내성 평가는 우주, 군사, 항공, 원자력 환경에서 반도체의 오동작을 방지하기 위한 필수 시험입니다. SEU, SEL, TID 등 주요 이슈 설명.
 date: 2025-03-28 00:00:00 +0900
 category: article
@@ -9,7 +9,7 @@ permalink: ko/article/:title.html
 sub_category: Radiation Effects & Hardness Test
 order: 2001
 ---
-# 방사선 내성 평가(Radiation Hardness Test)
+# 방사선 내성 평가(Radiation Hardness Test); 내방사선 평가
 일반적으로 방사선 내성 평가는 빔 가속 시설에서 이뤄집니다.
 고방사선 환경에서 운용되는 우주, 항공, 군사, 원자력 분야의 전자장비 신뢰성을 확보하기 위해 수행합니다.<br>
 우주나 고고도 환경에는 지구 대기권이 차단하지 못하는 _고에너지 입자 및 방사선(양성자, 전자, 중성자, 감마선 등)_ 가 존재합니다. 이러한 입자들이 반도체 칩과 충돌하면 다음과 같은 심각한 문제들이 발생할 수 있습니다:
