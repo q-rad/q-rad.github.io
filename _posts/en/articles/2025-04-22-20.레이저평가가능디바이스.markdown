@@ -45,8 +45,8 @@ In packages like BGA, the bottom of the chip is fully bonded to the PCB via sold
 <p align="center">Example of a non-evaluatable package type (1)</p>
 
 For BGAs where only the top side can be decapsulated, laser evaluation is often impractical for devices with more than three metal layers (e.g., memories, processors).
-However, some flip-chip BGA packages allow laser access from the underside of the die, enabling evaluation.
-Because the same silicon can be offered in multiple package options, migrating to a more laser-compatible package may make evaluation feasible.
+However, some flip-chip BGA packages allow laser access from the bottom side of the die, enabling evaluation.
+In many cases, the same chip can be offered in multiple package options, selecting a laser-compatible package may make evaluation feasible.
 
 <p align="center">
 <img src="/assets/Articles/평가불가능소자2_en.webp" style="width: 100%; max-width: 500px;" alt="Substrate type package">
@@ -70,7 +70,7 @@ Even so, partial evaluation was carried out through gaps between lead-frame feat
 
 ### BGA & TSSOP Packages (Memory)
 
-The original device was in BGA form, but a TSSOP version was acquired. Only back-side decapsulation was possible, and evaluation was conducted successfully from that side.
+The original device was in BGA form, but a TSSOP version was acquired. Decapsulation was possible from both sides, but since the metal layer was covering the front-side, evaluation was conducted successfully from the back side.
 
 <p align="center">
 <img src="/assets/Articles/메모리2.webp" style="width: 100%; max-width: 300px;" alt="Memory">
@@ -80,7 +80,7 @@ The original device was in BGA form, but a TSSOP version was acquired. Only back
 ### BGA Package (Memory)
 
 Although BGA packages are generally difficult to evaluate, this particular flip-chip device allowed back-side laser access, enabling successful evaluation.  
-Front-side access was still restricted due to the metal layer.
+Front-side access was still restricted due to the ball grid array.
 
 <p align="center">
 <img src="/assets/Articles/메모리3.webp" style="width: 100%; max-width: 300px;" alt="Memory">

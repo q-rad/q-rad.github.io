@@ -10,7 +10,7 @@ sub_category: Laser-Based SEE Evaluation
 order: 1002
 ---
 
-Both SPA and TPA lasers can effectively replicate error phenomena caused by heavy ion irradiation. Most upset events can be qualitatively reproduced, as the location, depth, and energy of the interaction can be independently controlled. This makes them suitable for diagnosing single-event upsets and analyzing the causes and failure mechanisms related to charge depletion due to these upsets.
+Both SPA and TPA lasers can effectively replicate error phenomena caused by heavy ion irradiation. Most upset events can be qualitatively reproduced, as the location, depth, and energy of the interaction can be independently controlled. This makes them suitable for diagnosing single-event errors and upsets and analyzing the causes and failure mechanisms related to charge depletion due to these events.
 
 <p align="center"> 
   <img src="/assets/Articles/SPATPA.webp" style="max-width: 40%;" alt="Single Photon Absorption & Two Photon Absorption">
