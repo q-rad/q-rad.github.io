@@ -33,6 +33,8 @@
 	--breakpoint-md: 768px;
 	--breakpoint-lg: 992px;
 	--breakpoint-xl: 1200px;
+	--font-family-sans-serif: "Roboto", "Nanum Gothic";
+	--font-family-serif: "Nanum Myeongjo";   
 }
 
 * {
