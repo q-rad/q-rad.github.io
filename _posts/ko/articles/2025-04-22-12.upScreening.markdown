@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Up-Screening (업 스크리닝)
-description: Up-screening은 상용 부품(COTS)을 우주·항공 환경에서 활용하기 위한 신뢰성 평가 절차입니다. NASA, ESA 기준에 따라 방사선 시험 및 DPA/CA 수행이 요구됩니다.
+description: COTS 부품을 우주·항공·방위 임무에 적용하기 위한 Up-Screening 개요와 절차(DPA, 기계·신뢰성·방사선 시험), 계획 수립부터 LAT·문서화까지 한눈에 정리.
 date: 2025-03-19 00:00:00 +0900
 category: article
 lang: ko
@@ -35,7 +35,7 @@ Up-screening(업스크린, 업스크리닝)은 본래 우주 등급(Space-Grade)
 부품을 절개·분석하여 내부 구조, 재료, 작업 품질(workmanship) 을 확인하는 절차입니다  
 
 <p align="center" class="upscreen-item">
-  <img src="/assets/Articles/메모리4.webp" alt="DPA Example">
+  <img src="/assets/service/DPAsample.webp" alt="DPA Example">
 </p>
 
 

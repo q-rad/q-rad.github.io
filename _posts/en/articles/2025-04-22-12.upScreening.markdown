@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Up-Screening
-description: Up-screening is a qualification process that evaluates the reliability of COTS components for use in space and aerospace systems. Includes NASA and ESA standards for radiation testing, DPA, and CA.
+description: Overview of Up-Screening to qualify COTS for space/aero/defense scope, DPA, mechanical/reliability/radiation tests, and a step-by-step path from planning to LAT and documentation.
 date: 2025-03-19 00:00:00 +0900
 category: article
 permalink: en/article/:title.html
@@ -10,101 +10,117 @@ order: 3002
 lang: en
 ---
 
-# Up-Screening – Ensuring Reliability of COTS for Space Applications
+In domains that demand high reliability—space, aerospace, and defense—the quality and reliability of each component critically affect overall system performance and mission safety. Equipping a system solely with fully qualified space-grade parts is often impractical due to cost, supply, and technical constraints.  
+As a result, the use of COTS (Commercial-Off-The-Shelf) parts can be unavoidable. In such cases, Up-Screening is applied to verify whether these parts can achieve the reliability needed for space environments.
 
-In high-reliability sectors such as space, aerospace, and defense, the quality of each component directly affects overall system performance and mission success.
-However, relying solely on space-grade components is often limited by cost, availability, and technical constraints.
-As a result, the use of commercial off-the-shelf (COTS) components has become increasingly common.
-To ensure these components are suitable for mission-critical applications, a process known as Up-Screening is applied.
+# What is Up-Screening?
+**Up-Screening** refers to additional testing and evaluation performed on parts that are not originally space-grade (e.g., COTS, automotive grade) to reduce risk and determine their suitability for use in high-reliability environments.  
+It goes beyond basic functionality checks to assess temperature behavior, electrical performance, lifetime, and failure rates against space product assurance expectations.  
+> Note: Up-Screening does not “promote” a part’s manufacturer grade. It reduces risk through extra testing; it does not grant an official space-grade classification from the manufacturer.
 
-## What is Up-Screening?
-
-Up-screening is the process of performing additional qualification tests on non-space-grade components (e.g., COTS, automotive-grade) to assess their suitability for use in high-reliability environments.
-It goes beyond basic functional testing to evaluate characteristics such as temperature tolerance, electrical performance, aging behavior, and failure rates—aligned with space mission quality requirements.
-
----
-
-The table below is an excerpt from NASA’s EEE-INST-002 that outlines component-level test matrices.
-Test requirements vary by mission criticality, classified into Levels 1 through 3.
-
-<p align="center"> 
-  <img src="/assets/Articles/EEE-inst-002-2.webp" style="width: 100%; max-width: 700px;" alt="EEE-INST-002">
-</p>
-
-### NASA Space Mission Levels
-
-<details>
-<summary class="clickable-summary">
-<h4 style="display:inline-block">Level 1</h4>
-</summary>
-
-Represents the highest reliability and lowest acceptable risk.
-Active components must undergo radiation-hardness evaluation and, if no applicable data exist, dedicated radiation testing is required.
-Typical mission duration: over 5 years.
-</details>
-
-<details>
-<summary class="clickable-summary">
-<h4 style="display:inline-block">Level 2</h4>
-</summary>
-
-Applies to missions with moderate reliability requirements that balance performance, cost, and risk.
-Radiation hardness should be reviewed, and testing is required in the absence of supporting data.
-Typical mission duration: 1 to 5 years.
-</details>
-
-<details>
-<summary class="clickable-summary">
-<h4 style="display:inline-block">Level 3</h4>
-</summary>
-
-Includes components with higher or unknown risk due to limited screening or qualification.
-These parts often lack reliable data or flight heritage, and lot-to-lot process variation can invalidate prior results.
-Commonly used in CubeSats or low-cost experimental missions.
-Radiation review and testing are required if data are unavailable.
-Typical mission duration: less than 2 years.
-</details>
-
----
-
-The European Space Agency (ESA) defines Class 1 through Class 3 categories and provides guidance on supplementing up-screening when using AEC-Q–qualified components.
-<div style="font-size: 11px; color: gray; text-align: left;">
-  *AEC-Q: A qualification standard for automotive-grade electronic components.
+<div class="qrt-button-wrapper">
+  <a class="qrt-button" href="/en/article/8.-EEE.html">
+    Learn more about Space Product Assurance
+  </a>
 </div>
 
-<p align="center"> 
-  <img src="/assets/Articles/ECSS2.webp" style="width: 100%; max-width: 750px;" alt="ECSS">
+<hr class="gray-hr">
+
+# Up-Screening Items
+
+## CA / DPA
+Covers external marking/lead finish checks and detailed destructive physical analysis to examine internal structure, materials, and workmanship (e.g., die chipping/contamination, wire-bond quality, intermetallics).
+
+<p align="center" class="upscreen-item">
+  <img src="/assets/service/DPAsample.webp" alt="DPA Example">
 </p>
 
-ESA’s classification reflects different assurance and risk trade-offs:
+## Mechanical Test
+Verifies robustness against launch/space mechanical stresses such as vibration, mechanical shock, thermal/pressure-related loads.
 
-- **Class 1**: Highest assurance, lowest risk. Highest procurement and test cost.
-- **Class 2**: Balanced assurance level and cost.
-- **Class 3**: Lowest assurance, highest risk. Lowest upfront cost.
+<p align="center" class="upscreen-item">
+  <img src="/assets/service/torque.webp" alt="Mechanical Test">
+</p>
 
-Total cost of ownership (TCO) differences can be mitigated through additional engineering and validation.
-The choice of component class depends on mission objectives, constraints, and risk tolerance.
+## Reliability Test
+Targets early-life failure removal and long-term stability (e.g., burn-in, life testing, temperature cycling).
 
+<p align="center" class="upscreen-item">
+  <img src="/assets/service/HTOL.webp" alt="Reliability Test">
+</p>
 
+## Radiation Test
+Evaluates tolerance to the space radiation environment (electrons, protons, heavy ions, gamma), including TID, SEE, and displacement damage (DDD/TNID).
 
----
+<p align="center" class="upscreen-item">
+  <img src="/assets/service/QRT SEE Analysis System.webp" alt="Radiation Test">
+</p>
 
-## QRT Up-Screening Service
+<hr class="gray-hr">
 
-QRT provides comprehensive Up-Screening services, including:
+# Up-Screening Process
 
-- DPA (Destructive Physical Analysis)
-- CA (Construction analysis)
-- Total Ionizing Dose (TID), Displacement Damage (DD), and Single Event Effects (SEE) radiation testing.
-- Pulsed Laser SEE Test
-- Technical consulting tailored to your mission level and target environment.
-- Design and evaluation of custom test boards optimized for customer requirements
-Customer-specific test board development and delegated testing services
+<div class="qrt-list">
+  <h2>1. Mission/Risk Definition & Test Plan</h2>
+  <ul>
+    <li>Define environmental, lifetime, availability, and radiation needs; document screening items, conditions, sample sizes (incl. PDA), and acceptance criteria.</li>
+  </ul>
 
-[→ Contact QRT for Up-Screening Services](https://www.qrtkr.com/en/customer/inquiry.php)
+  <h2>2. Part Selection & Data Collection</h2>
+  <ul>
+    <li>Gather datasheets, process/grade (e.g., AEC-Q), reliability reports, and supply-chain information.</li>
+  </ul>
 
+  <h2>3. Non-Destructive Screening</h2>
+  <ul>
+    <li>Perform external/marking checks, pre/post electrical measurements, X-ray/CSAM to assure integrity before assembly.</li>
+  </ul>
 
-<!-- 관련 글 자동화 -->
+  <h2>4. Environmental Stress Screening</h2>
+  <ul>
+    <li>Apply temperature cycling, burn-in, and—if needed—thermal vacuum/vibration/shock to surface latent defects and check parameter stability.</li>
+  </ul>
+
+  <h2>5. Radiation Evaluation</h2>
+  <ul>
+    <li>Depending on mission, apply TID (gamma), SEE (heavy ion/proton), and DDD (proton/neutron) per the project/agency RHA plan.</li>
+  </ul>
+
+  <h2>6. Lot Acceptance Test (LAT) & DPA</h2>
+  <ul>
+    <li>Verify lot-to-lot consistency via representative LAT (electrical/environmental) and confirm internal workmanship/process via DPA.</li>
+  </ul>
+
+  <h2>7. Documentation, Traceability & Disposition</h2>
+  <ul>
+    <li>Compile pre/post measurements, failure modes, rework status, compliance to acceptance criteria, and residual risk into SCDs and test reports.</li>
+  </ul>
+</div>
+
+<hr class="gray-hr">
+
+# QRT Up-Screen Service
+QRT provides comprehensive Up-Screening that includes:
+
+<ul class="qrt-list">
+  <li>DPA (Destructive Physical Analysis)</li>
+  <li>CA (Construction Analysis)</li>
+  <li>Mechanical Testing</li>
+  <li>Reliability Testing</li>
+  <li>Evaluation of TID, Displacement Damage (DD), and Single Event Effects (SEE)</li>
+  <li>Pulsed Laser SEE Test</li>
+  <li>Mission/environment-tailored technical consulting</li>
+  <li>Custom evaluation boards and test services to meet customer needs</li>
+</ul>
+
+QRT offers a complete Up-Screening solution—covering DPA/CA, radiation hardness evaluations (TID/SEE), and expert consulting—tailored to your requirements.
+
+<div class="qrt-button-wrapper">
+  <a class="qrt-button" href="https://www.qrtkr.com/en/customer/inquiry.php">
+    Contact QRT about Up-Screening
+  </a>
+</div>
+
 {% assign current_order = page.order | plus: 0 %}
 
 {% assign candidates = site.posts 
