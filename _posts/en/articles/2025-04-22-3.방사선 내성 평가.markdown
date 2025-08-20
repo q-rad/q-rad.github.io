@@ -14,7 +14,7 @@ order: 2001
 
 Radiation hardness tests are typically conducted at particle accelerator facilities.  
 These tests are essential to ensure the reliability of electronic systems operating in high-radiation environments such as space, aerospace, military, and nuclear applications.  
-In space or high-altitude environments, high-energy particles and radiation—such as protons, electrons, neutrons, and gamma rays—are present in abundance, as they are not blocked by the Earth's atmosphere. When these particles collide with semiconductor chips, they can cause the following serious problems:
+In space or high-altitude environments, high-energy particles and radiation-such as protons, electrons, neutrons, and gamma rays-are present in abundance, as they are not blocked by the Earth's atmosphere. When these particles collide with semiconductor chips, they can cause the following serious problems:
 
 - [SEU](/en/article/1.-SEE.html) (Single Event Upset)  
   A phenomenon in which a single particle causes a temporary bit flip in memory cells or registers. Simply put, a 0 turns into a 1, or a 1 turns into a 0. This can lead to system malfunction or data errors.
@@ -26,7 +26,7 @@ In space or high-altitude environments, high-energy particles and radiation—su
   Prolonged radiation exposure leads to the accumulation of ionized traps, gradually degrading the electrical characteristics and performance of the circuit. This degradation negatively impacts device characteristics and lifespan, increasing the likelihood of other radiation-induced errors such as SEU and SEL.
 
 - [DD](/en/article/18.DD.html) (Displacement Damage)  
-  Like TID, DD also accumulates over time, but it differs in that it physically alters the atomic structure of the semiconductor. High-energy particles displace atoms inside the semiconductor, usually degrading the device’s performance.
+  Like TID, DD also accumulates over time, but it differs in that it physically alters the atomic structure of the semiconductor. High-energy particles displace atoms inside the semiconductor, usually degrading the device's performance.
 
 <div style="overflow: hidden;">
   <!-- Image -->
@@ -36,13 +36,13 @@ In space or high-altitude environments, high-energy particles and radiation—su
   <p>
   Radiation is ubiquitous. Broadly speaking, even sunlight qualifies as a form of radiation. Even without considering such broad definitions, about 20 neutrons pass through every cm² of air each hour. This means that thousands of neutrons pass through our bodies every hour.<br>
 
-  Outside Earth’s atmosphere and geomagnetic shielding—especially beyond low Earth orbit—exposure to energetic particles increases substantially. Satellites, space probes, and communication satellites are exposed almost unprotected to intense radiation. A single collision with a space particle can cause system malfunctions or data loss. Even small and inconspicuous errors like SEUs can critically impact entire missions. Therefore, only rigorously tested and strictly selected semiconductors are used in space equipment.<br>
+  Outside Earth's atmosphere and geomagnetic shielding-especially beyond low Earth orbit-exposure to energetic particles increases substantially. Satellites, space probes, and communication satellites are exposed almost unprotected to intense radiation. A single collision with a space particle can cause system malfunctions or data loss. Even small and inconspicuous errors like SEUs can critically impact entire missions. Therefore, only rigorously tested and strictly selected semiconductors are used in space equipment.<br>
 
   Radiation hardness is also crucial in aerospace and military systems. Aircraft flying at high altitudes, reconnaissance drones, and even ground-based military electronics must be designed to withstand extreme scenarios such as nuclear explosions or electromagnetic pulses (EMPs). In such environments, unexpected radiation exposure may affect circuits, so components must operate reliably under these conditions.<br>
 
-  One must not overlook medical devices and nuclear power plants. Radiation treatment equipment (such as X-ray machines) and control systems near nuclear reactors operate in environments with continuous radiation exposure. Malfunctions due to radiation can threaten patients’ lives or lead to major accidents in power plants. Thus, radiation-hardened components are essential in these fields as well.<br>
+  One must not overlook medical devices and nuclear power plants. Radiation treatment equipment (such as X-ray machines) and control systems near nuclear reactors operate in environments with continuous radiation exposure. Malfunctions due to radiation can threaten patients' lives or lead to major accidents in power plants. Thus, radiation-hardened components are essential in these fields as well.<br>
 
-  Radiation hardness testing is not merely a technical requirement—it is the first step toward ensuring the long-term stability and reliability of critical systems. A single failure in a multi-billion-won mission can have devastating consequences, which is why radiation hardness testing is a prerequisite for long-term system reliability.
+  Radiation hardness testing is not merely a technical requirement-it is the first step toward ensuring the long-term stability and reliability of critical systems. A single failure in a multi-billion-won mission can have devastating consequences, which is why radiation hardness testing is a prerequisite for long-term system reliability.
   </p>
 </div>
 

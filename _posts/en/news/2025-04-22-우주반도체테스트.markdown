@@ -30,14 +30,14 @@ image: https://img.youtube.com/vi/_6l7bhIXtJw/maxresdefault.jpg
 
 <br>
 
-<p style="font-size:23px"> <b>Dr. Hyukjae Lee of QRT Discusses ‘Advanced Space Semiconductor Reliability Evaluation Technology’</b></p>
+<p style="font-size:23px"> <b>Dr. Hyukjae Lee of QRT Discusses 'Advanced Space Semiconductor Reliability Evaluation Technology'</b></p>
 
 <p>This in-depth interview with Dr. Hyukjae Lee of QRT explores the methodology of evaluating the reliability of space semiconductors, particularly focusing on heavy ion tolerance and laser-based alternative technologies.</p>
 <p>It also introduces the upcoming Advanced Space Semiconductor Innovation Conference scheduled for May 20, 2025.</p>
 <p>ASSIC 2025 goes beyond a typical technical seminar, providing a platform to discuss key infrastructure for the future space and defense industries.</p>
 <p>This event offers technical insights and real-world applicability for companies, researchers, and public institutions interested in space semiconductors.</p>
 
-[Don’t miss this free-to-attend event!](https://yelec.kr/product/assic2025/)
+[Don't miss this free-to-attend event!](https://yelec.kr/product/assic2025/)
 
 Dr. Hyukjae Lee's presentation is scheduled at 11:50 AM.
 

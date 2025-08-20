@@ -31,9 +31,9 @@ image: https://img.youtube.com/vi/0eppDZ0qxQU/maxresdefault.jpg
 
 <br>
 
-<p style="font-size:23px"><b>Dr. Hyukjae Lee of QRT Discusses ‘Up-Screen Technology and QRT’s Challenge’</b></p>
+<p style="font-size:23px"><b>Dr. Hyukjae Lee of QRT Discusses 'Up-Screen Technology and QRT's Challenge'</b></p>
 
-<p>This video explains “Up-Screen” technology, which allows commercial semiconductors to be tested and selected for use in space environments through rigorous reliability testing—offering a cost-effective and practical alternative to expensive space-grade semiconductors.</p>
+<p>This video explains “Up-Screen” technology, which allows commercial semiconductors to be tested and selected for use in space environments through rigorous reliability testing-offering a cost-effective and practical alternative to expensive space-grade semiconductors.</p>
 <p>It also highlights the capabilities of the Korean company QRT, which utilizes femtosecond laser-based radiation simulation technology to perform precise reliability evaluations while reducing time and cost. The video emphasizes the potential for commercialization and localization of space semiconductor evaluation in Korea.</p>
 
 -------------------------------------

@@ -56,7 +56,7 @@ Geant4 is widely used in medical imaging, radiotherapy, space-radiation analysis
 <h5>A 20-GeV positron-induced shower in a longitudinally unsegmented fiber calorimeter</h5>
 </div>
 <div align="center" style="font-size: 10px; color: gray;">
-Image Source: © CERN / EP News — https://ep-news.web.cern.ch
+Image Source: © CERN / EP News - https://ep-news.web.cern.ch
 </div>
 
 # [CHALICE](https://nanohub.org/resources/chalice) - US Naval Research Laboratory
@@ -80,7 +80,7 @@ Image Source: Chalice User Manual, Rev 1.0. nanoHUB.org, https://nanohub.org/res
 
 OMERE is a freeware tool developed by TRAD (France) to estimate radiation environments and effects on semiconductor components in space. It supports SEE, TID, DD, and solar-cell degradation analysis based on modeled particle fluxes.
 <br>
-The platform includes environment models such as AE8/AP8 and CREME96, as well as ISO 15390, and lets users define mission parameters—orbit (LEO, MEO, GEO, lunar), solar cycle, magnetospheric region, and shielding—to simulate realistic space conditions. OMERE is widely used for radiation-reliability assessment and component screening.
+The platform includes environment models such as AE8/AP8 and CREME96, as well as ISO 15390, and lets users define mission parameters-orbit (LEO, MEO, GEO, lunar), solar cycle, magnetospheric region, and shielding-to simulate realistic space conditions. OMERE is widely used for radiation-reliability assessment and component screening.
 
 <p align="center">
 <img src="/assets/Articles/omere.webp" alt="omere" style="width: 40%;">

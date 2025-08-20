@@ -13,7 +13,7 @@ lang: en
 # What is a Heavy Ion Beam?
 
 The diagram below shows several types of radiation particles and compares their relative masses.
-Taking the mass of a proton or neutron as 1, the electron’s relative mass is approximately 1/1,836.
+Taking the mass of a proton or neutron as 1, the electron's relative mass is approximately 1/1,836.
 Although the electron is drawn disproportionately large for clarity, the illustration conveys the orders-of-magnitude difference between electrons and nucleons.
 
 <table align="center" style="border: none; border-collapse: collapse;">
@@ -39,7 +39,7 @@ As a rule of thumb, general-purpose accelerators commonly handle particles such 
 By contrast, heavy-ion accelerators are designed to accelerate ions from helium up to much heavier species such as xenon (Xe).
 <br>
 Because neutrons carry no electric charge, they cannot be directly accelerated by electromagnetic fields.
-Instead, neutron beams are typically produced via nuclear reactions—for example, by bombarding a target with accelerated protons or electrons to induce spallation—or obtained from research reactors.
+Instead, neutron beams are typically produced via nuclear reactions-for example, by bombarding a target with accelerated protons or electrons to induce spallation-or obtained from research reactors.
 
 
 <!-- 관련 글 자동화 -->

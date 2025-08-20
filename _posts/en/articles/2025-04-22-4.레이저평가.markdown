@@ -72,7 +72,7 @@ Detailed manuals for the laser system are available in the [QRT-LITE Manual](/ma
 | Parameter |   Min   |   Max   |
 |:---------:|:-------:|:-------:|
 | Wavelength      | 630 nm  | 1700 nm |
-| Pulse Width    | 200 fs  |    –    |
+| Pulse Width    | 200 fs  |    -    |
 | Freq.    |  1 Hz   |  1 kHz  |
 | Energy    | 30 pJ   | 30 nJ   |
 

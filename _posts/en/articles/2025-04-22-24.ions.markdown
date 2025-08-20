@@ -12,8 +12,8 @@ lang: en
 
 # Ion
 
-An ion is an atomic nucleus that has lost electrons and carries a positive charge. When ions strike a material, they interact via Coulomb forces and remove electrons from atoms, generating electron–hole pairs. Compared to other radiation types, ions deposit far more energy per unit path length and create a much higher charge density.<br>
-Even a small volume of silicon penetrated by a heavy ion can experience an intense, ultrafast burst of charge. A heavy ion can traverse a sensitive region in tens to hundreds of femtoseconds and typically comes to rest within ~picoseconds—far faster than the response time of most semiconductor circuits.<br>
+An ion is an atomic nucleus that has lost electrons and carries a positive charge. When ions strike a material, they interact via Coulomb forces and remove electrons from atoms, generating electron-hole pairs. Compared to other radiation types, ions deposit far more energy per unit path length and create a much higher charge density.<br>
+Even a small volume of silicon penetrated by a heavy ion can experience an intense, ultrafast burst of charge. A heavy ion can traverse a sensitive region in tens to hundreds of femtoseconds and typically comes to rest within ~picoseconds-far faster than the response time of most semiconductor circuits.<br>
 As an ion passes through, the generated charge forms a narrow cylindrical ion track along its path, with lengths of tens to hundreds of micrometers and radii on the nanometer scale. If this occurs in non-sensitive regions (e.g., deep substrate or metal interconnect), it may have no functional effect. However, when the track intersects sensitive circuitry, the deposited charge can disturb operation and trigger faults.
 
 <p align="center"> 
@@ -26,7 +26,7 @@ As an ion passes through, the generated charge forms a narrow cylindrical ion tr
 </div>
 <br>
 
-In low-voltage circuits, the liberated charge can perturb node voltages or currents, causing data errors in digital logic or spurious outputs in analog paths. In CMOS, if charge is deposited across closely spaced wells, parasitic structures can turn on and create a low-impedance path—latch-up—leading to excessive current.<br>
+In low-voltage circuits, the liberated charge can perturb node voltages or currents, causing data errors in digital logic or spurious outputs in analog paths. In CMOS, if charge is deposited across closely spaced wells, parasitic structures can turn on and create a low-impedance path-latch-up-leading to excessive current.<br>
 In high-voltage or power devices, heavy ions can damage junctions or gate oxides (e.g., SEB/SEGR), potentially causing permanent failure.<br>
 Heavy ions are most relevant in space, especially as constituents of galactic cosmic rays originating outside the solar system. Their high energies and high LET allow them to penetrate package materials and generate substantial charge, making them a principal cause of Single Event Effects (SEE) in orbit; consequently, SEE testing for space-grade components is often performed with heavy ions.<br>
 That said, even in space, heavy-ion fluxes are relatively low and usually contribute little to Total Ionizing Dose (TID) or Displacement Damage (DD). On Earth, heavy ions are effectively attenuated by the atmosphere and pose minimal risk to ground-based electronics.

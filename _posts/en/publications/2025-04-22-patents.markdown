@@ -51,6 +51,6 @@ This invention provides a method to evaluate semiconductor radiation hardness us
 See details
 </h4>
 </summary>
-This patent provides a radiation evaluation system for semiconductor devices using reference and general test devices. The system derives standard error values for both and defines the standard error of the general test device as a ratio relative to the reference device’s error value.
+This patent provides a radiation evaluation system for semiconductor devices using reference and general test devices. The system derives standard error values for both and defines the standard error of the general test device as a ratio relative to the reference device's error value.
 <br/>
 </details>

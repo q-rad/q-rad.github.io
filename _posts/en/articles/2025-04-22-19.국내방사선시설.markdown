@@ -16,13 +16,13 @@ Another key evaluation is the assessment of TID, which is caused by ionizing rad
 <br>
 Demand for radiation-tolerant electronic components has grown significantly across advanced sectors such as space, defense, nuclear energy, and medical technology. In the space sector in particular, electronic components used in satellites and launch vehicles are continually exposed to radiation, making it essential to verify reliable performance under such conditions.
 <br>
-Radiation-evaluation infrastructure is foundational to Korea’s efforts to develop—and potentially export—space-grade components. As private-sector space initiatives expand, the need for high-reliability electronics grows in parallel.
+Radiation-evaluation infrastructure is foundational to Korea's efforts to develop-and potentially export-space-grade components. As private-sector space initiatives expand, the need for high-reliability electronics grows in parallel.
 <br>
-This infrastructure not only supports the domestic space industry but also serves as a strategic asset for Korea’s leadership ambitions in future space technology. The following is an overview of major radiation-evaluation facilities in Korea.
+This infrastructure not only supports the domestic space industry but also serves as a strategic asset for Korea's leadership ambitions in future space technology. The following is an overview of major radiation-evaluation facilities in Korea.
 
 # Proton Accelerators
 
-### KOMAC – Korea Multi-purpose Accelerator Complex (Gyeongju, Gyeongbuk)
+### KOMAC - Korea Multi-purpose Accelerator Complex (Gyeongju, Gyeongbuk)
 
 KOMAC, located in Gyeongju, offers proton irradiation at 20 MeV and 100 MeV. The table below summarizes the specifications of its proton accelerator.
 
@@ -55,9 +55,9 @@ KOMAC, located in Gyeongju, offers proton irradiation at 20 MeV and 100 MeV. The
 <h5>KOMAC Proton Accelerator Specifications</h5>
 </div>
 
-### KIRAMS – Korea Institute of Radiological & Medical Sciences (Nowon-gu, Seoul)
+### KIRAMS - Korea Institute of Radiological & Medical Sciences (Nowon-gu, Seoul)
 
-Located in Nowon-gu, Seoul, KIRAMS operates a 20–45 MeV proton beam system using the MC-50 cyclotron. A cyclotron accelerates particles by spinning them in a magnetic field at high speeds. The table below shows its key specifications.
+Located in Nowon-gu, Seoul, KIRAMS operates a 20-45 MeV proton beam system using the MC-50 cyclotron. A cyclotron accelerates particles by spinning them in a magnetic field at high speeds. The table below shows its key specifications.
 
 <p align="center"> 
   <img src="/assets/Articles/KIRAMS.webp" alt="KIRAMS MC-50 Cyclotron" style="width: 40%;">
@@ -86,7 +86,7 @@ Located in Nowon-gu, Seoul, KIRAMS operates a 20–45 MeV proton beam system usi
 
 # Gamma Ray Irradiation Facilities
 
-### ARTI – Advanced Radiation Technology Institute (Jeongeup, Jeonbuk)
+### ARTI - Advanced Radiation Technology Institute (Jeongeup, Jeonbuk)
 
 Located in Jeongeup, ARTI offers gamma irradiation services with facilities ranging from 0.5 kCi to 470 kCi. Using gamma rays from Co-60 sources, ARTI supports precise irradiation for sectors including agriculture, aerospace, and basic science.
 
@@ -106,7 +106,7 @@ Located in Jeongeup, ARTI offers gamma irradiation services with facilities rang
 
 Currently, South Korea lacks domestic heavy-ion accelerator infrastructure suitable for semiconductor SEE testing. As a result, overseas facilities must be used for radiation testing related to space environments.
 <br>
-To address this, the Korea Institute of Science and Technology (KIST) is pursuing the development of a heavy-ion accelerator. In addition, the RAON accelerator being developed by the Institute for Basic Science (IBS) is intended to be Korea’s first large-scale heavy-ion accelerator, designed for both nuclear-physics research and practical applications such as SEE evaluation. Once these facilities are operational, Korea will be able to conduct SEE testing domestically.
+To address this, the Korea Institute of Science and Technology (KIST) is pursuing the development of a heavy-ion accelerator. In addition, the RAON accelerator being developed by the Institute for Basic Science (IBS) is intended to be Korea's first large-scale heavy-ion accelerator, designed for both nuclear-physics research and practical applications such as SEE evaluation. Once these facilities are operational, Korea will be able to conduct SEE testing domestically.
 <br>
 
 # QRT Radiation Hardness Evaluation Services

@@ -15,7 +15,7 @@ order: 2150
 
 1.	Main탭에서 Stage를 이동시키며 Visual Camera를 통해 Chip의 모서리를 찾음.
 2.	Chip Image에서 현재 Visual Camera로 보고 있는 위치에 p0 Crosshair를 위치시킴.
-3.	마우스 오른쪽 버튼을 클릭한 후 'Put Current pos(position) to p0’을 선택하고, 메인 화면 좌측 하단의 '적용(Apply)' 버튼을 눌러 변경 사항을 저장.
+3.	마우스 오른쪽 버튼을 클릭한 후 'Put Current pos(position) to p0'을 선택하고, 메인 화면 좌측 하단의 '적용(Apply)' 버튼을 눌러 변경 사항을 저장.
 4.	위 과정을 모든 Point(p0~p3)에 진행.
 
 <br/> <!-- 한줄 띄기 -->

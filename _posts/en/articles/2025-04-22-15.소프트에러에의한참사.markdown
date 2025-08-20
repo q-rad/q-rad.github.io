@@ -12,13 +12,13 @@ lang: en
 
 # Airbus A330-303 (Qantas Flight 72) Incident
 
-In October 2008, Qantas Flight 72 (Airbus A330-303) was cruising at 37,000 feet on autopilot en route from Singapore to Perth, Western Australia. Suddenly, the aircraft’s inertial reference system (IRS)—which monitors pitch, roll, and yaw—began outputting erroneous data.
+In October 2008, Qantas Flight 72 (Airbus A330-303) was cruising at 37,000 feet on autopilot en route from Singapore to Perth, Western Australia. Suddenly, the aircraft's inertial reference system (IRS)-which monitors pitch, roll, and yaw-began outputting erroneous data.
 As a result, the flight-control computer mistakenly believed the aircraft was entering a stall and, in response to incorrect angle-of-attack (AOA) values, automatically commanded a nose-down maneuver.
 <br>
 This sudden, uncommanded pitch change injured more than one-third of the passengers and over three-quarters of the crew.
-Although this specific failure mode had occurred only three times in more than 128 million flight hours, it still fell within the manufacturer’s allowable fault rate. The algorithm was later redesigned to prevent recurrence.
+Although this specific failure mode had occurred only three times in more than 128 million flight hours, it still fell within the manufacturer's allowable fault rate. The algorithm was later redesigned to prevent recurrence.
 <br>
-The soft-error rate of the responsible unit was estimated as 3 / 0.128 = 23.44 FIT. However, at a cruising altitude of 37,000 feet, the actual soft-error rate for unprotected memory can be several thousand times higher—meaning such an estimate would severely understate real-world conditions.
+The soft-error rate of the responsible unit was estimated as 3 / 0.128 = 23.44 FIT. However, at a cruising altitude of 37,000 feet, the actual soft-error rate for unprotected memory can be several thousand times higher-meaning such an estimate would severely understate real-world conditions.
 Had a more accurate soft-error model been applied, additional countermeasures might have been implemented.
 
 <p align="center">
@@ -26,14 +26,14 @@ Had a more accurate soft-error model been applied, additional countermeasures mi
 </p>
 <p align="center">Damage from Qantas Flight 72</p>
 <p style="font-size: 10px; color: gray; text-align: center;">
-  Source: Bureau, Australian Transport Safety. "In-Flight Upset – 154 km West of Learmonth, WA, 7 October 2008, VH-QPA, Airbus A330-303; 2011." Page 169
+  Source: Bureau, Australian Transport Safety. "In-Flight Upset - 154 km West of Learmonth, WA, 7 October 2008, VH-QPA, Airbus A330-303; 2011." Page 169
 </p>
 
 ---
 
 # Sudden Acceleration in Automobiles
 
-Sudden-acceleration incidents involving a well-known “T” brand automobile resulted in numerous injuries and property damage. In response, NASA’s Jet Propulsion Laboratory (JPL) conducted a detailed investigation.
+Sudden-acceleration incidents involving a well-known “T” brand automobile resulted in numerous injuries and property damage. In response, NASA's Jet Propulsion Laboratory (JPL) conducted a detailed investigation.
 
 <p align="center">
   <img src="/assets/Articles/급발진.webp" style="width: 100%; max-width: 400px;" alt="Sudden Acceleration in T Brand Vehicles">
@@ -43,10 +43,10 @@ Sudden-acceleration incidents involving a well-known “T” brand automobile re
   Image Source: NASA
 </p>
 
-Between 2010 and 2011, JPL examined whether soft errors could have contributed to unintended acceleration—asking, “Can cosmic rays cause sudden unintended acceleration in cars?”
+Between 2010 and 2011, JPL examined whether soft errors could have contributed to unintended acceleration-asking, “Can cosmic rays cause sudden unintended acceleration in cars?”
 Ultimately, the case was attributed to a single-bit upset (SBU) in analyses by Carnegie Mellon University, supported by both analytical and experimental data.
 <br>
-The final report emphasized that although error-correcting code (ECC) was applied to the memory modules in question, it did not protect the system from all radiation-induced faults—highlighting a critical gap in system-level fault tolerance.
+The final report emphasized that although error-correcting code (ECC) was applied to the memory modules in question, it did not protect the system from all radiation-induced faults-highlighting a critical gap in system-level fault tolerance.
 
 
 <!-- 관련 글 자동화 -->

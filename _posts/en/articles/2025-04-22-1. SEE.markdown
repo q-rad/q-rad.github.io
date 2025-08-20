@@ -12,7 +12,7 @@ order: 2002
 
 # SEE (Single Event Effect)
 
-A Single Event Effect (SEE) occurs when radiation—such as protons, neutrons, heavy ions, or gamma rays—passes through a semiconductor and ionizes the material, leading to operational errors in the circuit.
+A Single Event Effect (SEE) occurs when radiation-such as protons, neutrons, heavy ions, or gamma rays-passes through a semiconductor and ionizes the material, leading to operational errors in the circuit.
 Electron-hole pairs generated through the ionization process may reach the sensitive region of the semiconductor, and if the charge is sufficient to alter the logic state, an error can occur.
 While many SEE modes (e.g., SEU/SET/SEFI) are non-destructive and transient, certain SEE modes (e.g., SEL/SEB/SEGR) can be destructive.
 
@@ -42,7 +42,7 @@ SEU (Single Event Upset)
 </h4>
 </summary>
 
-A Single Event Upset (SEU) occurs when a single logic or information bit is flipped. If adjacent bits are affected simultaneously—either physically or logically—it may result in a multi-bit upset (MBU). SEUs involve changes in the logic state of storage elements such as memory cells, latches, or registers. <br/>
+A Single Event Upset (SEU) occurs when a single logic or information bit is flipped. If adjacent bits are affected simultaneously-either physically or logically-it may result in a multi-bit upset (MBU). SEUs involve changes in the logic state of storage elements such as memory cells, latches, or registers. <br/>
 
 </details>
 
@@ -106,7 +106,7 @@ A Single Event Disturb (SED) is a temporary instability in an SRAM cell that may
 SEFI (Single Event Functional Interrupt)
 </h4>
 </summary>
-A Single Event Functional Interrupt (SEFI) is a type of SEE that disrupts system operation—such as by causing a reset or lock-up—without permanent damage. SEFIs often result from control bit upsets and can be recovered by reset or power cycling. Unlike SELs, SEFIs typically do not involve excessive current.
+A Single Event Functional Interrupt (SEFI) is a type of SEE that disrupts system operation-such as by causing a reset or lock-up-without permanent damage. SEFIs often result from control bit upsets and can be recovered by reset or power cycling. Unlike SELs, SEFIs typically do not involve excessive current.
 <br/>
 </details>
 

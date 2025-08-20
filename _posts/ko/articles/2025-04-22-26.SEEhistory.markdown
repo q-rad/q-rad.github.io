@@ -21,7 +21,7 @@ SEE 개념의 기원은 1950년대 미국의 지상 핵실험에까지 거슬러
 이 시기의 보고된 오류들은 SEU 개념의 등장으로 비로소 과학적으로 설명 가능해졌으며, 후대 연구의 실험적 토대가 되었습니다.
 
 ### 1970년대 ~ 2000년: SEE 개념의 정립과 실험적 기반 확립
-1970년대는 단일 이벤트 업셋(SEU)이라는 용어가 처음 등장하고 과학적으로 정립된 시기였습니다. 1972년 휴즈 위성 이상 현상을 계기로 고에너지 입자에 의한 회로 오류가 주목받았고, 1975년 첫 SEU 논문에서 수치적으로 입증되었습니다. 이후 Cray‑1의 지상 오류, α-입자 기인 SEU, 중이온 실험 등을 통해 SEE가 지상에서도 발생함이 확인되었고, ‘SEU’라는 용어가 본격적으로 학계와 산업계에 확산되었습니다.
+1970년대는 단일 이벤트 업셋(SEU)이라는 용어가 처음 등장하고 과학적으로 정립된 시기였습니다. 1972년 휴즈 위성 이상 현상을 계기로 고에너지 입자에 의한 회로 오류가 주목받았고, 1975년 첫 SEU 논문에서 수치적으로 입증되었습니다. 이후 Cray‑1의 지상 오류, α-입자 기인 SEU, 중이온 실험 등을 통해 SEE가 지상에서도 발생함이 확인되었고, 'SEU'라는 용어가 본격적으로 학계와 산업계에 확산되었습니다.
 
 ### 2000년대 ~: 대규모 시스템과 위성 시대의 SEE 대응 전략
 2000년대 이후 대규모 데이터센터의 확산과 메모리 집적도의 증가로 인해 지상 환경에서도 소프트 에러 발생 가능성이 높아졌습니다. 동시에 우주 관측 및 민간 위성 사업의 급증으로, 우주 환경에서의 SEE(단일 이벤트 효과)에 대한 관심이 크게 증가하였습니다. 최근에는 연간 수천 기 이상의 인공위성이 발사되고 있으며, 이에 따라 SEE에 강인한 반도체 소자의 선별과 신뢰성 평가가 핵심 이슈로 부상하고 있습니다 .
@@ -35,13 +35,13 @@ SEE 개념의 기원은 1950년대 미국의 지상 핵실험에까지 거슬러
 </div>
 
 참고문헌
->[1] D. Binder, E. C. Smith, and A. B. Holman, "Satellite anomalies from galactic cosmic rays," IEEE Transactions on Nuclear Science, vol. NS-22, no. 6, pp. 2675–2680, Dec. 1975. doi: 10.1109/TNS.1975.4328188
+>[1] D. Binder, E. C. Smith, and A. B. Holman, "Satellite anomalies from galactic cosmic rays," IEEE Transactions on Nuclear Science, vol. NS-22, no. 6, pp. 2675-2680, Dec. 1975. doi: 10.1109/TNS.1975.4328188
 
->[2] E. Normand et al., "First record of single-event upset on ground, Cray-1 computer at Los Alamos in 1976," IEEE Transactions on Nuclear Science, vol. 57, no. 6, pp. 3114–3120, Dec. 2010.
+>[2] E. Normand et al., "First record of single-event upset on ground, Cray-1 computer at Los Alamos in 1976," IEEE Transactions on Nuclear Science, vol. 57, no. 6, pp. 3114-3120, Dec. 2010.
 
->[3] T. C. May and M. H. Woods, "A new mechanism for soft errors in dynamic memories," in Proc. Int. Reliability Physics Symposium, 1978, pp. 33–40.
+>[3] T. C. May and M. H. Woods, "A new mechanism for soft errors in dynamic memories," in Proc. Int. Reliability Physics Symposium, 1978, pp. 33-40.
 
->[4] J. F. Ziegler and W. A. Lanford, "The effects of cosmic rays on computer memories," Science, vol. 206, no. 4420, pp. 776–788, Nov. 1979. doi: 10.1126/science.206.4420.776
+>[4] J. F. Ziegler and W. A. Lanford, "The effects of cosmic rays on computer memories," Science, vol. 206, no. 4420, pp. 776-788, Nov. 1979. doi: 10.1126/science.206.4420.776
 
 >[5] LBNL, "First heavy ion SEE experiment conducted at 88-Inch Cyclotron," Lawrence Berkeley National Laboratory, Berkeley, CA, USA, 1979. [Online]. Available: https://en.wikipedia.org/wiki/Single-event_upset
 

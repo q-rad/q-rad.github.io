@@ -10,8 +10,8 @@ sub_category: Space Environment & Space-Grade Electronics
 order: 3003
 ---
 
-# Space Product Assurance – EEE (Electrical, Electronic and Electromechanical) Components
-EEE components cover Electrical, Electronic, and Electromechanical parts—practically all core parts used in the space industry.  
+# Space Product Assurance - EEE (Electrical, Electronic and Electromechanical) Components
+EEE components cover Electrical, Electronic, and Electromechanical parts-practically all core parts used in the space industry.  
 These parts determine the performance and reliability of spacecraft such as satellites, probes, and launch vehicles, and must operate stably under extreme environments.  
 Space Product Assurance encompasses the activities and processes that ensure the quality, reliability, and safety of these EEE parts so that space missions can be executed successfully.
 
@@ -19,15 +19,15 @@ The globally recognized standards for managing space-use EEE parts include:
 
 - <a href="https://ecss.nl/" target="_blank"><strong>ECSS</strong></a> (European Cooperation for Space Standardization): A comprehensive set of official space standards developed jointly by ESA, European national space agencies, and industry to secure quality, reliability, safety, and cost effectiveness in space systems.
 - <a href="https://www.dsp.dla.mil/Specs-Standards/" target="_blank"><strong>MIL-STD</strong></a> (Military Standard): A standards framework established by the U.S. Department of Defense (DoD) for military systems, parts, equipment, and processes.
-- <a href="https://standards.nasa.gov/NASA-Technical-Standards" target="_blank"><strong>NTSS (NASA Technical Standards System)</strong></a>: NASA’s official repository of technical standards shared across NASA, contractors, laboratories, academia, and industry partners to maintain consistency and quality across projects.
+- <a href="https://standards.nasa.gov/NASA-Technical-Standards" target="_blank"><strong>NTSS (NASA Technical Standards System)</strong></a>: NASA's official repository of technical standards shared across NASA, contractors, laboratories, academia, and industry partners to maintain consistency and quality across projects.
 
-These standards cover the entire lifecycle—testing, qualification, procurement, and management—ensuring the stability and reliability of space systems.
+These standards cover the entire lifecycle-testing, qualification, procurement, and management-ensuring the stability and reliability of space systems.
 
 
 
 # Europe: ECSS / ESCC Framework
-ESA’s ECSS and ESCC define requirements for the selection, management, procurement, and use of EEE components in space projects.  
-They classify assurance/risk into Class 1–3 and provide guidance on how to supplement Up-Screening when using AEC-Q parts.  
+ESA's ECSS and ESCC define requirements for the selection, management, procurement, and use of EEE components in space projects.  
+They classify assurance/risk into Class 1-3 and provide guidance on how to supplement Up-Screening when using AEC-Q parts.  
 In general, ECSS defines the overall EEE test items, while ESCC specifies detailed test requirements.  
 The table below summarizes Up-Screening items per ECSS-Q-ST-60-13C Rev.2 (2025-04-30).
 
@@ -41,7 +41,7 @@ The table below summarizes Up-Screening items per ECSS-Q-ST-60-13C Rev.2 (2025-0
 ESA mission classes provide different trade-offs between assurance level and risk.  
 Class 1 offers the highest assurance and lowest risk, while Class 3 offers the lowest assurance and highest risk.  
 Procurement cost is generally highest for Class 1 and lowest for Class 3, but mitigation and engineering measures can reduce the total cost of ownership differences among classes.  
-Which class is appropriate depends on the project’s goals, definition, and constraints.  
+Which class is appropriate depends on the project's goals, definition, and constraints.  
 
 Other relevant standards include ECSS-Q-ST-30-11C Rev.2 (2021-06-23) for derating rules and limits by part family, and ECSS-Q-ST-60-15C Rev.1 (2025-03-20) for Radiation Hardness Assurance (RHA) planning at the project level.  
 ESA also publishes qualified lists: [**ESCC QML (Qualified Manufacturers List)**](https://escies.org/webdocument/showArticle?id=727) and [**QPL (Qualified Parts List)**](https://escies.org/webdocument/showArticle?id=119&groupid=6).
@@ -49,9 +49,9 @@ ESA also publishes qualified lists: [**ESCC QML (Qualified Manufacturers List)**
 
 
 # United States: NASA / DoD (MIL) Framework
-NASA’s EEE parts management framework is defined in EEE-INST-002 and relevant Military Standards.  
+NASA's EEE parts management framework is defined in EEE-INST-002 and relevant Military Standards.  
 EEE-INST-002 covers part selection/procurement, screening, and derating criteria.  
-The table below summarizes Up-Screening items per EEE-INST-002. The applicability and criteria differ by mission level (Level 1–3).
+The table below summarizes Up-Screening items per EEE-INST-002. The applicability and criteria differ by mission level (Level 1-3).
 
 <p align="center"> 
   <img src="/assets/Articles/EEE-inst-002-2.webp" style="width: 100%; max-width: 700px;" alt="EEE-INST-002">
@@ -75,7 +75,7 @@ Typical mission duration is **5 years or longer**.<br/>
 </summary>
 Targets missions with low-to-moderate risk, balancing cost constraints and mission objectives.  
 Active devices must also be assessed for radiation tolerance; without data, radiation testing is required.  
-Typical mission duration is **1–5 years**.<br/>
+Typical mission duration is **1-5 years**.<br/>
 </details>
 
 <details>
@@ -83,7 +83,7 @@ Typical mission duration is **1–5 years**.<br/>
 <h4 style="display:inline-block">Level 3</h4>
 </summary>
 Parts with inherently high or unknown risk due to lack of formal reliability assessment, screening, or qualification.  
-They often have limited trustworthy data or flight heritage, and frequent design/material/process changes may prevent applying one LDC’s data to another.  
+They often have limited trustworthy data or flight heritage, and frequent design/material/process changes may prevent applying one LDC's data to another.  
 Used for missions where high-risk parts are acceptable (e.g., CubeSats, low-cost satellites).  
 Radiation assessment is still required; if unavailable, radiation testing is needed.  
 Typical mission duration is **< 1 to ~2 years**.<br/>
@@ -94,7 +94,7 @@ EEE-INST-002 was established in 2008 and does not fully reflect recent New Space
 One notable change is the introduction of Level 4, apparently to accommodate the use of COTS parts.  
 While NASA-STD-8739.11 includes items related to Up-Screening, the detailed test requirements and methods are defined in separate MIL-STD/MIL-PRF specifications.  
 For example, microcircuit test methods are in MIL-STD-883, and reliability/performance criteria for discrete semiconductors (transistors, diodes, rectifiers, power devices) used in military and aerospace are in MIL-PRF-19500.  
-In short, NASA-STD-8739.11 provides the upper-level framework for part selection and management, whereas the actual procedures and conditions are specified in MIL standards—used complementarily.
+In short, NASA-STD-8739.11 provides the upper-level framework for part selection and management, whereas the actual procedures and conditions are specified in MIL standards-used complementarily.
 
 
 

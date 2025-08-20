@@ -21,7 +21,7 @@ image: assets\Articles\ASSIC2025.webp
 <p>&nbsp;Venue: Gyeonggi Institute of Economic Science Promotion, 1st Floor Gwanggyo Hall (in Gwanggyo Technovalley)</p>
 <p>&nbsp;Hosted by QRT, the ASSIC2025 Conference will present methodologies for reliability evaluation of space-grade semiconductors along with market and technological development trends.</p>
 <p>&nbsp;Following the announcement of the “Space R&D Strategy” by the Korea Aerospace Administration, numerous domestic and international research institutions, as well as aerospace and defense companies, will participate.</p> 
-<p>&nbsp;Don’t miss this opportunity to gain insights into next-generation semiconductor technologies and reliability testing aligned with the space era.</p>
+<p>&nbsp;Don't miss this opportunity to gain insights into next-generation semiconductor technologies and reliability testing aligned with the space era.</p>
 
 <p>&nbsp;[Click here for more details](https://yelec.kr/product/assic2025/)</p>
 

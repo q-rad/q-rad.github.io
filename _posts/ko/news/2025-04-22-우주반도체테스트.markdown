@@ -29,7 +29,7 @@ image: https://img.youtube.com/vi/_6l7bhIXtJw/maxresdefault.jpg
 
 <br>
 
-<p style="font-size:23px"> <b>QRT 이혁재 박사가 말하는 ‘첨단 우주 반도체 신뢰성 평가 기술’</b></p>
+<p style="font-size:23px"> <b>QRT 이혁재 박사가 말하는 '첨단 우주 반도체 신뢰성 평가 기술'</b></p>
 
 
 <p>QRT 이혁재 박사와 함께 우주 반도체의 신뢰성 평가 방법론, 특히 중이온 내성 평가 및 레이저 대체 기술에 대한 심도 있는 인터뷰를 담고 있습니다</p>

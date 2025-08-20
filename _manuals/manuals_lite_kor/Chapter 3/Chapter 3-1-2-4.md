@@ -9,7 +9,7 @@ order: 3124
 
 # 3.1.2.4. Laser
 
-Pulsed Laser장비를 조작할 수 있는 Web Viewer입니다. 레이저 조사 시에 ‘Main output is open’인지 확인해야 합니다
+Pulsed Laser장비를 조작할 수 있는 Web Viewer입니다. 레이저 조사 시에 'Main output is open'인지 확인해야 합니다
 
 <br/> <!-- 한줄 띄기 -->
 

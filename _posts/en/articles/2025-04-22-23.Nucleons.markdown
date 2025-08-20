@@ -12,27 +12,27 @@ lang: en
 
 # Neutron
 
-Neutrons carry no electric charge and therefore do not interact via the Coulomb force. As a result, they do not directly ionize matter when passing through a material. Instead, they lose energy primarily through elastic and inelastic nuclear reactions—and, more rarely, via magnetic interactions with unpaired electrons or nuclei.
+Neutrons carry no electric charge and therefore do not interact via the Coulomb force. As a result, they do not directly ionize matter when passing through a material. Instead, they lose energy primarily through elastic and inelastic nuclear reactions-and, more rarely, via magnetic interactions with unpaired electrons or nuclei.
 In simple terms, neutrons transfer energy through collisions, which makes them highly penetrating.<br>
 At terrestrial altitudes, neutrons can induce SEE (Single Event Effects) through the secondary charged particles they create and they contribute to DD (Displacement Damage). Their direct contribution to TID (Total Ionizing Dose) is generally negligible, though capture gamma rays can add dose in some environments.
 
 # Proton
 
 Protons have nearly the same mass as neutrons but carry a positive charge, so they both ionize matter and initiate nuclear reactions.
-As they traverse a material, protons lose energy mainly by Coulomb interactions with electrons (ionization/excitation). At higher energies—on the order of tens of MeV and above—nonelastic nuclear reactions become increasingly likely, similar to neutrons.
+As they traverse a material, protons lose energy mainly by Coulomb interactions with electrons (ionization/excitation). At higher energies-on the order of tens of MeV and above-nonelastic nuclear reactions become increasingly likely, similar to neutrons.
 In space, protons are a major source of radiation and can induce SEE, TID, and DD.
 
 ### Elastic Reaction
 
 An elastic reaction occurs when a neutron (or proton) collides with a target nucleus, transferring part of its kinetic energy and scattering at reduced speed. The target nucleus recoils, and energy and momentum are conserved.
-If the incoming particle’s energy is sufficiently high (typically ≥100 keV for neutrons), recoil nuclei can be produced with enough energy to displace atoms from their lattice sites, contributing to cumulative Displacement Damage.
+If the incoming particle's energy is sufficiently high (typically ≥100 keV for neutrons), recoil nuclei can be produced with enough energy to displace atoms from their lattice sites, contributing to cumulative Displacement Damage.
 These recoil nuclei behave like short-range heavy ions and generate dense ionization along their tracks, so each recoil can also precipitate a Single Event Effect (SEE).
 
 ### Inelastic Nuclear Reaction
 
 In an inelastic reaction, the incident neutron is absorbed (or a proton overcomes the Coulomb barrier), leaving the nucleus in an excited state. The excess energy is then released via emission of light particles (e.g., neutrons, protons, light ions), gamma rays, and a heavier recoil nucleus.<br>
 These secondaries typically carry MeV-scale energies, produce ionization, and are a key source of neutron-induced SEE.
-In some cases the nucleus can split into two near-equal fragments with additional neutrons—nuclear fission. However, because heavy elements exist only in trace amounts in most semiconductor stacks, fission is a negligible contributor to SEE or TID in typical devices. For thermal neutrons (below tens of keV), capture commonly results in gamma emission.
+In some cases the nucleus can split into two near-equal fragments with additional neutrons-nuclear fission. However, because heavy elements exist only in trace amounts in most semiconductor stacks, fission is a negligible contributor to SEE or TID in typical devices. For thermal neutrons (below tens of keV), capture commonly results in gamma emission.
 
 ### Spallation
 

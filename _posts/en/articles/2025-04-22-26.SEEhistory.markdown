@@ -9,21 +9,21 @@ sub_category: Radiation Effects & Hardness Test
 order: 2013
 ---
 
-Single Event Effects (SEE) are temporary or permanent malfunctions in semiconductor devices caused by ionizing radiation such as cosmic rays, alpha particles, or heavy ions. Manifestations range from soft errors like Single Event Upsets (SEUs) to catastrophic failures. The SEE concept emerged gradually in the mid-20th century and was reinforced by decades of experiments and field observations. This post traces the historical development of SEE—particularly SEU—through key publications and technical milestones.
+Single Event Effects (SEE) are temporary or permanent malfunctions in semiconductor devices caused by ionizing radiation such as cosmic rays, alpha particles, or heavy ions. Manifestations range from soft errors like Single Event Upsets (SEUs) to catastrophic failures. The SEE concept emerged gradually in the mid-20th century and was reinforced by decades of experiments and field observations. This post traces the historical development of SEE-particularly SEU-through key publications and technical milestones.
 
 ### 1950s: First Anomalies Observed
 
-U.S. atmospheric nuclear tests in the 1950s produced unexplained electrical disturbances in nearby instrumentation, even when no mechanical damage was present. Reports from large-yield series such as Operation Castle (1954–1957) noted intermittent glitches in high-speed electronics. Although poorly understood at the time, these observations are now viewed as early hints of radiation-induced upsets.
+U.S. atmospheric nuclear tests in the 1950s produced unexplained electrical disturbances in nearby instrumentation, even when no mechanical damage was present. Reports from large-yield series such as Operation Castle (1954-1957) noted intermittent glitches in high-speed electronics. Although poorly understood at the time, these observations are now viewed as early hints of radiation-induced upsets.
 
 ### 1960s: Unexplained Errors in Space Electronics
 
-With the acceleration of the space race, sporadic faults were recorded in satellite and spacecraft electronics. Organizations including NASA and industry partners documented repeat anomalies whose causes were unclear—often attributed to design limitations or unknown environmental factors. These incidents later became touchstones once SEU mechanisms were recognized.
+With the acceleration of the space race, sporadic faults were recorded in satellite and spacecraft electronics. Organizations including NASA and industry partners documented repeat anomalies whose causes were unclear-often attributed to design limitations or unknown environmental factors. These incidents later became touchstones once SEU mechanisms were recognized.
 
 ### 1970s to 2000: Conceptualization and Experimental Verification
 
 The term Single Event Upset (SEU) took hold in the 1970s as evidence accumulated. In 1972, a 96-second communications blackout on a Hughes satellite drew attention to the potential role of energetic particles. By 1975, quantitative analyses of SEU behavior were being published, providing mathematical characterization. Subsequent work linked soft errors in terrestrial systems to alpha particles from packaging materials, and the 1976 Cray-1 incident highlighted ground-level vulnerability.
 <br>
-A key inflection point came in 1979, when heavy-ion experiments at Lawrence Berkeley National Laboratory’s 88-Inch Cyclotron demonstrated that SEEs could be reproduced under controlled conditions. This firmly established SEE as a critical reliability concern for both space and terrestrial electronics.
+A key inflection point came in 1979, when heavy-ion experiments at Lawrence Berkeley National Laboratory's 88-Inch Cyclotron demonstrated that SEEs could be reproduced under controlled conditions. This firmly established SEE as a critical reliability concern for both space and terrestrial electronics.
 
 ### 2000s and Beyond: Large-Scale Systems and the Satellite Boom
 
@@ -41,10 +41,10 @@ With thousands of satellites launched annually, rigorous radiation evaluation an
 
 ### References
 
-> [1] D. Binder, E. C. Smith, and A. B. Holman, "Satellite anomalies from galactic cosmic rays," IEEE Transactions on Nuclear Science, vol. NS-22, no. 6, pp. 2675–2680, Dec. 1975. doi: 10.1109/TNS.1975.4328188  
-> [2] E. Normand et al., "First record of single-event upset on ground, Cray-1 computer at Los Alamos in 1976," IEEE Transactions on Nuclear Science, vol. 57, no. 6, pp. 3114–3120, Dec. 2010.  
-> [3] T. C. May and M. H. Woods, "A new mechanism for soft errors in dynamic memories," in Proc. Int. Reliability Physics Symposium, 1978, pp. 33–40.  
-> [4] J. F. Ziegler and W. A. Lanford, "The effects of cosmic rays on computer memories," Science, vol. 206, no. 4420, pp. 776–788, Nov. 1979. doi: 10.1126/science.206.4420.776  
+> [1] D. Binder, E. C. Smith, and A. B. Holman, "Satellite anomalies from galactic cosmic rays," IEEE Transactions on Nuclear Science, vol. NS-22, no. 6, pp. 2675-2680, Dec. 1975. doi: 10.1109/TNS.1975.4328188  
+> [2] E. Normand et al., "First record of single-event upset on ground, Cray-1 computer at Los Alamos in 1976," IEEE Transactions on Nuclear Science, vol. 57, no. 6, pp. 3114-3120, Dec. 2010.  
+> [3] T. C. May and M. H. Woods, "A new mechanism for soft errors in dynamic memories," in Proc. Int. Reliability Physics Symposium, 1978, pp. 33-40.  
+> [4] J. F. Ziegler and W. A. Lanford, "The effects of cosmic rays on computer memories," Science, vol. 206, no. 4420, pp. 776-788, Nov. 1979. doi: 10.1126/science.206.4420.776  
 > [5] LBNL, "First heavy ion SEE experiment conducted at 88-Inch Cyclotron," Lawrence Berkeley National Laboratory, Berkeley, CA, USA, 1979. [Online]. Available: https://en.wikipedia.org/wiki/Single-event_upset  
 > [6] M. Baze, “Single Event Effects (SEE) Tutorial,” Auburn University, presented at the Single Event Effects Conference, 2011. [Online]. Available: https://eng.auburn.edu  
 > [7] D. Alexander et al., “System-Level SEE Characterization and Modeling,” NASA Electronic Parts and Packaging (NEPP) Workshop, 2017. [Online]. Available: https://nepp.nasa.gov

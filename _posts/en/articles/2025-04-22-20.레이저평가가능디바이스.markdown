@@ -10,11 +10,11 @@ order: 1006
 lang: en
 ---
 
-QRT’s laser evaluation system supports a wide wavelength range from 650 nm to 1650 nm, enabling radiation testing of a variety of semiconductor materials—such as silicon (Si), gallium nitride (GaN), and silicon carbide (SiC)—and device types including memories, processors, and analog components.
+QRT's laser evaluation system supports a wide wavelength range from 650 nm to 1650 nm, enabling radiation testing of a variety of semiconductor materials-such as silicon (Si), gallium nitride (GaN), and silicon carbide (SiC)-and device types including memories, processors, and analog components.
 However, for certain 3D-stacked packages such as HBM (High Bandwidth Memory), the stacked architecture prevents sufficient laser access to the die, making complete evaluation infeasible.
-Even outside such cases, feasibility can be constrained by the package’s structural characteristics.
+Even outside such cases, feasibility can be constrained by the package's structural characteristics.
 <br>
-A key prerequisite for laser evaluation is decapsulation—removal of the epoxy mold compound from the package. This must be performed with high precision to preserve test accuracy and reliability.
+A key prerequisite for laser evaluation is decapsulation-removal of the epoxy mold compound from the package. This must be performed with high precision to preserve test accuracy and reliability.
 Devices with simple structures (e.g., amplifiers, ADCs, digital isolators) can typically be evaluated from both the front side and back side.
 By contrast, highly integrated devices such as FPGAs, MCUs, SRAMs, and DRAMs generally require back-side-only evaluation because front-side metal stacks block laser penetration.
 To determine feasibility in a specific case, it is best to consult prior case studies with similar structures.

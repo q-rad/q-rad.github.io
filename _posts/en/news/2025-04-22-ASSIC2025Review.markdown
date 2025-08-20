@@ -22,7 +22,7 @@ The presentations by Mr. Deok-Hong Min of KAI and Dr. Hyuk-Jae Lee of QRT were p
 
 ---
 
-**Mr. Deok-Hong Min, Team Lead at Korea Aerospace Industries (KAI) — Trends in Reliability Development of COTS (Commercial Off-The-Shelf) Electronic Components**
+**Mr. Deok-Hong Min, Team Lead at Korea Aerospace Industries (KAI) - Trends in Reliability Development of COTS (Commercial Off-The-Shelf) Electronic Components**
 
 > Mr. Min began by clearly defining the concepts of COTS and reliability, and explained the background behind the adoption of commercial electronic components in aerospace systems. He emphasized that the transition from traditional high-cost, high-spec space components to COTS allows for reduced costs and accelerated development.
 > 
@@ -30,7 +30,7 @@ The presentations by Mr. Deok-Hong Min of KAI and Dr. Hyuk-Jae Lee of QRT were p
 
 ---
 
-**Dr. Hyuk-Jae Lee of QRT — Current Status of Alternative Heavy Ion Source Technology Development**
+**Dr. Hyuk-Jae Lee of QRT - Current Status of Alternative Heavy Ion Source Technology Development**
 
 > Dr. Lee emphasized that QRT is the only company in Korea conducting radiation tolerance evaluations using laser sources. He noted that international test institutions also employ lasers, and stated that not only correlation with heavy ions but also predictive modeling is now possible.
 > 

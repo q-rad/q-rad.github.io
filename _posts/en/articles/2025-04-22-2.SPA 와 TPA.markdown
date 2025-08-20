@@ -23,7 +23,7 @@ Both SPA and TPA lasers can effectively replicate error phenomena caused by heav
 
 # SPA (Single Photon Absorption)
 
-This is a linear absorption process in which a single photon is absorbed by the semiconductor, generating electron-hole pairs. When the energy of the incident photon is equal to or greater than the material’s bandgap, an electron in the valence band is excited to the conduction band, resulting in the creation of an electron-hole pair.
+This is a linear absorption process in which a single photon is absorbed by the semiconductor, generating electron-hole pairs. When the energy of the incident photon is equal to or greater than the material's bandgap, an electron in the valence band is excited to the conduction band, resulting in the creation of an electron-hole pair.
 
 <!-- Centered Image -->
 <p align="center"> 

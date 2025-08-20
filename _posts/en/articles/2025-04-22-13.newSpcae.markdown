@@ -13,7 +13,7 @@ lang: en
 <img src="/assets/Articles/newSpace.webp" style="float: right; margin: 0 0 20px 20px; width: 100%; max-width: 300px;">
 
 There was a time when space exploration was the exclusive domain of nation-states.
-During the Cold War, intense competition between the U.S. and the Soviet Union made space development a government-driven endeavor—characterized by large budgets, long development timelines, and rigid certification processes.
+During the Cold War, intense competition between the U.S. and the Soviet Union made space development a government-driven endeavor-characterized by large budgets, long development timelines, and rigid certification processes.
 In the 21st century, however, the landscape has shifted dramatically.
 <br>
 The driving force behind this transformation is known as **“New Space.”**
@@ -35,7 +35,7 @@ Unlike the traditional Old Space model led by national space agencies, New Space
 Hallmarks include lower cost, shorter development cycles, adoption of commercial technology, vertical integration, and service-oriented business models.
 This shift is transforming space from a government-only scientific and defense domain into a competitive commercial industry.
 <br>
-Private companies such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab now handle end-to-end space operations—from satellite manufacturing and launch to ground-segment operations and service delivery.
+Private companies such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab now handle end-to-end space operations-from satellite manufacturing and launch to ground-segment operations and service delivery.
 They are democratizing access to space through reusable launch vehicles and large-scale deployment of satellites in Low Earth Orbit (LEO), achievements once thought unimaginable.
 <br>
 Traditionally, space systems relied on expensive space-grade components, but New Space companies increasingly design systems using commercial off-the-shelf (COTS) technologies.
