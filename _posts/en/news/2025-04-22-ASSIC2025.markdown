@@ -9,8 +9,11 @@ lang: en
 image: assets\Articles\ASSIC2025.webp
 ---
 
-<a href="https://yelec.kr/product/assic2025/" height="5" width="10" target="_blank">
-	<img src="https://yelec.kr/wp-content/uploads/2025/03/%ED%97%A4%EB%8D%94_%ED%81%90%EC%95%8C%ED%8B%B0N-1.jpg" alt="Click the image above to visit the link.">
+<a href="https://yelec.kr/product/assic2025/" target="_blank" rel="noopener"
+   style="display:block; text-align:center;">
+  <img src="/assets/Articles/ASSIC2025.webp"
+       alt="ASSIC 2025 Image"
+       style="max-width:800px; width:100%; height:auto;">
 </a>
 <p align="right" style="color: #666666; font-size:10px;">※ Click the image to open the link.</p>
 
