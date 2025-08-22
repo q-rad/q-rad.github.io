@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LET (Liner Energy Transfer)란?
+title: LET (Linear Energy Transfer)란?
 description: LET는 입자가 물질을 통과할 때 단위 경로 길이당 에너지 손실을 나타내는 값으로, 방사선이 반도체 소자에 미치는 영향을 분석하는 핵심 지표입니다.
 date: 2025-03-25 00:00:00 +0900
 category: article

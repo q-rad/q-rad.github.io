@@ -2057,3 +2057,25 @@ table td {
 		width: 100%;
 	}
 }
+.qrt-list-link {
+  display: flex;          /* 가로 나열 */
+  gap: 1rem;              /* 항목 간 간격 */
+  list-style: none;       /* 기본 점 제거 */
+  padding: 0;
+  margin: 0;
+}
+
+.qrt-list-link li a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background: #f5f7fa;
+  color: #333;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.qrt-list-link li a:hover {
+  background: var(--qrt-orange);
+  color: #fff;
+}

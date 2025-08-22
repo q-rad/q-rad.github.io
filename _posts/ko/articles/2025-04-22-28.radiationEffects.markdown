@@ -20,25 +20,38 @@ order: 2000
 
 SEE (Single Event Effect)는 방사선(양성자, 중성자, 중이온, 감마선 등) 반도체 내부를 통과하는 과정에서 매질을 이온화시켜 회로의 동작에 오류를 유발하여 일어납니다. 이온화 과정에서 생성된 전자와 전공 쌍이 반도체의 민감 영역에 도달하고 그 양이 동작의 상태를 바꾸기에 충분하면 오류에 이르게 됩니다. SEE는 대부분 비파괴적이고 일시적인 오류로서 값이나 전원을 재설정하면 정상 동작을 재개할 수 있습니다.
 일반적으로 중이온을 통해 평가를 진행합니다.<br>
-- SEE 유형  
-  - SEU (Single Event Upset): 데이터 비트 플립  
-  - SET (Single Event Transient): 순간적인 전압 펄스  
-  - SEL (Single Event Latch-up): CMOS 구조 내 PNPN 경로의 단락  
-  - SEB (Single Event Burnout) / SEGR (Single Event Gate Rupture): 고전력 소자 파괴  
-  - SEFI (Single Event Functional Interrupt): 시스템 수준의 작동 중단 
+### SEE 유형
+<ul class="qrt-list">
+  <li>SEU (Single Event Upset): 데이터 비트 플립</li>
+  <li>SET (Single Event Transient): 순간적인 전압 펄스</li>
+  <li>SEL (Single Event Latch-up): CMOS 구조 내 PNPN 경로의 단락</li>
+  <li>SEB (Single Event Burnout) / SEGR (Single Event Gate Rupture): 고전력 소자 파괴</li>
+  <li>SEFI (Single Event Functional Interrupt): 시스템 수준의 작동 중단</li>
+</ul>
 <br>
-[**자세히 보기**](/ko/article/1.-SEE.html)
+<div class="qrt-button-wrapper">
+  <a class="qrt-button" href="/ko/article/1.-SEE.html">
+    자세히 보기
+  </a>
+</div>
 
 ### 2. TID (Total Ionizing Dose)
 
 방사선에 의해서 생성된 전하는 반도체 내부에 누적되어 점진적으로 반도체의 특성에 변화를 가져올 수 있습니다. 이를 표현하는 방법이 TID(총 이온화 선량)입니다. CMOS소자의 경우는 절연층에 이온화 선량의 의해서 생성된 전하가 트래핑(Charge Trapping)되거나 결정 구조에 결함을 만들 수 있습니다.
 일반적으로 감마선을 통해 TID평가를 진행합니다.<br>
-- 주요 영향  
-  - MOSFET 임계전압(Vth) 변화  
-  - 문턱전압 역전 및 드레인 누설 전류 증가  
-  - 동작 특성 변화 
+### 주요 영향  
+
+<ul class="qrt-list">
+  <li>MOSFET 임계전압(Vth) 변화</li>
+  <li>문턱전압 역전 및 드레인 누설 전류 증가</li>
+  <li>동작 특성 변화</li>
+</ul>
 <br>
-[**자세히 보기**](/ko/article/7.TID.html)
+<div class="qrt-button-wrapper">
+  <a class="qrt-button" href="/ko/article/7.TID.html">
+    자세히 보기
+  </a>
+</div>
 
 
 ### 3. DD (Displacement Damage)
@@ -49,14 +62,22 @@ Displacement Damage(DD)는 반도체 벌크 내에서 발생하며, 표면 또�
   - 소자 캐리어 수명 및 이동도 감소  
   - PN 다이오드 역포화 전류 증가  
   - 전체적인 성능 저하 
-<br>
-[**자세히 보기**](/ko/article/18.DD.html)
+### 주요 영향  
 
+<ul class="qrt-list">
+  <li>소자 캐리어 수명 및 이동도 감소</li>
+  <li>PN 다이오드 역포화 전류 증가</li>
+  <li>전체적인 성능 저하</li>
+</ul>
 <br>
+<div class="qrt-button-wrapper">
+  <a class="qrt-button" href="/ko/article/18.DD.html">
+    자세히 보기
+  </a>
+</div>
 <p align="center"> 
   <img src="/assets/Articles/radiation_effects.webp" alt= "Radiation Effects" style="width: 70%;">
 </p>
-
 <!-- 이미지 설명 -->
 <div align="center"> 
 <h5>방사선이 반도체에 미치는 영향</h5>
@@ -66,10 +87,12 @@ Displacement Damage(DD)는 반도체 벌크 내에서 발생하며, 표면 또�
 
 여러 방사선 중 일반적으로 반도체에 영향을 주는 방사선은 다음과 같습니다.
 
-- [양성자, 중성자](/ko/article/23.Nucleons.html)
-- [전자](/ko/article/22.electrons.html)
-- [중이온](/ko/article/24.ions.html)
-- [감마선](/ko/article/21.photons.html)
+<ul class="qrt-list-link">
+  <li><a href="/ko/article/23.Nucleons.html">양성자, 중성자</a></li>
+  <li><a href="/ko/article/22.electrons.html">전자</a></li>
+  <li><a href="/ko/article/24.ions.html">중이온</a></li>
+  <li><a href="/ko/article/21.photons.html">감마선</a></li>
+</ul>
 
 위 방사선은 각각 다른 방식으로 반도체에 영향을 주며, 그 메커니즘은 각 항목을 클릭하시면 확인할 수 있습니다.
 

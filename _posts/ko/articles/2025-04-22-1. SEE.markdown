@@ -34,7 +34,7 @@ SEE는 반도체 소자 내에서 여러 가지 현상으로 나타나며 'Soft 
 
 
 <h2>Soft Error</h2>
-
+<div class="levels">
 <details >
 
 <summary class="clickable-summary">
@@ -147,14 +147,14 @@ SET는 잘 알려진 세 가지 유형의 마스킹에 의해 오류로 전파�
 <br/> <!-- 한줄 띄기 -->
 </details>
 
-
+</div>
 
 
 
 <br/> <!-- 한줄 띄기 -->
 
 ## Hard Error
-
+<div class="levels">
 <details>
 <summary class="clickable-summary">
 <h4  style="display:inline-block">
@@ -225,6 +225,7 @@ SESB (Single Event Snap-Back) - 단일 이벤트 스냅백
 </summary>
 SEL과 마찬가지로 영향을 받는 소자에서 높은 전류 소비 조건을 나타냅니다. 에너지가 공급된 입자가 드레인 근처에 닿으면 전하 운반체의 눈사태 증식이 생성됩니다. 트랜지스터는 열려 있고 전원을 재설정할 때까지 (장치가 다시 스냅될때까지) 계속 동작합니다.(래치업 조건 참조).
 </details>
+</div>
 
 {% assign current_order = page.order | plus: 0 %}
 

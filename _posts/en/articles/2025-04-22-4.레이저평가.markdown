@@ -73,7 +73,11 @@ Detailed manuals for the laser system are available in the [QRT-LITE Manual](/ma
 <h5>QRT Laser Spec.</h5>
 </div>
 
-**[→ Contact QRT for laser evaluation or facility rental](https://www.qrtkr.com/en/customer/inquiry.php)**
+<div class="qrt-button-wrapper">
+  <a class="qrt-button" href="https://www.qrtkr.com/en/customer/inquiry.php">
+    Contact QRT for laser evaluation or facility rental
+  </a>
+</div>
 
 
 <!-- 관련 글 자동화 -->
