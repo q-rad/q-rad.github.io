@@ -2079,3 +2079,8 @@ table td {
   background: var(--qrt-orange);
   color: #fff;
 }
+
+.news-date {
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
