@@ -1,0 +1,72 @@
+---
+layout: post
+title: "QRT and KRISS Partner on Semiconductor Radiation-Hardness Testing and Certification... Accelerating a Domestic Mutual-Recognition Framework"
+description:
+date: 2025-08-21 00:01:00 +0900
+category: news
+permalink: en/news/:title.html
+lang: en
+image: /assets/Articles/MOU.webp
+---
+
+# At the Suwon Vision Campus, QRT and KRISS Strengthen Competitiveness in Radiation-Hardness Certification
+
+<p style="color: #666666">August 21, 2025</p>
+
+<p align="center">
+  <img src="/assets/Articles/MOU.webp" style="width: 100%; max-width: 700px;" alt="QRT–KRISS MOU Signing">
+</p>
+<p style="font-size: 10px; color: gray; text-align: center;">
+  Dr. Young-Kyung Bae, Head of the Biomedical Metrology Division at KRISS (left), and Young-Boo Kim, CEO of QRT Co., Ltd. (right)
+</p>
+
+**QRT inc.** announced on August 21 that it signed a memorandum of understanding (MOU) with the **Korea Research Institute of Standards and Science (KRISS)** to cooperate in semiconductor radiation-hardness (radiation tolerance) testing, analysis, and certification. The signing ceremony was held at QRT’s Vision Campus in Suwon, Gyeonggi-do, where the two organizations agreed to advance Korea’s capabilities in radiation reliability testing and certification for semiconductors to an international level.
+<br><br>
+KRISS is Korea’s national metrology institute and the only domestic institution with gamma-ray certification infrastructure eligible for international mutual recognition. Based on SI-traceable measurements, it can provide radiation-hardness tests compliant with international standards such as NASA/ESA standards, MIL-STD, and ESCC. QRT, in the private sector, possesses the capabilities to conduct both TID and SEE tests, along with KOLAS-based testing know-how.
+<br><br>
+Going forward, the two organizations will proceed step by step with (1) collaboration on radiation-hardness test services and technical engagements, (2) supply and joint development of SEE test equipment, and (3) promotion of testing and certification aimed at international mutual recognition. Beginning in 2026, they also plan to initiate TID-related technical services and joint equipment research, and to promote international standardization through the joint use of a monochromatic neutron source and proton test equipment.
+<br>
+This collaboration is also aligned with the national standardization initiative for radiation-hardness testing and certification currently being carried out under the Korea Aerospace Administration.
+<br><br>
+QRT stated, “With this agreement, we expect to establish a differentiated, high-reliability certification foundation and to expand our domestic and overseas customer base as well as service revenue,” while KRISS noted, “This will serve as an opportunity to establish internationally recognized testing and certification using domestic radiation irradiation facilities.”
+
+{% comment %}
+Show up to 5 latest posts in the "news" category matching the current page language (page.lang), excluding the current page
+{% endcomment %}
+
+{% assign current_lang = page.lang | default: 'ko' %}
+
+{% assign news_candidates = site.posts
+  | where_exp: "p", "p.categories contains 'news'"
+  | where: "lang", current_lang
+  | where_exp: "p", "p.url != page.url"
+  | sort: "date"
+  | reverse
+%}
+
+{% assign news_list = news_candidates | slice: 0, 5 %}
+
+{% if news_list.size > 0 %}
+  <hr>
+  <br>
+  <h3>
+    {% if current_lang == 'en' %}
+      Related News
+    {% else %}
+      관련 뉴스
+    {% endif %}
+  </h3>
+
+  <ul class="related-news">
+    {% for post in news_list %}
+      <li>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          <span class="news-date" style="margin-left:8px; color:#888;">
+            {{ post.date | date: "%Y-%m-%d" }}
+          </span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
