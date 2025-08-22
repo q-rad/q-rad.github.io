@@ -85,7 +85,7 @@ NASA’s RHA guidance highlights system-level tolerance as a core activity. Even
   <!-- image -->
   <img src="/assets/Articles/Rad‑tolerant.webp" style="float: right; margin: 10px 0 20px 20px; width: 100%; max-width: 600px;" alt= "Rad‑tolerant">
   <p>
-    In general, rad-hard implies process/design hardening plus a formal RHA rating. Rad-tolerant typically means the hardening level is lower or not formally graded, and resilience relies more on design/operational mitigations. There is no universal numeric threshold for either term; the only reliable basis for decisions is the project’s RHA documentation and test data aligned to its environment and lifetime.
+    In general, rad-hard implies process/design hardening plus a formal RHA rating. Rad-tolerant typically means the hardening level is lower or not formally graded, but made to handle radiation by design/operational mitigations. There is no universal numeric threshold for either term; the only reliable basis for decisions is the project’s RHA documentation and test data aligned to its environment and lifetime.
   </p>
 </div>
 

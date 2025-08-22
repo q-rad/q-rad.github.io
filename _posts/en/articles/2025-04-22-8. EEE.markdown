@@ -64,8 +64,8 @@ EEE-INST-002 mission levels:
 <summary class="clickable-summary">
 <h4 style="display:inline-block">Level 1</h4>
 </summary>
-Parts must be selected and processed for missions requiring the highest reliability and minimal risk.  
-Active devices at Level 1 must have **radiation hardness** assessed; if information is unavailable, **radiation testing** is required.  
+Parts must be selected and processed for missions requiring the highest reliability and minimal risk. 
+Active devices at Level 1 must have **radiation hardness** assessed; if information is unavailable, **radiation testing** is required. 
 Typical mission duration is **5 years or longer**.<br/>
 </details>
 
@@ -73,8 +73,8 @@ Typical mission duration is **5 years or longer**.<br/>
 <summary class="clickable-summary">
 <h4 style="display:inline-block">Level 2</h4>
 </summary>
-Targets missions with low-to-moderate risk, balancing cost constraints and mission objectives.  
-Active devices must also be assessed for radiation tolerance; without data, radiation testing is required.  
+Targets missions with low-to-moderate risk, balancing cost constraints and mission objectives. 
+Active devices must also be assessed for radiation tolerance; without data, radiation testing is required. 
 Typical mission duration is **1-5 years**.<br/>
 </details>
 
@@ -82,18 +82,18 @@ Typical mission duration is **1-5 years**.<br/>
 <summary class="clickable-summary">
 <h4 style="display:inline-block">Level 3</h4>
 </summary>
-Parts with inherently high or unknown risk due to lack of formal reliability assessment, screening, or qualification.  
-They often have limited trustworthy data or flight heritage, and frequent design/material/process changes may prevent applying one LDC's data to another.  
-Used for missions where high-risk parts are acceptable (e.g., CubeSats, low-cost satellites).  
-Radiation assessment is still required; if unavailable, radiation testing is needed.  
+Parts with inherently high or unknown risk due to lack of formal reliability assessment, screening, or qualification. 
+They often have limited trustworthy data or flight heritage, and frequent design/material/process changes may prevent applying one LDC's data to another. 
+Used for missions where high-risk parts are acceptable (e.g., CubeSats, low-cost satellites). 
+Radiation assessment is still required; if unavailable, radiation testing is needed. 
 Typical mission duration is **< 1 to ~2 years**.<br/>
 </details>
 </div>
 
-EEE-INST-002 was established in 2008 and does not fully reflect recent New Space requirements. To address this, NASA has updated [NASA-STD-8739.11](https://ntrs.nasa.gov/citations/20240015570) (not yet officially released).  
-One notable change is the introduction of Level 4, apparently to accommodate the use of COTS parts.  
-While NASA-STD-8739.11 includes items related to Up-Screening, the detailed test requirements and methods are defined in separate MIL-STD/MIL-PRF specifications.  
-For example, microcircuit test methods are in MIL-STD-883, and reliability/performance criteria for discrete semiconductors (transistors, diodes, rectifiers, power devices) used in military and aerospace are in MIL-PRF-19500.  
+EEE-INST-002 was established in 2008 and does not fully reflect recent New Space requirements. To address this, NASA has updated [NASA-STD-8739.11](https://ntrs.nasa.gov/citations/20240015570) (not yet officially released). 
+One notable change is the introduction of Level 4, apparently to accommodate the use of COTS parts. 
+While NASA-STD-8739.11 includes items related to Up-Screening, the detailed test requirements and methods are defined in separate MIL-STD/MIL-PRF specifications. 
+For example, microcircuit test methods are in MIL-STD-883, and reliability/performance criteria for discrete semiconductors (transistors, diodes, rectifiers, power devices) used in military and aerospace are in MIL-PRF-19500. 
 In short, NASA-STD-8739.11 provides the upper-level framework for part selection and management, whereas the actual procedures and conditions are specified in MIL standards-used complementarily.
 
 

@@ -85,11 +85,13 @@ At GEO altitude, trapped protons are minimal, but relativistic electrons, SPE, a
 | Trapped Particle Impact          | High (especially over SAA/poles), can cause SEE                       | Negligible                                                |
 | SPE (Solar Proton Events)        | Mitigated by geomagnetic field (except poles/SAA)                     | Significant threat                                        |
 | GCR Flux                         | Very low due to Earth's magnetic shielding                            | ~6 times higher than in LEO                               |
-| TID (Total Ionizing Dose)        | LEO-Zero: ~136 rad<br>LEO-ISS: ~430 rad<br>LEO-Polar: ~333 rad        | GEO: ~5,930 rad<br>GTO: ~59,630 rad (during transfer)     |
+| TID (Total Ionizing Dose)        | LEO-Zero: ~136 rad<br>LEO-ISS: ~430 rad<br>LEO-Polar: ~333 rad        | GEO: ~5,930 rad<br>GTO: ~59,630 rad (Highest among orbits)     |
 | SEE Sources                      | Mainly trapped protons/electrons (SAA)                                | Solar flares, GCR                                         |
 | LET Impact                       | Protons (0.1-50 MeV), TID dominant                                    | Protons (10-100 MeV+), SEE dominant                       |
 | Shielding Requirements           | Moderate (basic enclosure often sufficient)                           | High (≥5 mm aluminum recommended)                         |
 | Typical Applications             | ISS, CubeSats, Earth observation satellites                           | Communication, weather, military satellites               |
+
+\* TID is based on 1 year in orbit, 5mm AL shielding. <br>
 
 </div>
 
