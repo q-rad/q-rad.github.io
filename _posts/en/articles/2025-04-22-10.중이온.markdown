@@ -30,17 +30,14 @@ Source: Medical Excellence JAPAN
 
 The nucleus of a helium atom is called an alpha particle.
 In radiation-effects work, heavy ions generally refer to ions heavier than helium (atomic number Z ≥ 3), while electrons, protons, and helium nuclei are treated separately.
-<br>
 Radiation in space appears either as electromagnetic waves or as particles.
 A particle beam is a collimated stream of accelerated particles (e.g., electrons, protons, ions, or neutrons).
 When the beam consists of ions heavier than helium, it is specifically termed a heavy-ion beam.
 <br>
-As a rule of thumb, general-purpose accelerators commonly handle particles such as electrons, protons, and light ions (e.g., helium or carbon).
-By contrast, heavy-ion accelerators are designed to accelerate ions from helium up to much heavier species such as xenon (Xe).
-<br>
-Because neutrons carry no electric charge, they cannot be directly accelerated by electromagnetic fields.
-Instead, neutron beams are typically produced via nuclear reactions-for example, by bombarding a target with accelerated protons or electrons to induce spallation-or obtained from research reactors.
-
+Accelerators are categorized by the type of particle they accelerate. For example, electron accelerators and proton accelerators accelerate electrons and protons, respectively, to near the speed of light. These accelerators are primarily used to accelerate particles of relatively light elements like helium or carbon.
+In contrast, heavy ion accelerators are used to accelerate ions heavier than helium, such as xenon (Xe), to synthesize new atomic nuclei or study the properties of materials.
+Since neutrons are particles with no electric charge, they cannot be directly accelerated using conventional accelerator technologies that rely on electric or magnetic fields. Therefore, indirect methods are used to obtain a neutron beam. The most common method is to collide accelerated high-energy protons or electrons with a specific target material. This collision process, known as a spallation reaction, releases a large number of neutrons.
+Other methods for obtaining neutrons include nuclear fission or nuclear fusion reactions that occur within nuclear reactors, or inducing specific nuclear reactions to produce neutrons. The neutron beams created this way are used for various purposes, such as studying material structures or in the medical field.
 
 <!-- 관련 글 자동화 -->
 {% assign current_order = page.order | plus: 0 %}

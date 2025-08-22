@@ -168,7 +168,7 @@ A Single Event Dielectric Rupture (SEDR) involves the breakdown of dielectric ma
 SEB (Single Event Burn-out)
 </h4>
 </summary>
-A Single Event Burn-out (SEB) is a destructive high-current state triggered in power transistors by a single particle strike. The temperature dependence is device-dependent; some devices show reduced susceptibility at higher temperatures, while others do not..
+A Single Event Burn-out (SEB) is a destructive high-current state triggered in power transistors by a single particle strike. The temperature dependence is device-dependent; some devices show reduced susceptibility at higher temperatures, while others do not.
 <br/>
 </details>
 

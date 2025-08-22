@@ -12,7 +12,7 @@ lang: en
 
 # DD (Displacement Damage)
 
-Displacement damage (DD) is damage that occurs throughout the bulk of a semiconductor. Unlike total ionizing dose (TID), which primarily affects surface and interface regions, DD impacts the entire device volume. This volumetric damage can alter electrical, optical, and thermal properties, leading to performance degradation or even failure.
+Displacement damage (DD) is damage that occurs throughout the bulk of a semiconductor. Unlike total ionizing dose (TID), which primarily affects surface and interface regions, DD impacts the entire bulk. This damage can alter electrical, optical, and thermal properties, leading to performance degradation or even failure.
 <br>
 If DD occurs in active regions-such as the channel of a MOSFET or the base region of a BJT-it can increase recombination, reduce carrier mobility, and slow switching speeds. These effects degrade overall device performance and reliability.
 <br>

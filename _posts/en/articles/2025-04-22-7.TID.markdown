@@ -12,17 +12,15 @@ order: 2004
 
 # TID (Total Ionizing Dose) Effect - Accumulated Ionization Damage
 
-Total Ionizing Dose (TID) refers to the cumulative charge buildup in a semiconductor material resulting from exposure to ionizing radiation. Over time, this accumulation can alter the electrical characteristics of devices and degrade their performance.  
-In CMOS devices, ionizing radiation can cause charge trapping in insulating layers or introduce defects into the crystal lattice.
+Total Ionizing Dose (TID) refers to the cumulative charge buildup in a semiconductor material resulting from exposure to ionizing radiation. Over time, this accumulation can alter the electrical characteristics of devices and degrade their performance. In CMOS devices, ionizing radiation can cause charge trapping in insulating layers or introduce defects into the crystal lattice.
 <br>
 As gate oxide layers become thinner, radiation-induced damage in the gate stack decreases due to the reduced volume available for charge trapping. However, thick field oxides surrounding the conductive channel remain vulnerable. In SOI devices, charge in the shallow-trench isolation (STI) and buried-oxide (BOX) regions can modulate the back channel and is particularly TID-sensitive.
 <br><br>
-TID is primarily caused by ionizing radiation-photons (gamma/X-ray) and charged particles (electrons, protons, heavy ions). Each type of particle interacts differently with matter, exhibiting varying levels of energy, penetration depth, and LET (Linear Energy Transfer). While neutron-induced TID is typically negligible under sea-level or standard accelerator conditions, exposure to thermal or ultra-cold neutrons over time can still cause gradual degradation.
+TID is primarily caused by ionizing radiation (gamma, X-ray, electrons, protons, heavy ions). Each type of particle interacts differently with matter, exhibiting varying levels of energy, penetration depth, and LET (Linear Energy Transfer). While neutron-induced TID is typically negligible under sea-level or standard accelerator conditions, exposure to thermal or ultra-cold neutrons over time can still cause gradual degradation.
 <br>
 In CMOS technology, TID affects key parameters such as threshold voltage (V<sub>t</sub>), leakage current, and subthreshold slope. Threshold voltage shifts may range from tens to hundreds of millivolts, and leakage currents can increase by several orders of magnitude. These changes can lead to degraded switching behavior, higher power consumption, and even device failure.
 <br>
-TID is typically quantified by multiplying the particle's LET by the fluence of a monoenergetic beam, representing the total energy deposited through ionization per unit mass. It is usually expressed in units of rad(Si) or krad(Si):  
-**1 krad(Si) = 10 Gy(Si)**.  
+TID is typically quantified by multiplying the particle's LET by the fluence of a monoenergetic beam, representing the total energy deposited through ionization per unit mass. It is usually expressed in units of rad(Si) or krad(Si): 1 krad(Si) = 10 Gy(Si).  
 Space-grade semiconductors are generally designed to tolerate radiation doses exceeding 100-300 krad(Si), whereas commercial CMOS components may begin to show performance degradation at levels as low as a few tens of Gy.
 
 <p align="center"> 

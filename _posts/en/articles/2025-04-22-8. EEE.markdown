@@ -11,8 +11,8 @@ order: 3003
 ---
 
 # Space Product Assurance - EEE (Electrical, Electronic and Electromechanical) Components
-EEE components cover Electrical, Electronic, and Electromechanical parts-practically all core parts used in the space industry.  
-These parts determine the performance and reliability of spacecraft such as satellites, probes, and launch vehicles, and must operate stably under extreme environments.  
+EEE components cover Electrical, Electronic, and Electromechanical parts-practically all core parts used in the space industry. 
+These parts determine the performance and reliability of spacecraft such as satellites, probes, and launch vehicles, and must operate stably under extreme environments. 
 Space Product Assurance encompasses the activities and processes that ensure the quality, reliability, and safety of these EEE parts so that space missions can be executed successfully.
 
 The globally recognized standards for managing space-use EEE parts include:
@@ -26,9 +26,9 @@ These standards cover the entire lifecycle-testing, qualification, procurement, 
 
 
 # Europe: ECSS / ESCC Framework
-ESA's ECSS and ESCC define requirements for the selection, management, procurement, and use of EEE components in space projects.  
-They classify assurance/risk into Class 1-3 and provide guidance on how to supplement Up-Screening when using AEC-Q parts.  
-In general, ECSS defines the overall EEE test items, while ESCC specifies detailed test requirements.  
+ESA's ECSS and ESCC define requirements for the selection, management, procurement, and use of EEE components in space projects. 
+They classify assurance/risk into Class 1-3 and provide guidance on how to supplement Up-Screening when using AEC-Q parts. 
+In general, ECSS defines the overall EEE test items, while ESCC specifies detailed test requirements. 
 The table below summarizes Up-Screening items per ECSS-Q-ST-60-13C Rev.2 (2025-04-30).
 
 <div style="font-size: 11px; color: gray; text-align: left;">
@@ -38,9 +38,9 @@ The table below summarizes Up-Screening items per ECSS-Q-ST-60-13C Rev.2 (2025-0
   <img src="/assets/Articles/ECSS2.webp" style="width: 100%; max-width: 750px;" alt="ECSS">
 </p>
 
-ESA mission classes provide different trade-offs between assurance level and risk.  
-Class 1 offers the highest assurance and lowest risk, while Class 3 offers the lowest assurance and highest risk.  
-Procurement cost is generally highest for Class 1 and lowest for Class 3, but mitigation and engineering measures can reduce the total cost of ownership differences among classes.  
+ESA mission classes provide different trade-offs between assurance level and risk. 
+Class 1 offers the highest assurance and lowest risk, while Class 3 offers the lowest assurance and highest risk. 
+Procurement cost is generally highest for Class 1 and lowest for Class 3, but mitigation and engineering measures can reduce the total cost of ownership differences among classes. 
 Which class is appropriate depends on the project's goals, definition, and constraints.  
 
 Other relevant standards include ECSS-Q-ST-30-11C Rev.2 (2021-06-23) for derating rules and limits by part family, and ECSS-Q-ST-60-15C Rev.1 (2025-03-20) for Radiation Hardness Assurance (RHA) planning at the project level.  

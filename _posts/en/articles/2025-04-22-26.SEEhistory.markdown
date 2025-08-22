@@ -21,16 +21,11 @@ With the acceleration of the space race, sporadic faults were recorded in satell
 
 ### 1970s to 2000: Conceptualization and Experimental Verification
 
-The term Single Event Upset (SEU) took hold in the 1970s as evidence accumulated. In 1972, a 96-second communications blackout on a Hughes satellite drew attention to the potential role of energetic particles. By 1975, quantitative analyses of SEU behavior were being published, providing mathematical characterization. Subsequent work linked soft errors in terrestrial systems to alpha particles from packaging materials, and the 1976 Cray-1 incident highlighted ground-level vulnerability.
-<br>
-A key inflection point came in 1979, when heavy-ion experiments at Lawrence Berkeley National Laboratory's 88-Inch Cyclotron demonstrated that SEEs could be reproduced under controlled conditions. This firmly established SEE as a critical reliability concern for both space and terrestrial electronics.
+The 1970s marked the era when the term Single Event Upset (SEU) first emerged and was scientifically established. The anomaly of the Hughes satellite in 1972 brought attention to circuit failures caused by high-energy particles, and this was numerically proven in the first SEU paper in 1975. Subsequently, through ground-based errors in the Cray-1 supercomputer, alpha particle induced SEUs, and heavy ion experiments, it was confirmed that SEEs also occur in terrestrial environments. This led to the widespread adoption of the term 'SEU' within academia and industry.
 
 ### 2000s and Beyond: Large-Scale Systems and the Satellite Boom
 
-2000s and Beyond: Large-Scale Systems and the Satellite Boom
-From the early 2000s onward, the combination of high-density semiconductor scaling and the growth of large data centers increased the frequency and visibility of soft errors even at sea level. In parallel, the rapid expansion of the commercial space sector renewed focus on radiation resilience.
-<br>
-With thousands of satellites launched annually, rigorous radiation evaluation and qualification have become essential. Radiation hardness assurance is now a standard element of space electronics design practice.
+With the growth of large-scale data centers and the increase in memory density since the 2000s, the possibility of soft errors has risen even in terrestrial environments. Simultaneously, due to the rapid growth of space observation and commercial satellite industries, interest in SEE (Single Event Effects) in space environments has surged. Recently, thousands of satellites are launched annually, making the selection of SEE-hardened semiconductor devices and the evaluation of their reliability a critical issue.
 
 <p align="center">
 <img src="/assets/Articles/Satellite.webp" style="width: 100%; max-width: 500px;" alt="Satellite">

@@ -12,9 +12,9 @@ lang: en
 
 # Photon
 
-A photon is the basic quantum of electromagnetic energy, spanning the entire electromagnetic spectrum-from low to high energies and from long to short wavelengths. This includes radio waves, microwaves, visible light, ultraviolet radiation, X-rays, and gamma rays.<br>
-Most electronic devices are enclosed in opaque packaging (e.g., plastic, ceramic, or metal), so photons in the visible range generally pose little concern. However, high-energy photons such as X-rays and gamma rays can penetrate these materials and affect device operation.<br>
-For space electronics, charged particles (protons, heavy ions, electrons, neutrons) are usually the dominant concern; nevertheless, in industrial and medical settings X-rays and gamma rays are primary radiation sources, typically spanning ~10 keV to 1,000 keV. <br>
+A photon is the basic quantum of electromagnetic energy, spanning the entire electromagnetic spectrum-from low to high energies and from long to short wavelengths. This includes radio waves, microwaves, visible light, ultraviolet radiation, X-rays, and gamma rays.
+Most electronic devices are enclosed in opaque packaging (e.g., plastic, ceramic, or metal), so photons(light) in the visible range generally pose no concern. However, high-energy photons such as X-rays and gamma rays can penetrate these materials and affect device operation.
+For space electronics, charged particles (protons, heavy ions, electrons, neutrons) are usually the dominant concern; nevertheless, in industrial and medical settings X-rays and gamma rays are primary radiation sources, typically spanning ~10 keV to 1,000 keV. 
 In this range, the photoelectric effect tends to dominate at lower energies and in high-Z materials, while Compton scattering becomes increasingly important at intermediate energies; above ~1.022 MeV, pair production can dominate.
 Because photons are electrically neutral, their interactions with matter differ from those of charged particles. The three principal photon-matter interaction mechanisms are summarized below.
 
@@ -44,7 +44,7 @@ In Compton scattering, a photon transfers part of its energy to an electron, pro
 
 ### 3. Pair Production
 
-Pair production is a key high-energy gamma-ray loss mechanism. A photon interacting in the field of an atomic nucleus can transform into an electron-positron pair, provided the photon energy exceeds the combined rest-mass energy of the pair (> 1.022 MeV). Any excess energy appears as kinetic energy shared by the particles.
+Pair production is a main high-energy gamma-ray loss mechanism. A photon interacting in the field of an atomic nucleus can transform into an electron-positron pair, provided the photon energy exceeds the combined rest-mass energy of the pair (> 1.022 MeV). Any excess energy appears as kinetic energy shared by the particles.
 The probability of pair production increases with photon energy and with the atomic number (Z) of the material; below the threshold, the process cannot occur.
 
 

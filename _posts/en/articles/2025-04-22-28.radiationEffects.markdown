@@ -39,7 +39,7 @@ TID evaluation is typically performed using gamma rays.<br>
 
 ### 3. DD (Displacement Damage)
 
-Displacement Damage (DD) affects the semiconductor bulk, whereas TID primarily impacts surfaces and interfaces. DD introduces volumetric defects that change electrical, optical, and thermal properties and can degrade performance or functionality.
+Displacement Damage (DD) affects the semiconductor bulk, whereas TID primarily impacts surfaces and interfaces. DD introduces defects throughout the entire bulk that change electrical, optical, and thermal properties and can degrade performance or functionality.
 DD evaluation is typically performed using neutrons.<br>
 - Key Impacts  
   - Reduced carrier lifetime and mobility  

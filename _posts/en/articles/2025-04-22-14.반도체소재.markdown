@@ -45,7 +45,7 @@ For example, a wavelength of 630 nm corresponds to a photon energy of ~1.97 eV.
 In materials where the band gap exceeds this energy, TPA-where two photons are absorbed nearly simultaneously-is required to promote an electron across the band gap.
 For even wider band-gap materials and/or longer wavelengths, multiphoton absorption (MPA) may be necessary.
 <br>
-To support evaluation across a wide range of semiconductor devices, QRT operates ultrafast pulsed-laser systems covering 630-1700 nm with pulse durations as short as 200 fs.
+To support evaluation across a wide range of semiconductor devices, QRT operates femtosecond pulsed-laser systems covering 630-1700 nm with pulse durations as short as 200 fs.
 This enables precise, flexible radiation-effects evaluations tailored to the optical and material characteristics of each device under test.
 
 

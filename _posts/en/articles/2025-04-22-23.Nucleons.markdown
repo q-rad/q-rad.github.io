@@ -12,9 +12,9 @@ lang: en
 
 # Neutron
 
-Neutrons carry no electric charge and therefore do not interact via the Coulomb force. As a result, they do not directly ionize matter when passing through a material. Instead, they lose energy primarily through elastic and inelastic nuclear reactions-and, more rarely, via magnetic interactions with unpaired electrons or nuclei.
+Neutrons carry no electric charge and therefore do not interact via the Coulomb force. As a result, they do not directly ionize matter when passing through a material. Instead, they lose energy primarily through elastic and inelastic nuclear reactions, or very occasionally through magnetic interactions with unpaired electrons.
 In simple terms, neutrons transfer energy through collisions, which makes them highly penetrating.<br>
-At terrestrial altitudes, neutrons can induce SEE (Single Event Effects) through the secondary charged particles they create and they contribute to DD (Displacement Damage). Their direct contribution to TID (Total Ionizing Dose) is generally negligible, though capture gamma rays can add dose in some environments.
+At terrestrial altitudes, thermal neutrons can induce SEE (Single Event Effects) through the secondary charged particles. But their direct contribution to TID (Total Ionizing Dose) and DD (Displacement Damage) is generally negligible.
 
 # Proton
 
@@ -31,8 +31,8 @@ These recoil nuclei behave like short-range heavy ions and generate dense ioniza
 ### Inelastic Nuclear Reaction
 
 In an inelastic reaction, the incident neutron is absorbed (or a proton overcomes the Coulomb barrier), leaving the nucleus in an excited state. The excess energy is then released via emission of light particles (e.g., neutrons, protons, light ions), gamma rays, and a heavier recoil nucleus.<br>
-These secondaries typically carry MeV-scale energies, produce ionization, and are a key source of neutron-induced SEE.
-In some cases the nucleus can split into two near-equal fragments with additional neutrons-nuclear fission. However, because heavy elements exist only in trace amounts in most semiconductor stacks, fission is a negligible contributor to SEE or TID in typical devices. For thermal neutrons (below tens of keV), capture commonly results in gamma emission.
+These secondaries typically carry MeV-scale energies, produce ionization, and are a main source of neutron-induced SEE.
+In some cases the nucleus can split into two near-equal fragments with additional neutrons-nuclear fission. However, because heavy elements exist only in trace amounts in most semiconductor stacks, fission is a negligible contributor to SEE or TID in typical devices. For thermal neutrons (below tens of keV), neutron capture commonly results in gamma emission.
 
 ### Spallation
 

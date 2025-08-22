@@ -22,7 +22,7 @@ The driving force behind this transformation is known as **“New Space.”**
 
 |                 | Old Space                                 | New Space                                                |
 |-----------------|--------------------------------------------|-----------------------------------------------------------|
-| Leading Entity  | Government agencies (NASA, ESA, DoD)       | Private companies (SpaceX, Blue Origin, Planet Labs)      |
+| Leading Entity  | Government agencies (NASA, ESA, DoD)       | Commercial Entities (SpaceX, Blue Origin, Planet Labs)      |
 | Development Style | Conservative, verification-first          | Agile, risk-tolerant, iterative                            |
 | Development Timeline | Years to decades                      | Months to ~2 years                                        |
 | Cost Structure   | Hundreds of billions                      | Tens to hundreds of millions                              |
@@ -35,7 +35,7 @@ Unlike the traditional Old Space model led by national space agencies, New Space
 Hallmarks include lower cost, shorter development cycles, adoption of commercial technology, vertical integration, and service-oriented business models.
 This shift is transforming space from a government-only scientific and defense domain into a competitive commercial industry.
 <br>
-Private companies such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab now handle end-to-end space operations-from satellite manufacturing and launch to ground-segment operations and service delivery.
+Commercial entities such as SpaceX, Planet Labs, Blue Origin, OneWeb, and Rocket Lab now handle end-to-end space operations-from satellite manufacturing and launch to ground-segment operations and service delivery.
 They are democratizing access to space through reusable launch vehicles and large-scale deployment of satellites in Low Earth Orbit (LEO), achievements once thought unimaginable.
 <br>
 Traditionally, space systems relied on expensive space-grade components, but New Space companies increasingly design systems using commercial off-the-shelf (COTS) technologies.
