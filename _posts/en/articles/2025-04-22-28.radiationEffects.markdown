@@ -64,7 +64,7 @@ DD evaluation is typically performed using neutrons.
 </ul>
 <br>
 <div class="qrt-button-wrapper">
-  <a class="qrt-button" href="/en/article/7.TID.html">
+  <a class="qrt-button" href="/en/article/18.DD.html">
     Read more
   </a>
 </div>
