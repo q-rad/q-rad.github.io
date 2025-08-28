@@ -28,7 +28,7 @@ TID는 일반적으로 rad(Si) 또는 krad(Si) 단위로 표현합니다.
 일반 상용 CMOS의 경우 수십 Gy 수준에서도 성능 열화가 나타날 수 있습니다.
 
 <div style= "border: 2px solid #E0002A; border-radius:12px; padding:16px">
-Fluence (Φ): 1cm² 넓이를 누적해서 지나간 입자의 개수 [입자/cm²(= cm⁻²)]
+Fluence (Φ): 단위 면적당 입자 수  [입자/cm²(= cm⁻²)]
 
 LET: 입자 1개가 지나가며 물질 1 mg당 전달한 에너지 [MeV·cm²/mg]
 
@@ -43,7 +43,7 @@ MeV → J(1 MeV = 1.602×10⁻¹³ J)와 mg → kg(1 mg = 10⁻⁶ kg) 변환을
 
 또한, 반도체의 방사선 효과 중 TID를 표현할 때에는
 일반적으로 Rad로 표현되는데 이는 위에서 구한 Gy값에 100을 곱하여 구합니다.
-> 1 Gy = 100rd 입니다.
+> 1 Gy = 100rad 입니다.
 
 
 
