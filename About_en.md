@@ -14,7 +14,7 @@ permalink: /en/about/
 
 ## QRT Inc.
 > QRT Inc. is a reliability specialist company with over 40 years of experience in semiconductor reliability testing and failure analysis, providing top-level technical services to global customers.
-Through the development of reliability testing equipment for future technologies such as radiation reliability, 5G, and AI, we have established differentiated competitiveness encompassing both analysis services and equipment business, advancing into both the **Korean and global markets**.
+By developing reliability testing equipment for future technologies—radiation reliability, 5G, and AI—we are expanding from **Korea to global markets**, backed by leading capabilities across analysis services and equipment.
 
 ## LASER2COTS  
 > **LASER2COTS** is a page created by QRT to share semiconductor laser SEE (Single Event Effect) evaluation results and related technical information.  

@@ -25,7 +25,7 @@ Space-grade semiconductors are generally designed to tolerate radiation doses ex
 
 
 <div style= "border: 2px solid #E0002A; border-radius:12px; padding:16px">
-Fluence (Φ): The number of particles accumulated passing through an area of 1 cm² [particles/cm² (= cm⁻²)]
+Fluence (Φ): number of particles per unit area [particles/cm² (= cm⁻²)]
 
 LET: The energy delivered by a single particle per 1 mg of material [MeV·cm²/mg]
 
