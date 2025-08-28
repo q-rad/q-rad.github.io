@@ -42,9 +42,9 @@ Space-grade semiconductors are generally designed to tolerate radiation doses ex
 
 # Unit of TID: Rad
 
-Rad is an abbreviation of radiation absorbed dose and is a unit of absorbed dose representing the amount of energy absorbed per unit mass of a material. It is defined as D = dε/dm, where dε is the energy absorbed by the material and dm is its mass. One rad corresponds to 1 gram absorbing 100 erg of energy; converted to SI units this is 0.01 J/kg. The SI unit defined in the same manner is the gray (Gy), and 100 rad equals 1 Gy.
-Although Gy is the current international standard, the rad unit is commonly used in radiation hardness evaluations for electronic components, such as in semiconductor and space environments. In such cases, to clarify the material basis used in the calculation, the unit is sometimes written with the reference material in parentheses, such as rad(Si) or rad(SiO₂).
-To calculate particle-induced TID in rad, Fluence and LET (on a MeV·cm²/mg basis) are required. Multiplying Fluence by LET yields the total energy (MeV/mg) delivered to 1 mg of material by particles traversing a unit area, and multiplying by the conversion constant 1.602×10⁻⁷—combining 1 MeV = 1.602×10⁻¹³ J and 1 mg = 10⁻⁶ kg—converts the result to Gy (gray). Finally, since 1 Gy = 100 rad, multiplying by 100 gives the TID in rad.
+Rad is an abbreviation of radiation absorbed dose and is a unit of absorbed dose that represents the amount of energy absorbed per unit mass of a material. It is defined as D = dε/dm, where dε is the energy absorbed by the material and dm is its mass. One rad corresponds to 1 gram absorbing 100 erg (1×10⁻⁵ J) of energy; converted to SI units, this is 0.01 J/kg. The SI unit defined in the same manner is the gray (Gy), and 100 rad is 1 Gy.
+Although Gy is the current international standard, the rad unit is generally used in radiation-hardness evaluations for electronic components, such as in semiconductor and space environments. In such cases, to clarify the reference material used in the calculation, the unit may be written with the material in parentheses, such as rad(Si) or rad(SiO₂).
+To calculate particle-induced TID in rad, Fluence and LET (on a MeV·cm²/mg basis) are required. Multiplying Fluence by LET yields the total energy (MeV/mg) delivered to 1 mg of material by particles traversing a unit area, and multiplying by the conversion constant 1.602×10⁻⁷—which combines 1 MeV = 1.602×10⁻¹³ J and 1 mg = 10⁻⁶ kg—converts the result to Gy (gray). Finally, since 1 Gy = 100 rad, multiplying by 100 gives the TID in rad.
 
 
 
