@@ -27,35 +27,6 @@ TID는 일반적으로 rad(Si) 또는 krad(Si) 단위로 표현합니다.
 1 krad(Si)는 10 Gy에 해당하며, 우주용 반도체 소자는 100~300 krad(Si) 이상 견디도록 설계됩니다.
 일반 상용 CMOS의 경우 수십 Gy 수준에서도 성능 열화가 나타날 수 있습니다.
 
-<div style= "border: 2px solid #E0002A; border-radius:12px; padding:16px">
-Fluence (Φ): 단위 면적당 입자 수  [입자/cm²(= cm⁻²)]
-
-LET: 입자 1개가 지나가며 물질 1 mg당 전달한 에너지 [MeV·cm²/mg]
-
-Fluence × LET을 하면 단위 면적에 쏟아진 총 에너지가 물질 1 mg당 몇 MeV인지 구할 수 있습니다.
-
-이것을 Gy(J/kg)의 단위로 변환 시에는
-MeV → J(1 MeV = 1.602×10⁻¹³ J)와 mg → kg(1 mg = 10⁻⁶ kg) 변환을 한 번에 해 주는 환산 상수가 필요합니다.
-이는 1.602×10⁻⁷입니다.(= 1.602×10⁻¹³ × 10⁶).
-
-즉, Fluence × LET에 1.602×10⁻⁷을 곱해 J/kg = Gy로 바꾼 값이 TID가 됩니다.
-**Fluence × LET × 1.602×10⁻⁷**
-
-또한, 반도체의 방사선 효과 중 TID를 표현할 때에는
-일반적으로 Rad로 표현되는데 이는 위에서 구한 Gy값에 100을 곱하여 구합니다.
-> 1 Gy = 100rad 입니다.
-
-
-
-> 이 공식은 **“타깃 물질 = LET가 정의된 물질”**일 때 그대로 씁니다.
-예: LET가 **Si 기준(MeV·cm²/mg (Si))**이면, TID도 Si에서의 선량을 의미합니다.
-만약 LET 단위가 MeV·cm²/g라면 상수는 1.602×10⁻¹⁰로 바뀝니다.
-LET가 MeV/µm(선형 LET)라면 **밀도(ρ)**가 추가로 필요합니다.
-
-
-
-
-</div>
 
 <p align="center"> 
   <img src="/assets/Articles/TID2.webp"  style="width: 60%;" alt= "TID">

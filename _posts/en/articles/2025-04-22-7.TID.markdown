@@ -24,35 +24,6 @@ TID is typically quantified by multiplying the particle's LET by the fluence of 
 Space-grade semiconductors are generally designed to tolerate radiation doses exceeding 100-300 krad(Si), whereas commercial CMOS components may begin to show performance degradation at levels as low as a few tens of Gy.
 
 
-<div style= "border: 2px solid #E0002A; border-radius:12px; padding:16px">
-Fluence (Φ): number of particles per unit area [particles/cm² (= cm⁻²)]
-
-LET: The energy delivered by a single particle per 1 mg of material [MeV·cm²/mg]
-
-Multiplying Fluence × LET gives the total energy per 1 mg of material deposited over a unit area.
-
-When converting this to the unit Gy (J/kg),
-a conversion factor is required that simultaneously converts MeV → J (1 MeV = 1.602×10⁻¹³ J) and mg → kg (1 mg = 10⁻⁶ kg).
-This factor is 1.602×10⁻⁷ (= 1.602×10⁻¹³ × 10⁶).
-
-Therefore, the value obtained by multiplying Fluence × LET by 1.602×10⁻⁷ and converting to J/kg = Gy is the TID.
-**Fluence × LET × 1.602×10⁻⁷**
-
-In semiconductor radiation effects, TID is commonly expressed in rad,
-which is obtained by multiplying the Gy value computed above by 100.
-> 1 Gy = 100 rad
-
-
-
-> This formula applies when the **“target material equals the material for which LET is defined.”**
-For example, if LET is **based on Si (MeV·cm²/mg (Si))**, then the TID refers to the dose in Si.
-If the LET unit is MeV·cm²/g, the factor becomes 1.602×10⁻¹⁰.
-If LET is in MeV/µm (linear LET), **material density (ρ)** is additionally required.
-
-
-
-
-</div>
 
 
 
