@@ -5,8 +5,7 @@
 	<div class="sidebar-brand">
 		<!-- 로고와 제목을 포함한 링크   -->
 		<a href="/" class="sidebar-logo">
-			<img src="{{ '/assets/logo2.webp' | relative_url }}" alt="Logo" style="height: 180px; max-width: 100%; margin-left: 0; margin-right: auto; display: block; 
- object-fit: contain;">
+			<img src="{{ '/assets/logo2.webp' | relative_url }}" alt="Logo">
 			<!--span>{{ site.title }}</span-->
 		</a>
 	</div>
@@ -53,13 +52,36 @@
 
 		<!-- QRT homepage -->
 		<li>
-			<a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
+			<a id="qrt-home-link" class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/">
 				QRT homepage
 			</a>
 		</li>
+
 	</ul>
 </div>
 
+<div class="sidebar-item sidebar-nav">
+	<ul class="nav">
+		<!-- 📘 아이콘 추가된 제목 -->
+		<li class="nav-title">
+			<i class="fa-solid fa-briefcase" style="margin-right: 6px;"></i>
+			Services
+		</li>
+		<li>
+			<a class="nav-item" href="/ko/upscreen.html">Up-Screening</a>
+		</li>
+		<li>
+			<a class="nav-item" href="/ko/pulsedlaser.html">Pulsed Laser</a>
+		</li>
+		<li>
+			<a id="more-services-link" class="nav-item" href="https://www.qrtkr.com/kr/equipment/see/equipment_see.php"
+				target="_blank">
+				More Services
+			</a>
+		</li>
+
+	</ul>
+</div>
 
 
 <div class="sidebar-item sidebar-nav">
@@ -111,6 +133,49 @@
 
 <script>
 	function updatePageLanguage(lang) {
+		// 푸터 텍스트 토글
+		document.querySelectorAll('.footer-text-ko').forEach(el => {
+			el.style.display = (lang === 'ko') ? 'block' : 'none';
+		});
+		document.querySelectorAll('.footer-text-en').forEach(el => {
+			el.style.display = (lang === 'en') ? 'block' : 'none';
+		});
+
+		const qrtHomeMobile = document.getElementById('qrt-home-link-mobile');
+		if (qrtHomeMobile) {
+			qrtHomeMobile.href = lang === 'en'
+				? 'https://www.qrtkr.com/en/'
+				: 'https://www.qrtkr.com/kr/';
+		}
+
+		// 모바일 More Services 링크
+		const moreServicesMobile = document.getElementById('more-services-link-mobile');
+		if (moreServicesMobile) {
+			moreServicesMobile.href = lang === 'en'
+				? 'https://www.qrtkr.com/en/equipment/see/equipment_see.php'
+				: 'https://www.qrtkr.com/kr/equipment/see/equipment_see.php';
+		}
+
+		const moreServicesLink = document.getElementById('more-services-link');
+		if (moreServicesLink) {
+			moreServicesLink.href = lang === 'en'
+				? 'https://www.qrtkr.com/en/equipment/see/equipment_see.php'
+				: 'https://www.qrtkr.com/kr/equipment/see/equipment_see.php';
+		}
+
+		const qrtHomeLink = document.getElementById('qrt-home-link');
+		if (qrtHomeLink) {
+			qrtHomeLink.href = lang === 'en'
+				? 'https://www.qrtkr.com/en/'
+				: 'https://www.qrtkr.com/kr/';
+		}
+
+		// manuals 배너: 영어에서만 보이게
+		const manualLangNote = document.getElementById('manual-lang-note');
+		if (manualLangNote) {
+			manualLangNote.style.display = (lang === 'en') ? 'block' : 'none';
+		}
+
 
 		// 기존 함수 안에 다음 코드 추가:
 		const newsItems = document.querySelectorAll('.news-item');
@@ -126,7 +191,7 @@
 		// 뉴스 더보기 버튼 텍스트 및 링크도 변경
 		const newsMoreBtn = document.getElementById('news-more-button');
 		if (newsMoreBtn) {
-			newsMoreBtn.href = lang === 'en' ? '/en/category/#news' : '/category/#news';
+			newsMoreBtn.href = '/category/#news';
 			newsMoreBtn.textContent = lang === 'en' ? 'See More News' : '더 많은 뉴스 보기';
 		}
 
@@ -155,8 +220,9 @@
 		// 현재 페이지 경로 확인
 		const path = window.location.pathname;
 
-		// Article 리스트 필터링은 /manuals/ 페이지에서는 건너뜀
-		if (!path.startsWith('/manuals')) {
+		// Article 리스트 필터링: URL이 /ko/ 또는 /en/ 접두사를 가질 때만 실행
+		const hasLangPrefix = /^\/(ko|en)\//.test(path);
+		if (hasLangPrefix) {
 			document.querySelectorAll('.post-list-item').forEach(post => {
 				const postLang = post.getAttribute('data-lang') || 'ko';
 				post.style.display = postLang === lang ? '' : 'none';
@@ -196,6 +262,41 @@
 				btn.setAttribute('href', updatedHref);
 			}
 		});
+		document.querySelectorAll('.sidebar-item .nav .nav-item').forEach(a => {
+			const href = a.getAttribute('href') || '';
+			// 해당 두 페이지만 대상으로 제한
+			if (!/\/(upscreen|pulsedlaser)\.html$/.test(href)) return;
+
+			const url = new URL(href, window.location.origin);
+			const parts = url.pathname.split('/').filter(Boolean); // ['ko','upscreen.html'] 같은 형태
+
+			if (parts.length) {
+				if (parts[0] === 'ko' || parts[0] === 'en') {
+					parts[0] = lang;              // 접두어만 교체
+				} else {
+					parts.unshift(lang);          // 없으면 접두어 추가
+				}
+				a.setAttribute('href', '/' + parts.join('/'));
+			}
+		});
+		// 모바일 햄버거 메뉴(Up-Screening / Pulsed Laser) 링크도 언어 접두어 교체
+		document.querySelectorAll('.mobile-nav a.nav-item').forEach(a => {
+			const href = a.getAttribute('href') || '';
+			if (!/\/(upscreen|pulsedlaser)\.html$/.test(href)) return; // 대상 두 페이지만
+
+			const url = new URL(href, window.location.origin);
+			const parts = url.pathname.split('/').filter(Boolean); // ex) ['ko','upscreen.html']
+
+			if (parts.length) {
+				if (parts[0] === 'ko' || parts[0] === 'en') {
+					parts[0] = lang;           // 기존 접두어 교체
+				} else {
+					parts.unshift(lang);       // 접두어 없으면 추가
+				}
+				a.setAttribute('href', '/' + parts.join('/'));
+			}
+		});
+
 	}
 
 
@@ -284,6 +385,20 @@
 <div class="sidebar-footer" style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #888;">
 	<p>&copy; {{ site.time | date: "%Y" }} QRT Inc. All rights reserved.</p>
 </div>
+
+
+<div class="sidebar-footer" style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #888;">
+	<!-- 한국어 -->
+	<p class="footer-text-ko" style="font-weight: 500;">
+		큐알티 주식회사&nbsp;|&nbsp;경기도 이천시 부발읍 경충대로 2091 (우:17336)
+	</p>
+	<!-- 영어 (초기 비표시) -->
+	<p class="footer-text-en" style="display:none;">
+		QRT Inc.&nbsp;|&nbsp;2091, Gyeongchung-daero, Bubal-eup, Icheon-si, Gyeonggi-do, Republic of Korea (17336)
+	</p>
+</div>
+
+
 
 <!-- 검색 기능을 위한 스크립트 -->
 <script src="https://unpkg.com/simple-jekyll-search/dest/simple-jekyll-search.min.js"></script>
@@ -396,10 +511,37 @@
 
 
 		<li>
-			<a class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/company/greeting.php">
+			<a id="qrt-home-link-mobile" class="nav-item" target="_blank" href="https://www.qrtkr.com/kr/">
 				QRT homepage
 			</a>
 		</li>
+
+	</ul>
+
+	<ul class="mobile-nav">
+		<li class="nav-title">
+			<i class="fa-solid fa-briefcase" style="margin-right: 6px;"></i> Services
+		</li>
+
+		<li>
+			<a id="about-laser2cots-link-mobile" class="nav-item" href="/ko/upscreen.html">
+				Up-Screening
+			</a>
+		</li>
+
+
+		<li>
+			<a id="about-laser2cots-link-mobile" class="nav-item" href="/ko/pulsedlaser.html">
+				Pulsed Laser
+			</a>
+		</li>
+		<li>
+			<a id="more-services-link-mobile" class="nav-item" target="_blank"
+				href="https://www.qrtkr.com/kr/equipment/see/equipment_see.php">
+				More Services
+			</a>
+		</li>
+
 	</ul>
 
 	<!-- LITE 메뉴얼 섹션 -->
