@@ -57,7 +57,7 @@ ESA 우주 임무 등급은 보증 수준과 위험 간의 상이한 균형(trad
 
 # 미국: NASA / DoD (MIL) 체계
 
-NASA의 EEE부품 관리 체계는 EEE-INST-002와 Military Standard에 명시되어 있습니다.
+NASA의 EEE부품 관리 체계는 [EEE-INST-002](https://nepp.nasa.gov/docuploads/FFB52B88-36AE-4378-A05B2C084B5EE2CC/EEE-INST-002_add1.pdf)와 Military Standard에 명시되어 있습니다.
 EEE-INST-002는 부품 선정 및 조달, Screening, Derating등의 기준이 명시되어 있습니다.
 아래표는 EEE-INST-002에 따라서 정리한 Up-Screening 항목입니다.
 시험 항목은 우주 임무 등급(Level 1~3)에 따라 적용 여부와 기준이 다릅니다.

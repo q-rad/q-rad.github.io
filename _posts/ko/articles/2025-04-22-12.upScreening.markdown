@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Up-Screening (업 스크리닝)
+title: Up-Screening (업 스크리닝, 업스크린)
 description: COTS 부품을 우주·항공·방위 임무에 적용하기 위한 Up-Screening 개요와 절차(DPA, 기계·신뢰성·방사선 시험), 계획 수립부터 LAT·문서화까지 한눈에 정리.
 date: 2025-03-19 00:00:00 +0900
 category: article
@@ -13,7 +13,7 @@ order: 3002
 이러한 이유로, 상용 기성품(COTS, Commercial-Off-The-Shelf)의 사용이 불가피한 상황이 발생하게 됩니다.
 이 경우, 우주 환경에 적합한 신뢰성을 확보하기 위한 방법으로 **Up-Screening**이 적용됩니다.
 
-# Up-Screening이란?
+# Up-Screening (업스크린, 업스크리닝)이란? 
 Up-screening(업스크린, 업스크리닝)은 본래 우주 등급(Space-Grade)으로 분류되지 않은 부품(COTS, Automotive Grade 등)인 상용 부품에 대해, 고신뢰성 환경에서의 사용 가능성을 확보하기 위해 추가적인 시험과 평가를 수행하는 절차를 의미합니다.<br>
 이는 단순한 기능 확인 수준을 넘어, 우주 환경에서 요구되는 우주 제품 보증(Space Product Assurance) 기준에 부합하도록 온도 특성, 전기적 성능, 수명, 고장률 등 다양한 신뢰성 요소를 체계적으로 검증하는 정밀한 과정입니다. 
 또한 업스크리닝은 “등급 승격”이 아닙니다. 제조사가 보증하지 않은 우주급 등급을 부여하는 절차가 아니라, 추가 시험으로 위험을 낮추는 접근입니다
@@ -28,7 +28,7 @@ Up-screening(업스크린, 업스크리닝)은 본래 우주 등급(Space-Grade)
 <hr class="gray-hr">
 
 
-# Up-Screening 항목
+# Up-Screening (업스크린, 업스크리닝) 항목
 
 ## CA / DPA
 외관/마킹, 리드 피니시, 내부 다이 치핑, 오염, 와이어 본딩 품질(힐·넥·인터메탈릭)뿐만 아니라  
@@ -68,7 +68,7 @@ Burn-in, Life Test 등 장기 운용에서의 수명·초기고장 제거·열�
 <hr class="gray-hr">
 
 
-# Up-Screening 절차
+# Up-Screening (업스크린, 업스크리닝) 절차
 
 <div class="qrt-list">
   <h2>1. 임무·위험 정의 & 계획 수립</h2>
@@ -111,7 +111,7 @@ Burn-in, Life Test 등 장기 운용에서의 수명·초기고장 제거·열�
 <hr class="gray-hr">
 
 
-# QRT Up-screen Service
+# QRT Up-screening(업스크린, 업스크리닝) Service
 QRT는 다음과 같은 항목을 포함한 포괄적인 업스크리닝(Up-Screening) 서비스를 제공합니다.
 
 <ul class="qrt-list">
