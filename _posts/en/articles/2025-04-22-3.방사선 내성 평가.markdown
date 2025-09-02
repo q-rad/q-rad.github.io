@@ -18,7 +18,7 @@ In space or high-altitude environments, high-energy particles and radiation-such
 - [SEU](/en/article/1.-SEE.html) (Single Event Upset)  
   A phenomenon in which a single particle causes a temporary bit flip in memory cells or registers. Simply put, a 0 turns into a 1, or a 1 turns into a 0. This can lead to system malfunction or data errors.
 
-- [SEL](/en/article/1.-SEE.html) (Single Event Latch-up)  
+- [SEL](/en/article/30.latchup.html) (Single Event Latch-up)  
   A single particle induces excessive current flow in the circuit, which can damage the entire circuit or cause the system to completely halt. This can result in an unrecoverable and critical failure.
 
 - [TID](/en/article/7.TID.html) (Total Ionizing Dose)  

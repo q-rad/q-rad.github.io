@@ -17,7 +17,7 @@ order: 2001
 - [SEU](/ko/article/1.-SEE.html) (Single Event Upset)
 단일 입자로 인해 메모리 셀이나 레지스터의 비트값이 일시적으로 반전되는 현상입니다. 쉽게 말해, 0이 1로, 혹은 1이 0으로 바뀌는 오류가 발생할 수 있으며, 이는 시스템의 오작동이나 데이터 오류로 이어질 수 있습니다.
 
-- [SEL](/ko/article/1.-SEE.html) (Single Event Latch-up)
+- [SEL](/ko/article/30.latchup.html) (Single Event Latch-up)
 단일 입자로 인해 회로 내에 과도한 전류가 흐르면서, 회로 전체가 손상되거나 시스템이 완전히 멈추는 현상입니다. 이는 복구가 불가능한 치명적인 오류로 이어질 수 있기 때문에 특히 주의가 필요합니다.
 
 - [TID](/ko/article/7.TID.html) (Total Ionizing Dose)
