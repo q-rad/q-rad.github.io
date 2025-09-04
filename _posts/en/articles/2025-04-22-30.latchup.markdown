@@ -1,0 +1,112 @@
+---
+layout: post
+title: Single Event Latch-Up (SEL)
+description: Single Event Latch-Up (SEL); Heavy-ion induced charge triggers a parasitic PNPN path, causing a low-impedance, high-current latch. Principles, risks, testing (heavy-ion, pulsed laser), and QRT services.
+category: article
+lang: en
+permalink: en/article/:title.html
+sub_category: Radiation Effects & Hardness Test
+order: 2015
+---
+# Single Event Latch-Up (SEL)
+
+Latch‑up is a phenomenon in which a low‑impedance path suddenly forms between power and ground and persists even after the triggering event disappears. SEL differs in that its trigger is ion‑induced charge. Because the initial conditions of SEL are much harsher than those of an external voltage transient, even devices that are robust against general latch‑up require separate verification for SEL.
+Single Event Latch‑up (SEL) is a phenomenon in which high‑energy particles (primarily heavy ions) generate excess charge inside a device within a very short time (picoseconds, ps) and turn on a parasitic PNPN structure (parasitic thyristor) through a regenerative feedback mechanism. Once triggered, a low‑impedance, high‑current state persists until power is removed, which can cause anything from loss of functionality to destructive damage.
+
+<br>
+<p align="center"> 
+  <img src="/assets/Articles/latchup.webp" alt="In a CMOS cross-section, the p-substrate and n-well form resistive sheets biased through p+ and n+ taps. A parasitic PNP exists on the right in the n-well, and a parasitic NPN exists on the left along the p-substrate path. Due to well/substrate resistance, the base potentials shift and a PNPN path (latch-up current path) forms between VSS and VDD." style="width: 70%; border: 1px solid #ccc;">
+</p>
+<!-- Image description -->
+<div align="center"> 
+<h5>Parasitic PNPN (SCR) equivalent model of CMOS latch-up path including well/substrate resistance</h5>
+</div>
+<br>
+
+# Turn-on sequence of the parasitic PNPN structure induced by heavy ions
+
+For example, when a heavy ion or other high‑energy particle traverses the n‑well, electron–hole pairs are generated along the strike track instantaneously (picoseconds–nanoseconds). Immediately after generation, the charges are collected by drift under the junction electric field: electrons move mainly toward the n‑well, and holes move mainly toward the p‑substrate. This injected current produces voltage drops (Δ𝑉=𝐼⋅𝑅) across the n‑well resistance R<sub>Nwell</sub> and the p‑substrate resistance R<sub>Psub</sub>, respectively. <br>
+While the majority carriers (electrons) in the n‑well are being collected into the n‑well tap (an n+ well contact tied to VDD), the voltage drop across R<sub>Nwell</sub> lowers the local n‑well (base) potential relative to VDD. As the potential difference becomes large enough to forward‑bias the P<sup>+</sup>–n‑well junction (the E–B of the parasitic vertical PNP), the PNP turns on first, injecting holes from P<sup>+</sup> (emitter) toward the p‑substrate (collector). *(The PMOS P<sup>+</sup> source/drain serves as the emitter of this PNP.)* <br>
+The hole current that flows into the p‑substrate (base) exits through the p<sup>+</sup> substrate tap (tied to VSS), creating an additional voltage drop across R<sub>Psub</sub>. When the p‑substrate (base) potential rises above that of the local n<sup>+</sup> (emitter, near VSS), the E–B of the parasitic lateral NPN becomes forward‑biased and the NPN turns on. Electrons are injected from the n<sup>+</sup> emitter into the p‑substrate (base) and collected by the n‑well (collector) *(the observed conventional current flows from the collector (n‑well) to the emitter (n<sup>+</sup>))*.
+This increases the n‑well current and the voltage drop across R<sub>Nwell</sub>, which in turn further forward‑biases the PNP, forming a regenerative feedback loop. <br>
+
+> The device that turns on first may be PNP, or NPN depending on conditions (LET/trajectory of the ion, strike location, tap density, etc.). In either case, the end result is that
+> the parasitic PNPN structure is activated.
+
+<br>
+
+# Factors affecting the Turn on of the parasitic PNPN structure
+
+<ul class="qrt-list">
+
+<li>Particle physics (primary factor): The ion species, LET (linear energy transfer), and trajectory determine the amount and spatial distribution of charge generated in the sensitive volume. Higher LET injects more charge, increasing the probability of SEL. Larger induced current leads to a larger induced voltage, raising the likelihood of forming a forward bias across the E–B junction.</li>
+
+<li>Doping/resistance: Lower substrate/well doping increases the sheet resistance, so the same charge creates a larger ΔV, reducing the critical charge for turn‑on.</li>
+
+<li>Guard ring/tap spacing: The farther the strike point is from the nearest tap, the higher the path resistance, making it easier for the parasitic BJTs to turn on.</li>
+
+<li>Operating voltage: As V<sub>DD</sub> increases, the voltage across each resistance increases, making SEL possible with less charge.</li>
+
+<li>Temperature: Higher temperature generally reduces the BJT turn‑on voltage and increases β (bipolar gain), which accelerates turn‑on and increases the gain product, thereby raising the likelihood of SEL.</li>
+</ul>
+
+SEL is a catastrophic error that cannot be cleared until power is removed. Even when not externally visible, metal melting, micro‑cracks, and electromigration can occur as latent damage, leading to lifetime degradation. In severe cases, thermal runaway due to large current can destroy the chip.
+Therefore, for devices operated in radiation‑exposed environments such as space, aviation, accelerators, and high altitude, SEL evaluation is essential. Moreover, general latch‑up robustness does not guarantee SEL robustness, so heavy‑ion evaluation is required.
+
+# QRT's SEL Evaluation/Analysis Services
+
+<ul class="qrt-list">
+  <li>Heavy‑ion–based SEL evaluation: Support for deriving threshold LET/cross‑section parameters in accordance with standards and for verifying reproducibility.</li>
+  <li>Pulsed‑laser–based evaluation: High‑spatial‑resolution local sensitivity mapping and root‑cause localization to enable pre‑beamtime screening and improvement guidance.</li>
+  <li>System‑protection evaluation board design and testing: Design of supply‑current surge monitoring + fast cutoff/reset paths and evaluation with optimized thresholds/delay times.</li>
+  <li>Failure analysis integration: Identification of latent defects such as metal extrusion, bridging, and dielectric cracks.</li>
+</ul>
+<br>
+  <div class="qrt-button-wrapper">
+  <a class="qrt-button" href="https://www.qrtkr.com/kr/customer/inquiry.php">
+    Contact QRT about SEL evaluation
+  </a>
+  </div>
+<br>
+
+
+
+
+
+{% assign current_order = page.order | plus: 0 %}
+
+{% assign candidates = site.posts 
+  | where: "sub_category", page.sub_category 
+  | where: "lang", page.lang 
+  | where_exp: "item", "item.url != page.url" 
+%}
+
+{% assign closest_posts = "" | split: "" %}
+
+{% for offset in (1..1000) %}
+  {% assign up = current_order | plus: offset %}
+  {% assign down = current_order | minus: offset %}
+
+  {% for post in candidates %}
+    {% if post.order == up or post.order == down %}
+      {% assign closest_posts = closest_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+
+  {% if closest_posts.size >= 7 %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% assign related_posts = closest_posts | slice: 0, 7 %}
+
+{% if related_posts.size > 0 %}
+  <hr>
+  <br>
+  <h3>Related Articles</h3>
+  <ul>
+    {% for post in related_posts %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
