@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Up-Screening
+title: Up-Screening (Up-Screen)
 description: Overview of Up-Screening to qualify COTS for space/aero/defense scope, DPA, mechanical/reliability/radiation tests, and a step-by-step path from planning to LAT and documentation.
 date: 2025-03-19 00:00:00 +0900
 category: article
@@ -13,7 +13,7 @@ lang: en
 In domains that demand high reliability-space, aerospace, and defense-the quality and reliability of each component critically affect overall system performance and mission safety. Equipping a system solely with fully qualified space-grade parts is often impractical due to cost, supply, and technical constraints.
 As a result, the use of COTS (Commercial-Off-The-Shelf) parts can be unavoidable. In such cases, Up-Screening is applied to verify whether these parts can achieve the reliability needed for space environments.
 
-# What is Up-Screening?
+# What is Up-Screening (Up-Screen)?
 **Up-Screening** refers to additional testing and evaluation performed on parts that are not originally space-grade (e.g., COTS, automotive grade) to reduce risk and determine their suitability for use in high-reliability environments.  
 It goes beyond basic functionality checks to assess temperature behavior, electrical performance, lifetime, and failure rates against space product assurance expectations. It's important to note that Up-Screening does not “promote” a part's manufacturer grade. It reduces risk through extra testing; it does not grant an official space-grade classification from the manufacturer.
 
@@ -25,7 +25,7 @@ It goes beyond basic functionality checks to assess temperature behavior, electr
 
 <hr class="gray-hr">
 
-# Up-Screening Items
+# Up-Screening (Up-Screen) Items
 
 ## CA / DPA
 Covers external marking/lead finish checks and detailed destructive physical analysis to examine internal structure, materials, and workmanship (e.g., die chipping/contamination, wire-bond quality, intermetallics).
@@ -57,7 +57,7 @@ Evaluates tolerance to the space radiation environment (electrons, protons, heav
 
 <hr class="gray-hr">
 
-# Up-Screening Process
+# Up-Screening (Up-Screen) Process
 
 <div class="qrt-list">
   <h2>1. Mission/Risk Definition & Test Plan</h2>
@@ -98,7 +98,7 @@ Evaluates tolerance to the space radiation environment (electrons, protons, heav
 
 <hr class="gray-hr">
 
-# QRT Up-Screen Service
+# QRT Up-Screening (Up-Screen) Service
 QRT provides comprehensive Up-Screening that includes:
 
 <ul class="qrt-list">
