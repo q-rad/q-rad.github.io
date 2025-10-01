@@ -53,7 +53,43 @@ ESA 우주 임무 등급은 보증 수준과 위험 간의 상이한 균형(trad
 또한 ESA가 인증·발행하는 자격부여 부품/제조사 리스트인 [ESCC QML (Qualified Manufacturers List)](https://escies.org/webdocument/showArticle?id=727)과 [QPL (Qualified Parts List)](https://escies.org/webdocument/showArticle?id=119&groupid=6)이 있습니다.
 
 
+아래의 표는 ECSS-Q-ST-60-13C Annex G의 Class 별 다른점입니다.
 
+<br>
+
+<p align="center"> 
+  <img src="/assets/Articles/Class별 다른점.webp" style="width: 100%; max-width: 700px;" alt= " ECSS-Q-ST-60-13C Annex G">
+</p>
+
+<br>
+
+
+## ESA COTS Guidelines
+
+ESA COTS 가이드라인은 우주용 장비/서브시스템/시스템에 COTS를 적용할 때의 분류–조달–적용–시험 전 과정을 안내하는 권고 문서입니다(표준이 아님).
+본 문서는 시스템의 중요도(criticality)에 따라 COTS 적용 수준을 세분화하고, 방사선/신뢰성 위험을 설계, 시험, 운영 단계에서 합리적으로 관리할 수 있도록 안내하고 있습니다.
+위험 영역과 등급은 ECSS로 커버되는 영역인 Q0와 표준 요구가 없는 영역인 Q1, Q2로 나뉩니다.
+Q0 등급은 Class 1–3으로 분류되며, COTS EEE는 ECSS-Q-ST-60-13C를, 고신뢰성 EEE는 ECSS-Q-ST-60C를 적용합니다. 동일 Trace Code(로트 동질성)를 기대하며 지상 평가 및 로트승인의 대표성이 보장됩니다.
+또한 Q1/Q2 두 등급은 동질성은 지향하되 보장은 어려워 시험 대표성에 한계가 있을 수 있습니다.
+대신 최적 관행과 설계적 완화(mitigation)를 적극 권고하고 있습니다.
+
+### Q2
+Q2등급은 가장 비용 효율적이지만 위험 수용이 큽니다.
+TID Level을 5krad(Si) 미만으로 운용하는 것을 목표로, 임무 운용기간을 수개월(통상 1년 미만)으로 권고하고 있습니다.
+또한 저고도 LEO (1000km 이하)에서 SAA 및 극지 통과 시에 OFF하여 운용하는 것을 권고합니다.
+이 등급은 파괴형 SEE (SEL, SEGR, SEB)리스크가 상대적으로 크므로 설계적 완화를 전제로 합니다.
+
+### Q1
+Q1 등급은 Q2대비 위험도가 낮지만 비용이 높습니다.
+TID Level은 약 10~15krad(Si), 임무 운용 기간은 수년(통상 5년 미만)으로 권고하고 있습니다.
+Q1등급부터는 SEE의 위험도에 따라서 평가 및 운용에 대한 구체적인 수치를 제시하고 있습니다.
+
+### Q0
+Q0 등급은 ECSS 기반의 최고 수준의 보증을 하는 등급입니다.
+동일 Trace code가 보장되며 위험도와 신뢰성에 따라 Class1~3 로 나뉘어집니다.
+COTS 부품의 Q0등급은 ECSS-Q-ST-60-13C을 적용하고, 고신뢰성 부품의 Q0등급은 ECSS-Q-ST-60C을 적용합니다.
+
+<br>
 
 # 미국: NASA / DoD (MIL) 체계
 
@@ -124,12 +160,13 @@ NASA-STD-8739.11에는 Up-Screening과 관련된 항목이 명시되어 있지�
 즉, NASA-STD-8739.11이 부품 선정 및 관리에 관한 상위 프레임워크라면, 실제 시험 절차와 조건은 MIL-STD/MIL-PRF 규격에 상세히 기술되어 있어 상호 보완적으로 운용된다고 볼 수 있습니다.
 
 
+>[1] European Space Agency (ESA), Guidelines for the Utilization of COTS Components and Modules in ESA, ESA-TEC-TN-021473, Issue 3.0, 21 Oct. 2024, Noordwijk, The Netherlands.
 
+>[2] NASA Goddard Space Flight Center, EEE-INST-002: Instructions for EEE Parts Selection, Screening, Qualification, and Derating, Rev. D, Greenbelt, MD, USA, Apr. 2018.
 
+>[3] ECSS, ECSS-Q-ST-60-13C: Commercial Electrical, Electronic and Electromechanical (EEE) Components, 21 Oct. 2013.
 
-
-
-
+>[4] ECSS, ECSS-Q-ST-60C Rev.2: Space Product Assurance – EEE Components, 21 Oct. 2013.
 
 
 
