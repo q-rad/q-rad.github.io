@@ -91,7 +91,7 @@ These features allow simple devices to be evaluated without additional developme
 Set coordinates directly or drag to select scan regions; QRT-LITE automatically adds those positions to the Scan List. You can configure per-item laser conditions (e.g., energy, pulse repetition rate), enabling efficient, repeatable evaluation.
 
 <p align="center">
-  <img src="/assets/Articles/image_scan.webp" alt="Defining scan regions by dragging" style="width: 70%; border: 1px solid #ccc;">
+  <img src="/assets/Articles/addscanlist.webp" alt="Defining scan regions by dragging" style="width: 70%; border: 1px solid #ccc;">
 </p>
 <div align="center">
 <h5>Define Scan Regions by Dragging</h5>

@@ -128,7 +128,7 @@ QRT-LITE는 직접 좌표를 설정하거나 간편하게 드래그로 스캔 �
 
 
 <p align="center"> 
-  <img src="/assets/Articles/image_scan.webp" alt= "드래그를 통한 스캔 영역 설정" style="width: 70%; border: 1px solid #ccc;">
+  <img src="/assets/Articles/addscanlist.webp" alt= "드래그를 통한 스캔 영역 설정" style="width: 70%; border: 1px solid #ccc;">
 </p>
 
 <div align="center"> 
