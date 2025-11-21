@@ -9,6 +9,7 @@
 
 <link href="/public/css/style.css" rel="stylesheet">
 
+
 <body>
 
 
@@ -57,6 +58,30 @@
 
 
   </script>
+  <script>
+  (function () {
+    // ex) /ko/article/..., /en/article/...
+    var firstSeg = location.pathname.replace(/^\/+/, '').split('/')[0].toLowerCase();
+    var desired = (firstSeg === 'ko' || firstSeg === 'en') ? firstSeg : null;
+    if (!desired) return; // ko/en 없으면 패스
+
+    var html = document.documentElement;
+    var current = (html.getAttribute('lang') || '').toLowerCase();
+
+    if (current !== desired) {
+      // lang 속성 맞추고, 최초 1회만 새로고침
+      html.setAttribute('lang', desired);
+      if (!sessionStorage.getItem('lang_fix_reloaded')) {
+        sessionStorage.setItem('lang_fix_reloaded', '1');
+        location.reload();
+      }
+    } else {
+      // 언어가 이미 맞으면 플래그 해제(다음 방문 대비)
+      sessionStorage.removeItem('lang_fix_reloaded');
+    }
+  })();
+</script>
+
 
 
 </body>
