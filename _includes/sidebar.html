@@ -323,12 +323,45 @@
 
 
 	document.addEventListener('DOMContentLoaded', function () {
+		const path = window.location.pathname;
+
+		// URL에서 언어 감지 (/ko/... or /en/...)
+		let urlLang = null;
+		if (/\/ko(\/|$)/.test(path)) {
+			urlLang = 'ko';
+		} else if (/\/en(\/|$)/.test(path)) {
+			urlLang = 'en';
+		}
+
+		// ko/en 둘 다 없으면 건들지 않음
+		if (urlLang) {
+			const currentLang = localStorage.getItem('lang');
+
+			// URL에서 읽은 언어랑 localStorage 언어가 다르면 동기화
+			if (currentLang !== urlLang) {
+				localStorage.setItem('lang', urlLang);
+
+				// 무한 새로고침 방지: 이 탭에서 한 번만 새로고침
+				if (!sessionStorage.getItem('langSyncedFromUrl')) {
+					sessionStorage.setItem('langSyncedFromUrl', '1');
+					window.location.reload();
+					return;
+				}
+			}
+		}
+
+		// 한 번 새로고침 끝났으면 플래그 제거 (다음 페이지에서도 다시 체크는 하되, 언어 같으면 새로고침 없음)
+		sessionStorage.removeItem('langSyncedFromUrl');
+
+		// 최종 lang 결정 (URL → localStorage 반영된 값)
 		const storedLang = localStorage.getItem('lang') || 'ko';
 		updatePageLanguage(storedLang);
 
+		// 버튼 이벤트 그대로 유지
 		document.getElementById('lang-kr')?.addEventListener('click', () => setActiveLang('ko'));
 		document.getElementById('lang-en')?.addEventListener('click', () => setActiveLang('en'));
 	});
+
 </script>
 
 
