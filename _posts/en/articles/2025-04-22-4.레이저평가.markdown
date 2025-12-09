@@ -45,6 +45,9 @@ Additionally, lasers offer extremely high spatial accuracy, enabling precise tar
 QRT is the only provider in Korea with extensive experience in laser-based radiation hardness evaluation. Using a femtosecond pulsed laser system, QRT offers versatile evaluation capabilities supporting both Single Photon Absorption (SPA) and Two Photon Absorption (TPA) methods. We provide services for alternative radiation hardness testing of semiconductors and design validation of radiation-tolerant semiconductor devices.
 
 
+### SEL Screening & Error Rate
+
+SEE (Single Event Effect) testing is a key method for quantitatively evaluating a device’s sensitivity to error occurrence and its radiation hardness performance. By observing laser-induced Single Event Upset (SEU) phenomena or performing SEL (Single Event Latch-up) screening, cross-section values are derived. These cross sections are then used to determine the LETL (Linear Energy Transfer threshold), which enables prediction and estimation of error rates in actual space or radiation environments.
 
 ### Sensitive Area Analysis
 

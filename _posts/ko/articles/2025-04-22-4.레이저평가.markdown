@@ -40,6 +40,8 @@ QRT는 다년간의 레이저 내방사선 평가 수행 경험을 보유하고 
 펨토초(femto-second) 펄스 레이저 시스템을 활용해, 단일 광자 흡수(SPA, Single Photon Absorption)는 물론 두 광자 흡수(TPA, Two Photon Absorption) 방식까지 모두 구현 가능한 다목적 레이저 평가 기술을 보유하고 있습니다.
 QRT에서는 레이저를 이용한 반도체의 내방사선 대체평가와 내방사선 반도체의 설계 검증을 진행하실 수 있습니다.
 
+### SEL Screening & Error Rate
+SEE (Single Event Effect) 평가는 디바이스의 에러 발생 민감도와 내방사선 성능을 정량적으로 확인할 수 있는 핵심 시험입니다. 레이저 조사를 통해 발생하는 Single Event Upset (SEU)현상을 관측하거나 SEL Screening을 통하여 Cross-Section (단면적) 값을 도출합니다. 이 Cross-Section은 LETL (Linear Energy Transfer Threshold) 산출에 사용되며, 이를 통해 실제 우주 환경 또는 방사선 환경에서의 오류율(Error Rate)을 예측하여 제공합니다.
 
 ### 회로 민감 영역 분석
 QRT의 평가 장비는 나노미터 단위로 제어 가능한 고정밀 XYZ 스테이지를 통해, 칩의 특정 좌표에 레이저를 정밀하게 조사할 수 있습니다.

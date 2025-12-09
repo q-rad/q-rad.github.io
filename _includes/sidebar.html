@@ -3,12 +3,13 @@
 
 <div class="sidebar-item sidebar-header">
 	<div class="sidebar-brand">
-		<!-- 로고와 제목을 포함한 링크   -->
-		<a href="/" class="sidebar-logo">
-			<img src="{{ '/assets/logo2.webp' | relative_url }}" alt="Logo">
-			<!--span>{{ site.title }}</span-->
-		</a>
-	</div>
+	<a href="/" class="sidebar-logo">
+		<img src="{{ '/assets/laser_logo2.png' | relative_url }}" alt="Logo">
+		<span class="logo-by-qrt"><em>By QRT</em></span>
+		<!--span>{{ site.title }}</span-->
+	</a>
+</div>
+
 	<p class="lead">{{ site.description }}</p>
 	{%- if social.github -%}
 	<a rel="me" href="https://github.com/{{ social.github | cgi_escape | escape }}"
@@ -17,6 +18,13 @@
 			<use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}" />
 		</svg></a></li>
 	{%- endif -%}
+</div>
+
+<!-- 언어 선택 버튼 (데스크탑 전용) -->
+<div id="lang-switch" style="text-align: center; margin-top:10px ;">
+	<span id="lang-kr" class="lang-toggle active-lang" style="cursor: pointer; margin-right: 8px;">KR</span>
+	<span class="lang-divider" style="margin: 0 6px;">|</span>
+	<span id="lang-en" class="lang-toggle" style="cursor: pointer; margin-left: 8px;">EN</span>
 </div>
 
 
@@ -124,12 +132,7 @@
 </div>
 
 
-<!-- 언어 선택 버튼 (데스크탑 전용) -->
-<div id="lang-switch" style="text-align: center; margin: 10px 0;">
-	<span id="lang-kr" class="lang-toggle active-lang" style="cursor: pointer; margin-right: 8px;">KR</span>
-	<span class="lang-divider" style="margin: 0 6px;">|</span>
-	<span id="lang-en" class="lang-toggle" style="cursor: pointer; margin-left: 8px;">EN</span>
-</div>
+
 
 <script>
 	function updatePageLanguage(lang) {
@@ -322,6 +325,7 @@
 	}
 
 
+	// 페이지 로드 시 언어 변수 초기화
 	document.addEventListener('DOMContentLoaded', function () {
 		const path = window.location.pathname;
 
@@ -373,7 +377,7 @@
 </div>
 
 <!-- 검색 입력창 (floating label 적용) -->
-<div class="sidebar-item sidebar-search-input" style="padding: 10px;">
+<div class="sidebar-item sidebar-search-input" style="padding: 0 10px 10px;">
 	<div class="floating-label-input">
 		<input type="text" id="search-input" required placeholder=" " title="여기에 검색어를 입력하세요" />
 		<label for="search-input">Search</label>
@@ -399,21 +403,21 @@
 
 <!-- 검색 패널 끝 -->
 
-<br>
+<div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
+	<p>
+		<a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
+			<img src="{{ '/assets/logo.png' | relative_url }}" alt="QRT Logo"
+				style="height: 60px; vertical-align: middle;">
+		</a>
+	</p>
+</div>
+
 <p class="visual-sub-txt">You Dream, <br><span class="m-none">&nbsp;&nbsp;&nbsp;</span> We Deliver!</p>
 <!--div class="sidebar-item sidebar-footer">
 	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
 </div-->
 
-<div class="sidebar-item sidebar-footer" style="font-size: 0.8em; text-align: center; margin-top: 20px;">
-	<p>
-		Everything about LASER SEE test at&nbsp&nbsp
-		<a href="https://www.qrtkr.com" target="_blank" rel="noopener noreferrer">
-			<img src="{{ '/assets/logo.png' | relative_url }}" alt="QRT Logo"
-				style="height: 20px; vertical-align: middle;">
-		</a>
-	</p>
-</div>
+
 
 <div class="sidebar-footer" style="text-align: center; font-size: 0.8em; margin-top: 20px; color: #888;">
 	<p>&copy; {{ site.time | date: "%Y" }} QRT Inc. All rights reserved.</p>

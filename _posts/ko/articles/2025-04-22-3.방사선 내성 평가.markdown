@@ -50,7 +50,7 @@ order: 2001
 QRT에서는 다음과 같은 방사선 평가 대행 서비스를 진행하고 있습니다.
 <ul class="qrt-list">
   <li>Total Ionizing Dose (TID), Displacement Damage (DD), Single Event Effects (SEE) 의 평가 대행</li>
-  <li>Pulsed Laser SEE Test</li>
+  <li>Pulsed Laser SEE Test & SEL Screening</li>
   <li>고객 요구에 최적화된 평가용 보드 제작</li>
 </ul>
 <div class="qrt-button-wrapper">

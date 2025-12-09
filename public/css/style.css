@@ -372,6 +372,11 @@ footer {
 	font-family: 'Ubuntu';
 }
 
+.sidebar-logo {
+  position: relative;
+  display: inline-block;
+}
+
 .sidebar-logo img {
 	height: 180px;
 	max-width: 100%;
@@ -382,6 +387,23 @@ footer {
 	/* 이미지 비율 유지 */
 	/* object-fit: cover; */
 	/* 이미지 비율 유지하면서 잘라냄 */
+}
+
+@media (max-width: 576px) {
+	.logo-by-qrt {
+		display: none;
+	}
+}
+
+.logo-by-qrt {
+  position: absolute;
+  right: 4px;    /* 필요하면 값 조정해서 딱 맞게 */
+  bottom: -3px;
+  font-size: 1.3rem;
+  font-style: italic;   /* 이탤릭체 */
+  /* 색깔은 취향대로 */
+  color: #ccc;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sidebar-footer {
@@ -485,10 +507,10 @@ table td {
 		display: flex;
 		align-items: center;
 		/* 세로 중앙 */
-		justify-content: flex-start;
+		justify-content: flex-start; 
 		width: 100%;
 		margin: 0;
-		padding: 18px 10px;
+		padding: 8px 10px;
 		/* 좌우 적당한 여백 */
 		gap: 8px;
 		/* 로고/텍스트 간격 */
@@ -539,7 +561,7 @@ table td {
 	}
 
 	.sidebar-logo img {
-		height: 32px !important;
+		height: 40px !important;
 		/* 살짝 키워도 OK */
 		width: auto !important;
 		/* 비율 유지 */
