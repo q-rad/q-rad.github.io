@@ -26,7 +26,7 @@ order: 2120
 
 <!-- 중앙 정렬 이미지 -->
 <p align="center"> 
-  <img src="/assets/Chapter-2/ND filter.png" alt="ND filter">
+  <img src="/assets/Chapter-2/ND filter.jpg" alt="ND filter" style="width: 40%; max-width: 1000px;">
 </p>
 
 <!-- 이미지 설명 -->
