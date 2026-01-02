@@ -23,12 +23,19 @@
                 {%- if site.manuals.size > 0 -%}
                 <ul class="post-list" id="manual-list">
                     {%- assign sorted_manuals = site.manuals | sort: "order" -%}
-                    {%- assign previous_hundreds = 0 -%}
+                    {%- assign previous_hundreds = nil -%}
                     {%- for manual in sorted_manuals -%}
                     {%- assign current_hundreds = manual.order | divided_by: 1000 | floor -%}
-                    {%- if previous_hundreds != current_hundreds and forloop.index != 1 -%}
-                    <hr>
+
+                    {%- if manual.title contains "Chapter" or manual.title contains "챕터" -%}
+                    {%- continue -%}
                     {%- endif -%}
+
+
+                    {%- if previous_hundreds != nil and previous_hundreds != current_hundreds -%}
+                    <hr class="manual-divider post-category-{{ manual.categories }}">
+                    {%- endif -%}
+
 
                     {%- assign thousands = manual.order | modulo: 10000 | divided_by: 1000 | floor -%}
                     {%- assign hundreds = manual.order | modulo: 1000 | divided_by: 100 | floor -%}
@@ -51,9 +58,24 @@
                         <!-- 기본 -->
                     <li class="post-list-item post-category-{{ manual.categories }}" style="padding-left: 60px;">
                         {%- endif -%}
-                        <a class="post-link" href="{{ manual.url | relative_url }}">
+                        {%- assign rp = manual.relative_path -%}
+
+                        {%- if rp contains "manuals_lite_kor/Chapter 1/" -%}
+                        {%- assign chapter_url = "/manuals_lite_kor/ch1/" -%}
+                        {%- elsif rp contains "manuals_lite_kor/Chapter 2/" -%}
+                        {%- assign chapter_url = "/manuals_lite_kor/ch2/" -%}
+                        {%- elsif rp contains "manuals_lite_kor/Chapter 3/" -%}
+                        {%- assign chapter_url = "/manuals_lite_kor/ch3/" -%}
+                        {%- elsif rp contains "manuals_lite_kor/Chapter 4/" -%}
+                        {%- assign chapter_url = "/manuals_lite_kor/ch4/" -%}
+                        {%- else -%}
+                        {%- assign chapter_url = manual.url | relative_url -%}
+                        {%- endif -%}
+
+                        <a class="post-link" href="{{ chapter_url | relative_url }}#m{{ manual.order }}">
                             {{ manual.title | escape }}
                         </a>
+
                     </li>
 
                     {%- assign previous_hundreds = current_hundreds -%}
@@ -82,9 +104,9 @@
                 }
 
                 // 매뉴얼 리스트 필터링
-                manualListItems.forEach(item => {
-                    if (!item.classList.contains(`post-category-${hash}`)) {
-                        item.style.display = "none";
+                manualDividers.forEach(divider => {
+                    if (!divider.classList.contains(`post-category-${hash}`)) {
+                        divider.style.display = "none";
                     }
                 });
             }
@@ -96,7 +118,7 @@
                     window.location.pathname.startsWith('/en/');
                 manualNote.style.display = isEnglish ? 'block' : 'none';
             }
-            
+
         });
     </script>
 </body>
