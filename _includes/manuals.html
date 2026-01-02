@@ -89,38 +89,38 @@
     </article>
 
     <script>
-        // URL의 해시값을 가져와 제목과 필터링에 사용
-        document.addEventListener("DOMContentLoaded", function () {
-            const hash = window.location.hash.substring(1); // 해시값 가져오기 (lite_kor)
-            const categoryNameElement = document.getElementById("category-name");
-            const manualListItems = document.querySelectorAll(".post-list-item");
+document.addEventListener("DOMContentLoaded", function () {
+  const hash = window.location.hash.substring(1);
+  const categoryNameElement = document.getElementById("category-name");
+  const manualListItems = document.querySelectorAll(".post-list-item");
+  const manualDividers = document.querySelectorAll(".manual-divider"); // ✅ 추가(에러 방지)
 
-            if (hash) {
-                // 제목을 해시값에 따라 변경
-                if (hash === "lite_kor") {
-                    categoryNameElement.textContent = "QRT-LITE (KOR)";
-                } else {
-                    categoryNameElement.textContent = hash;
-                }
+  if (hash) {
+    if (hash === "lite_kor") categoryNameElement.textContent = "QRT-LITE (KOR)";
+    else categoryNameElement.textContent = hash;
 
-                // 매뉴얼 리스트 필터링
-                manualDividers.forEach(divider => {
-                    if (!divider.classList.contains(`post-category-${hash}`)) {
-                        divider.style.display = "none";
-                    }
-                });
-            }
-            // 영어(en)일 때만 경고 배너 노출
-            const manualNote = document.getElementById('manual-lang-note');
-            if (manualNote) {
-                const isEnglish =
-                    (localStorage.getItem('lang') === 'en') ||
-                    window.location.pathname.startsWith('/en/');
-                manualNote.style.display = isEnglish ? 'block' : 'none';
-            }
+    // 리스트 + 구분선 둘 다 필터링
+    manualListItems.forEach(item => {
+      if (!item.classList.contains(`post-category-${hash}`)) item.style.display = "none";
+    });
+    manualDividers.forEach(divider => {
+      if (!divider.classList.contains(`post-category-${hash}`)) divider.style.display = "none";
+    });
+  }
 
-        });
-    </script>
+  // ✅ 영어(en)일 때만 경고 배너 노출
+  const manualNote = document.getElementById("manual-lang-note");
+  if (manualNote) {
+    const lang = (localStorage.getItem("lang") || "").toLowerCase();
+    const isEnglish =
+      lang === "en" || lang.startsWith("en-") ||
+      window.location.pathname.includes("/en/"); // ✅ startsWith -> includes
+
+    manualNote.style.display = isEnglish ? "block" : "none";
+  }
+});
+</script>
+
 </body>
 
 </html>

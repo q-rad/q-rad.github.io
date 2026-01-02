@@ -7,7 +7,13 @@ layout: default
     <div class="post-title">
       <span>{{ page.title }}</span>
     </div>
+
+    <div id="manual-lang-note" role="note" style="display:none;margin-top:8px;padding:10px 12px;border-radius:6px;
+    background:#fff8e1;border:1px solid #ffe0a1;color:#644a00;font-size:0.95rem;">
+      This manual is currently available only in Korean.
+    </div>
   </header>
+
 
   {%- if page.url contains "/manuals_lite_kor/ch1/" or page.url contains "/manuals_lite_kor/ch2/" or page.url contains
   "/manuals_lite_kor/ch3/" or page.url contains "/manuals_lite_kor/ch4/" -%}
@@ -202,9 +208,15 @@ layout: default
         btn.textContent = toc.classList.contains("collapsed") ? "▼" : "▲";
       };
 
-      // 기본: 펼침 / 저장값 있으면 복원
+      // ✅ 기본: 접힘 (저장값이 없으면 1로 세팅)
+      if (localStorage.getItem(KEY) === null) {
+        localStorage.setItem(KEY, "1");
+      }
+
+      // 저장값 복원
       if (localStorage.getItem(KEY) === "1") toc.classList.add("collapsed");
       applyIcon();
+
 
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -212,6 +224,19 @@ layout: default
         localStorage.setItem(KEY, toc.classList.contains("collapsed") ? "1" : "0");
         applyIcon();
       });
+      // ✅ 영어(en)일 때만 경고 배너 노출 (챕터 페이지에서도)
+      const manualNote = document.getElementById('manual-lang-note');
+      if (manualNote) {
+        const lang = (localStorage.getItem('lang') || '').toLowerCase();
+        const isEnglish =
+          lang === 'en' || lang.startsWith('en-') ||
+          window.location.pathname.includes('/en/'); // baseurl 있어도 안전
+
+        manualNote.style.display = isEnglish ? 'block' : 'none';
+      }
+
+
+
     });
   </script>
   {%- endif -%}
