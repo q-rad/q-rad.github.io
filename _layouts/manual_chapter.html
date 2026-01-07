@@ -152,15 +152,11 @@ layout: default
       font-weight: 800;
     }
 
-
-
     /* ✅ 접히면 옆으로(가로) 더 작게 */
     .floating-manual-toc.collapsed {
       width: 130px;
-      /* ← 접혔을 때 폭 (원하는 값으로) */
     }
 
-    /* 접힌 상태에서 토글버튼은 남기고, 글자는 줄이거나 숨김 */
     .floating-manual-toc.collapsed .toc-head-title {
       font-size: 0.85rem;
       white-space: nowrap;
@@ -168,13 +164,6 @@ layout: default
       text-overflow: ellipsis;
     }
 
-    /* 접혔을 때는 리스트 숨김(이미 있으면 그대로) */
-    .floating-manual-toc.collapsed .toc-list {
-      display: none;
-    }
-
-
-    /* ✅ 상하 접기: 리스트만 숨기고 헤더는 유지 */
     .floating-manual-toc.collapsed .toc-list {
       display: none;
     }
@@ -190,10 +179,11 @@ layout: default
     @media (min-width: 1101px) {
       .post-content {
         padding-left: 0px;
-        /* 목차가 본문을 덮으면 주석 해제 */
         /* padding-right: 240px; */
       }
     }
+
+
   </style>
 
   <script>
@@ -213,10 +203,8 @@ layout: default
         localStorage.setItem(KEY, "1");
       }
 
-      // 저장값 복원
       if (localStorage.getItem(KEY) === "1") toc.classList.add("collapsed");
       applyIcon();
-
 
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
@@ -224,19 +212,17 @@ layout: default
         localStorage.setItem(KEY, toc.classList.contains("collapsed") ? "1" : "0");
         applyIcon();
       });
+
       // ✅ 영어(en)일 때만 경고 배너 노출 (챕터 페이지에서도)
       const manualNote = document.getElementById('manual-lang-note');
       if (manualNote) {
         const lang = (localStorage.getItem('lang') || '').toLowerCase();
         const isEnglish =
           lang === 'en' || lang.startsWith('en-') ||
-          window.location.pathname.includes('/en/'); // baseurl 있어도 안전
+          window.location.pathname.includes('/en/');
 
         manualNote.style.display = isEnglish ? 'block' : 'none';
       }
-
-
-
     });
   </script>
   {%- endif -%}
@@ -244,20 +230,25 @@ layout: default
   <div class="fade-in">
     <div class="post-content">
       {%- assign sorted_manuals = site.manuals | sort: "order" -%}
+      {%- assign printed = 0 -%}
 
       {%- for manual in sorted_manuals -%}
       {%- assign rp = manual.relative_path | downcase -%}
       {%- assign target = page.chapter_folder | downcase -%}
 
-      {%- comment -%}
-      chapter_folder 예: "manuals_lite_kor/chapter 1/"
-      relative_path 안에 해당 폴더가 포함된 문서만 출력
-      {%- endcomment -%}
       {%- unless rp contains target -%}{%- continue -%}{%- endunless -%}
 
       {%- assign hundreds = manual.order | modulo: 1000 | divided_by: 100 | floor -%}
       {%- assign tens = manual.order | modulo: 100 | divided_by: 10 | floor -%}
       {%- assign ones = manual.order | modulo: 10 -%}
+
+      {%- comment -%}
+      ✅ 모든 포스트 사이 hr 넣되,
+      1.1.1.1 같은 leaf(ones != 0) 레벨은 제외 => ones == 0일 때만 hr
+      {%- endcomment -%}
+      {%- if printed > 0 and ones == 0 -%}
+      <hr class="gray-hr">
+      {%- endif -%}
 
       <!-- ✅ 앵커(목차에서 #mXXXX로 점프) -->
       <div id="m{{ manual.order }}" style="scroll-margin-top:90px;"></div>
@@ -282,6 +273,8 @@ layout: default
           margin-top: 8px;">
         {{ manual.content | markdownify }}
       </div>
+
+      {%- assign printed = printed | plus: 1 -%}
       {%- endfor -%}
     </div>
   </div>
