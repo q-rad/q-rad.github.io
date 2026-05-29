@@ -104,7 +104,7 @@ GEO 궤도는 특히 태양 플레어(solar flare) 발생 시 높은 방사선 �
 
 
 참고 문헌
->Dalehite, K. A., & Xapsos, M. A. (2022). Mission Radiation Environment Modeling and Analysis (NASA STI/TP-20220016301). NASA Goddard Space Flight Center.
+>R. L. Alena, Mission Radiation Environment Modeling and Analysis: Avionics Trade Study for GCD Radiation-Tolerant Neuromorphic Computing, NASA Technical Memorandum, NASA/TM-20220011775, Aug. 2022. [Online]. Available: https://ntrs.nasa.gov/api/citations/20220011775/downloads/Mission_Radiation_Modeling_STI.pdf.
 
 
 <br>
