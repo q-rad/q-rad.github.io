@@ -91,17 +91,17 @@ NASA’s RHA guidance highlights system-level tolerance as a core activity. Even
 
 <br><br>
 
->[1] U.S. Department of Defense, MIL-PRF-38535: Performance Specification, Integrated Circuits (Microcircuits) Manufacturing, General Specification for, Defense Logistics Agency (DLA), Fort Belvoir, VA, USA, 2021.
+> [1] U.S. Department of Defense, *MIL-PRF-38535: Performance Specification, Integrated Circuits (Microcircuits) Manufacturing, General Specification for*, Defense Logistics Agency (DLA).
 
->[2] U.S. Department of Defense, MIL-STD-883: Test Method Standard, Microcircuits, Method 1019, “Ionizing Radiation (Total Dose) Test Procedure,” 2020.
+> [2] U.S. Department of Defense, *MIL-STD-883, Part 1: Environmental Test Methods for Microcircuits, Test Methods 1000–1999*, Change 2, 19 Apr. 2024; Administrative Notice 1, 3 Jul. 2024. Method 1019, “Ionizing Radiation (Total Dose) Test Procedure.”
 
->[3] NASA, “EEE-INST-002: Instructions for EEE Parts Selection, Screening, Qualification, and Derating,” NASA Office of Safety and Mission Assurance, Washington, DC, USA, Rev. D, 2019.
+> [3] NASA Goddard Space Flight Center, *EEE-INST-002: Instructions for EEE Parts Selection, Screening, Qualification, and Derating*, Addendum 1, Apr. 2008.
 
->[4] D. A. Pellish, “Radiation Engineering for Designers,” NASA Radiation Effects and Analysis Group (REAG) Training Material, NASA Goddard Space Flight Center, Greenbelt, MD, USA, 2018.
+> [4] D. A. Pellish, *Radiation Engineering for Designers*, NASA Radiation Effects and Analysis Group (REAG) Training Material, NASA Goddard Space Flight Center, Greenbelt, MD, USA, 2018.
 
->[5] NASA, “Radiation Hardness Assurance (RHA) Standard Development and Guidelines,” NASA Electronic Parts and Packaging (NEPP) Program / NASA Engineering and Safety Center (NESC), Technical Presentation, 2020.
+> [5] NASA Electronic Parts and Packaging (NEPP) Program / NASA Engineering and Safety Center (NESC), *Radiation Hardness Assurance (RHA) Standard Development and Guidelines*, Technical Presentation, 2020.
 
->[6] European Cooperation for Space Standardization (ECSS), ECSS-Q-ST-60-15C, Space Product Assurance - Radiation Hardness Assurance - EEE Components, ESA Requirements and Standards Division, Noordwijk, The Netherlands, 2013.
+> [6] European Cooperation for Space Standardization (ECSS), *ECSS-Q-ST-60-15C Rev.1: Radiation Hardness Assurance*, 20 Mar. 2025.
 
 {% assign current_order = page.order | plus: 0 %}
 

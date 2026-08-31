@@ -104,7 +104,7 @@ GEO 궤도는 특히 태양 플레어(solar flare) 발생 시 높은 방사선 �
 
 
 참고 문헌
->R. L. Alena, Mission Radiation Environment Modeling and Analysis: Avionics Trade Study for GCD Radiation-Tolerant Neuromorphic Computing, NASA Technical Memorandum, NASA/TM-20220011775, Aug. 2022. [Online]. Available: https://ntrs.nasa.gov/api/citations/20220011775/downloads/Mission_Radiation_Modeling_STI.pdf.
+>[1] R. L. Alena, Mission Radiation Environment Modeling and Analysis: Avionics Trade Study for GCD Rad-Neuro Project, NASA Technical Memorandum, NASA/TM-20220011775, NASA Ames Research Center, Aug. 2022.
 
 
 <br>

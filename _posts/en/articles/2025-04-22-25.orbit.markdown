@@ -98,7 +98,8 @@ At GEO altitude, trapped protons are minimal, but relativistic electrons, SPE, a
 <br>
 
 **References**  
->R. L. Alena, Mission Radiation Environment Modeling and Analysis: Avionics Trade Study for GCD Radiation-Tolerant Neuromorphic Computing, NASA Technical Memorandum, NASA/TM-20220011775, Aug. 2022. [Online]. Available: https://ntrs.nasa.gov/api/citations/20220011775/downloads/Mission_Radiation_Modeling_STI.pdf.
+>[1] R. L. Alena, Mission Radiation Environment Modeling and Analysis: Avionics Trade Study for GCD Rad-Neuro Project, NASA Technical Memorandum, NASA/TM-20220011775, NASA Ames Research Center, Aug. 2022.
+
 
 
 <!-- 관련 글 자동화 -->

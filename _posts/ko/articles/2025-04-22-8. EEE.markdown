@@ -164,10 +164,9 @@ NASA-STD-8739.11에는 Up-Screening과 관련된 항목이 명시되어 있지�
 
 >[2] NASA Goddard Space Flight Center, EEE-INST-002: Instructions for EEE Parts Selection, Screening, Qualification, and Derating, Rev. D, Greenbelt, MD, USA, Apr. 2018.
 
->[3] ECSS, ECSS-Q-ST-60-13C: Commercial Electrical, Electronic and Electromechanical (EEE) Components, 21 Oct. 2013.
+>[3] European Cooperation for Space Standardization (ECSS), ECSS-Q-ST-60-13C Rev.2: Commercial Electrical, Electronic and Electromechanical (EEE) Components, 30 Apr. 2025.
 
->[4] ECSS, ECSS-Q-ST-60C Rev.2: Space Product Assurance – EEE Components, 21 Oct. 2013.
-
+>[4] European Cooperation for Space Standardization (ECSS), ECSS-Q-ST-60C Rev.4: Electrical, Electronic and Electromechanical (EEE) Components, 30 Apr. 2025.
 
 
 

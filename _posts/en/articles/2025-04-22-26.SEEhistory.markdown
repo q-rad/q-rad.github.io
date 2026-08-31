@@ -9,40 +9,183 @@ sub_category: Radiation Effects & Hardness Test
 order: 2013
 ---
 
-Single Event Effects (SEE) are temporary or permanent malfunctions in semiconductor devices caused by ionizing radiation such as cosmic rays, alpha particles, or heavy ions. Manifestations range from soft errors like Single Event Upsets (SEUs) to catastrophic failures. The SEE concept emerged gradually in the mid-20th century and was reinforced by decades of experiments and field observations. This post traces the historical development of SEE-particularly SEU-through key publications and technical milestones.
 
-### 1950s: First Anomalies Observed
+**Single Event Effects (SEE)** refer to a class of radiation-induced phenomena that occur when a single energetic particle deposits energy in a sensitive region of a semiconductor device. Representative SEE mechanisms include **Single Event Upset (SEU)**, in which the logical state of a memory cell or flip-flop is temporarily changed; **Single Event Transient (SET)**, which produces a transient pulse in a circuit output; **Single Event Latch-up (SEL)**, which activates a parasitic conduction path and may result in excessive current; and destructive events such as **Single Event Burnout (SEB)** and **Single Event Gate Rupture (SEGR)** in power semiconductor devices.
 
-U.S. atmospheric nuclear tests in the 1950s produced unexplained electrical disturbances in nearby instrumentation, even when no mechanical damage was present. Reports from large-yield series such as Operation Castle (1954-1957) noted intermittent glitches in high-speed electronics. Although poorly understood at the time, these observations are now viewed as early hints of radiation-induced upsets.
+Today, these phenomena are collectively treated as a major field of radiation reliability. However, the SEE concept did not emerge fully formed. As semiconductor devices became smaller and space exploration expanded, seemingly unrelated electronic anomalies were gradually connected to a common physical mechanism. By the 1970s, experimental and theoretical studies had established the foundations of what is now known as SEE [1], [2].
 
-### 1960s: Unexplained Errors in Space Electronics
+### 1950s: Early Anomalies Later Associated with SEE
 
-With the acceleration of the space race, sporadic faults were recorded in satellite and spacecraft electronics. Organizations including NASA and industry partners documented repeat anomalies whose causes were unclear-often attributed to design limitations or unknown environmental factors. These incidents later became touchstones once SEU mechanisms were recognized.
+The historical background of SEE can be traced back to the era of atmospheric nuclear testing in the 1950s. During U.S. nuclear test programs conducted between approximately 1954 and 1957, abnormal signals and malfunctions were observed in electronic instrumentation exposed to intense radiation environments. These events were later discussed in historical reviews of SEE as early examples of radiation-induced electronic anomalies [2].
 
-### 1970s to 2000: Conceptualization and Experimental Verification
+However, it would not be accurate to classify these observations directly as modern **single-particle SEE or SEU events**.
 
-The 1970s marked the era when the term Single Event Upset (SEU) first emerged and was scientifically established. The anomaly of the Hughes satellite in 1972 brought attention to circuit failures caused by high-energy particles, and this was numerically proven in the first SEU paper in 1975. Subsequently, through ground-based errors in the Cray-1 supercomputer, alpha-particle induced SEUs, and heavy ion experiments, it was confirmed that SEEs also occur in terrestrial environments. This led to the widespread adoption of the term 'SEU' within academia and industry.
+Nuclear detonations produce extremely intense transient radiation fields, making it difficult to determine whether the observed electronic disturbances were caused by individual particles or by collective effects associated with a high-intensity radiation pulse [2].
 
-### 2000s and Beyond: Large-Scale Systems and the Satellite Boom
+Therefore, the electronic anomalies reported during the 1950s are better regarded as **historical precursors to the SEE concept rather than direct experimental proof of single-event phenomena**.
 
-With the growth of large-scale data centers and the increase in memory density since the 2000s, the possibility of soft errors has risen even in terrestrial environments. Simultaneously, due to the rapid growth of space observation and commercial satellite industries, interest in SEE (Single Event Effects) in space environments has surged. Recently, thousands of satellites are launched annually, making the selection of SEE-hardened semiconductor devices and the evaluation of their reliability a critical issue.
+### 1960s: Device Scaling and Theoretical Recognition of Cosmic-Ray Effects
+
+During the 1960s, semiconductor devices became progressively smaller and more highly integrated. As a result, researchers began to consider whether cosmic radiation could eventually influence the operation of electronic devices.
+
+In 1962, Wallmark and Marcus analyzed the minimum size and maximum packing density of semiconductor devices and noted that **cosmic-ray effects could become one of the physical limitations of highly miniaturized semiconductor devices** [1].
+
+Although a modern SEU model had not yet been established, this work became an important theoretical precursor to the later understanding that a relatively small amount of radiation-induced charge could become sufficient to change the logical state of a semiconductor circuit.
+
+At the same time, as space exploration accelerated, unexplained transient anomalies were increasingly observed in spacecraft and satellite electronics. At that stage, it was often difficult to distinguish among circuit design problems, spacecraft charging, electromagnetic interference, and radiation-induced effects [2].
+
+### 1970s: Experimental Establishment of SEU
+
+The 1970s marked a major turning point in the history of SEE.
+
+In 1972, a Hughes satellite experienced a loss of communication with the ground for approximately **96 seconds**, after which normal operation resumed. Hughes engineers analyzed the spacecraft's Attitude Control Electronics (ACE) and found that conventional circuit failure mechanisms alone could not fully explain the anomaly.
+
+The researchers investigated the possibility that an energetic cosmic-ray particle had deposited charge in a semiconductor device and temporarily changed the state of a digital circuit [2].
+
+This work ultimately led to the 1975 publication by D. Binder, E. C. Smith, and A. B. Holman titled **“Satellite Anomalies from Galactic Cosmic Rays”** [3].
+
+The paper analyzed abnormal triggering events observed in communication satellites and proposed that some of them could be caused by **Galactic Cosmic Rays (GCRs)**. The authors examined the probability that energetic particles could deposit sufficient energy in a semiconductor device and compared this with anomaly rates observed in orbit.
+
+The study is widely regarded as **one of the earliest systematic scientific investigations linking single-particle cosmic-ray interactions to digital circuit upsets in space** [2], [3].
+
+### 1976: The Earliest Recorded Ground-Level SEU in a Cray-1
+
+One of the most important historical cases demonstrating that SEUs are not limited to the space environment involved the **Cray-1 computer at Los Alamos National Laboratory**.
+
+A Cray-1 installed at Los Alamos in 1976 recorded **152 memory parity errors during approximately 25 weeks of operation** [4].
+
+At the time, the physical cause of these errors was not identified, and they were treated simply as memory faults. Decades later, Eugene Normand and colleagues reexamined the original operational data together with the characteristics of the Fairchild 10415 bipolar SRAM used in the Cray-1 and the atmospheric neutron environment at Los Alamos.
+
+Their analysis showed that the observed bit-flip rate was **consistent with SEUs caused by secondary atmospheric neutrons generated by cosmic rays** [4].
+
+Normand et al. therefore identified these 152 events as **the earliest known recorded ground-level single-event upsets in an operational electronic system**.
+
+In other words, the actual errors occurred in 1976, but their interpretation as atmospheric-neutron-induced SEUs was established only after a detailed reanalysis more than three decades later.
+
+### 1978–1979: Alpha-Particle and Cosmic-Ray Soft Errors
+
+Another major discovery was made in the semiconductor industry in the late 1970s.
+
+Timothy C. May and Murray H. Woods at Intel investigated unexplained soft errors occurring in dynamic random-access memories (DRAMs). Their work showed that **alpha particles emitted from trace radioactive contaminants, including uranium- and thorium-series impurities in semiconductor packaging materials, could generate sufficient charge in silicon to alter the state of a memory cell** [5], [6].
+
+Their 1979 paper, **“Alpha-Particle-Induced Soft Errors in Dynamic Memories,”** provided a more detailed physical explanation of this mechanism [6].
+
+This research demonstrated that SEU-like soft errors were not caused exclusively by energetic particles originating in space. They could also be produced by **radioactive contaminants within semiconductor packaging materials**.
+
+During the same period, James F. Ziegler and W. A. Lanford of IBM investigated the effect of cosmic-ray secondary particles on computer memories at ground level [7].
+
+Primary cosmic rays entering Earth's atmosphere interact with atmospheric nuclei and generate secondary particles such as neutrons, protons, and muons. Ziegler and Lanford quantitatively analyzed how these particles could produce sufficient charge in semiconductor memories to cause errors.
+
+They also showed that the cosmic-ray-induced error rate could increase with altitude [7].
+
+These studies formed an important foundation for later research into **terrestrial soft errors** in avionics, servers, memory systems, and large-scale computing infrastructure.
+
+### After 1979: Heavy-Ion Testing and the Establishment of SEE Evaluation Methods
+
+Once the hypothesis that a single energetic particle could trigger an electronic upset became established, researchers began using particle accelerators to reproduce and study these events under controlled conditions.
+
+In the late 1970s, accelerator facilities such as the 88-Inch Cyclotron and Bevalac at Lawrence Berkeley Laboratory were used to irradiate electronic devices with energetic heavy ions and directly observe memory-state changes [2].
+
+Experiments demonstrated that individual heavy ions could produce bit flips in certain DRAM and SRAM devices and that SEE sensitivity varied significantly depending on device technology and design.
+
+These studies contributed to the development of several quantities that remain fundamental to SEE testing today:
+
+* Linear Energy Transfer (LET)
+* Critical Charge (Qcrit)
+* SEE Cross Section
+* Threshold LET
+* Particle Fluence
+* On-Orbit Error Rate Prediction
+
+Among these, the **SEE cross section** became one of the most important parameters for quantifying device susceptibility to particle-induced events.
+
+By combining experimentally measured heavy-ion cross sections with models of the space radiation environment, engineers developed methods to estimate the expected SEU rate for electronic components during actual space missions [2], [8].
+
+### 2000s and Beyond: System-Level SEE Mitigation and Radiation Hardness Assurance
+
+Modern SEE concerns extend far beyond the simple reversal of a single memory bit.
+
+As semiconductor integration has increased and technologies such as FPGAs, SoCs, high-density memories, and advanced power semiconductor devices have become widely used in spacecraft, a broader range of SEE mechanisms must now be considered at the system level.
+
+Major SEE categories include:
+
+* Single Event Upset (SEU)
+* Multiple Cell Upset (MCU)
+* Single Event Transient (SET)
+* Single Event Functional Interrupt (SEFI)
+* Single Event Latch-up (SEL)
+* Single Event Burnout (SEB)
+* Single Event Gate Rupture (SEGR)
+
+In a spacecraft, a single SEE may result not only in a memory bit flip but also in a processor reset, FPGA configuration corruption, temporary loss of communication, system-level functional interruption, or permanent damage to a power semiconductor device.
+
+For this reason, modern spacecraft design requires SEE mitigation not only at the component level but also at the **system architecture level**.
+
+NASA identifies SEE as one of the major radiation-related risks that must be evaluated for Electrical, Electronic, and Electromechanical (EEE) components according to mission environment, operating conditions, and mission lifetime. NASA also emphasizes that neither commercial off-the-shelf (COTS) components nor radiation-hardened devices should automatically be assumed to be immune to all forms of radiation effects [9].
+
+Similarly, the European Cooperation for Space Standardization (ECSS), in **ECSS-Q-ST-60-15C Rev.1**, identifies the following three major radiation-effect categories that must be considered within a Radiation Hardness Assurance (RHA) program [10]:
+
+1. Total Ionizing Dose (TID)
+2. Total Non-Ionizing Dose (TNID) / Displacement Damage
+3. Single Event Effects (SEE)
+
+SEE testing has therefore evolved from an experimental radiation-physics topic into a fundamental reliability assessment activity used in component selection, qualification, and **Radiation Hardness Assurance for modern space systems**.
 
 <p align="center">
+
 <img src="/assets/Articles/Satellite.webp" style="width: 100%; max-width: 500px;" alt="Satellite">
+
 </p>
-<div align="center"> 
-<h5>View of the damaged Solar Maximum Mission Satellite from the 41-C Challenger</h5>
+
+<div align="center">
+
+<h5>Solar Maximum Mission Satellite during the STS-41C servicing mission</h5>
+
 </div>
+
+> Note: The image above does not show a satellite damaged by SEE. It is provided only as an example of a satellite operating in the space environment.
+
+### Historical Development of SEE Research
+
+The history of SEE did not begin with a single discovery. Instead, the field emerged gradually as multiple observations, theories, and experiments were connected over several decades.
+
+In the **1950s**, abnormal electronic behavior was observed in intense nuclear-radiation environments. In **1962**, researchers proposed that cosmic radiation could eventually become a physical limitation as semiconductor devices continued to shrink.
+
+The **1972 Hughes satellite anomaly and the 1975 study by Binder et al.** then provided an important scientific basis for the hypothesis that a single energetic cosmic-ray particle could alter the state of a digital circuit.
+
+The **152 memory parity errors recorded in the Cray-1 at Los Alamos in 1976** were later identified as atmospheric-neutron-induced ground-level SEUs.
+
+The **1978–1979 studies by May and Woods** demonstrated that alpha particles emitted from radioactive impurities in semiconductor packaging could also produce soft errors.
+
+During the same period, the work of Ziegler and Lanford quantitatively established the importance of cosmic-ray-induced terrestrial soft errors.
+
+Subsequent heavy-ion accelerator experiments directly reproduced single-particle-induced electronic upsets and provided the experimental basis for quantities such as **LET, critical charge, SEE cross section, fluence, and on-orbit SEE rate prediction**.
+
+Today, these concepts form a fundamental part of **Radiation Hardness Assurance for semiconductor devices and electronic systems used in space applications**.
 
 ### References
 
-> [1] D. Binder, E. C. Smith, and A. B. Holman, "Satellite anomalies from galactic cosmic rays," IEEE Transactions on Nuclear Science, vol. NS-22, no. 6, pp. 2675-2680, Dec. 1975. doi: 10.1109/TNS.1975.4328188  
-> [2] E. Normand et al., "First record of single-event upset on the ground, Cray-1 computer at Los Alamos in 1976," IEEE Transactions on Nuclear Science, vol. 57, no. 6, pp. 3114-3120, Dec. 2010.  
-> [3] T. C. May and M. H. Woods, "A new mechanism for soft errors in dynamic memories," in Proc. Int. Reliability Physics Symposium, 1978, pp. 33-40.  
-> [4] J. F. Ziegler and W. A. Lanford, "The effects of cosmic rays on computer memories," Science, vol. 206, no. 4420, pp. 776-788, Nov. 1979. doi: 10.1126/science.206.4420.776  
-> [5] LBNL, "First heavy ion SEE experiment conducted at 88-Inch Cyclotron," Lawrence Berkeley National Laboratory, Berkeley, CA, USA, 1979. [Online]. Available: https://en.wikipedia.org/wiki/Single-event_upset  
-> [6] M. Baze, “Single Event Effects (SEE) Tutorial,” Auburn University, presented at the Single Event Effects Conference, 2011. [Online]. Available: https://eng.auburn.edu  
-> [7] D. Alexander et al., “System-Level SEE Characterization and Modeling,” NASA Electronic Parts and Packaging (NEPP) Workshop, 2017. [Online]. Available: https://nepp.nasa.gov
+> [1] J. T. Wallmark and S. M. Marcus, “Minimum Size and Maximum Packing Density of Nonredundant Semiconductor Devices,” *Proceedings of the IRE*, vol. 50, no. 3, pp. 286–298, Mar. 1962, doi: 10.1109/JRPROC.1962.288108.
+
+> [2] E. L. Petersen, R. Koga, M. A. Shoga, J. C. Pickel, and W. E. Price, “The Single Event Revolution,” *IEEE Transactions on Nuclear Science*, vol. 60, no. 3, pp. 1824–1835, Jun. 2013, doi: 10.1109/TNS.2013.2248065.
+
+> [3] D. Binder, E. C. Smith, and A. B. Holman, “Satellite Anomalies from Galactic Cosmic Rays,” *IEEE Transactions on Nuclear Science*, vol. 22, no. 6, pp. 2675–2680, Dec. 1975, doi: 10.1109/TNS.1975.4328188.
+
+> [4] E. Normand, J. L. Wert, H. Quinn, G. Grider, P. Iwanchuk, J. Morrison, S. Michalak, S. Wender, and S. Johnson, “First Record of Single-Event Upset on Ground, Cray-1 Computer at Los Alamos in 1976,” *IEEE Transactions on Nuclear Science*, vol. 57, no. 6, pp. 3114–3120, Dec. 2010, doi: 10.1109/TNS.2010.2083687.
+
+> [5] T. C. May and M. H. Woods, “A New Physical Mechanism for Soft Errors in Dynamic Memories,” *Proceedings of the 16th Annual Reliability Physics Symposium*, pp. 33–40, 1978, doi: 10.1109/IRPS.1978.362815.
+
+> [6] T. C. May and M. H. Woods, “Alpha-Particle-Induced Soft Errors in Dynamic Memories,” *IEEE Transactions on Electron Devices*, vol. ED-26, no. 1, pp. 2–9, Jan. 1979, doi: 10.1109/T-ED.1979.19370.
+
+> [7] J. F. Ziegler and W. A. Lanford, “Effect of Cosmic Rays on Computer Memories,” *Science*, vol. 206, no. 4420, pp. 776–788, Nov. 1979, doi: 10.1126/science.206.4420.776.
+
+> [8] J. C. Pickel and J. T. Blandford, “Cosmic Ray Induced Errors in MOS Memory Cells,” *IEEE Transactions on Nuclear Science*, vol. NS-25, no. 6, 1978, doi: 10.1109/TNS.1978.4329508.
+
+> [9] NASA Engineering and Safety Center, “Mitigating Risks of Single-Event Effects in Space Applications,” *NASA Engineering and Safety Center Technical Bulletin No. 19-01-1*, NASA Technical Reports Server, 2021. Available: https://ntrs.nasa.gov/citations/20210024100
+
+> [10] European Cooperation for Space Standardization, “ECSS-Q-ST-60-15C Rev.1 — Radiation Hardness Assurance,” 20 Mar. 2025. Available: https://ecss.nl/standard/ecss-q-st-60-15c-rev-1-radiation-hardness-assurance-20-march-2025/
+
+
 
 
 <!-- 관련 글 자동화 -->
