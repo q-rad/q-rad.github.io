@@ -162,7 +162,7 @@ NASA-STD-8739.11에는 Up-Screening과 관련된 항목이 명시되어 있지�
 
 >[1] European Space Agency (ESA), Guidelines for the Utilization of COTS Components and Modules in ESA, ESA-TEC-TN-021473, Issue 3.0, 21 Oct. 2024, Noordwijk, The Netherlands.
 
->[2] NASA Goddard Space Flight Center, EEE-INST-002: Instructions for EEE Parts Selection, Screening, Qualification, and Derating, Rev. D, Greenbelt, MD, USA, Apr. 2018.
+>[2] NASA Goddard Space Flight Center, EEE-INST-002: Instructions for EEE Parts Selection, Screening, Qualification, and Derating. Greenbelt, MD, USA, May. 2003.
 
 >[3] European Cooperation for Space Standardization (ECSS), ECSS-Q-ST-60-13C Rev.2: Commercial Electrical, Electronic and Electromechanical (EEE) Components, 30 Apr. 2025.
 

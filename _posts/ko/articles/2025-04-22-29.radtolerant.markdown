@@ -105,9 +105,9 @@ NASA의 RHA 설명에서는 방사선 내성(system-level tolerance) 설계를 �
 
 > [3] NASA Goddard Space Flight Center, *EEE-INST-002: Instructions for EEE Parts Selection, Screening, Qualification, and Derating*, Addendum 1, Apr. 2008.
 
-> [4] D. A. Pellish, *Radiation Engineering for Designers*, NASA Radiation Effects and Analysis Group (REAG) Training Material, NASA Goddard Space Flight Center, Greenbelt, MD, USA, 2018.
+> [4] J. A. Pelish, "Radiation Engineering for Designers," *NASA Goddard Space Flight Center, Greenbelt, MD, USA, Rep. GSFC-E-DAA-TN36523, Sep. 2015.*
 
-> [5] NASA Electronic Parts and Packaging (NEPP) Program / NASA Engineering and Safety Center (NESC), *Radiation Hardness Assurance (RHA) Standard Development and Guidelines*, Technical Presentation, 2020.
+> [5] R. Gaza, G. R. Allen, M. J. Campola, K. A. LaBel, R. L. Ladbury, J.-M. Lauenstein, J. Pritts, T. Wilcox, and P. J. Majewicz, “The NASA Radiation Hardness Assurance (RHA) Process Standard,” *presented at the Radiation Effects on Components and Systems (RADECS), Maspalomas, Gran Canaria, Spain, Sep.* 16–20, 2024.
 
 > [6] European Cooperation for Space Standardization (ECSS), *ECSS-Q-ST-60-15C Rev.1: Radiation Hardness Assurance*, 20 Mar. 2025.
 

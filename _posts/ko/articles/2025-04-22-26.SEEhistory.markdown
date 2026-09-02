@@ -150,25 +150,25 @@ SEE의 역사는 하나의 사건을 통해 갑자기 시작된 것이 아니라
 
 ### 참고문헌
 
-> [1] J. T. Wallmark and S. M. Marcus, “Minimum Size and Maximum Packing Density of Nonredundant Semiconductor Devices,” *Proceedings of the IRE*, vol. 50, no. 3, pp. 286–298, Mar. 1962, doi: 10.1109/JRPROC.1962.288108.
+> [1] J. T. Wallmark and S. M. Marcus, “Minimum Size and Maximum Packing Density of Nonredundant Semiconductor Devices,” *Proceedings of the IRE*, vol. 50, no. 3, pp. 286–298, Mar. 1962, doi: 10.1109/JRPROC.1962.288321.
 
-> [2] E. L. Petersen, R. Koga, M. A. Shoga, J. C. Pickel, and W. E. Price, “The Single Event Revolution,” *IEEE Transactions on Nuclear Science*, vol. 60, no. 3, pp. 1824–1835, Jun. 2013, doi: 10.1109/TNS.2013.2248065.
+> [2] E. L. Petersen, R. Koga, M. A. Shoga, J. C. Pickel, and W. E. Price, “The Single Event Revolution,” *IEEE Transactions on Nuclear Science*, vol. 60, no. 3, pp. 1824–1835, Mar. 2013, doi: 10.1109/TNS.2013.2248065.
 
 > [3] D. Binder, E. C. Smith, and A. B. Holman, “Satellite Anomalies from Galactic Cosmic Rays,” *IEEE Transactions on Nuclear Science*, vol. 22, no. 6, pp. 2675–2680, Dec. 1975, doi: 10.1109/TNS.1975.4328188.
 
-> [4] E. Normand, J. L. Wert, H. Quinn, G. Grider, P. Iwanchuk, J. Morrison, S. Michalak, S. Wender, and S. Johnson, “First Record of Single-Event Upset on Ground, Cray-1 Computer at Los Alamos in 1976,” *IEEE Transactions on Nuclear Science*, vol. 57, no. 6, pp. 3114–3120, Dec. 2010, doi: 10.1109/TNS.2010.2083687.
+> [4] E. Normand, J. L. Wert, H. Quinn, G. Grider, “First Record of Single-Event Upset on Ground, Cray-1 Computer at Los Alamos in 1976,” *IEEE Transactions on Nuclear Science*, vol. 57, no. 6, pp. 3114–3120, Dec. 2010, doi: 10.1109/TNS.2010.2083687.
 
-> [5] T. C. May and M. H. Woods, “A New Physical Mechanism for Soft Errors in Dynamic Memories,” *Proceedings of the 16th Annual Reliability Physics Symposium*, pp. 33–40, 1978, doi: 10.1109/IRPS.1978.362815.
+> [5] T. C. May and M. H. Woods, “A New Physical Mechanism for Soft Errors in Dynamic Memories,” *Proceedings of the 16th Annual Reliability Physics Symposium*, 1978, doi: 10.1109/IRPS.1978.362815.
 
 > [6] T. C. May and M. H. Woods, “Alpha-Particle-Induced Soft Errors in Dynamic Memories,” *IEEE Transactions on Electron Devices*, vol. ED-26, no. 1, pp. 2–9, Jan. 1979, doi: 10.1109/T-ED.1979.19370.
 
 > [7] J. F. Ziegler and W. A. Lanford, “Effect of Cosmic Rays on Computer Memories,” *Science*, vol. 206, no. 4420, pp. 776–788, Nov. 1979, doi: 10.1126/science.206.4420.776.
 
-> [8] J. C. Pickel and J. T. Blandford, “Cosmic Ray Induced Errors in MOS Memory Cells,” *IEEE Transactions on Nuclear Science*, vol. NS-25, no. 6, 1978, doi: 10.1109/TNS.1978.4329508.
+> [8] J. C. Pickel and J. T. Blandford, “Cosmic Ray Induced Errors in MOS Memory Cells,” *IEEE Transactions on Nuclear Science*, 1979, doi:  10.1126/science.206.4420.776.
 
-> [9] NASA Engineering and Safety Center, “Mitigating Risks of Single-Event Effects in Space Applications,” *NASA Engineering and Safety Center Technical Bulletin No. 19-01-1*, NASA Technical Reports Server, 2021. Available: https://ntrs.nasa.gov/citations/20210024100
+> [9] R. F. Hodson, “Mitigating Risks of Single-Event Effects in Space Applications,” *NASA Engineering and Safety Center Technical Bulletin No. 19-01-1*, NASA Technical Reports Server, 2021. Available: https://ntrs.nasa.gov/citations/20210024100
 
-> [10] European Cooperation for Space Standardization, “ECSS-Q-ST-60-15C Rev.1 — Radiation Hardness Assurance,” 20 Mar. 2025. Available: https://ecss.nl/standard/ecss-q-st-60-15c-rev-1-radiation-hardness-assurance-20-march-2025/
+> [10] European Cooperation for Space Standardization, “ECSS-Q-ST-60-15C Rev.1 — Radiation Hardness Assurance,” 24 Mar. 2025. Available: https://ecss.nl/standard/ecss-q-st-60-15c-rev-1-radiation-hardness-assurance-20-march-2025/
 
 
 <!-- 관련 글 자동화 -->
