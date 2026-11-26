@@ -21,19 +21,16 @@ order: 1001
 
 # QRT 레이저 평가 서비스
 
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="border: none;">
-      <img src="/assets/Articles/QRT-laser.webp" style="max-width: 500px;" alt= "QRT-Laser Evaluation System">
-      <div style="margin-top: 10px;">QRT-Laser Evaluation System
-      </div>
-    </td>
-    <td align="center" style="border: none;">
-      <img src="/assets/Chapter-3/S-Map.png" style="max-width: 400px;" alt= "반도체 민감 영역 분석">
-      <div style="margin-top: 10px;">반도체 민감 영역 분석</div>
-    </td>
-  </tr>
-</table>
+<div class="laser-service-gallery" markdown="0">
+<figure>
+<img src="/assets/Articles/previous-qrt-laser.webp" alt="QRT-Laser Evaluation System">
+<figcaption>QRT-Laser Evaluation System</figcaption>
+</figure>
+<figure>
+<img src="/assets/Chapter-3/S-Map.png" alt="반도체 민감 영역 분석">
+<figcaption>반도체 민감 영역 분석</figcaption>
+</figure>
+</div>
 
 ## QRT의 레이저 평가 대행 서비스
 QRT는 다년간의 레이저 내방사선 평가 수행 경험을 보유하고 있는 국내 유일 회사입니다.

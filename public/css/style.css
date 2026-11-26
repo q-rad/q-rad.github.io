@@ -298,6 +298,44 @@ article img {
 	max-width: 100%;
 }
 
+.laser-service-gallery {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 24px;
+	max-width: 900px;
+	margin: 0 auto 24px;
+}
+
+.laser-service-gallery figure {
+	min-width: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.laser-service-gallery img {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.laser-service-gallery figcaption {
+	margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+	.laser-service-gallery {
+		grid-template-columns: 1fr;
+		gap: 24px;
+	}
+
+	.laser-service-gallery figure {
+		width: 100%;
+		max-width: 320px;
+		margin: 0 auto;
+	}
+}
+
 blockquote {
 	color: #333333;
 	border-left: 4px solid var(--qrt-orange);

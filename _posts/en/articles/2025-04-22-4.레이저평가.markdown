@@ -27,18 +27,16 @@ Additionally, lasers offer extremely high spatial accuracy, enabling precise tar
 
 # QRT Laser Evaluation Service
 
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr>
-    <td align="center" style="border: none;">
-      <img src="/assets/Articles/QRT-laser.webp" style="max-width: 500px;" alt="QRT-Laser Evaluation System">
-      <div style="margin-top: 10px;">QRT-Laser Evaluation System</div>
-    </td>
-    <td align="center" style="border: none;">
-      <img src="/assets/Chapter-3/S-Map.png" style="max-width: 400px;" alt="Sensitive Area Mapping">
-      <div style="margin-top: 10px;">Sensitive Area Mapping</div>
-    </td>
-  </tr>
-</table>
+<div class="laser-service-gallery" markdown="0">
+<figure>
+<img src="/assets/Articles/previous-qrt-laser.webp.webp" alt="QRT-Laser Evaluation System">
+<figcaption>QRT-Laser Evaluation System</figcaption>
+</figure>
+<figure>
+<img src="/assets/Chapter-3/S-Map.png" alt="Sensitive Area Mapping">
+<figcaption>Sensitive Area Mapping</figcaption>
+</figure>
+</div>
 
 ## QRT's Laser Evaluation Technology
 
